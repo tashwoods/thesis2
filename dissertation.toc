@@ -1,0 +1,72 @@
+\contentsline {chapter}{List of Figures}{vi}{chapter*.2}% 
+\contentsline {chapter}{List of Tables}{xv}{chapter*.3}% 
+\contentsline {chapter}{Abstract}{xvi}{chapter*.3}% 
+\contentsline {chapter}{Dedication}{xvii}{chapter*.3}% 
+\contentsline {chapter}{Acknowledgments}{xviii}{chapter*.3}% 
+\contentsline {chapter}{\numberline {1}Theoretical Motivation}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics}{1}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Introduction}{1}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.2}Quantum Field Theory}{1}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.3}$U(1)_{EM}$ Local Gauge Invariance}{2}{subsection.1.1.3}% 
+\contentsline {subsection}{\numberline {1.1.4}Yang-Mills Gauge Theories}{5}{subsection.1.1.4}% 
+\contentsline {subsection}{\numberline {1.1.5}Particles in the Standard Model}{6}{subsection.1.1.5}% 
+\contentsline {subsection}{\numberline {1.1.6}Higgs Mechanism}{11}{subsection.1.1.6}% 
+\contentsline {subsection}{\numberline {1.1.7}Electroweak Theory}{12}{subsection.1.1.7}% 
+\contentsline {subsection}{\numberline {1.1.8}Quantum ChromoDynamics}{12}{subsection.1.1.8}% 
+\contentsline {section}{\numberline {1.2}Standard Model Successes and Limitations}{18}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}New Physics Models with Diboson Resonances}{20}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}Randall Sundrum Bulk Model}{20}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Extended Scalar Sector}{21}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.3}Simple Standard Model Extensions}{22}{subsection.1.3.3}% 
+\contentsline {chapter}{\numberline {2}LHC and ATLAS Detector}{25}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}LHC}{25}{section.2.1}% 
+\contentsline {subsubsection}{LHC Layout and Design}{27}{section*.12}% 
+\contentsline {section}{\numberline {2.2}The ATLAS Detector}{31}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Coordinate System}{33}{subsection.2.2.1}% 
+\contentsline {section}{\numberline {2.3}Inner Detector}{34}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Pixel Detector}{37}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Semiconductor Tracker}{37}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Transition Radiation Tracker}{37}{subsection.2.3.3}% 
+\contentsline {section}{\numberline {2.4}Calorimeters}{39}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Muon Spectrometer}{42}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}Magnet System}{46}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Trigger System}{47}{section.2.7}% 
+\contentsline {chapter}{\numberline {3}Analysis}{49}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Dataset and Simulated Samples}{49}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Dataset}{49}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Simulated Samples}{52}{subsection.3.1.2}% 
+\contentsline {section}{\numberline {3.2}Object Selection}{52}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Electrons}{52}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Muons}{53}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}small-R jets}{55}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.4}large-R jets}{58}{subsection.3.2.4}% 
+\contentsline {subsection}{\numberline {3.2.5}Variable Radius jets}{61}{subsection.3.2.5}% 
+\contentsline {subsection}{\numberline {3.2.6}MET/neutrinos}{61}{subsection.3.2.6}% 
+\contentsline {subsection}{\numberline {3.2.7}Jet Flavor Tagging}{61}{subsection.3.2.7}% 
+\contentsline {subsection}{\numberline {3.2.8}Overlap Removal}{62}{subsection.3.2.8}% 
+\contentsline {section}{\numberline {3.3}Event Selection and Categorization}{63}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Pre-selection}{63}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Trigger}{63}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}GGF/VBF RNN}{65}{subsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3.4}Topological Cuts}{70}{subsection.3.3.4}% 
+\contentsline {section}{\numberline {3.4}Background Estimate}{80}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Multijet Sample}{80}{subsection.3.4.1}% 
+\contentsline {section}{\numberline {3.5}Systematics}{93}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}Experimental Systematics}{93}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}Theory Systematics}{95}{subsection.3.5.2}% 
+\contentsline {section}{\numberline {3.6}Statistical Analysis}{103}{section.3.6}% 
+\contentsline {subsubsection}{Fit Configuration}{104}{section*.69}% 
+\contentsline {section}{\numberline {3.7}Fitted Systematics}{106}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}Fit Results}{106}{section.3.8}% 
+\contentsline {section}{\numberline {3.9}Results}{106}{section.3.9}% 
+\contentsline {subsection}{\numberline {3.9.1}Quark/Gluon Tagging}{106}{subsection.3.9.1}% 
+\contentsline {subsubsection}{Prospects}{106}{section*.70}% 
+\contentsline {subsubsection}{$n_{trk}$ Calibration}{112}{section*.80}% 
+\contentsline {subsubsection}{Application}{117}{section*.81}% 
+\contentsline {chapter}{\numberline {4}Quark and Gluon Tagging}{122}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Prospects}{122}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}$n_{trk}$ Calibration}{128}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Application}{133}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}Conclusion}{138}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Conclusions}{138}{section.5.1}% 
+\contentsline {chapter}{Bibliography}{139}{chapter*.99}% 

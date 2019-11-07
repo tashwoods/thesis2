@@ -1,0 +1,87 @@
+\begin{thebibliography}{10}
+
+\bibitem{colorfactor}
+Lecture notes particle physics ii.
+
+\bibitem{rs2}
+Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
+\newblock {Warped Gravitons at the LHC and Beyond}.
+\newblock {\em Phys. Rev.}, D76:036006, 2007.
+
+\bibitem{altarelli}
+G.~Altarelli and G.~Parisi.
+\newblock Asymptotic freedom in parton language.
+\newblock {\em Nuclear Physics B}, 126(2):298 -- 318, 1977.
+
+\bibitem{muon_calib}
+ATLAS Collaboration.
+\newblock Atlas muon reconstruction performance in lhc run 2.
+
+\bibitem{SM_XS_Comparison}
+ATLAS Collaboration.
+\newblock Summary plots from the atlas standard model physics group.
+
+\bibitem{jetcalib}
+ATLAS Collaboration.
+\newblock Jet energy scale measurements and their systematic uncer- tainties in
+  proton–proton collisions at $\sqrt{s}$ = 13 tev with the atlas detector.
+\newblock arXiv: 1703.09665 [hep-ex].
+
+\bibitem{Unfolding}
+ATLAS Collaboration.
+\newblock Measurement of the charged-particle multiplicity inside jets from
+  s=$\sqrt{8}$ tev pp collisions with the atlas detector.
+\newblock arXiv:1602.00988 [hep-ex].
+
+\bibitem{FakeTracks}
+ATLAS Collaboration.
+\newblock Performance of the atlas track reconstruction algorithms in dense
+  environments in lhc run 2.
+\newblock arXiv:1704.07983 [hep-ex].
+
+\bibitem{JetFrag}
+ATLAS Collaboration.
+\newblock Properties of jet fragmentation using charged particles measured with
+  the atlas detector in pp collisions at $\sqrt{s}=$13 tev.
+\newblock arXiv:1906.09254 [hep-ex].
+
+\bibitem{runningcouplings}
+Alex Dias and V.~Pleitez.
+\newblock Grand unification and proton stability near the peccei-quinn scale.
+\newblock {\em Physical Review D}, 70, 07 2004.
+
+\bibitem{me_ps}
+Stefan Höche, Frank Krauss, Marek Schönherr, and Frank Siegert.
+\newblock Qcd matrix elements + parton showers. the nlo case.
+\newblock {\em Journal of High Energy Physics}, 2013(4), Apr 2013.
+
+\bibitem{antikt}
+Gregory~Soyez Matteo~Cacciari, Gavin P.~Salam.
+\newblock The anti-$k_{T}$ jet clustering algorithm.
+\newblock arXiv:0802.1189 [hep-ph].
+
+\bibitem{hvt}
+Duccio Pappadopulo, Andrea Thamm, Riccardo Torre, and Andrea Wulzer.
+\newblock Heavy vector triplets: bridging theory and data.
+\newblock {\em Journal of High Energy Physics}, 2014(9), Sep 2014.
+
+\bibitem{pich}
+Antonio Pich.
+\newblock {The Standard Model of Electroweak Interactions}.
+\newblock In {\em {Proceedings, High-energy Physics. Proceedings, 18th European
+  School (ESHEP 2010): Raseborg, Finland, June 20 - July 3, 2010}}, pages
+  1--50, 2012.
+\newblock [,1(2012)].
+
+\bibitem{rs1}
+Lisa Randall and Raman Sundrum.
+\newblock {A Large mass hierarchy from a small extra dimension}.
+\newblock {\em Phys. Rev. Lett.}, 83:3370--3373, 1999.
+
+\bibitem{scalarsinglet}
+Tania Robens and Tim Stefaniak.
+\newblock Lhc benchmark scenarios for the real higgs singlet extension of the
+  standard model.
+\newblock {\em The European Physical Journal C}, 76(5), May 2016.
+
+\end{thebibliography}

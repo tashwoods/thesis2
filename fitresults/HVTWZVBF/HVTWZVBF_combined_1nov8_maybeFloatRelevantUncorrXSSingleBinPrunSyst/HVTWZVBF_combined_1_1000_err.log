@@ -1,0 +1,218 @@
+tee: /gpfs/slac/atlas/fs1/d/woodsn/novVVSemi/VVSemileptonicStats/batchwork/HVTWZVBF_combined_1nov8_maybeFloatRelevantUncorrXSSingleBinPrunSyst/log_ws_HVTWZVBF_combined_1000.txt: No such file or directory
+cling::DynamicLibraryManager::loadLibrary(): /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.3/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODCore.so: undefined symbol: _ZN5TROOT14RegisterModuleEPKcPS1_S2_S1_S1_PFvvERKSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiESaISD_EES2_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libxAODBTaggingDict.so for vector<vector<int> >
+Error in <TUnixSystem::Load>: version mismatch, /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libMinuit2.so = 60806, ROOT = 61404
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libMinuit2.so for ROOT::Minuit2::Minuit2Minimizer
+Info in <Minuit2>: VariableMetricBuilder: Tolerance is not sufficient, continue the minimization
+Info in <Minuit2>: Current  Edm is : edm = 0.0354126
+Info in <Minuit2>: Required Edm is : edmval = 0.001
+Info in <Minuit2>: Minuit2Minimizer::Hesse : Hesse is valid - matrix is accurate
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+cling::DynamicLibraryManager::loadLibrary(): /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.3/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODCore.so: undefined symbol: _ZN5TROOT14RegisterModuleEPKcPS1_S2_S1_S1_PFvvERKSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiESaISD_EES2_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libxAODBTaggingDict.so for vector<vector<int> >
+Error in <TUnixSystem::Load>: version mismatch, /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libMinuit2.so = 60806, ROOT = 61404
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libMinuit2.so for ROOT::Minuit2::Minuit2Minimizer
+Info in <Minuit2>: VariableMetricBuilder: Tolerance is not sufficient, continue the minimization
+Info in <Minuit2>: Current  Edm is : edm = 0.0226168
+Info in <Minuit2>: Required Edm is : edmval = 0.001
+Info in <Minuit2>: Minuit2Minimizer::Hesse : Hesse is valid - matrix is accurate
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+cling::DynamicLibraryManager::loadLibrary(): /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.3/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODCore.so: undefined symbol: _ZN5TROOT14RegisterModuleEPKcPS1_S2_S1_S1_PFvvERKSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiESaISD_EES2_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libxAODBTaggingDict.so for vector<vector<int> >
+Error in <TUnixSystem::Load>: version mismatch, /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libMinuit2.so = 60806, ROOT = 61404
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libMinuit2.so for ROOT::Minuit2::Minuit2Minimizer
+Info in <Minuit2>: VariableMetricBuilder: Tolerance is not sufficient, continue the minimization
+Info in <Minuit2>: Current  Edm is : edm = 0.0328602
+Info in <Minuit2>: Required Edm is : edmval = 0.001
+Info in <Minuit2>: Minuit2Minimizer::Hesse : Hesse is valid - matrix is accurate
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+cling::DynamicLibraryManager::loadLibrary(): /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.3/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODCore.so: undefined symbol: _ZN5TROOT14RegisterModuleEPKcPS1_S2_S1_S1_PFvvERKSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiESaISD_EES2_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libxAODBTaggingDict.so for vector<vector<int> >
+Error in <TUnixSystem::Load>: version mismatch, /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libMinuit2.so = 60806, ROOT = 61404
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libMinuit2.so for ROOT::Minuit2::Minuit2Minimizer
+Info in <Minuit2>: VariableMetricBuilder: Tolerance is not sufficient, continue the minimization
+Info in <Minuit2>: Current  Edm is : edm = 0.0194178
+Info in <Minuit2>: Required Edm is : edmval = 0.001
+Info in <Minuit2>: Minuit2Minimizer::Hesse : Hesse is valid - matrix is accurate
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+cling::DynamicLibraryManager::loadLibrary(): /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.3/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODCore.so: undefined symbol: _ZN5TROOT14RegisterModuleEPKcPS1_S2_S1_S1_PFvvERKSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiESaISD_EES2_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libxAODBTaggingDict.so for vector<vector<int> >
+Error in <TUnixSystem::Load>: version mismatch, /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libMinuit2.so = 60806, ROOT = 61404
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libMinuit2.so for ROOT::Minuit2::Minuit2Minimizer
+Info in <Minuit2>: VariableMetricBuilder: Tolerance is not sufficient, continue the minimization
+Info in <Minuit2>: Current  Edm is : edm = 0.0349216
+Info in <Minuit2>: Required Edm is : edmval = 0.001
+Info in <Minuit2>: Minuit2Minimizer::Hesse : Hesse is valid - matrix is accurate
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+cling::DynamicLibraryManager::loadLibrary(): /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.3/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODCore.so: undefined symbol: _ZN5TROOT14RegisterModuleEPKcPS1_S2_S1_S1_PFvvERKSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiESaISD_EES2_
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libxAODBTaggingDict.so for vector<vector<int> >
+Error in <TUnixSystem::Load>: version mismatch, /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libMinuit2.so = 60806, ROOT = 61404
+Error in <TInterpreter::TCling::AutoLoad>: failure loading library libMinuit2.so for ROOT::Minuit2::Minuit2Minimizer
+Info in <Minuit2>: VariableMetricBuilder: Tolerance is not sufficient, continue the minimization
+Info in <Minuit2>: Current  Edm is : edm = 0.0352275
+Info in <Minuit2>: Required Edm is : edmval = 0.001
+Info in <Minuit2>: Minuit2Minimizer::Hesse : Hesse is valid - matrix is accurate
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+Warning in <TAxis::Sort>: Cannot sort. No labels
+[TFile::Cp] Total 0.54 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.54 MB	|====================| 100.00 % [417.2 MB/s]
+[TFile::Cp] Total 0.55 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.55 MB	|====================| 100.00 % [437.8 MB/s]
+[TFile::Cp] Total 0.55 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.55 MB	|====================| 100.00 % [483.2 MB/s]
+[TFile::Cp] Total 0.53 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.53 MB	|====================| 100.00 % [510.6 MB/s]
+[TFile::Cp] Total 0.55 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.55 MB	|====================| 100.00 % [496.6 MB/s]
+[TFile::Cp] Total 0.55 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.55 MB	|====================| 100.00 % [132.8 MB/s]
+rm: cannot remove 'Plots': No such file or directory
+#0  0x00002b23f410741c in waitpid () from /lib64/libc.so.6
+#1  0x00002b23f4084f12 in do_system () from /lib64/libc.so.6
+#2  0x00002b23f3212ebd in TUnixSystem::StackTrace() () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libCore.so
+#3  0x00002b23f613e1e5 in cling::MultiplexInterpreterCallbacks::PrintStackTrace() () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libCling.so
+#4  0x00002b23f613dc9b in cling_runtime_internal_throwIfInvalidPointer () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libCling.so
+#5  0x00002b24004673f5 in ?? ()
+#6  0x000000005fc7307e in ?? ()
+#7  0x0000000001a06060 in ?? ()
+#8  0x000000000bf72ad9 in ?? ()
+#9  0x0000000001545770 in ?? ()
+#10 0x00002b23f2eeb0e0 in ?? () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libCore.so
+#11 0x00002b23f2aac018 in ?? ()
+#12 0x00002b23f462cff0 in ?? () from /lib64/libdl.so.2
+#13 0x00002b23f462d004 in dlsym_doit () from /lib64/libdl.so.2
+#14 0x0000000001a06060 in ?? ()
+#15 0x00002b23f2aa2f1a in ?? () from /lib64/ld-linux-x86-64.so.2
+#16 0x00002b23f2aa2f1a in ?? () from /lib64/ld-linux-x86-64.so.2
+#17 0x00000000014d4428 in ?? ()
+#18 0x00000000014d4418 in ?? ()
+#19 0x00002b23f462cff0 in ?? () from /lib64/libdl.so.2
+#20 0x00007ffc5e476140 in ?? ()
+#21 0x0000000000000000 in ?? ()
+Error in <HandleInterpreterException>: Trying to dereference null pointer or trying to call routine taking non-null arguments.
+Execution of your code was aborted.
+In file included from input_line_10:1:
+/gpfs/slac/atlas/fs1/d/woodsn/julyrf/VVSemileptonicStats/drawPullPlot.C:247:14: warning: null passed to a callee that requires a non-null argument [-Wnonnull]
+  TIter next(pulls->GetListOfPrimitives());
+             ^~~~~
+mv: cannot stat 'pulls.pdf': No such file or directory
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional1_mu0.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional1_mu0.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional1_mu0_XS.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional1_mu0_XS.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional1_mu0_Jet.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional1_mu0_Jet.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional1_mu0_OtherExp.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional1_mu0_OtherExp.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional1_mu0_Theory.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional1_mu0_Theory.png has been created
+mv: cannot stat 'pulls.pdf': No such file or directory
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional0_mu1.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional0_mu1.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional0_mu1_XS.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional0_mu1_XS.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional0_mu1_Jet.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional0_mu1_Jet.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional0_mu1_OtherExp.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional0_mu1_OtherExp.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional0_mu1_Theory.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional0_mu1_Theory.png has been created
+mv: cannot stat 'pulls.pdf': No such file or directory
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional0_mu0.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional0_mu0.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional0_mu0_XS.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional0_mu0_XS.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional0_mu0_Jet.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional0_mu0_Jet.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional0_mu0_OtherExp.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional0_mu0_OtherExp.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov1_doCondtional0_mu0_Theory.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov1_doCondtional0_mu0_Theory.png has been created
+mv: cannot stat 'pulls.pdf': No such file or directory
+#0  0x00002b32c58dc41c in waitpid () from /lib64/libc.so.6
+#1  0x00002b32c5859f12 in do_system () from /lib64/libc.so.6
+#2  0x00002b32c49e7ebd in TUnixSystem::StackTrace() () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libCore.so
+#3  0x00002b32c79131e5 in cling::MultiplexInterpreterCallbacks::PrintStackTrace() () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libCling.so
+#4  0x00002b32c7912c9b in cling_runtime_internal_throwIfInvalidPointer () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libCling.so
+#5  0x00002b32d1c3c3f5 in ?? ()
+#6  0x000000005fc7307e in ?? ()
+#7  0x0000000002d915a0 in ?? ()
+#8  0x000000000bf72ad9 in ?? ()
+#9  0x000000000220d770 in ?? ()
+#10 0x00002b32c46c00e0 in ?? () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.14.04-0d8dc/x86_64-slc6-gcc62-opt/lib/libCore.so
+#11 0x00002b32c4281018 in ?? ()
+#12 0x00002b32c5e01ff0 in ?? () from /lib64/libdl.so.2
+#13 0x00002b32c5e02004 in dlsym_doit () from /lib64/libdl.so.2
+#14 0x0000000002d915a0 in ?? ()
+#15 0x00002b32c4277f1a in ?? () from /lib64/ld-linux-x86-64.so.2
+#16 0x00002b32c4277f1a in ?? () from /lib64/ld-linux-x86-64.so.2
+#17 0x000000000219c428 in ?? ()
+#18 0x000000000219c418 in ?? ()
+#19 0x00002b32c5e01ff0 in ?? () from /lib64/libdl.so.2
+#20 0x00007ffeabc83ef0 in ?? ()
+#21 0x0000000000000000 in ?? ()
+Error in <HandleInterpreterException>: Trying to dereference null pointer or trying to call routine taking non-null arguments.
+Execution of your code was aborted.
+In file included from input_line_10:1:
+/gpfs/slac/atlas/fs1/d/woodsn/julyrf/VVSemileptonicStats/drawPullPlot.C:247:14: warning: null passed to a callee that requires a non-null argument [-Wnonnull]
+  TIter next(pulls->GetListOfPrimitives());
+             ^~~~~
+mv: cannot stat 'pulls.pdf': No such file or directory
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional1_mu0.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional1_mu0.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional1_mu0_XS.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional1_mu0_XS.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional1_mu0_Jet.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional1_mu0_Jet.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional1_mu0_OtherExp.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional1_mu0_OtherExp.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional1_mu0_Theory.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional1_mu0_Theory.png has been created
+mv: cannot stat 'pulls.pdf': No such file or directory
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional0_mu1.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional0_mu1.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional0_mu1_XS.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional0_mu1_XS.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional0_mu1_Jet.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional0_mu1_Jet.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional0_mu1_OtherExp.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional0_mu1_OtherExp.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional0_mu1_Theory.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional0_mu1_Theory.png has been created
+mv: cannot stat 'pulls.pdf': No such file or directory
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional0_mu0.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional0_mu0.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional0_mu0_XS.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional0_mu0_XS.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional0_mu0_Jet.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional0_mu0_Jet.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional0_mu0_OtherExp.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional0_mu0_OtherExp.png has been created
+Info in <TCanvas::Print>: pdf file Plots/pulls//pulls_doAsimov0_doCondtional0_mu0_Theory.pdf has been created
+Info in <TCanvas::Print>: png file Plots/pulls//pulls_doAsimov0_doCondtional0_mu0_Theory.png has been created
+mv: cannot stat 'pulls.pdf': No such file or directory
+Info in <TCanvas::Print>: pdf file Plots/CorrMatrix//corr_doAsimov0_doCondtional1_mu0_HighCorr.pdf has been created
+Info in <TCanvas::Print>: png file Plots/CorrMatrix//corr_doAsimov0_doCondtional1_mu0_HighCorr.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: Plots/CorrMatrix//corr_doAsimov0_doCondtional1_mu0_HighCorr.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Plots/CorrMatrix//corr_doAsimov0_doCondtional1_mu0.pdf has been created
+Info in <TCanvas::Print>: png file Plots/CorrMatrix//corr_doAsimov0_doCondtional1_mu0.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: Plots/CorrMatrix//corr_doAsimov0_doCondtional1_mu0.C has been generated
+mv: cannot stat 'pull*': No such file or directory
+mv: cannot stat 'corr*': No such file or directory
+input_line_14:1:10: fatal error: 'CommonStatTools/RooExpandedFitResult.C+' file not found
+#include "CommonStatTools/RooExpandedFitResult.C+"
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from input_line_10:1:
+/gpfs/slac/atlas/fs1/d/woodsn/julyrf/VVSemileptonicStats/drawPostFit.C:1102:5: error: unknown type name 'RooExpandedFitResult'
+    RooExpandedFitResult* rfrexp = new RooExpandedFitResult(np);
+    ^
+/gpfs/slac/atlas/fs1/d/woodsn/julyrf/VVSemileptonicStats/drawPostFit.C:1102:40: error: unknown type name 'RooExpandedFitResult'
+    RooExpandedFitResult* rfrexp = new RooExpandedFitResult(np);
+                                       ^
+mv: cannot stat 'Plots/*pdf': No such file or directory

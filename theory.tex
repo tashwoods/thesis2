@@ -80,7 +80,7 @@ Finally, replacing the derivative with the covariant derivative the Dirac Lagran
 
 Here $F_{\mu\nu}\equiv \partial_{\mu}A_{\nu} - \partial_{\nu}A_{\mu}$. This last term in the Lagrangian is the kinetic energy of the gauge boson field.
 
-So we have derived the QED Lagrangian. By requiring the free Dirac Lagrangian to be invariant under U(1) transformations we have generated a new field gauge boson field, $A_{\mu}$, which describes the photon. As expected the photon interacts with fermions.  
+So we have derived the QED Lagrangian. By requiring the free Dirac Lagrangian to be invariant under U(1) transformations we have generated a new gauge boson field, $A_{\mu}$, which describes the photon. As expected the photon interacts with fermions.  
 
 Stepping back, a global U(1) gauge symmetry of the free Dirac Lagrangian implies we cannot measure the absolute phase of a charged particle. A local U(1) gauge symmetry changes the phase of fields differently across space time. For this type of transformation to leave the Lagrangian invariant, we had to introduce an additional field, $A_{\mu}$, which "communicates" these phase changes across space-time. In less formal language this effectively means: if the field at one location changes, this change is conferred to other particles via $A_{\mu}$.
 
@@ -192,7 +192,7 @@ Now we can understand the SM Lagrangian density as a Yang-Mills theory with the 
 
 Here several abstract spaces are being spanned:
 \begin{itemize}
-\item[--]a spans the three $SU(2)_{L}$ gauge fields with generators expanded in Pauli matrics, $T^{\alpha}=\frac{1}{2}\alpha^{a}$
+\item[--]a spans the three $SU(2)_{L}$ gauge fields with generators expanded in Pauli matrics, $T^{\alpha}=\frac{1}{2}\sigma^{a}$
 \item[--]$\alpha$ spans the eight $SU(3)_{C}$ gauge fields, with generators expanded in Gell-Mann matrices, $\tau^{\alpha}=\frac{1}{2}\lambda^{\alpha}$
 \item[--]L/R represent left and right projections of Dirac fermion fields. The Strong interaction is not chiral, so Q = L+R
 \item[--]$\mu$ and $\nu$ are four-vector indices
@@ -269,10 +269,10 @@ G_{\mu\nu}^{k}  = \partial^{\mu}G^{\nu}_{\alpha}-\partial^{\nu}G^{\mu}_{\alpha}-
 Here $f^{\alpha\beta\gamma}$ are the structure constants of $SU(3)$. Combining all this gives the QCD Lagrangian:
 
 \begin{equation}
-\mathcal{L}_{QCD} = \bar{\psi_{qi}}i\gamma^{\mu} (D_{\mu})_{ij}\psi^{qj} - m\bar{\psi^{qi}}\psi_{qi} - \frac{1}{4}F^{\alpha}_{\mu\nu}F^{\alpha\mu\nu} 
+\mathcal{L}_{QCD} = \bar{\psi_{qi}}i\gamma^{\mu} (D_{\mu})_{ij}\psi^{qj} - m\bar{\psi^{qi}}\psi_{qi} - \frac{1}{4}G^{\alpha}_{\mu\nu}G^{\alpha\mu\nu} 
 \end{equation}
 
-Here i are the color indicies, and q are the quark flavors. It is important to note that quarks transform under the fundamental representation of $SU(3)$, while gluons transform under the adjoint representation. This means quarks carry a single color charge (red, green, blue, antired, antigreen, antiblue) and gluons to carry a color and anticolor charge. 
+Here i are the color indicies, and q are the quark flavors. It is important to note that quarks transform under the fundamental representation of $SU(3)$, while gluons transform under the adjoint representation. This means quarks carry a single color charge (red, green, blue, antired, antigreen, antiblue) and gluons carry a color and anticolor charge. 
 
 Figure \ref{fig:QCDinteractions} shows the three dominant QCD interactions. Sincle gluons carry color charge, they interact with one another.This does not occur in QED, as photons do not have electric charge and therefore do not interact with each other. In QED, a bare electron's effective charge is largest closest to the electron and decreases as a function of distance. This is because the QED vacuum fills with particle antiparticle pairs spontaneously, which screen the charge of the bare electron. The larger the distance from the electron, the smaller the effective charge and therefore the weaker the force. So for a pair of electrons, as the distance between them increases the repulsive force decreases and they may be observed separately.
 
@@ -285,7 +285,7 @@ Figure \ref{fig:QCDinteractions} shows the three dominant QCD interactions. Sinc
 \FloatBarrier
 
 
-Bare quarks and gluons have not been observed. These particles have not been directly observed as they have not been found in isolation. Quarks and gluons group together to form color neutral objects, like baryons and mesons ($qqq$ and $q\bar{q}$, respectively). This is because gluons have color charge and interact with each other. As the distance from a quark increases it's effective color charge increases due to the vacuum polarization in QCD. Color charge grows as the distance from the source increases (a.k.a. color is anti-screened in QCD).  A quark's color charge increases with distance, so strong interactions become stronger at large distances (low momenta ineractions).  At small distances (large momenta interactions) strong interactions are significantly weaker and considered free. This effect of referred to as asymptotic freedom. At large distances, a quark's effective charge is large and the strong force is more significant. This force becomes so strong that quarks form colorless bound states instead of remaining free particles. This effect is known as color confinement. This running of all SM fields is shown in Figure ~\ref{fig:sm_couplings}. 
+Bare quarks and gluons have not been observed. These particles have not been directly observed as they have not been found in isolation. Quarks and gluons group together to form color neutral objects, like baryons and mesons ($qqq$ and $q\bar{q}$, respectively). This is because gluons have color charge and interact with each other. As the distance from a quark increases it's effective color charge increases due to the vacuum polarization in QCD. Color charge grows as the distance from the source increases (a.k.a. color is anti-screened in QCD).  A quark's color charge increases with distance, so strong interactions become stronger at large distances (low momenta ineractions).  At small distances (large momenta interactions) strong interactions are significantly weaker and considered nearly free. This effect of referred to as asymptotic freedom. At large distances, a quark's effective charge is large and the strong force is more significant. This force becomes so strong that quarks form colorless bound states instead of remaining free particles. This effect is known as color confinement. This running of all SM fields is shown in Figure ~\ref{fig:sm_couplings}. 
 
 
 \begin{figure}[h!]
@@ -306,11 +306,11 @@ Commonly the change in a particle's effective charge under a given force is quan
 \beta_{0} = \frac{11N_{c}-2n_{f}}{12\pi}
 \end{equation}
 
-where $Q^{2}$ is the energy level the force is probed at, $\mu^{2}$ is the renormalization scale.
+where $Q$ is the momentum of the the force is probed at, $\mu^{2}$ is the renormalization scale.
 
 As stated previously, quarks and gluons have not been observed in isolation. Instead they form bound colorless states. Hadronization is the process by which quarks and gluons form hadrons. The process of hadronization is still an active area of research. One qualitative description is show in Figure BLAH. In this figure, as two quarks separate the color field between them is restricted to a tube with energy density of ~1GeV/fm. As they separate further, the energy in the color field increases, until there is enough energy to produce $q\bar{q}$ pairs, which breaks the color field. This process repeats until quarks and antiquarks have low enough energy to form colorless hadrons. The resulting spray of hadrons is called a jet.
 
-Since quarks and gluons carry different color charges, their respective jets have different properties. As quarks carry only a single color charge (vs. gluons which have color and anticolor charge), so their jets have less constituent particles. More precisely, the Altarelli-Parisi splitting functions ~\cite{altarelli} contain a factor $C_{A}$ for gluon radiation off a gluon and $C_{F}$ for gluon radiation off a quark ($C_{A}/C_{F} = 9/4$). These color factors are the prefactor in the Feynman diagrams for these processes ~\cite{colorfactor}. leads to gluon jets having more constituents and therefore more tracks than quark jets. Gluon jets also tend to have a larger radius with lower momentum constituents than quarks. There are many novel techniques to distinguish quarks from gluons. For this study the number of charged particles will be focused on.  
+Since quarks and gluons carry different color charges, their respective jets have different properties. As quarks carry only a single color charge (vs. gluons which have color and anticolor charge), so their jets have less constituent particles. More precisely, the Altarelli-Parisi splitting functions ~\cite{altarelli} contain a factor $C_{A}$ for gluon radiation off a gluon and $C_{F}$ for gluon radiation off a quark ($C_{A}/C_{F} = 9/4$). These color factors are the prefactor in the Feynman diagrams for these processes ~\cite{colorfactor}, which leads to gluon jets having more constituents and therefore more tracks than quark jets. Gluon jets also tend to have a larger radius with lower momentum constituents than quarks. There are many novel techniques to distinguish quarks from gluons. For this study the number of charged particles will be focused on.  
 
 \section{Standard Model Successes and Limitations}
 The Standard Model has consistently described much of reality to an extreme degree of accuracy. It has predicted cross sections for strong and electroweak processes that span over ten order of magnitude correctly [see Fig ~\ref{fig:SM cross sections}] and contains no known logical inconsistencies. Despite the strength and reality of the Standard Model, it still fails to describe aspects of reality and suffers from aesthetic issues. 
@@ -318,7 +318,7 @@ To date, dark matter and energy comprise ~95\% of the universe, but are not acco
 
 Possibly the most significant aesthetic issue is the hierarchy between the electroweak and Planck scales. The electroweak scale is the scale of electroweak symmetry breaking. The Planck scale is the scale where the gravitational force is comparable in strength to the other forces. (This is also the scale where the gravitational potential energy of two objects separated by a distance r is equal to the energy of a photon with a wavelength r.) The Planck scale is where the SM breaks down, as there is not an experimentally verified theory of quantum gravity, and at this scale gravity cannot be ignored (like it can at the electro-weak scale). These scales differ by $\sim30$ orders of magnitude. Understanding this difference in scales would not only explain the weakness of gravity at electroweak scales, but also hopefully lead to a QFT for gravity. (NB: This hierarchy can also be framed in terms of the corrections to the Higgs mass, which depend on the UV cutoff scale - where the SM is suppose to break, which is taken at the Planck scale. This leads the quantum corrections to the Higgs mass to force the Higgs mass to ~$10^{18}$ TeV.)
 
-These stark contrasts in scales may indicate that a more fundamental theory exists. It is hoped that such a theory would explain and motivate some of the ad-hoc features of the SM. In particular, there currently are no experimentally verified explainations of why there are three generations of fermions, the values of the 19 SM parameters (6 quark masses, 3 charged lepton masses, 3 gauge couplings, Higgs parameters ($\mu^{2}$, $\lambda$)), the structure of the fermion representations, etc. 
+These stark contrasts in scales may indicate that a more fundamental theory exists. It is hoped that such a theory would explain and motivate some of the ad-hoc features of the SM. In particular, there currently are no experimentally verified explanations of why there are three generations of fermions, the values of the 19 SM parameters (6 quark masses, 3 charged lepton masses, 3 gauge couplings, Higgs parameters ($\mu^{2}$, $\lambda$)), the structure of the fermion representations, etc. 
 
 
 \begin{figure}[h!]
@@ -388,7 +388,7 @@ Moreover, in the case that $m_{H} > m_{h}$, $H\rightarrow hh$ is possible. This 
 %more like a parameterization
 The RS Bulk model is motivated by resolving the hierarchy problem. Extending the Scalar sector is a natural space to look for new physics due to the complexity of fermion and boson groups. There are many other interesting and well motivated frameworks, but there is a lack of completely predictive models, due to model flexibility (free parameters). Therefore it is hard for experimentalists to know which theories to search for in data. However, as seen in 3\cite{hvt}, a "Simplified Model" approach may be taken. In the search for reasonably narrow width particles, as in this search, the search is not sensitive to all the details and free parameters of the theory. Generally such searches are only sensitive to the resonance mass and its interactions. Therefore, a theory's Lagrangian may be reduced to only retain this information (mass parameters and couplings). Experimental results using this framework may then be reinterpreted in a given theory. 
 
-In the simplified approach, a real vector field may be represented under $SU(2)_{L}$ with vanishing hypercharge. This results in two charged and one neutral bosons. Defined as:
+In the simplified approach, a real vector field is represented under $SU(2)_{L}$ with vanishing hypercharge. This results in two charged and one neutral bosons. Defined as:
 
 \begin{equation}
 V^{\pm}=\frac{V^{1}_{\mu}\mp iV^{2}_{\mu}}{\sqrt{2}}

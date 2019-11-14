@@ -1,12 +1,12 @@
 \label{ch:theory}
-\section{The Standard Model of Particle Physics}
-\subsection{Introduction}
+\chapter{The Standard Model of Particle Physics}
+\section{Introduction}
 By determining the dynamics of the most elementary degrees of freedom, particle physics hopes to uncover the fundamental laws of the universe. The definition of elementary has evolved through time and currently refers to matter and force mediating particles: fermions and bosons, respectively. The Standard Model of Particle Physics (SM) describes the quantum behavior of three of the four fundamental forces: weak, strong, and electromagnetic, via boson and fermion interactions. Gravity is not included in the SM and still under investigation. 
-\subsection{Quantum Field Theory}
+\section{Quantum Field Theory}
 In the SM, forces (and particles) are represented as fields. In this context, fields are mathematical objects that define a tensor (e.g. scalar, vector, etc)  at every point on a manifold, here the manifold is space-time. These fields obey laws dictated by Quantum Field Theory (QFT). Particles arise naturally in QFT as quantizied field excitations localized in spacetime. 
 
 According to Noether's theorem, symmetries of a field give rise to conserved quantities (e.g. time-translation invariance leads to energy conservation).  Often in the history of physics, a conserved quantity of a field is found and then the underlying symmetry of the field is inferred. Gauge symmetries are symmetries among the internal degrees of freedom of the field (components of the tensor), which give rise to quantities associated with fields. By specifying the symmetries of a system the dynamics and conserved quantities of the system may be succinctly defined.
-\subsection{$U(1)_{EM}$ Local Gauge Invariance}
+\section{$U(1)_{EM}$ Local Gauge Invariance}
 The Lagrangian of Quantum Electrodynamics (QED) describes the electromagnetic force. QED may be derived by requiring local $U(1)_{EM}$ gauge invariance of the free dirac fermion Lagrangian, $\psi$:
 \begin{equation}
 \mathcal{L} = i\bar{\psi}\gamma^{\mu}\partial_{\mu}\psi - m\bar{\psi}{\psi}
@@ -84,7 +84,7 @@ So we have derived the QED Lagrangian. By requiring the free Dirac Lagrangian to
 
 Stepping back, a global U(1) gauge symmetry of the free Dirac Lagrangian implies we cannot measure the absolute phase of a charged particle. A local U(1) gauge symmetry changes the phase of fields differently across space time. For this type of transformation to leave the Lagrangian invariant, we had to introduce an additional field, $A_{\mu}$, which "communicates" these phase changes across space-time. In less formal language this effectively means: if the field at one location changes, this change is conferred to other particles via $A_{\mu}$.
 
-\subsection{Yang-Mills Gauge Theories}
+\section{Yang-Mills Gauge Theories}
 Requiring $U(1)_{EM}$ gauge invariance of the free Dirac Lagrangian gave us QED. Requiring different gauge symmetries we can derive the structure of other interactions. Any gauge symmetry may be written as:
 
 \begin{equation}
@@ -116,7 +116,7 @@ This gives the Yang-Mills Lagrangian:
 \begin{equation}
 \mathcal{L}_{YM}= -\frac{1}{4}F^{a\mu\nu}F^{a}_{\mu\nu}+i\bar{\psi_{i}}\gamma^{\mu}D_{\mu}\psi_{i}+m\bar{\psi_{i}\psi_{i}}
 \end{equation}
-\subsection{Particles in the Standard Model}
+\section{Particles in the Standard Model}
 The SM consists of fermions (half-interger spin matter constituents) and bosons (integer spin force meditators). Fermions are spinor representations of the Poincare group and can be further separated into leptons and quarks. Bosons are the result of requiring a particular symmetry among the spinor fields:
 
 \begin{equation}
@@ -198,7 +198,7 @@ Here several abstract spaces are being spanned:
 \item[--]$\mu$ and $\nu$ are four-vector indices
 \item[--]i, j, k are summed over the three generations of SM particles. 
 \end{itemize}
-\subsection{Higgs Mechanism}
+\section{Higgs Mechanism}
 The SM Lagrangian without the addition of a Higgs field does not allow for gauge boson and fermion mass terms: $\frac{1}{2}m_{A}^{2}A_{\mu}A_{\mu}$ and $m(\bar{\psi}\psi)$,  as these terms are not gauge invariant. By introducing the Higgs field, mass terms for these particles may be included in a gauge invariant way. This field is a complex doublet with a potential $V(\Phi)$:
 
 \begin{equation}
@@ -235,8 +235,7 @@ m_{Z} = \frac{v}{\sqrt{2}}\sqrt{g_{1}^{2} + g_{2}^{2}}
 \end{equation}
 
 The Higgs field also generates a mass term for the Higgs boson and self-interactions for the Higgs boson. 
-
-\subsection{Electroweak Theory}
+\section{Electroweak Theory}
 $SU(2)_{L}$ generates $W^{\pm}, W^{0}$ gauge bosons, which would be massless if $SU(2)_{L}$ was a perfect symmetry. These bosons are massive as this symmetry is broken. The mass eigenstates, Z and $\gamma$ given by: 
 \begin{equation}
 \begin{pmatrix} Z_{\mu} \\ A_{\mu} \end{pmatrix} = \begin{pmatrix} cos \theta_{W} & -sin \theta_{W} \\ sin \theta_{W} & cos \theta_{W} \end{pmatrix} \begin{pmatrix} W^{3}_{\mu} \\ B_{\mu} \end{pmatrix}
@@ -246,7 +245,7 @@ Here $\theta_{W}$ is the Weinberg angle given by:
 \begin{equation}
 cos\theta_{W}=\frac{g_{2}}{\sqrt{g_{1}^{2}+g_{2}^{2}}} = \frac{m_{W}}{m_{Z}}
 \end{equation}
-\subsection{Quantum ChromoDynamics}
+\section{Quantum ChromoDynamics}
 As mentioned earlier the Strong Force, which binds the proton together, is mediated by gluons. Quantum Chromodynamics is the QFT which describes the interactions of quarks and gluons via $SU(3)_C$ symmetry. QCD contains features not present in Electroweak Interactions due to $SU(3)_C$ generators not commuting (a.k.a. $SU(3)_C$ is a non-abelian group). For example, in QCD there is color confinement and asymptotic freedom due to the structure constants being non-zero. Requiring $SU(3)_C$ local gauge invariance implies:
 
 \begin{equation}
@@ -312,7 +311,7 @@ As stated previously, quarks and gluons have not been observed in isolation. Ins
 
 Since quarks and gluons carry different color charges, their respective jets have different properties. As quarks carry only a single color charge (vs. gluons which have color and anticolor charge), so their jets have less constituent particles. More precisely, the Altarelli-Parisi splitting functions ~\cite{altarelli} contain a factor $C_{A}$ for gluon radiation off a gluon and $C_{F}$ for gluon radiation off a quark ($C_{A}/C_{F} = 9/4$). These color factors are the prefactor in the Feynman diagrams for these processes ~\cite{colorfactor}, which leads to gluon jets having more constituents and therefore more tracks than quark jets. Gluon jets also tend to have a larger radius with lower momentum constituents than quarks. There are many novel techniques to distinguish quarks from gluons. For this study the number of charged particles will be focused on.  
 
-\section{Standard Model Successes and Limitations}
+\chapter{Standard Model Successes and Limitations}
 The Standard Model has consistently described much of reality to an extreme degree of accuracy. It has predicted cross sections for strong and electroweak processes that span over ten order of magnitude correctly [see Fig ~\ref{fig:SM cross sections}] and contains no known logical inconsistencies. Despite the strength and reality of the Standard Model, it still fails to describe aspects of reality and suffers from aesthetic issues. 
 To date, dark matter and energy comprise ~95\% of the universe, but are not accounted for in the SM. Additionally, neutrinos are known to have mass but are massless in the SM. There are mechanisms for introducing massive neutrinos in the SM, but these mechanisms create hierarchy problems. 
 
@@ -330,9 +329,9 @@ These stark contrasts in scales may indicate that a more fundamental theory exis
 \FloatBarrier
 
 
-\section{New Physics Models with Diboson Resonances}
+\chapter{New Physics Models with Diboson Resonances}
 
-\subsection{Randall Sundrum Bulk Model}
+\section{Randall Sundrum Bulk Model}
 %Top down approach (solve gravity problem)
 The electroweak-planck hierarchy may be explained by the existence of extra dimensions, like the 5D Randall Sundrum Bulk Model (\cite{rs1}, \cite{rs2}). In this model, there is one extra warped spatial dimension, y, with a metric:
 \begin{equation}
@@ -353,7 +352,7 @@ The two free parameters of this theory are $M_{PL}$ and $k$. Based on this RS Bu
 \FloatBarrier
 
 
-\subsection{Extended Scalar Sector}
+\section{Extended Scalar Sector}
 %tries to solve physics problem but also somewhat ad-hoc (just a parameterization)
 A further striking asymmetry of the SM is the simplicity of the scalar sector in comparison to the boson and fermion sectors. To date, the scalar sector has only one member, the Higgs boson. Therefore, it is natural to posit an extension to the scalar sector. From a theoretical standpoint this could also help generate baryon asymmetry through additional sources of CP violation. This analysis searches for a simple extension to the scalar sector as proposed in Ref. \cite{scalarsinglet}. The extended scalar sector includes a real Higgs singlet (S) and complex $SU(2)_{L}$ doublet ($\Phi$) (the SM Higgs), where mass eigenstates are mixtures of the fields. S has a vev of $v$ and $\Phi$ has a vev of $x$. This then gives a Lagrangian of:
 
@@ -384,7 +383,7 @@ BR_{H \rightarrow SM}=sin^{2}\alpha \times \frac{\Gamma_{SM, H \rightarrow SM}}{
 Moreover, in the case that $m_{H} > m_{h}$, $H\rightarrow hh$ is possible. This further suppresses $H \rightarrow VV/ff$. This search is most sensitive to $H \rightarrow WW$.
 
 
-\subsection{Simple Standard Model Extensions}
+\section{Simple Standard Model Extensions}
 %more like a parameterization
 The RS Bulk model is motivated by resolving the hierarchy problem. Extending the Scalar sector is a natural space to look for new physics due to the complexity of fermion and boson groups. There are many other interesting and well motivated frameworks, but there is a lack of completely predictive models, due to model flexibility (free parameters). Therefore it is hard for experimentalists to know which theories to search for in data. However, as seen in 3\cite{hvt}, a "Simplified Model" approach may be taken. In the search for reasonably narrow width particles, as in this search, the search is not sensitive to all the details and free parameters of the theory. Generally such searches are only sensitive to the resonance mass and its interactions. Therefore, a theory's Lagrangian may be reduced to only retain this information (mass parameters and couplings). Experimental results using this framework may then be reinterpreted in a given theory. 
 

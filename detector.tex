@@ -1,5 +1,5 @@
 \label{ch:detector}
-\section{LHC}
+\chapter{LHC}
 The Large Hadron Collider (LHC) is the highest-energy particle collider in the world. It was designed to expand the frontier of high energy particle collisions in energy and luminosity. This enables LHC experiments to test the Standard Model and search for new physics at higher energies than tested with previous colliders. Collisions at higher energies not only produce more massive particles but also more weakly interacting particles. Fig ~\ref{fig:xs_scaling} shows production cross sections for various processes at hadron colliders. The rate for electroweak physics prcoesses including $W$ and $Z$ scale with the center-of-momentum energy, $\sqrt{s}$.
 
 The LHC consists of a 26.7 km (17 miles) ring, approximately 100 m underground, outside Geneva, Switzerland. Counter-circulating proton (and occasionally heavy ions) beams collide inside four experiments along the beam line: ATLAS, CMS, LHCb, ALICE. ATLAS and CMS are general purpose detectors designed to explore high energy frontier. LHCb is designed to study the physics of $b$-quarks. ALICE specializes in studying heavy ion collisions. 
@@ -15,7 +15,7 @@ The LHC consists of a 26.7 km (17 miles) ring, approximately 100 m underground, 
 
 
 The first proton beams circulated in September, 2008. Nine days later an electrical fault lead to mechanical damage and liquid helium leaks in the collider. This incident delayed further operation until November 2009, when the LHC became the world's highest energy particle collider, at 1.18TeV per beam. This first operational run continued until 2013, reaching 7 and 8 TeV collision energies. During this run a particle who's properties were consistent with the Standard Model Higgs boson was discovered. The next operational began after a two year shutdown after upgrades to the LHC and experiments. This run lasted from 2013 to 2018 reaching 13 TeV collision energies. This analysis uses data from the second operational run. 
-\subsubsection{LHC Layout and Design}
+\section{LHC Layout and Design}
 The layout of the LHC is shown in Figure ~\ref{fig:lhc_layout}. The red and blue lines in the figure represent the counter-circulating proton beams. The LHC is divided into eight octants.  Octant 4 contains the RF cavities that accelerate the protons and octant 6 contains the beam dump system. Octants 3 and 7 house the collimation systems for beam cleaning. The beams collide inside the four aforementioned experiments. Each octant contains a curved and straight section. The LHC magnets are built with NBTi superconductors cooled with super-fluid Helium to 2K, creating a 8.3T magnetic field to bend the proton beams.
 
 
@@ -50,7 +50,7 @@ where $N_{p}$ is the number of protons per bunch, f is the bunch crossing freque
 
 This analysis uses data from Run 2, totally 139/fb. The peak luminosity was [Natasha add info here]. [Natasha add lumi and integrated lumi figures]. 
 
-\section{The ATLAS Detector}
+\chapter{The ATLAS Detector}
 The ATLAS detector measures the position, momentum and energy of particles produced in the proton collisions by using magnetic fields, silicon detectors, sampling calorimeters, and gaseous wire detectors. It is located approximately 100 m underground at Point-1 around the LHC beam line and weighs 7000 metric tons. The detector is 46 m long, 25 m high, 25 m wide  as shown in Figure \ref{fig:atlas_detectors}. The detector can be divided into three subsystems: the Inner Detector (ID), the Calorimeters, and the Muon Spectrometer (MS). Figure \ref{fig:particle_detection} shows an overview of how different particles interact in the detector.
 \begin{figure}[h!]
   \centering
@@ -76,7 +76,7 @@ The ATLAS detector measures the position, momentum and energy of particles produ
 \end{figure}
 \FloatBarrier
 
-\subsection{Coordinate System}
+\section{Coordinate System}
 The trajectory of particles within ATLAS is measured relative to the nominal interaction point. The z-axis points along the beam line, such that when the LHC is viewed from above, the counter-clockwise circulating beam points along the positive-$z$ direction. The $x-y$ plane is transverse to the beam line, with the positive x-axis pointing towards the center of the LHC ring. The positive $y$-axis points vertically upward. The azimuthal angle, $\phi$, is the angular distance about the $z$-axis, with $\phi=0$ along the $x$-axis. The polar angle from the $z$-axis is denoted as $\theta$. The polar angle is usually replaced by pseudo-rapidity, $\eta = -ln tan(\frac{\theta}{2})$. Pseudo-rapidity is preferred as $\Delta \eta$ is invariant under boosts along $z$ and particle production is approximately invariant under $\eta$. Angular separation between particles in ATLAS are given by $\Delta R = \sqrt{\Delta \eta^{2}+\Delta \phi^{2}}$. The distance from the beamline is given by $r=\sqrt{x^{2}+y{2}}$
  
 \section{Inner Detector}

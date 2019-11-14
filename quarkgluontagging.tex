@@ -1,5 +1,5 @@
 \label{ch:qg}
-\section{Prospects}
+\chapter{Prospects}
 For the resolved analysis, signal jets are quark enriched and background jets are gluon dominated. By classifying jets in the event as quark or gluon initiated, less background would contaminate the signal region. Figure~\ref{fig:diag_pdgid} shows the PDGID for the truth parton matched to the jet (meaning the highest energy parton in the jet catchment area) in events passing the resolved signal region selections. PDGID = -1 corresponds to pileup jets, 0 < PDGID < 6 correspond to quarks and PDGID = 21 corresponds to gluons. From this Figure, it is evident that are notable fraction of the background that contaminates the signal region contains gluon jets, especially for the sub-leading jet. 
 
 As gluons jets have more constituents and therefore more tracks ($n_{trk}$), the background jets have more tracks than the signal jets. This is shown in Figure~\ref{fig:diag_ntrk}. Therefore, by cutting on the number of tracks in a jet, quark and gluon jets may be distinguished (i.e. jets with less than a given number of tracks are classified as a quark, otherwise the jet is classified as a gluon.) Moreover, as the momentum of the jet increases the number of tracks also increases logarithmically. Therefore by applying a cut on the number of tracks that scales with the $ln(p_{T})$ is more powerful than a threshold cut on the number of tracks. Figure~\ref{fig:bkg_heatmap}-Figure~\ref{fig:sig700_heatmap} show normalized heat maps of $ln(p_{T})$ vs the number of reconstructed tracks for the background and a 300 GeV Z' signal. In these plots it is evident that the number of tracks in the background jets grows more quickly with $ln(p_{T})$ than for the signal jets. This is expected given that the signal is quark dominated and the background is gluon dominated. 
@@ -100,7 +100,7 @@ In Figure~\ref{fig:quark_gluon_roc} is the ROC Curve for quark gluon tagging wit
 \pagebreak
 \pagebreak
 \pagebreak
-\section{$n_{trk}$ Calibration}
+\chapter{$n_{trk}$ Calibration}
 As tagger based on nTrk cuts on the number of tracks in jets, a quantity that is not known with infinite precision, relevant systematic uncertainties must be evaluated. The sources of uncertainty in $n_{trk}$ may be split into modeling and experimental uncertainties. 
 
 Modeling uncertainties are obtained by assessing PDF and ME uncertainties on the number of charged particles in particle-level jets in dijet events. The number of charged particles as a function of jet $p_{T}$  is calculated using an Iterative Bayesian (IB) technique [cite paper].
@@ -154,7 +154,7 @@ w_{i}(n_{c}) = \frac{P(n_{trk}|<n_{trk}> \pm \sigma^{i}_{n_{trk}})} {P(n_{trk}|<
 
 Adding the modeling and detector level uncertainties in quadrature gives the overall nTrack uncertainty. The effects of the individual uncertainties on the nTrk distributions can be seen in Fig ~\ref{fig:qg_calib_ntrk_indiv}. Fig ~\ref{fig:qg_calib} shows the $m_{lvqq}$ and nTrk distributions for the W and Top control regions before likelihood fitting. In these plots the nTrk uncertainties improve agreement between data and MC. The remaining differences are likely covered by likelihood fitting and improving the analysis itself.  
 
-\section{Application}
+\chapter{Application}
 Using the 90\% WP of the $n_{trk}$ tagger improves $S/\sqrt{B}$ is < 3\% as shown in Figure ~\ref{fig:qg_s_root_b}. Although, $n_{trk}$ is the single most powerful discriminating variable for quark and gluon jets, the addition of other jet variables would improve the classification efficiency. Figure ~\ref{fig:quark_gluon_roc_truth} shows the possible improvement of ~10\%  in jet classification using the truth label of the jets to classify jets.  This type of improvement is possible by using variables such as jet width, and energy correlatators. Figure [add BDT figure/use 1612.01551.pdf] shows for a 90\% quark tagging efficiency for a 100 GeV jet, a BDT improve the gluon rejection by ~0.4. Once this tagger is calibrated it would improve the analysis sensitivity of this channel.
 
 

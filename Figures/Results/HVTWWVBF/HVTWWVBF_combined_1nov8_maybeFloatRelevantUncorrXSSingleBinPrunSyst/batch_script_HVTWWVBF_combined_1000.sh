@@ -1,0 +1,6 @@
+#!/bin/bash 
+#BSUB -W1000 
+source /gpfs/slac/atlas/fs1/d/woodsn/novVVSemi/VVSemileptonicStats/batchwork/resetup.sh 
+python /gpfs/slac/atlas/fs1/d/woodsn/novVVSemi/VVSemileptonicStats/batchwork/runFitCrossCheck.py /gpfs/slac/atlas/fs1/d/woodsn/novVVSemi/VVSemileptonicStats/workspaceCombiner/nov7_combined_ws/combined_HVTWWVBF_1000_VBF_lvqq_FloatRelevantUncorrXSSingleBinPrunSyst.root /gpfs/slac/atlas/fs1/d/woodsn/novVVSemi/VVSemileptonicStats/batchwork/fccs_output/HVTWWVBF_combined_1nov8_maybeFloatRelevantUncorrXSSingleBinPrunSyst combined | tee /gpfs/slac/atlas/fs1/d/woodsn/novVVSemi/VVSemileptonicStats/batchwork/HVTWWVBF_combined_1nov8_maybeFloatRelevantUncorrXSSingleBinPrunSyst/log_ws_HVTWWVBF_combined_1000.txt 
+cd /gpfs/slac/atlas/fs1/d/woodsn/novVVSemi/VVSemileptonicStats/batchwork/fccs_output/HVTWWVBF_combined_1nov8_maybeFloatRelevantUncorrXSSingleBinPrunSyst 
+source /gpfs/slac/atlas/fs1/d/woodsn/novVVSemi/VVSemileptonicStats/batchwork/workspace_checks_draw.sh /gpfs/slac/atlas/fs1/d/woodsn/novVVSemi/VVSemileptonicStats/batchwork/fccs_output/HVTWWVBF_combined_1nov8_maybeFloatRelevantUncorrXSSingleBinPrunSyst /gpfs/slac/atlas/fs1/d/woodsn/novVVSemi/VVSemileptonicStats/workspaceCombiner/nov7_combined_ws/combined_HVTWWVBF_1000_VBF_lvqq_FloatRelevantUncorrXSSingleBinPrunSyst.root 1

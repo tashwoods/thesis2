@@ -753,6 +753,14 @@ Here $c$ are the analysis channels considered and $i$ runs over all the $m_{\ell
 \section{Fit Configuration}
 The binning of $m_{\ell \nu qq}$ in the likelihood fit is determined by the statistical uncertainty of signal mass width. For each signal mass point, the signal mass resolution is given by the fitted Gaussian width of the $m_{\ell \nu qq}$. The fitted signal widths are then fit to a line to give a parameterized signal mass width, as shown in Figures \ref{fig:resolved_sigwidth} and \ref{fig:merged_sigwidth}. Bin widths are set first to this parameterized signal mass resolution. Then if the statistical uncertainty of the data or simulated background is more than 50\%, bins are merged until the statistical uncertainty is less than 50\%. 
 
+For this analysis, each signal model fits the Merged and Resolved channels for the relevant signal production mode simultaneously. The control regions are used to extract $W$+jets and $t\bar{t}$ backgrounds normalizations in the signal regions. 
+
+Systematics may be affected by low statistics, leading to unsmooth $m_{VV}$ distributions with unphysically large fluctuations. This can lead to artificial pulls and constraints in the fit. To remove such issues a multi-step smoothing procedure is applied to all systematic variation distributions in all regions. First, distributions are rebinned until the statistical error per bin is at least 5\%. Next all local extrema are identified. The bins around smallest extrema are iteratively merged until only four local extrema remain. Then distributions are rebinned so that statistical uncertainties in each bin are $< 5\%$.
+
+For some systematics, up and down variations may be in the same direction with respect to the nominal distributions, leading to asymmetric distributions. This causes the variations to not cover the nominal choice, and the interpretation of the confidence interval is skewed. This asymmetry may also lead to unconstrained systematics in the fit. To handle such asymmetric systematics, if the up and down variation for a given systematic are in the same direction for at least three $m_{VV}$ bins the variation is averaged for those bins. The averaging procedure replaces bin-by-bin the up and down variation bins by $b_{\pm}^{new}=b_{nom}\pm\frac{|b_{+}-b_{-}|}{2}$, where $b_{nom}$ is the nominal bin content and $b_{\pm}$ are the original up and down variation bin content. The same procedure is also applied to any variations where the integral of the difference between the up/down variation and the nominal distribution is twice that of the other down/up variation, further ensuring variations are symmetric around the nominal distribution.
+
+Finally, systematics that have a negligible effect on the $m_{WV}$ distribution are not considered in the fit. Shape systematics where no bin in the variational distribution deviates more than $1\%$ from the nominal distribution (after normalizing all histograms to the nominal) are not included in the fit. Also, statistical bin uncertainties $< 1\%$ are ignored. 
+
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.48\hsize]{figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf}
@@ -770,17 +778,60 @@ The binning of $m_{\ell \nu qq}$ in the likelihood fit is determined by the stat
   \label{fig:merged_sigwidth}
 \end{figure} 
 \FloatBarrier
+
 \section{Best Fit $\mu$}
+The best fit signal strength parameter is denoted by $\hat{\mu}$ and calculated by maximizing the likelihood function with respect to all systematics and $\mu$. The corresponding set of systematics that maximize the likelihood are given by $\bm{\hat{\mu}}$. The first term in the likelihood is maximized when the expected number of signal and background events is equal to the number of events in data ($n_{ci}=\mu s_{ci} + b_{ci}$). Thus, by maximizing the likelihood, the fit determines values of $\mu$ and $\bm{\theta}$ that give the best agreement between expected and measured event yields. The second term in the likelihood is a penalty term which decreases the likelihood when systematics are shifted from their nominal values. This prevents the fit from profiling systematics in unphysical ways to maximize the likelihood. The uncertainty on $\mu$ is calculated by varying $\mu$ up and down until the natural log of the likelihood function shifts by one-half.
+
 
 \section{Discovery Test}
+To determine if the observed dataset is consistent with tested signal model a likelihood ratio is constructed:
 
-\section{Exclusion Limits}
-The nominal fit results in terms of $\mu$ and $\theta_{\mu}$ are obtained from maximizing the likelihood function with respect to all parameters. The test statistic, $q_{\mu}$, is then constructed as:
 \begin{equation}
-q_{\mu}=-2\frac{\mathcal{L}(\mu,\hat{\hat{\theta_{\mu}}})}{\mathcal{L}l(\hat{\mu},\hat{\theta})}
+\lambda(\mu)=\frac{\mathcal{L}(\mu, \hat{\hat{\bm{\theta_{\mu}}}})}{\mathcal{L}(\hat{\mu}, \hat{\bm{\theta}})}
+\end{equation}
+
+The denominator in this equation is the maximized value of $\mathcal{L}$ over all systematics and $\mu$. The numerator is the maximized likelihood over all systematics for a given $\mu$ value, where the maximized systematics are given by $\hat{\hat{\mu_{\mu}}}$. To test for the existence of signal the observed dataset the null hypothesis ($H_{0}$) is defined as the background only hypothesis and the alternate hypothesis includes signal and background ($H_{1}$). This test quantifies the compatibility of observed data with $H_{0}$ by calculating a p-value representing the probability of observing data as discrepant or more than the observed data under the $H_{0}$. The test statistic used to calculate this p-value is given by ($r_{0}$):
+
+\begin{equation}
+r_{0}=\left\{ \begin{array}{ll}
+-2\ln \lambda (0), \hat{\mu} > 0\\
++2\ln \lambda (0), \hat{\mu} < 0
+\end{array}
+\right.
+\end{equation}
+
+The expected distribution of the the test statistic under $H_{0}$ ($f(r_{0}|0)$ is used to calculate the p-value:
+
+\begin{equation}
+p_{0}=\int_{r_0,obs}^{\infty} f(r_{0}|0)dr_{0}
+\end{equation}
+
+Small p-values indicate the observed data is poorly described by $H_{0}$. This equivalent Z-score of a given p-value is usually used to further quantify the agreement between the observed data and $H_{0}$. The Z-score is given by the number of standard deviations away from the mean of a Gaussian distribution, the integral of the upper tail of the distribution would equal the p-value. Mathematically:
+
+\begin{equation}
+Z = \Phi^{-1}(1-p_{0})
+\end{equation}
+
+where $\Phi$ is the Gaussian cumulative distribution function. The statistical significance of these tests are expressed as the $Z$-score. In particle physics, $3\sigma$ is considered evidence for new phenomena and $5\sigma$ is the threshold for discovery. 
+\section{Exclusion Limits}
+In the absence of discovery, upper limits on the signal strength, $\mu$ are set using the CLs method [cite P60]. The test statistic for this test, $q_{\mu}$, is constructed as:
+\begin{equation}
+\tilde{\lambda_{\mu}}=\left\{ \begin{array}{ll}
+\frac{\mathcal{L}(\mu,\hat{\hat{\theta_{\mu}}})}{\mathcal{L}(\hat{\mu},\hat{\theta})},  \hat{\mu} > 0\\
+\frac{\mathcal{L}(\mu,\hat{\hat{\theta_{\mu}}})}{\mathcal{L}(0,\hat{\hat{\theta_{0}}})},  \hat{\mu} < 0
+\end{array} 
+\right.
 \end{equation}
  
- where $\hat{\mu}$ and $\hat{\theta}$ are the parameter values that maximize the likelihood and $\hat{\hat{\theta_{\mu}}}$ are the nuisance parameter values that maximize the likelihood for a given $\mu$. As defined, larger values of $q_{\mu}$ correspond to increasing incompatibility between the observed data and the background + signal hypothesis. The observed value of the test statistic, $q_{\mu, obs}$, is then compared to its expected distribution, $f_{k}$, to calculate p-values to assess the likelihood of the background+signal hypothesis. Using these distributions, $CL_{s}$ values are computed as:
+ \begin{equation}
+\tilde{q}_{\mu}=\left\{ \begin{array}{ll}
+-2\ln \tilde{\lambda}(\mu),  \hat{\mu} < \mu \\
++2\ln \tilde{\lambda}(\mu),  \hat{\mu} > \mu 
+\end{array}
+\right.
+\end{equation}
+ 
+As defined, larger values of $q_{\mu}$ correspond to increasing incompatibility between the observed data and the background + signal hypothesis. The observed value of the test statistic, $q_{\mu, obs}$, is then compared to its expected distribution, $f$, to calculate p-values to assess the likelihood of the background+signal hypothesis. Using these distributions, $CL_{s}$ values are computed as:
  
  \begin{equation}
  CL_{s+b}=\int_{q_{\mu, obs}}^{\infty}f(q_{\mu}|\mu)dq_{\mu}\\
@@ -796,14 +847,7 @@ $CL_{s+b}$ is the p-value for the signal + background hypothesis and $CL_{b}$ is
 
 In this analysis, $\mu$ values are scanned for each bin in the fit to find the $\mu$ value that yields $CL_{s}$=0.05, meaning the likelihood of finding data more incompatiable with the signal+background hypothesis (relative to the background only hypothesis) is 5\%. The 95\% upper limit on the cross section is then calculated as the product of the $\mu$ value found, branching ratio, and theory cross section.
 
-\section{Fit Configuration}
-For this analysis, each signal model is fit simultaneously with for the Merged and Resolved channels from VBF and DY production. The WCR and TCR are used to extract the normalizations for the $W$+jets and $t\bar{t}$ backgrounds in the SRs. The binning is in [Natasha add binning table]. The binning is set by signal resolution and stats. Additionally, talk about NP correlations [Natasha]. 
 
-Systematics may be affected by low statistics, leading to unsmooth $m_{VV}$ distributions with unphysically large fluctuations. This can lead to artifical pulls and constraints in the fit. To remove such issues a multi-step smoothing procedure is applied to all systematic variation distributions in all regions. First, distributions are rebinned until the statistical error per bin is at least 5\%. Next all local extrema are identified. The bins around smallest extrema are iteratively merged until only four local extrema remain. Then distributions are rebinned so that statistical uncertainities in each bin are $< 5\%$.
-
-For some systematics, up and down variations may be in the same direction with respect to the nominal distributions, leading to asymmetric distributions. This causes the variations to not cover the nominal choice, and the interpretation of the confidence interval is skewed. This asymmetry may also lead to unconstrained systematics in the fit. To handle such asymmetric systematics, if the up and down variation for a given systematic are in the same direction for at least three $m_{VV}$ bins the variation is averaged for those bins. The averaging procedure replaces bin-by-bin the up and down variation bins by $b_{\pm}^{new}=b_{nom}\pm\frac{|b_{+}-b_{-}|}{2}$, where $b_{nom}$ is the nominal bin content and $b_{\pm}$ are the original up and down variation bin content. The same procedure is also applied to any variations where the integral of the difference between the up/down variation and the nominal distribution is twice that of the other down/up variation, further ensuring variations are symmetric around the nominal distribution.
-
-Finally, systematics that have a negligible effect on the $m_{WV}$ distribution are not considered in the fit. Shape systematics where no bin in the variational distribution deviates more than $1\%$ from the nominal distribution (after normalizing all histograms to the nominal) are not included in the fit. Also, statistical bin uncertainties $< 1\%$ are ignored. 
 
 
 

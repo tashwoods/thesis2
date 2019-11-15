@@ -442,7 +442,36 @@ Top veto &  Number of additional $b$-tagged jets & \multicolumn{2}{c|}{0} & $\ge
 \end{figure} 
 \FloatBarrier
 
+\section{Selection Acceptance times efficiency for Signal Events}
+The acceptance times efficiency for the signal region selection is defined as:
 
+\begin{equation}
+A \cdot \epsilon = \frac{N^{\mathrm{truth}}_{\mathrm{events\, selected}}}{N^{\mathrm{truth}}_{\mathrm{events\, generated}}} \cdot \frac{N^{\mathrm{reco}}_{\mathrm{events\, selected}}}{N^{\mathrm{truth}}_{\mathrm{events\, selected}}}
+\\
+= \frac{N^{\mathrm{reco}}_{\mathrm{events\, selected}}}{N^{\mathrm{truth}}_{\mathrm{events\, generated}}}
+\end{equation}
+The distributions of $A\cdot \epsilon$ as a function of the resonance mass for the different spin models are shown in Figures \ref{fig:accept_hvtww} - \ref{fig:accept_rsg}.
+
+\begin{figure}[h!]
+  \centering
+\includegraphics[width=0.48\hsize]{figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf}
+    \includegraphics[width=0.48\hsize]{figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf}
+
+      \caption{Selection acceptance times efficiency for the $W'\to WZ\to \ell \nu qq$ events from MC simulations as a function of the $W'$ mass for (a) Drell-Yan and (b) VBF production, combining the merged HP and LP signal regions of the $WV\to \ell\nu J$ selection and the resolved regions of the $WV\to \ell\nu jj$ selection.} 
+  \label{fig:accept_hvtww}
+\end{figure} 
+\FloatBarrier
+
+
+\begin{figure}[h!]
+  \centering
+\includegraphics[width=0.48\hsize]{figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf}
+    \includegraphics[width=0.48\hsize]{figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf}
+
+      \caption{Selection acceptance times efficiency for the $G\to WW\to \ell \nu qq$ events from MC simulations as a function of the $G$ mass for (a) Drell-Yan and (b) VBF production, combining the merged HP and LP signal regions of the $WV\to \ell\nu J$ selection and the resolved regions of the $WV\to \ell\nu jj$ selection.} 
+  \label{fig:accept_hvtww}
+\end{figure} 
+\FloatBarrier
 \section{Background Estimate}
 \subsection{Multijet Sample}
 Backgrounds in this analysis containing real leptons (e.g. $W/Z$+jets, diboson, $t\bar{t}$, single-$t$) are well-modeled with simulated samples and constrained with data from CRs. However, the multijet background containing fake leptons is not well-modeled with simulation. For this reason, the multijet background is extracted from data. Heavy flavor decay products, jets, and converted photons can be mistakenly reconstructed as jets. Fake electrons often arise from jet fakes while fake muons may also arise from heavy flavor decay.  For this analysis, these fake electrons generally fail the electron ID criteria and fake muons fail the muon isolation requirement. Therefore, to derive the multijet template shape the SR and CR selections and inverted lepton requirements are used as seen in Table \ref{tab:TempMJCR}. NB: by inverting the lepton isolation/identification criteria the CR and SRs created are orthogonal to the CR and SRs. 

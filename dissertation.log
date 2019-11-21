@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  20 NOV 2019 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  20 NOV 2019 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1689,7 +1689,7 @@ Chapter 8.
 File: figures/Analysis/modelingsysts/w_syst.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/w_syst.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/w_syst.pdf  used on inp
-ut line 702.
+ut line 700.
 (pdftex.def)             Requested size: 415.5525pt x 342.73648pt.
 
 
@@ -1700,7 +1700,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Analysis/modelingsysts/w_gen.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/w_gen.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/w_gen.pdf  used on inpu
-t line 711.
+t line 709.
 (pdftex.def)             Requested size: 415.5525pt x 340.70395pt.
 
 
@@ -1714,7 +1714,7 @@ File: figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf Graphic file (type
 pdf)
 <use figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf 
- used on input line 721.
+ used on input line 719.
 (pdftex.def)             Requested size: 415.5525pt x 198.68983pt.
 <figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf, id=5541, 343.92601pt x 1
 91.03691pt>
@@ -1722,7 +1722,7 @@ File: figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf Graphic file (type p
 df)
 <use figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf  
-used on input line 730.
+used on input line 728.
 (pdftex.def)             Requested size: 415.5525pt x 230.8347pt.
 <figures/Analysis/modelingsysts/ttbar_isr_merg.pdf, id=5542, 336.89073pt x 361.
 00684pt>
@@ -1730,7 +1730,7 @@ File: figures/Analysis/modelingsysts/ttbar_isr_merg.pdf Graphic file (type pdf)
 
 <use figures/Analysis/modelingsysts/ttbar_isr_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_isr_merg.pdf  use
-d on input line 739.
+d on input line 737.
 (pdftex.def)             Requested size: 415.5525pt x 445.31926pt.
 
 
@@ -1745,7 +1745,7 @@ modelingsysts/ttbar_gen_had_res.pdf>]
 File: figures/Analysis/modelingsysts/ttbar_isr_res.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/ttbar_isr_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_isr_res.pdf  used
- on input line 748.
+ on input line 746.
 (pdftex.def)             Requested size: 415.5525pt x 240.28716pt.
 
 
@@ -1759,14 +1759,14 @@ File: figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf Graphic file (type pdf)
 
 <use figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf  use
-d on input line 757.
+d on input line 755.
 (pdftex.def)             Requested size: 415.5525pt x 192.89815pt.
 <figures/Analysis/modelingsysts/ttbar_fsr_res.pdf, id=5779, 339.08943pt x 178.7
 5975pt>
 File: figures/Analysis/modelingsysts/ttbar_fsr_res.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/ttbar_fsr_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_fsr_res.pdf  used
- on input line 766.
+ on input line 764.
 (pdftex.def)             Requested size: 415.5525pt x 219.08487pt.
  [112
 
@@ -1782,7 +1782,7 @@ File: figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf Graph
 ic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_resolve
-d_1lephvt.pdf  used on input line 797.
+d_1lephvt.pdf  used on input line 795.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 <figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf, id=591
 0, 569.12625pt x 386.44376pt>
@@ -1790,7 +1790,7 @@ File: figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf Gr
 aphic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_resolve
-d_1lephvtvbf.pdf  used on input line 798.
+d_1lephvtvbf.pdf  used on input line 796.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 
 
@@ -1803,7 +1803,7 @@ File: figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf Graphic
  file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_merged_
-1lephvt.pdf  used on input line 806.
+1lephvt.pdf  used on input line 804.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 <figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf, id=5916,
  569.12625pt x 386.44376pt>
@@ -1811,20 +1811,20 @@ File: figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf Grap
 hic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_merged_
-1lephvtvbf.pdf  used on input line 807.
+1lephvtvbf.pdf  used on input line 805.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 813.
+(hyperref)                removing `math shift' on input line 811.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 813.
+(hyperref)                removing `\mu' on input line 811.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 813.
+(hyperref)                removing `math shift' on input line 811.
 
 [116 <./figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf, pa
 ge is rotated 90 degrees> <./figures/Analysis/signal_mass_resolution/sigres_res
@@ -2606,7 +2606,7 @@ Here is how much of TeX's memory you used:
  13915 multiletter control sequences out of 15000+600000
  105531 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,44p,1433b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,17n,44p,1606b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.en
 c}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
@@ -2661,7 +2661,7 @@ local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (185 pages, 35847054 bytes).
+Output written on dissertation.pdf (185 pages, 35847429 bytes).
 PDF statistics:
  8814 PDF objects out of 8907 (max. 8388607)
  5839 compressed objects within 59 object streams

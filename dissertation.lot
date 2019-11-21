@@ -6,23 +6,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces The list of triggers used in the analysis.\relax }}{72}{table.caption.33}% 
-\contentsline {table}{\numberline {7.2}{\ignorespaces Summary of selection criteria used to define the signal region (SR), $W$+jets control region ($W$ CR) and $t\mathaccentV {bar}016{t}$ control region ($t\mathaccentV {bar}016{t}$ CR) for merged 1-lepton channel.\relax }}{80}{table.caption.38}% 
-\contentsline {table}{\numberline {7.3}{\ignorespaces The list of selection cuts in the resolved analysis for the $WW$ and $WZ$ signal regions (SR), $W$+jets control region (WR) and $ t\mathaccentV {bar}016{t}$ control region (TR).\relax }}{81}{table.caption.39}% 
-\contentsline {table}{\numberline {7.4}{\ignorespaces Definitions of ``inverted'' leptons used in multijet control region\relax }}{91}{table.caption.49}% 
-\contentsline {table}{\numberline {7.5}{\ignorespaces Fit validation result in WCRs for 2015+16 data. The fit is done in various WCRs, in order to obtain the corresponding scale factors for MJ templates: ggF resolved WCR for the $WW\to lvqq$ selection, ggF resolved untagged WCR for the $WZ\to lvqq$ selection, ggF resolved tagged WCR for the $WZ\to lvqq$ selection, VBF resolved WCR for the $WW\to lvqq$ selection,and VBF resolved WCR for the $WZ\to lvqq$ selection. Post-fit event yields for electroweak processes and MJ contributions are shown. The SF column shows the corresponding normalization scale factors for electroweak processes from the fit. R.U. stands for relative uncertainty. \relax }}{102}{table.caption.61}% 
+\contentsline {table}{\numberline {7.1}{\ignorespaces The list of triggers used in the analysis.\relax }}{73}{table.caption.33}% 
+\contentsline {table}{\numberline {7.2}{\ignorespaces Summary of selection criteria used to define the signal region (SR), $W$+jets control region ($W$ CR) and $t\mathaccentV {bar}016{t}$ control region ($t\mathaccentV {bar}016{t}$ CR) for merged 1-lepton channel.\relax }}{81}{table.caption.38}% 
+\contentsline {table}{\numberline {7.3}{\ignorespaces The list of selection cuts in the resolved analysis for the $WW$ and $WZ$ signal regions (SR), $W$+jets control region (WR) and $ t\mathaccentV {bar}016{t}$ control region (TR).\relax }}{82}{table.caption.39}% 
+\contentsline {table}{\numberline {7.4}{\ignorespaces Definitions of ``inverted'' leptons used in multijet control region\relax }}{92}{table.caption.49}% 
+\contentsline {table}{\numberline {7.5}{\ignorespaces Fit validation result in WCRs for 2015+16 data. The fit is done in various WCRs, in order to obtain the corresponding scale factors for MJ templates: ggF resolved WCR for the $WW\to lvqq$ selection, ggF resolved untagged WCR for the $WZ\to lvqq$ selection, ggF resolved tagged WCR for the $WZ\to lvqq$ selection, VBF resolved WCR for the $WW\to lvqq$ selection,and VBF resolved WCR for the $WZ\to lvqq$ selection. Post-fit event yields for electroweak processes and MJ contributions are shown. The SF column shows the corresponding normalization scale factors for electroweak processes from the fit. R.U. stands for relative uncertainty. \relax }}{103}{table.caption.61}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {10.1}{\ignorespaces Expected and Measured for DY $WW$ $W$+jets, $t\mathaccentV {bar}016{t}$ control regions and signal regions.\relax }}{129}{table.caption.80}% 
-\contentsline {table}{\numberline {10.2}{\ignorespaces Expected and Measured for DY $WZ$ $W$+jets, $t\mathaccentV {bar}016{t}$ tag and untag control regions.\relax }}{130}{table.caption.81}% 
-\contentsline {table}{\numberline {10.3}{\ignorespaces Expected and Measured for DY $WZ$ $W$+jets, $t\mathaccentV {bar}016{t}$ tag and untag signal regions.\relax }}{131}{table.caption.82}% 
-\contentsline {table}{\numberline {10.4}{\ignorespaces Expected and Measured for VBF $WW$ $W$+jets, $t\mathaccentV {bar}016{t}$ control regions and signal regions.\relax }}{132}{table.caption.83}% 
-\contentsline {table}{\numberline {10.5}{\ignorespaces Expected and Measured for VBF $WZ$ $W$+jets, $t\mathaccentV {bar}016{t}$ control regions and signal regions.\relax }}{133}{table.caption.84}% 
-\contentsline {table}{\numberline {10.6}{\ignorespaces Fitted background normalizations for $t\mathaccentV {bar}016{t}$ and $W$+jets backgrounds for the DY $WW$ analysis region.\relax }}{134}{table.caption.85}% 
-\contentsline {table}{\numberline {10.7}{\ignorespaces Fitted background normalizations for $t\mathaccentV {bar}016{t}$ and $W$+jets backgrounds for the DY $WZ$ analysis region.\relax }}{134}{table.caption.86}% 
-\contentsline {table}{\numberline {10.8}{\ignorespaces Fitted background normalizations for $t\mathaccentV {bar}016{t}$ and $W$+jets backgrounds for the VBF $WW$ analysis region.\relax }}{134}{table.caption.87}% 
-\contentsline {table}{\numberline {10.9}{\ignorespaces Fitted background normalizations for $t\mathaccentV {bar}016{t}$ and $W$+jets backgrounds for the VBF $WZ$ analysis region.\relax }}{135}{table.caption.88}% 
+\contentsline {table}{\numberline {10.1}{\ignorespaces Expected and Measured for DY $WW$ $W$+jets, $t\mathaccentV {bar}016{t}$ control regions and signal regions.\relax }}{130}{table.caption.80}% 
+\contentsline {table}{\numberline {10.2}{\ignorespaces Expected and Measured for DY $WZ$ $W$+jets, $t\mathaccentV {bar}016{t}$ tag and untag control regions.\relax }}{131}{table.caption.81}% 
+\contentsline {table}{\numberline {10.3}{\ignorespaces Expected and Measured for DY $WZ$ $W$+jets, $t\mathaccentV {bar}016{t}$ tag and untag signal regions.\relax }}{132}{table.caption.82}% 
+\contentsline {table}{\numberline {10.4}{\ignorespaces Expected and Measured for VBF $WW$ $W$+jets, $t\mathaccentV {bar}016{t}$ control regions and signal regions.\relax }}{133}{table.caption.83}% 
+\contentsline {table}{\numberline {10.5}{\ignorespaces Expected and Measured for VBF $WZ$ $W$+jets, $t\mathaccentV {bar}016{t}$ control regions and signal regions.\relax }}{134}{table.caption.84}% 
+\contentsline {table}{\numberline {10.6}{\ignorespaces Fitted background normalizations for $t\mathaccentV {bar}016{t}$ and $W$+jets backgrounds for the DY $WW$ analysis region.\relax }}{135}{table.caption.85}% 
+\contentsline {table}{\numberline {10.7}{\ignorespaces Fitted background normalizations for $t\mathaccentV {bar}016{t}$ and $W$+jets backgrounds for the DY $WZ$ analysis region.\relax }}{135}{table.caption.86}% 
+\contentsline {table}{\numberline {10.8}{\ignorespaces Fitted background normalizations for $t\mathaccentV {bar}016{t}$ and $W$+jets backgrounds for the VBF $WW$ analysis region.\relax }}{135}{table.caption.87}% 
+\contentsline {table}{\numberline {10.9}{\ignorespaces Fitted background normalizations for $t\mathaccentV {bar}016{t}$ and $W$+jets backgrounds for the VBF $WZ$ analysis region.\relax }}{136}{table.caption.88}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

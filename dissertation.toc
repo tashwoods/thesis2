@@ -1,8 +1,8 @@
-\contentsline {chapter}{List of Figures}{vi}{chapter*.2}% 
-\contentsline {chapter}{List of Tables}{xv}{chapter*.3}% 
-\contentsline {chapter}{Abstract}{xvii}{chapter*.3}% 
-\contentsline {chapter}{Dedication}{xviii}{chapter*.3}% 
-\contentsline {chapter}{Acknowledgments}{xix}{chapter*.3}% 
+\contentsline {chapter}{List of Figures}{iv}{chapter*.2}% 
+\contentsline {chapter}{List of Tables}{v}{chapter*.3}% 
+\contentsline {chapter}{Abstract}{vi}{chapter*.3}% 
+\contentsline {chapter}{Dedication}{vii}{chapter*.3}% 
+\contentsline {chapter}{Acknowledgments}{viii}{chapter*.3}% 
 \contentsline {part}{I\hspace {1em}Theoretical Motivation}{2}{part.1}% 
 \contentsline {chapter}{\numberline {1}The Standard Model of Particle Physics}{3}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}% 
@@ -28,50 +28,50 @@
 \contentsline {subsection}{\numberline {5.2.2}Semiconductor Tracker}{43}{subsection.5.2.2}% 
 \contentsline {subsection}{\numberline {5.2.3}Transition Radiation Tracker}{43}{subsection.5.2.3}% 
 \contentsline {section}{\numberline {5.3}Calorimeters}{45}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Muon Spectrometer}{48}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Magnet System}{52}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}Trigger System}{53}{section.5.6}% 
-\contentsline {part}{III\hspace {1em}Method}{55}{part.3}% 
-\contentsline {chapter}{\numberline {6}Dataset and Simulated Samples}{56}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Dataset}{56}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Simulated Samples}{59}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Object Selection}{59}{section.6.3}% 
-\contentsline {subsection}{\numberline {6.3.1}Electrons}{59}{subsection.6.3.1}% 
-\contentsline {subsection}{\numberline {6.3.2}Muons}{60}{subsection.6.3.2}% 
-\contentsline {subsection}{\numberline {6.3.3}small-R jets}{62}{subsection.6.3.3}% 
-\contentsline {subsection}{\numberline {6.3.4}large-R jets}{65}{subsection.6.3.4}% 
-\contentsline {subsection}{\numberline {6.3.5}Variable Radius jets}{68}{subsection.6.3.5}% 
-\contentsline {subsection}{\numberline {6.3.6}MET/neutrinos}{68}{subsection.6.3.6}% 
-\contentsline {subsection}{\numberline {6.3.7}Jet Flavor Tagging}{68}{subsection.6.3.7}% 
-\contentsline {subsection}{\numberline {6.3.8}Overlap Removal}{69}{subsection.6.3.8}% 
-\contentsline {chapter}{\numberline {7}Event Selection and Categorization}{71}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Pre-selection}{71}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Trigger}{71}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}GGF/VBF RNN}{73}{section.7.3}% 
-\contentsline {section}{\numberline {7.4}Topological Cuts}{78}{section.7.4}% 
-\contentsline {section}{\numberline {7.5}Selection Acceptance times efficiency for Signal Events}{88}{section.7.5}% 
-\contentsline {section}{\numberline {7.6}Background Estimate}{89}{section.7.6}% 
-\contentsline {subsection}{\numberline {7.6.1}Control Regions}{89}{subsection.7.6.1}% 
-\contentsline {subsection}{\numberline {7.6.2}Fake Lepton Backgrounds}{89}{subsection.7.6.2}% 
-\contentsline {chapter}{\numberline {8}Systematic Uncertainties}{103}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Experimental Systematics}{103}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Theory Systematics}{105}{section.8.2}% 
-\contentsline {chapter}{\numberline {9}Statistical Analysis}{113}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Likelihood Function Definition}{113}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}Fit Configuration}{114}{section.9.2}% 
-\contentsline {section}{\numberline {9.3}Best Fit $\mu $}{116}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Discovery Test}{117}{section.9.4}% 
-\contentsline {section}{\numberline {9.5}Exclusion Limits}{118}{section.9.5}% 
-\contentsline {part}{IV\hspace {1em}Results}{120}{part.4}% 
-\contentsline {chapter}{\numberline {10}Statistical Interpretation}{121}{chapter.10}% 
-\contentsline {section}{\numberline {10.1}Discovery Tests}{121}{section.10.1}% 
-\contentsline {section}{\numberline {10.2}Systematic Profiling and Correlations}{127}{section.10.2}% 
-\contentsline {section}{\numberline {10.3}Expected and Measured Yields}{128}{section.10.3}% 
-\contentsline {section}{\numberline {10.4}Limits}{142}{section.10.4}% 
-\contentsline {part}{V\hspace {1em}Quark and Gluon Tagging}{144}{part.5}% 
-\contentsline {chapter}{\numberline {11}Prospects}{145}{chapter.11}% 
-\contentsline {chapter}{\numberline {12}$n_{trk}$ Calibration}{152}{chapter.12}% 
-\contentsline {chapter}{\numberline {13}Application}{158}{chapter.13}% 
-\contentsline {part}{VI\hspace {1em}Conclusion}{163}{part.6}% 
-\contentsline {chapter}{\numberline {14}Conclusions}{164}{chapter.14}% 
-\contentsline {chapter}{Bibliography}{165}{chapter*.114}% 
+\contentsline {section}{\numberline {5.4}Muon Spectrometer}{49}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Magnet System}{53}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}Trigger System}{54}{section.5.6}% 
+\contentsline {part}{III\hspace {1em}Method}{56}{part.3}% 
+\contentsline {chapter}{\numberline {6}Dataset and Simulated Samples}{57}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Dataset}{57}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Simulated Samples}{60}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Object Selection}{60}{section.6.3}% 
+\contentsline {subsection}{\numberline {6.3.1}Electrons}{60}{subsection.6.3.1}% 
+\contentsline {subsection}{\numberline {6.3.2}Muons}{61}{subsection.6.3.2}% 
+\contentsline {subsection}{\numberline {6.3.3}small-R jets}{63}{subsection.6.3.3}% 
+\contentsline {subsection}{\numberline {6.3.4}large-R jets}{66}{subsection.6.3.4}% 
+\contentsline {subsection}{\numberline {6.3.5}Variable Radius jets}{69}{subsection.6.3.5}% 
+\contentsline {subsection}{\numberline {6.3.6}MET/neutrinos}{69}{subsection.6.3.6}% 
+\contentsline {subsection}{\numberline {6.3.7}Jet Flavor Tagging}{69}{subsection.6.3.7}% 
+\contentsline {subsection}{\numberline {6.3.8}Overlap Removal}{70}{subsection.6.3.8}% 
+\contentsline {chapter}{\numberline {7}Event Selection and Categorization}{72}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Pre-selection}{72}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Trigger}{72}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}GGF/VBF RNN}{74}{section.7.3}% 
+\contentsline {section}{\numberline {7.4}Topological Cuts}{79}{section.7.4}% 
+\contentsline {section}{\numberline {7.5}Selection Acceptance times efficiency for Signal Events}{89}{section.7.5}% 
+\contentsline {section}{\numberline {7.6}Background Estimate}{90}{section.7.6}% 
+\contentsline {subsection}{\numberline {7.6.1}Control Regions}{90}{subsection.7.6.1}% 
+\contentsline {subsection}{\numberline {7.6.2}Fake Lepton Backgrounds}{90}{subsection.7.6.2}% 
+\contentsline {chapter}{\numberline {8}Systematic Uncertainties}{104}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Experimental Systematics}{104}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Theory Systematics}{106}{section.8.2}% 
+\contentsline {chapter}{\numberline {9}Statistical Analysis}{114}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Likelihood Function Definition}{114}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Fit Configuration}{115}{section.9.2}% 
+\contentsline {section}{\numberline {9.3}Best Fit $\mu $}{117}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Discovery Test}{118}{section.9.4}% 
+\contentsline {section}{\numberline {9.5}Exclusion Limits}{119}{section.9.5}% 
+\contentsline {part}{IV\hspace {1em}Results}{121}{part.4}% 
+\contentsline {chapter}{\numberline {10}Statistical Interpretation}{122}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}Discovery Tests}{122}{section.10.1}% 
+\contentsline {section}{\numberline {10.2}Systematic Profiling and Correlations}{128}{section.10.2}% 
+\contentsline {section}{\numberline {10.3}Expected and Measured Yields}{129}{section.10.3}% 
+\contentsline {section}{\numberline {10.4}Limits}{143}{section.10.4}% 
+\contentsline {part}{V\hspace {1em}Quark and Gluon Tagging}{145}{part.5}% 
+\contentsline {chapter}{\numberline {11}Prospects}{146}{chapter.11}% 
+\contentsline {chapter}{\numberline {12}$n_{trk}$ Calibration}{153}{chapter.12}% 
+\contentsline {chapter}{\numberline {13}Application}{159}{chapter.13}% 
+\contentsline {part}{VI\hspace {1em}Conclusion}{164}{part.6}% 
+\contentsline {chapter}{\numberline {14}Conclusions}{165}{chapter.14}% 
+\contentsline {chapter}{Bibliography}{166}{chapter*.114}% 

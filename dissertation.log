@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  14 NOV 2019 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  20 NOV 2019 19:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -951,7 +951,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Theory/runningcouplings.png Graphic file (type png)
 <use figures/Theory/runningcouplings.png>
 Package pdftex.def Info: figures/Theory/runningcouplings.png  used on input lin
-e 292.
+e 291.
 (pdftex.def)             Requested size: 415.5525pt x 311.6647pt.
 
 
@@ -966,7 +966,7 @@ Chapter 2.
 <figures/Theory/SM_xs.pdf, id=1086, 819.83891pt x 614.97957pt>
 File: figures/Theory/SM_xs.pdf Graphic file (type pdf)
 <use figures/Theory/SM_xs.pdf>
-Package pdftex.def Info: figures/Theory/SM_xs.pdf  used on input line 325.
+Package pdftex.def Info: figures/Theory/SM_xs.pdf  used on input line 324.
 (pdftex.def)             Requested size: 415.5525pt x 311.72113pt.
 
 
@@ -980,7 +980,7 @@ Chapter 3.
 <figures/Theory/RS_cartoon.pdf, id=1184, 324.55362pt x 216.72685pt>
 File: figures/Theory/RS_cartoon.pdf Graphic file (type pdf)
 <use figures/Theory/RS_cartoon.pdf>
-Package pdftex.def Info: figures/Theory/RS_cartoon.pdf  used on input line 348.
+Package pdftex.def Info: figures/Theory/RS_cartoon.pdf  used on input line 347.
 
 (pdftex.def)             Requested size: 415.5525pt x 277.5086pt.
  [24 <./figures/Theory/RS_cartoon.pdf>] [25] [26] [27]) [28] [29
@@ -1037,7 +1037,7 @@ Chapter 5.
 <figures/Detector/atlas.jpg, id=1476, 3161.8125pt x 2032.59375pt>
 File: figures/Detector/atlas.jpg Graphic file (type jpg)
 <use figures/Detector/atlas.jpg>
-Package pdftex.def Info: figures/Detector/atlas.jpg  used on input line 57.
+Package pdftex.def Info: figures/Detector/atlas.jpg  used on input line 55.
 (pdftex.def)             Requested size: 415.5525pt x 267.13084pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1047,7 +1047,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ]
 File: figures/Detector/atlas.jpg Graphic file (type jpg)
 <use figures/Detector/atlas.jpg>
-Package pdftex.def Info: figures/Detector/atlas.jpg  used on input line 65.
+Package pdftex.def Info: figures/Detector/atlas.jpg  used on input line 63.
 (pdftex.def)             Requested size: 415.5525pt x 267.13084pt.
 
 
@@ -1058,7 +1058,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Detector/particle_detection_atlas.png Graphic file (type png)
 <use figures/Detector/particle_detection_atlas.png>
 Package pdftex.def Info: figures/Detector/particle_detection_atlas.png  used on
- input line 73.
+ input line 71.
 (pdftex.def)             Requested size: 415.5525pt x 356.19742pt.
  [39
 
@@ -1067,18 +1067,18 @@ Package pdftex.def Info: figures/Detector/particle_detection_atlas.png  used on
 File: figures/Detector/tracker_layout.jpg Graphic file (type jpg)
 <use figures/Detector/tracker_layout.jpg>
 Package pdftex.def Info: figures/Detector/tracker_layout.jpg  used on input lin
-e 87.
+e 85.
 (pdftex.def)             Requested size: 415.5525pt x 277.12932pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [40]
-<figures/Detector/tracker_barrel.png, id=1498, 250.34328pt x 218.2554pt>
+<figures/Detector/tracker_barrel.png, id=1499, 250.34328pt x 218.2554pt>
 File: figures/Detector/tracker_barrel.png Graphic file (type png)
 <use figures/Detector/tracker_barrel.png>
 Package pdftex.def Info: figures/Detector/tracker_barrel.png  used on input lin
-e 96.
+e 94.
 (pdftex.def)             Requested size: 415.5525pt x 362.33049pt.
 
 
@@ -1089,19 +1089,19 @@ rrel.png (PNG copy)>] [43
 
 ] [44]
 
-LaTeX Warning: Reference `fig:ecal' on page 45 undefined on input line 116.
+LaTeX Warning: Reference `fig:ecal' on page 45 undefined on input line 114.
 
 [45]
-<figures/Detector/calo_overview.pdf, id=1523, 375.9422pt x 240.81026pt>
+<figures/Detector/calo_overview.pdf, id=1524, 375.9422pt x 240.81026pt>
 File: figures/Detector/calo_overview.pdf Graphic file (type pdf)
 <use figures/Detector/calo_overview.pdf>
 Package pdftex.def Info: figures/Detector/calo_overview.pdf  used on input line
- 122.
+ 120.
 (pdftex.def)             Requested size: 415.5525pt x 266.18182pt.
-<figures/Detector/ecal.pdf, id=1524, 207.8967pt x 188.1429pt>
+<figures/Detector/ecal.pdf, id=1525, 207.8967pt x 188.1429pt>
 File: figures/Detector/ecal.pdf Graphic file (type pdf)
 <use figures/Detector/ecal.pdf>
-Package pdftex.def Info: figures/Detector/ecal.pdf  used on input line 131.
+Package pdftex.def Info: figures/Detector/ecal.pdf  used on input line 129.
 (pdftex.def)             Requested size: 415.5525pt x 376.10399pt.
 
 
@@ -1115,7 +1115,7 @@ df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/Detector/muonsys.pdf, id=1566, 770.88pt x 578.16pt>
 File: figures/Detector/muonsys.pdf Graphic file (type pdf)
 <use figures/Detector/muonsys.pdf>
-Package pdftex.def Info: figures/Detector/muonsys.pdf  used on input line 175.
+Package pdftex.def Info: figures/Detector/muonsys.pdf  used on input line 173.
 (pdftex.def)             Requested size: 415.5525pt x 311.6636pt.
 
 
@@ -1125,7 +1125,7 @@ pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/Detector/muon_mdt.pdf, id=1567, 974.89218pt x 630.10406pt>
 File: figures/Detector/muon_mdt.pdf Graphic file (type pdf)
 <use figures/Detector/muon_mdt.pdf>
-Package pdftex.def Info: figures/Detector/muon_mdt.pdf  used on input line 184.
+Package pdftex.def Info: figures/Detector/muon_mdt.pdf  used on input line 182.
 
 (pdftex.def)             Requested size: 415.5525pt x 268.5839pt.
 
@@ -1135,7 +1135,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/Detector/muon_rpc.pdf, id=1577, 318.67445pt x 199.09512pt>
 File: figures/Detector/muon_rpc.pdf Graphic file (type pdf)
 <use figures/Detector/muon_rpc.pdf>
-Package pdftex.def Info: figures/Detector/muon_rpc.pdf  used on input line 193.
+Package pdftex.def Info: figures/Detector/muon_rpc.pdf  used on input line 191.
 
 (pdftex.def)             Requested size: 415.5525pt x 259.63474pt.
 
@@ -1150,7 +1150,7 @@ pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/Detector/muon_tgc.pdf, id=1623, 592.46344pt x 461.47406pt>
 File: figures/Detector/muon_tgc.pdf Graphic file (type pdf)
 <use figures/Detector/muon_tgc.pdf>
-Package pdftex.def Info: figures/Detector/muon_tgc.pdf  used on input line 203.
+Package pdftex.def Info: figures/Detector/muon_tgc.pdf  used on input line 201.
 
 (pdftex.def)             Requested size: 415.5525pt x 323.68448pt.
 [52
@@ -1160,7 +1160,7 @@ Package pdftex.def Info: figures/Detector/muon_tgc.pdf  used on input line 203.
 File: figures/Detector/atlas_magnets.png Graphic file (type png)
 <use figures/Detector/atlas_magnets.png>
 Package pdftex.def Info: figures/Detector/atlas_magnets.png  used on input line
- 218.
+ 216.
 (pdftex.def)             Requested size: 415.5525pt x 166.38292pt.
 ) [53 <./figures/Detector/atlas_magnets.png>] [54] [55
 
@@ -2621,7 +2621,7 @@ Here is how much of TeX's memory you used:
  13913 multiletter control sequences out of 15000+600000
  105531 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,44p,1454b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,17n,44p,1457b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.en
 c}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
@@ -2676,7 +2676,7 @@ local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (186 pages, 35843119 bytes).
+Output written on dissertation.pdf (186 pages, 35843491 bytes).
 PDF statistics:
  8785 PDF objects out of 8907 (max. 8388607)
  5809 compressed objects within 59 object streams

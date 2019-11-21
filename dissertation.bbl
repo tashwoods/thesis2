@@ -84,4 +84,10 @@ Tania Robens and Tim Stefaniak.
   standard model.
 \newblock {\em The European Physical Journal C}, 76(5), May 2016.
 
+\bibitem{rnn}
+Alex Sherstinsky.
+\newblock Fundamentals of recurrent neural network {(RNN)} and long short-term
+  memory {(LSTM)} network.
+\newblock {\em CoRR}, abs/1808.03314, 2018.
+
 \end{thebibliography}

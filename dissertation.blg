@@ -1,6 +1,9 @@
 This is BibTeX, Version 0.99d (TeX Live 2019)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: dissertation.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: theory.aux
+A level-1 auxiliary file: detector.aux
 The style file: plain.bst
 Database file #1: dissertation.bib
 Warning--to sort, need author or key in colorfactor
@@ -13,45 +16,45 @@ Warning--empty journal in Unfolding
 Warning--empty journal in FakeTracks
 Warning--empty journal in JetFrag
 Warning--empty journal in antikt
-You've used 16 entries,
+You've used 17 entries,
             2118 wiz_defined-function locations,
-            584 strings with 6306 characters,
-and the built_in function-call counts, 4012 in all, are:
-= -- 379
-> -- 178
+            593 strings with 6477 characters,
+and the built_in function-call counts, 4220 in all, are:
+= -- 400
+> -- 185
 < -- 1
-+ -- 73
-- -- 56
-* -- 253
-:= -- 722
-add.period$ -- 45
-call.type$ -- 16
-change.case$ -- 76
++ -- 76
+- -- 58
+* -- 262
+:= -- 762
+add.period$ -- 48
+call.type$ -- 17
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 160
-empty$ -- 309
-format.name$ -- 56
-if$ -- 804
+cite$ -- 27
+duplicate$ -- 170
+empty$ -- 326
+format.name$ -- 58
+if$ -- 846
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 13
-newline$ -- 80
-num.names$ -- 30
-pop$ -- 75
+int.to.str$ -- 17
+missing$ -- 14
+newline$ -- 85
+num.names$ -- 32
+pop$ -- 77
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 63
 quote$ -- 0
-skip$ -- 117
+skip$ -- 125
 stack$ -- 0
-substring$ -- 168
-swap$ -- 14
+substring$ -- 173
+swap$ -- 15
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 64
+type$ -- 68
 warning$ -- 10
-while$ -- 35
-width$ -- 18
-write$ -- 156
+while$ -- 37
+width$ -- 19
+write$ -- 167
 (There were 10 warnings)

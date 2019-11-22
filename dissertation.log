@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  21 NOV 2019 17:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  21 NOV 2019 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1847,11 +1847,13 @@ ss_resolution/sigres_merged_1lephvt.pdf, page is rotated 90 degrees> <./figures
 
 ] (./results.tex
 Chapter 10.
-<figures/results/pvalues/hvtww_pvalue.pdf, id=6125, 569.12625pt x 408.52625pt>
-File: figures/results/pvalues/hvtww_pvalue.pdf Graphic file (type pdf)
-<use figures/results/pvalues/hvtww_pvalue.pdf>
-Package pdftex.def Info: figures/results/pvalues/hvtww_pvalue.pdf  used on inpu
-t line 6.
+<figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf, id=6125, 569.12625pt x
+ 408.52625pt>
+File: figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf Graphic file (type
+ pdf)
+<use figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf>
+Package pdftex.def Info: figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf
+  used on input line 6.
 (pdftex.def)             Requested size: 415.5525pt x 298.30272pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1859,32 +1861,36 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [121
 
 ]
-<figures/results/pvalues/hvtwwvbf_pvalue.pdf, id=6130, 569.12625pt x 408.52625p
-t>
-File: figures/results/pvalues/hvtwwvbf_pvalue.pdf Graphic file (type pdf)
-<use figures/results/pvalues/hvtwwvbf_pvalue.pdf>
-Package pdftex.def Info: figures/results/pvalues/hvtwwvbf_pvalue.pdf  used on i
-nput line 14.
+<figures/results/pvalues/fixed_pvalues/hvtwwvbf_pvalue.pdf, id=6130, 569.12625p
+t x 408.52625pt>
+File: figures/results/pvalues/fixed_pvalues/hvtwwvbf_pvalue.pdf Graphic file (t
+ype pdf)
+<use figures/results/pvalues/fixed_pvalues/hvtwwvbf_pvalue.pdf>
+Package pdftex.def Info: figures/results/pvalues/fixed_pvalues/hvtwwvbf_pvalue.
+pdf  used on input line 14.
 (pdftex.def)             Requested size: 415.5525pt x 298.30272pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[122 <./figures/results/pvalues/hvtww_pvalue.pdf, page is rotated 90 degrees>]
-[123 <./figures/results/pvalues/hvtwwvbf_pvalue.pdf, page is rotated 90 degrees
->]
-<figures/results/pvalues/hvtwz_pvalue.pdf, id=6225, 569.12625pt x 408.52625pt>
-File: figures/results/pvalues/hvtwz_pvalue.pdf Graphic file (type pdf)
-<use figures/results/pvalues/hvtwz_pvalue.pdf>
-Package pdftex.def Info: figures/results/pvalues/hvtwz_pvalue.pdf  used on inpu
-t line 23.
+[122 <./figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf, page is rotated
+ 90 degrees>] [123 <./figures/results/pvalues/fixed_pvalues/hvtwwvbf_pvalue.pdf
+, page is rotated 90 degrees>]
+<figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf, id=6225, 569.12625pt x
+ 408.52625pt>
+File: figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf Graphic file (type
+ pdf)
+<use figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf>
+Package pdftex.def Info: figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf
+  used on input line 23.
 (pdftex.def)             Requested size: 415.5525pt x 298.30272pt.
-<figures/results/pvalues/hvtwzvbf_pvalue.pdf, id=6226, 569.12625pt x 408.52625p
-t>
-File: figures/results/pvalues/hvtwzvbf_pvalue.pdf Graphic file (type pdf)
-<use figures/results/pvalues/hvtwzvbf_pvalue.pdf>
-Package pdftex.def Info: figures/results/pvalues/hvtwzvbf_pvalue.pdf  used on i
-nput line 31.
+<figures/results/pvalues/fixed_pvalues/hvtwzvbf_pvalue.pdf, id=6226, 569.12625p
+t x 408.52625pt>
+File: figures/results/pvalues/fixed_pvalues/hvtwzvbf_pvalue.pdf Graphic file (t
+ype pdf)
+<use figures/results/pvalues/fixed_pvalues/hvtwzvbf_pvalue.pdf>
+Package pdftex.def Info: figures/results/pvalues/fixed_pvalues/hvtwzvbf_pvalue.
+pdf  used on input line 31.
 (pdftex.def)             Requested size: 415.5525pt x 298.30272pt.
 
 
@@ -1892,19 +1898,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [124
 
- <./figures/results/pvalues/hvtwz_pvalue.pdf, page is rotated 90 degrees>]
-<figures/results/pvalues/rsg_pvalue.pdf, id=6275, 569.12625pt x 408.52625pt>
-File: figures/results/pvalues/rsg_pvalue.pdf Graphic file (type pdf)
-<use figures/results/pvalues/rsg_pvalue.pdf>
-Package pdftex.def Info: figures/results/pvalues/rsg_pvalue.pdf  used on input 
-line 40.
+ <./figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf, page is rotated 90 
+degrees>]
+<figures/results/pvalues/fixed_pvalues/rsg_pvalue.pdf, id=6275, 569.12625pt x 4
+08.52625pt>
+File: figures/results/pvalues/fixed_pvalues/rsg_pvalue.pdf Graphic file (type p
+df)
+<use figures/results/pvalues/fixed_pvalues/rsg_pvalue.pdf>
+Package pdftex.def Info: figures/results/pvalues/fixed_pvalues/rsg_pvalue.pdf  
+used on input line 40.
 (pdftex.def)             Requested size: 415.5525pt x 298.30272pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[125 <./figures/results/pvalues/hvtwzvbf_pvalue.pdf, page is rotated 90 degrees
->] [126 <./figures/results/pvalues/rsg_pvalue.pdf, page is rotated 90 degrees>]
+[125 <./figures/results/pvalues/fixed_pvalues/hvtwzvbf_pvalue.pdf, page is rota
+ted 90 degrees>] [126 <./figures/results/pvalues/fixed_pvalues/rsg_pvalue.pdf, 
+page is rotated 90 degrees>]
 
 LaTeX Warning: Reference `fig:hvtww_cor' on page 127 undefined on input line 48
 .
@@ -2613,7 +2623,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
 ### bottom level 
 Here is how much of TeX's memory you used:
  10886 strings out of 492616
- 184884 string characters out of 6129482
+ 185178 string characters out of 6129482
  329903 words of memory out of 5000000
  13919 multiletter control sequences out of 15000+600000
  105531 words of font info for 120 fonts, out of 8000000 for 9000
@@ -2673,7 +2683,7 @@ local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (185 pages, 35888345 bytes).
+Output written on dissertation.pdf (185 pages, 35889626 bytes).
 PDF statistics:
  8815 PDF objects out of 8907 (max. 8388607)
  5839 compressed objects within 59 object streams

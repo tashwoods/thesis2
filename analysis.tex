@@ -49,14 +49,12 @@ Muons are calibrated using well-studied resonances $J/ \Psi \rightarrow \mu \mu$
 \end{figure} 
 \FloatBarrier
 
-\subsection{small-R jets}
-Small-R jets are used to reconstruct the hadronically decaying $W/Z$ candidates in the resolved analysis and VBF jets. These jets are less boosted and therefore spatially separated and reconstructed separately. These jets are constructed from topologically connected clusters of calorimeter cells (topoclusters), seeded from calorimeter cells with energy deposits significantly above the noise threshold.  These cells are then used as inputs to the $anti-k_{t}$ algorithm \cite{antikt} with a distance = 0.4, here called small-R jets. These jets are calibrated to compensate and account for biases from jet reconstruction. 
+\subsection{Jets}
+Three types of jets are used in this analysis: variable radius, small-R and large-R jets. Variable radius jets are used to reconstruct $Z$ bosons decaying to two $b$-jets in the jet catchment area of large-R jet in the Merged regime. Small-R jets are used to to reconstruct the hadronically decaying $W/Z$ candidates in the resolved analysis and the forward jets from resonances produced through vector boson fusion. Large-R jets are used to reconstruct the hadronically decaying boson in the merged regime.
 
-The jet energy is calibrated sequentially as shown in Figure \ref{fig:jetcalib}. After the jet direction is corrected to point to the PV, the energy of the jet is corrected. First, the jet energy is corrected to account for pileup contributions based on the $p_{T}$ and area of the jet (these corrections are extracted from a $pp \rightarrow jj$ sample). Following this, another pileup correction is applied that scales with $\mu$ and $N_{PV}$. 
+For all of these jet collections, the jet energy is calibrated sequentially as shown in Figure \ref{fig:jetcalib}. After the jet direction is corrected to point to the PV, the energy of the jet is corrected. First, the jet energy is corrected to account for pileup contributions based on the $p_{T}$ and area of the jet (these corrections are extracted from a $pp \rightarrow jj$ sample). Following this, another pileup correction is applied that scales with $\mu$ and $N_{PV}$. 
 
-MC-based corrections are then applied that are meant to transform the jet energy and $\eta$ back to truth level. Therefore, these corrections account for the non-compensating nature of the ATLAS calorimeters and inhomogeneity of the detector. Following this, the Global Sequential Calibration is applied that reduces flavor dependence of jet calibrations and accounts for energy leakage of jets outside the calorimeters. Finally, in-situ corrections are applied that account for differences in jet responses between data and simulation ($\gamma /Z+$jet and multijet samples are used). These differences can be due to mismodelling of the hard scatter event, pile-up, jet formation, etc. 
-
-Jets used in this analysis must have $p_{T} > 30$ GeV and $|\eta| < 2.5$. To further reduce fake jets the jet-vertex-tagger (JVT) is used to reject pile-up jets [cite 43 P]. The JVT  uses two track-based variables, corrJVF and $R_{p_{T}}$ to calculate the likelihood that the jet originated from the PV. The corrJVF compares the scalar sum of the $p_{T}$ of tracks associated with the jet and PV to the scalar sum of the $p_{T}$ of tracks associated with the jet. This variable also includes a correction that reduces the dependency of corrJVF with the number of reconstructed vertices in the event. The other discriminant, $R_{p_{T}}$, is given by the ratio of the scalar sum of the $p_{T}$ of tracks associated with the jet and PV to the $p_{T}$ of the jet. Both of these variables peak around zero for pileup jets, as these jets are unlikely to have tracks associated with the PV. JVT cuts are applied to all jets with $p_{T} > 120$ GeV. Central jets ($|\eta| < 2.4$) are required to have a JVT > 0.59 and forward jets ($2.4<|\eta| < 2.5$) are required to have JVT > 0.11. 
+MC-based corrections are then applied that are meant to transform the jet energy and $\eta$ back to truth level. Therefore, these corrections account for the non-compensating nature of the ATLAS calorimeters and inhomogeneity of the detector. Following this, the Global Sequential Calibration is applied that reduces flavor dependence of jet calibrations and accounts for energy leakage of jets outside the calorimeters. Finally, in-situ corrections are applied that account for differences in jet responses between data and simulation ($\gamma /Z+$jet and fake lepton samples are used). These differences can be due to mismodelling of the hard scatter event, pile-up, jet formation, etc. 
 
 To further reject fake jets, jets must pass quality requirements based on the following variables ([cite P42]):
 
@@ -91,15 +89,17 @@ Jets selected for the resolved analysis must pass one of the following criteria:
 \end{figure} 
 \FloatBarrier
 
+\subsection{Small-R jets}
+Small-R jets are used to reconstruct the hadronically decaying $W/Z$ candidate when the two resulting jets are well-separated in $\eta$-$\phi$ space. Small-R jets are also used to identify forward jets from resonances produced through vector boson fusion. Small-R jets are constructed from topologically connected clusters of calorimeter cells (topoclusters), seeded from calorimeter cells with energy deposits significantly above the noise threshold.  These cells are then used as inputs to the $anti-k_{t}$ algorithm \cite{antikt} with a radius parameter, R = 0.4. 
 
+Jets used in this analysis must have $p_{T} > 30$ GeV and $|\eta| < 2.5$. To further reduce fake jets the jet-vertex-tagger (JVT) is used to reject pile-up jets \cite{jvt}. The JVT uses two track-based variables, corrJVF and $R_{p_{T}}$ to calculate the likelihood that the jet originated from the PV. The corrJVF compares the scalar sum of the $p_{T}$ of tracks associated with the jet and PV to the scalar sum of the $p_{T}$ of tracks associated with the jet. This variable also includes a correction that reduces the dependency of corrJVF with the number of reconstructed vertices in the event. The other discriminant, $R_{p_{T}}$, is given by the ratio of the scalar sum of the $p_{T}$ of tracks associated with the jet and PV to the $p_{T}$ of the jet. Both of these variables peak around zero for pileup jets, as these jets are unlikely to have tracks associated with the PV. JVT cuts are applied to all jets with $p_{T} > 120$ GeV. Central jets ($|\eta| < 2.4$) are required to have a JVT > 0.59 and forward jets ($2.4<|\eta| < 2.5$) are required to have JVT > 0.11. 
 
-
-\subsection{large-R jets}
-Large-R ($\Delta R = 1.0$) jets are used to reconstruct the high-$p_{T}$ $W/Z \rightarrow qq$ candidates in the merged analysis. Track-Calo Clusters (TCCs) are used to reconstruct these jets [cite ANA 50]. These jets are constructed via a pseudo particle flow method using ID tracks matched to calorimeter clusters. The angular resolution of the calorimeter degrades sharply with jet $p_{T}$, but the jet energy resolution improves. The tracker has excellent angular resolution which improves with $p_{T}$. Therefore, by matching tracks to jets, TCCs have more precise energy and angular resolution than jets constructed from calorimeter information only. These jets are required to have $p_{T}>200$ GeV, $|\eta| < 2.0$ and $m_{J} > 50$ GeV. 
+\subsection{Large-R jets}
+Large-R ($R = 1.0$) jets are used to reconstruct the hadronically decaying $W/Z$ candidate when the resulting jets are not well-separated in $\eta$-$\phi$ space, and overlap forming one large-R jet. Track-Calo Clusters (TCCs) are used to reconstruct these jets [cite ANA 50]. These jets are constructed using a pseudo particle flow method using ID tracks matched to calorimeter clusters. The angular resolution of the calorimeter degrades sharply with jet $p_{T}$, but the jet energy resolution improves. The tracker has excellent angular resolution which improves with $p_{T}$. Therefore, by matching tracks to jets, TCCs have more precise energy and angular resolution than jets constructed from calorimeter information only. These jets are required to have $p_{T}>200$ GeV, $|\eta| < 2.0$ and $m_{J} > 50$ GeV. 
 
 TCC jets are trimmed as detailed in [cite ANA 45], which suppresses pileup and soft radiation in the jet, the jet mass is calculated as the four-vector sum of the jet's constituents (assuming massless constituents). The jet mass peaks around the $W/Z$ boson mass for $W/Z \rightarrow qq$ jets, and more broadly for quark and gluon induced jets. 
 
-These jets are then tagged as $W/Z$ jets if they pass the jet mass and $D_{2}$ cuts. The jet substructure variable $D_{2}$ is given by the ratio of energy correlation functions based on energies and pair-wise angles of a jet's constituents [cite ANA 46, 47]:
+These jets are then tagged as $W$ jet if it passes optimized jet mass and $D_{2}$ cuts for $W$ bosons, and a $Z$ jet if it passes the optimized cuts for the $Z$ boson. The jet substructure variable $D_{2}$ is given by the ratio of energy correlation functions. These fuctions are derived from the energies and pair-wise angles of a jet's constituents [cite ANA 46, 47]:
 
 \begin{equation}
 D_{2}^{\beta=1} = E_{CF3}\left(\frac{E_{CF1}}{E_{CF2}}\right)^{3}
@@ -116,7 +116,7 @@ E_{CF2}=\sum_{ij}p_{T,i}p_{T,j}\Delta R_{ij}
 E_{CF3}=\sum_{ijk}p_{T,i}p_{T,j}p_{T,k}\Delta R_{ij}\Delta R_{jk}\Delta R_{ki}
 \end{equation}
 
-A two-dimensional optimization of the jet mass and $D_{2}$ thresholds was performed to provide maximum sensitivity for this analysis. Figure \ref{fig:wztag_eff} shows the optimized thresholds on $D_{2}$ and jet mass as a function of $p_{T}$. Figure \ref{fig:boson_tagger_optimization} shows the efficiency of the optimized $W/Z$ taggers as a function of jet $p_{T}$. 
+A two-dimensional optimization of the jet mass and $D_{2}$ thresholds was performed to provide maximum sensitivity for this analysis. This optimization was done by maximizing the signal sensitivity (using  HVT $W'$ and $G_{KK}$ samples) against the single quark and gluon jet backgrounds in bins of jet $p_{T}$.  Figure \ref{fig:wztag_eff} shows the optimized thresholds on $D_{2}$ and jet mass as a function of $p_{T}$. Figure \ref{fig:boson_tagger_optimization} shows the efficiency of the optimized $W/Z$ taggers as a function of jet $p_{T}$. 
 
 
 \begin{figure}[h]
@@ -153,9 +153,10 @@ A two-dimensional optimization of the jet mass and $D_{2}$ thresholds was perfor
 
 
 \subsection{Variable Radius jets}
-Variable-radius (VR) track jets are used to identify b-quark induced jets within the catchment area of large-R jets [cite ANA 52]. These jets use a $p_{T}$ dependent cone size defined as: 
+Variable Radius (VR) track jets are used to identify $b$-jets within the catchment area of large-R jets [cite ANA 52] from a hadronically decaying $Z$ boson. Variable Radius jets are constructed from ID tracks using the anti-$k_{t}$ algorithm with a radius parameter that depends on the $p_{T}$ of the track, shown in Equation \ref{vreq}.
 \begin{equation}
 R_{eff}(p_{T, i}) = \frac{\rho}{p_{T,i}}
+\label{vreq}
 \end{equation}
 for building jets from ID tracks with an anti-$k_{t}$ algorithm. For this analysis $\rho=30$ GeV and an upper and lower limit on cone size are set to 0.02 and 0.4, respectively. Collinear VR jets are possible, so track jets that are not separated by the the smaller jet's cone size are not used. These jets are also required to have $p_{T} > $ 10 GeV and $|\eta| < 2.5$. 
 

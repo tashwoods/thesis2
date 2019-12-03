@@ -6,55 +6,63 @@ A level-1 auxiliary file: theory.aux
 A level-1 auxiliary file: detector.aux
 The style file: plain.bst
 Database file #1: dissertation.bib
+I was expecting a `,' or a `}'---line 63 of file dissertation.bib
+ :  
+ :  publisher="ATLAS-CONF- 2014-018"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in colorfactor
 Warning--empty author in colorfactor
-Warning--empty note in colorfactor
+Warning--empty journal in colorfactor
+Warning--empty year in colorfactor
 Warning--empty note in muon_calib
 Warning--empty note in SM_XS_Comparison
+Warning--empty journal in jvt
+Warning--empty year in jvt
 Warning--empty journal in jetcalib
 Warning--empty journal in Unfolding
 Warning--empty journal in FakeTracks
 Warning--empty journal in JetFrag
 Warning--empty journal in antikt
-You've used 17 entries,
+You've used 18 entries,
             2118 wiz_defined-function locations,
-            593 strings with 6477 characters,
-and the built_in function-call counts, 4220 in all, are:
-= -- 400
-> -- 185
+            595 strings with 6542 characters,
+and the built_in function-call counts, 4452 in all, are:
+= -- 418
+> -- 192
 < -- 1
-+ -- 76
-- -- 58
-* -- 262
-:= -- 762
-add.period$ -- 48
-call.type$ -- 17
-change.case$ -- 80
++ -- 79
+- -- 60
+* -- 276
+:= -- 800
+add.period$ -- 50
+call.type$ -- 18
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 170
-empty$ -- 326
-format.name$ -- 58
-if$ -- 846
+cite$ -- 31
+duplicate$ -- 184
+empty$ -- 349
+format.name$ -- 60
+if$ -- 892
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 14
-newline$ -- 85
-num.names$ -- 32
-pop$ -- 77
+int.to.str$ -- 18
+missing$ -- 16
+newline$ -- 89
+num.names$ -- 34
+pop$ -- 89
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 66
 quote$ -- 0
-skip$ -- 125
+skip$ -- 133
 stack$ -- 0
-substring$ -- 173
+substring$ -- 178
 swap$ -- 15
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
-warning$ -- 10
-while$ -- 37
-width$ -- 19
-write$ -- 167
-(There were 10 warnings)
+type$ -- 72
+warning$ -- 13
+while$ -- 39
+width$ -- 20
+write$ -- 174
+(There was 1 error message)

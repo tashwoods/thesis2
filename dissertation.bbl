@@ -59,6 +59,11 @@ Stefan Höche, Frank Krauss, Marek Schönherr, and Frank Siegert.
 \newblock Qcd matrix elements + parton showers. the nlo case.
 \newblock {\em Journal of High Energy Physics}, 2013(4), Apr 2013.
 
+\bibitem{vrjets}
+David Krohn, Jesse Thaler, and Lian-Tao Wang.
+\newblock Jets with variable r.
+\newblock {\em Journal of High Energy Physics}, 2009(06):059–059, Jun 2009.
+
 \bibitem{antikt}
 Gregory~Soyez Matteo~Cacciari, Gavin P.~Salam.
 \newblock The anti-$k_{T}$ jet clustering algorithm.

@@ -6,9 +6,9 @@ A level-1 auxiliary file: theory.aux
 A level-1 auxiliary file: detector.aux
 The style file: plain.bst
 Database file #1: dissertation.bib
-I was expecting a `,' or a `}'---line 63 of file dissertation.bib
+I was expecting a `,' or a `}'---line 79 of file dissertation.bib
  :  
- :  publisher="ATLAS-CONF- 2014-018"
+ :  journal="ATLAS-CONF- 2014-018"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in colorfactor
@@ -24,45 +24,45 @@ Warning--empty journal in Unfolding
 Warning--empty journal in FakeTracks
 Warning--empty journal in JetFrag
 Warning--empty journal in antikt
-You've used 18 entries,
+You've used 19 entries,
             2118 wiz_defined-function locations,
-            595 strings with 6542 characters,
-and the built_in function-call counts, 4452 in all, are:
-= -- 418
-> -- 192
+            602 strings with 6635 characters,
+and the built_in function-call counts, 4823 in all, are:
+= -- 453
+> -- 210
 < -- 1
-+ -- 79
-- -- 60
-* -- 276
-:= -- 800
-add.period$ -- 50
-call.type$ -- 18
-change.case$ -- 84
++ -- 86
+- -- 66
+* -- 310
+:= -- 862
+add.period$ -- 53
+call.type$ -- 19
+change.case$ -- 90
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 184
-empty$ -- 349
-format.name$ -- 60
-if$ -- 892
+cite$ -- 32
+duplicate$ -- 195
+empty$ -- 378
+format.name$ -- 66
+if$ -- 967
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 16
-newline$ -- 89
-num.names$ -- 34
-pop$ -- 89
+int.to.str$ -- 19
+missing$ -- 17
+newline$ -- 94
+num.names$ -- 36
+pop$ -- 93
 preamble$ -- 1
-purify$ -- 66
+purify$ -- 71
 quote$ -- 0
-skip$ -- 133
+skip$ -- 140
 stack$ -- 0
-substring$ -- 178
-swap$ -- 15
+substring$ -- 210
+swap$ -- 16
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
+type$ -- 76
 warning$ -- 13
-while$ -- 39
-width$ -- 20
-write$ -- 174
+while$ -- 42
+width$ -- 21
+write$ -- 185
 (There was 1 error message)

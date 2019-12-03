@@ -138,8 +138,6 @@ A two-dimensional optimization of the jet mass and $D_{2}$ thresholds was perfor
 \end{figure}
 \FloatBarrier
 
-
-
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.48\hsize]{figures/Analysis/sigeffW.pdf}
@@ -149,24 +147,19 @@ A two-dimensional optimization of the jet mass and $D_{2}$ thresholds was perfor
 \end{figure} 
 \FloatBarrier
 
-
-
-
 \subsection{Variable Radius jets}
-Variable Radius (VR) track jets are used to identify $b$-jets within the catchment area of large-R jets [cite ANA 52] from a hadronically decaying $Z$ boson. Variable Radius jets are constructed from ID tracks using the anti-$k_{t}$ algorithm with a radius parameter that depends on the $p_{T}$ of the track, shown in Equation \ref{vreq}.
+To more accurately identify boosted $Z$ bosons decaying to $b\bar{b}$, variable radius (VR) track jets are used to identify $b$-jets within the catchment area of large-R jets \cite{vrjets}. VR jets are constructed from ID tracks using the anti-$k_{t}$ algorithm with a radius parameter that depends on the $p_{T}$ of the track, shown in Equation \ref{vreq}.
 \begin{equation}
 R_{eff}(p_{T, i}) = \frac{\rho}{p_{T,i}}
 \label{vreq}
 \end{equation}
-for building jets from ID tracks with an anti-$k_{t}$ algorithm. For this analysis $\rho=30$ GeV and an upper and lower limit on cone size are set to 0.02 and 0.4, respectively. Collinear VR jets are possible, so track jets that are not separated by the the smaller jet's cone size are not used. These jets are also required to have $p_{T} > $ 10 GeV and $|\eta| < 2.5$. 
+For this search $\rho=30$ GeV and an upper and lower limit on cone size are set to 0.02 and 0.4, respectively, to prevent unphysical asymptotic behavior of $\rho$. Collinear VR jets are possible, so track jets that are not separated by the the smaller jet's cone size are not used. Additionally, VR jets are required to have $p_{T} > $ 10 GeV and $|\eta| < 2.5$. 
 
+\subsection{Jet Flavor Tagging}
+To further classify events, the small-R jets originating from a b-quark are classified using a multivariate $b$-tagging algorithm (BDT), MV2c10 [cite G 210 199]. This algorithm uses the impact parameters of the jet's ID tracks, secondary vertices (if they exist), and reconstructed flight paths of $b$ and $c$ hadrons in the jet to determine if the jet was induced by a $b$-quark. For this analysis the 85\% efficient working point of this algorithm is used giving $c$, $\tau$, and light-flavor jet rejection of 3, 8, and 34 respectively in simulated $t\bar{t}$ samples.
 
 \subsection{MET/neutrinos}
 As neutrinos are uncharged and colorless they do not leave tracks or jets in the detector. For this reason, neutrinos are reconstructed calculated the $E_{T}^{miss}$, the negative vector sum of $p_{T}$ all the physics objects and an extra "soft" term. The "soft" term accounts for energy deposits not associated with any of the objects in the event. For this analysis the soft term is given by the sum $p_{T}$ of all ID tracks not associated with objects in the event. The selected tracks must be matched to the primary vertex, which decreases pile-up contamination [cite G 217 218]. The tight working point is used [Natasha look up what this means].  
-
-\subsection{Jet Flavor Tagging}
-To further classify events, the small radius jets originating from a b-quark are classified using a multivariate $b$-tagging algorithm (BDT), MV2c10 [cite G 210 199]. This algorithm uses the impact parameters of the jet's ID tracks, secondary vertices (if they exist), and reconstructed flight paths of $b$ and $c$ hadrons in the jet to determine if the jet was induced by a $b$-quark. For this analysis the 85\% efficient working point of this algorithm is used giving $c$, $\tau$, and light-flavor jet rejection of 3, 8, and 34 respectively in a simulated $t\bar{t}$.
-
 
 \subsection{Overlap Removal}
 Reconstructed jets and leptons in this analysis can arise from the same energy deposits. For instance, a cluster of energy from an electron can also be a valid calorimeter seed for a jet. To mitigate this confusion of multiple objects originating from a single jet or lepton overlapping objects are removed via a procedure referred to a overlap removal. In this procedure the separation of the two objects, $\Delta (R) = \sqrt{(\Delta \eta)^{2}+(\Delta \phi)^{2}}$ determines which object is removed from the event. 

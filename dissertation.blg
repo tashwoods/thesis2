@@ -6,7 +6,7 @@ A level-1 auxiliary file: theory.aux
 A level-1 auxiliary file: detector.aux
 The style file: plain.bst
 Database file #1: dissertation.bib
-I was expecting a `,' or a `}'---line 79 of file dissertation.bib
+I was expecting a `,' or a `}'---line 105 of file dissertation.bib
  :  
  :  journal="ATLAS-CONF- 2014-018"
 (Error may have been on previous line)
@@ -24,45 +24,46 @@ Warning--empty journal in Unfolding
 Warning--empty journal in FakeTracks
 Warning--empty journal in JetFrag
 Warning--empty journal in antikt
-You've used 19 entries,
+Warning--empty journal in lstmstruct
+You've used 23 entries,
             2118 wiz_defined-function locations,
-            602 strings with 6635 characters,
-and the built_in function-call counts, 4823 in all, are:
-= -- 453
-> -- 210
+            616 strings with 7048 characters,
+and the built_in function-call counts, 5758 in all, are:
+= -- 534
+> -- 261
 < -- 1
-+ -- 86
-- -- 66
-* -- 310
-:= -- 862
-add.period$ -- 53
-call.type$ -- 19
-change.case$ -- 90
++ -- 106
+- -- 82
+* -- 355
+:= -- 1020
+add.period$ -- 62
+call.type$ -- 23
+change.case$ -- 110
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 195
-empty$ -- 378
-format.name$ -- 66
-if$ -- 967
+cite$ -- 37
+duplicate$ -- 226
+empty$ -- 461
+format.name$ -- 82
+if$ -- 1162
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 17
-newline$ -- 94
-num.names$ -- 36
-pop$ -- 93
+int.to.str$ -- 23
+missing$ -- 18
+newline$ -- 111
+num.names$ -- 44
+pop$ -- 130
 preamble$ -- 1
-purify$ -- 71
+purify$ -- 87
 quote$ -- 0
-skip$ -- 140
+skip$ -- 173
 stack$ -- 0
-substring$ -- 210
-swap$ -- 16
+substring$ -- 230
+swap$ -- 19
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
-warning$ -- 13
-while$ -- 42
-width$ -- 21
-write$ -- 185
+type$ -- 92
+warning$ -- 14
+while$ -- 50
+width$ -- 25
+write$ -- 218
 (There was 1 error message)

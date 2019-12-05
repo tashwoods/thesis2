@@ -59,6 +59,10 @@ Stefan Höche, Frank Krauss, Marek Schönherr, and Frank Siegert.
 \newblock Qcd matrix elements + parton showers. the nlo case.
 \newblock {\em Journal of High Energy Physics}, 2013(4), Apr 2013.
 
+\bibitem{adamopt}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization, 2014.
+
 \bibitem{vrjets}
 David Krohn, Jesse Thaler, and Lian-Tao Wang.
 \newblock Jets with variable r.
@@ -87,6 +91,11 @@ Lisa Randall and Raman Sundrum.
 \newblock {A Large mass hierarchy from a small extra dimension}.
 \newblock {\em Phys. Rev. Lett.}, 83:3370--3373, 1999.
 
+\bibitem{kfold}
+Sebastian Raschka.
+\newblock Model evaluation, model selection, and algorithm selection in machine
+  learning, 2018.
+
 \bibitem{scalarsinglet}
 Tania Robens and Tim Stefaniak.
 \newblock Lhc benchmark scenarios for the real higgs singlet extension of the
@@ -98,5 +107,14 @@ Alex Sherstinsky.
 \newblock Fundamentals of recurrent neural network {(RNN)} and long short-term
   memory {(LSTM)} network.
 \newblock {\em CoRR}, abs/1808.03314, 2018.
+
+\bibitem{lstmstruct}
+Muhammed~Ali Sit and Ibrahim Demir.
+\newblock Decentralized flood forecasting using deep neural networks.
+\newblock Jun 2019.
+
+\bibitem{rnndropout}
+Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals.
+\newblock Recurrent neural network regularization, 2014.
 
 \end{thebibliography}

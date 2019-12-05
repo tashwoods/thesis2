@@ -273,13 +273,15 @@ The weights and other parameters of the network are learned by training the netw
 \end{figure}
 \FloatBarrier
 
-\section{Topological Cuts}
-\label{Topological Cuts}
-Once an event is classified as VBF or GGF via the RNN, it must pass other topological cuts that maximize $S/\sqrt{B}$. First, to efficiently select events with a $W\rightarrow \ell \nu$ candidate exactly one tight lepton is required and $E_{T}^{miss} > 100(60)$ GeV and $p_{T,\ell\nu} > 200(75)$ GeV in the merged (resolved) analysis to suppress the multi-jet background. 
+\section{Signal Region Definitions}
+\label{Signal Region Definitions}
+Signal regions are constructed to be dominated by signal and used in the final likelihood fit to look for a bump in the reconstructed resonance mass distribution. Once an event is classified by the RNN, it must pass topological cuts that maximize $S/\sqrt{B}$. To efficiently select events with a $W\rightarrow \ell \nu$ candidate exactly one tight lepton is required and $E_{T}^{miss} > 100(60)$ GeV and $p_{T,\ell\nu} > 200(75)$ GeV in the merged (resolved) analysis to suppress the fake lepton backgrounds. 
 
-For the merged analysis, in addition to the $W \rightarrow \ell \nu$ and $W/Z \rightarrow J$ selections above, the min$(p_{T, \ell \nu}, p_{T,J})/m_{WV} > 0.35(0.25)$ for the GGF (VBF) category. To reduce $t\bar{t}$ contamination, events with at least one b jet with $\Delta R > 1.0$ from the large-R jet are excluded. High purity signal regions require the $D_{2}$ and $W/Z$ mass window cut to be passed, whereas the low purity region only requires the  $W/Z$ mass window cut to be passed. Finally for events to be classified as tagged the large-R jet must contain exactly two b-tagged jets. Untagged events must have no more than one b-tagged jet matched to the large-R jet. These selections are shown in Table \ref{tab:SRdefinitions_1lep_merged}. The distributions for the variables used in merged analysis for top control regions are shown in Figure \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}.
+For the merged analysis, in addition to the $W \rightarrow \ell \nu$ and $W/Z \rightarrow J$ selections above, the min$(p_{T, \ell \nu}, p_{T,J})/m_{WV} > 0.35(0.25)$ for the non-VBF (VBF) category. To reduce $t\bar{t}$ contamination, events with at least one b jet with $\Delta R > 1.0$ from the large-R jet are excluded. High purity signal regions require the $D_{2}$ and $W/Z$ mass window cut to be passed, whereas the low purity region only requires the  $W/Z$ mass window cut to be passed. 
 
-Events failing the merged selection are then re-analyzed in the resolved category. To enhance resolved signals, the event should contain two high-$p_{T}$ boson candidates that are back-to-back in the $\phi$ as shown by the cuts in Table 18. Again to suppress the $t\bar{t}$ background in the WCR and SR events are required to have no additional b-jets. 
+For the HVT $W'$ resonance search tagged and untagged regions are used to increase signal acceptance. For events to be classified as tagged the large-R jet must contain exactly two b-tagged jets. Untagged events must have no more than one b-tagged jet matched to the large-R jet. These selections are shown in Table \ref{tab:SRdefinitions_1lep_merged}. 
+
+Events failing the merged selection are then re-analyzed in the resolved category. To enhance resolved signals, the event should contain two high-$p_{T}$ boson candidates that are back-to-back in the $\phi$ as shown by the cuts in Table \ref{tab:SRdefinitions_1lep_resolved}. Again, to suppress the $t\bar{t}$ backgrounds, events are required to have no additional $b$-jets. 
 
 The $WV$ system mass, $m_{WV}$ is reconstructed from the lepton, neutrino, and hadronically-decaying boson candidate. The momentum of the neutrino along the $z$-direction is obtained by constraining the $W$ boson mass of the lepton neutrino system to be  80.3 GeV$/c^{2}$. For complex solutions to this constraint, $p_{Z}$ is taken as either the real component of the solution or the one with the smaller absolute value of the two real solutions. For the resolved analysis, $m_{WV}$ is reconstructed by constraining the $W(Z)$ dijet system:
 \begin{equation}
@@ -289,7 +291,8 @@ p^{corr}_{T,jj} = p_{T,jj} \times \frac{m_{W/Z}}{m_{jj}}
 m^{corr}_{jj}=m_{W/Z}
 \end{equation}
 
-where $m_{jj}$ and $m_{W/Z}$ are the reconstructed invariant mass of the hadronically-decaying W/Z boson and the PDG values of the $W/Z$ boson masses, respectively. A summary of the resolved selections is shown in Table \ref{tab:SRdefinitions_1lep_resolved}.The distributions for the variables used in the resolved analysis in the TCR are shown in Figure \ref{fig:resolved_ww_TCR_datamc}, \ref{fig:resolved_wz_TCR_datamc}.
+where $m_{jj}$ and $m_{W/Z}$ are the reconstructed invariant mass of the hadronically-decaying W/Z boson and the PDG values of the $W/Z$ boson masses, respectively. A summary of the resolved selections is shown in Table \ref{tab:SRdefinitions_1lep_resolved}.
+
  
 
 The analysis cutflow is shows in Figure \ref{fig:cutflow}. Events classified as VBF events are classified as Merged High purity, low purity or resolved signal region selections sequentially. If the event does not pass any of these selections but passes a VBF control region selection it is classified as a VBF CR event. 
@@ -476,6 +479,11 @@ The distributions of $A\cdot \epsilon$ as a function of the resonance mass for t
 \FloatBarrier
 \section{Background Estimate}
 \subsection{Control Regions}
+The distributions for the variables used in merged analysis for top control regions are shown in Figure \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}.
+
+The distributions for the variables used in the resolved analysis in the TCR are shown in Figure \ref{fig:resolved_ww_TCR_datamc}, \ref{fig:resolved_wz_TCR_datamc}.
+
+
 To more accurately model the two dominant backgrounds in this analysis, $W$+jets and $t\bar{t}$, control regions are constructed for each. These control regions are dominated by these processes and used to extract normalization factors in the final likelihood fit that are then used in the signal region estimates. For the $t\bar{t}$ control region the event must contain at least one such b jet. The WCR is constructed using the $m_{jj/J}$ mass window sidebands. All other backgrounds are estimated using simulation, except fake lepton backgrounds, which are derived using a data-driven method.
 \subsection{Fake Lepton Backgrounds}
 Backgrounds in this analysis containing real leptons (e.g. $W/Z$+jets, diboson, $t\bar{t}$, single-$t$) are well-modeled with simulated samples and constrained with data from CRs. However, the fake lepton background (also referred to as the multijet background) is not well-modeled with simulation. For this reason, the multijet background is extracted from data. Heavy flavor decay products, jets, and converted photons can be mistakenly reconstructed as electrons. Fake electrons often arise from jet fakes while non-prompt muons usually arise from heavy flavor decay.  For this analysis, these fake electrons generally fail the electron ID criteria and fake muons fail the muon isolation requirement. Therefore, to derive the multijet template shape the SR and CR selections and inverted lepton requirements are used as seen in Table \ref{tab:TempMJCR}. NB: by inverting the lepton isolation/identification criteria the SRs and CRs are orthogonal.

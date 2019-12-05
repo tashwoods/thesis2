@@ -18,63 +18,62 @@
 \BOOKMARK [0][-]{chapter.3}{Standard Model Successes and Limitations}{part.2}% 18
 \BOOKMARK [0][-]{chapter.4}{New Physics Models with Diboson Resonances}{part.2}% 19
 \BOOKMARK [1][-]{section.4.1}{Randall Sundrum Bulk Model}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.2}{Extended Scalar Sector}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.3}{Simple Standard Model Extensions}{chapter.4}% 22
-\BOOKMARK [-1][-]{part.3}{III Experimental Setup}{}% 23
-\BOOKMARK [0][-]{chapter.5}{LHC}{part.3}% 24
-\BOOKMARK [1][-]{section.5.1}{LHC Layout and Design}{chapter.5}% 25
-\BOOKMARK [0][-]{chapter.6}{The ATLAS Detector}{part.3}% 26
-\BOOKMARK [1][-]{section.6.1}{Coordinate System}{chapter.6}% 27
-\BOOKMARK [1][-]{section.6.2}{Inner Detector}{chapter.6}% 28
-\BOOKMARK [2][-]{subsection.6.2.1}{Pixel Detector}{section.6.2}% 29
-\BOOKMARK [2][-]{subsection.6.2.2}{Semiconductor Tracker}{section.6.2}% 30
-\BOOKMARK [2][-]{subsection.6.2.3}{Transition Radiation Tracker}{section.6.2}% 31
-\BOOKMARK [1][-]{section.6.3}{Calorimeters}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.4}{Muon Spectrometer}{chapter.6}% 33
-\BOOKMARK [1][-]{section.6.5}{Magnet System}{chapter.6}% 34
-\BOOKMARK [1][-]{section.6.6}{Trigger System}{chapter.6}% 35
-\BOOKMARK [-1][-]{part.4}{IV Method}{}% 36
-\BOOKMARK [0][-]{chapter.7}{Dataset and Simulated Samples}{part.4}% 37
-\BOOKMARK [1][-]{section.7.1}{Dataset}{chapter.7}% 38
-\BOOKMARK [1][-]{section.7.2}{Simulated Samples}{chapter.7}% 39
-\BOOKMARK [0][-]{chapter.8}{Objects}{part.4}% 40
-\BOOKMARK [1][-]{section.8.1}{Electrons}{chapter.8}% 41
-\BOOKMARK [1][-]{section.8.2}{Muons}{chapter.8}% 42
-\BOOKMARK [1][-]{section.8.3}{Jets}{chapter.8}% 43
-\BOOKMARK [2][-]{subsection.8.3.1}{Small-R jets}{section.8.3}% 44
-\BOOKMARK [2][-]{subsection.8.3.2}{Large-R jets}{section.8.3}% 45
-\BOOKMARK [2][-]{subsection.8.3.3}{Variable Radius jets}{section.8.3}% 46
-\BOOKMARK [2][-]{subsection.8.3.4}{Jet Flavor Tagging}{section.8.3}% 47
-\BOOKMARK [1][-]{section.8.4}{MET/Neutrinos}{chapter.8}% 48
-\BOOKMARK [1][-]{section.8.5}{Overlap Removal}{chapter.8}% 49
-\BOOKMARK [0][-]{chapter.9}{Event Selection and Categorization}{part.4}% 50
-\BOOKMARK [1][-]{section.9.1}{Pre-selection}{chapter.9}% 51
-\BOOKMARK [1][-]{section.9.2}{Trigger}{chapter.9}% 52
-\BOOKMARK [1][-]{section.9.3}{non-VBF/VBF RNN}{chapter.9}% 53
-\BOOKMARK [1][-]{section.9.4}{Topological Cuts}{chapter.9}% 54
-\BOOKMARK [1][-]{section.9.5}{Selection Acceptance times efficiency for Signal Events}{chapter.9}% 55
-\BOOKMARK [1][-]{section.9.6}{Background Estimate}{chapter.9}% 56
-\BOOKMARK [2][-]{subsection.9.6.1}{Control Regions}{section.9.6}% 57
-\BOOKMARK [2][-]{subsection.9.6.2}{Fake Lepton Backgrounds}{section.9.6}% 58
-\BOOKMARK [0][-]{chapter.10}{Systematic Uncertainties}{part.4}% 59
-\BOOKMARK [1][-]{section.10.1}{Experimental Systematics}{chapter.10}% 60
-\BOOKMARK [1][-]{section.10.2}{Theory Systematics}{chapter.10}% 61
-\BOOKMARK [0][-]{chapter.11}{Statistical Analysis}{part.4}% 62
-\BOOKMARK [1][-]{section.11.1}{Likelihood Function Definition}{chapter.11}% 63
-\BOOKMARK [1][-]{section.11.2}{Fit Configuration}{chapter.11}% 64
-\BOOKMARK [1][-]{section.11.3}{Best Fit }{chapter.11}% 65
-\BOOKMARK [1][-]{section.11.4}{Discovery Test}{chapter.11}% 66
-\BOOKMARK [1][-]{section.11.5}{Exclusion Limits}{chapter.11}% 67
-\BOOKMARK [-1][-]{part.5}{V Results}{}% 68
-\BOOKMARK [0][-]{chapter.12}{Statistical Interpretation}{part.5}% 69
-\BOOKMARK [1][-]{section.12.1}{Discovery Tests}{chapter.12}% 70
-\BOOKMARK [1][-]{section.12.2}{Systematic Profiling and Correlations}{chapter.12}% 71
-\BOOKMARK [1][-]{section.12.3}{Expected and Measured Yields}{chapter.12}% 72
-\BOOKMARK [1][-]{section.12.4}{Limits}{chapter.12}% 73
-\BOOKMARK [-1][-]{part.6}{VI Quark and Gluon Tagging}{}% 74
-\BOOKMARK [0][-]{chapter.13}{Prospects}{part.6}% 75
-\BOOKMARK [0][-]{chapter.14}{ntrk Calibration}{part.6}% 76
-\BOOKMARK [0][-]{chapter.15}{Application}{part.6}% 77
-\BOOKMARK [-1][-]{part.7}{VII Conclusion}{}% 78
-\BOOKMARK [0][-]{chapter.16}{Conclusions}{part.7}% 79
-\BOOKMARK [0][-]{chapter*.115}{Bibliography}{part.7}% 80
+\BOOKMARK [1][-]{section.4.2}{Simple Standard Model Extensions}{chapter.4}% 21
+\BOOKMARK [-1][-]{part.3}{III Experimental Setup}{}% 22
+\BOOKMARK [0][-]{chapter.5}{LHC}{part.3}% 23
+\BOOKMARK [1][-]{section.5.1}{LHC Layout and Design}{chapter.5}% 24
+\BOOKMARK [0][-]{chapter.6}{The ATLAS Detector}{part.3}% 25
+\BOOKMARK [1][-]{section.6.1}{Coordinate System}{chapter.6}% 26
+\BOOKMARK [1][-]{section.6.2}{Inner Detector}{chapter.6}% 27
+\BOOKMARK [2][-]{subsection.6.2.1}{Pixel Detector}{section.6.2}% 28
+\BOOKMARK [2][-]{subsection.6.2.2}{Semiconductor Tracker}{section.6.2}% 29
+\BOOKMARK [2][-]{subsection.6.2.3}{Transition Radiation Tracker}{section.6.2}% 30
+\BOOKMARK [1][-]{section.6.3}{Calorimeters}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.4}{Muon Spectrometer}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.5}{Magnet System}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.6}{Trigger System}{chapter.6}% 34
+\BOOKMARK [-1][-]{part.4}{IV Method}{}% 35
+\BOOKMARK [0][-]{chapter.7}{Dataset and Simulated Samples}{part.4}% 36
+\BOOKMARK [1][-]{section.7.1}{Dataset}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.2}{Simulated Samples}{chapter.7}% 38
+\BOOKMARK [0][-]{chapter.8}{Objects}{part.4}% 39
+\BOOKMARK [1][-]{section.8.1}{Electrons}{chapter.8}% 40
+\BOOKMARK [1][-]{section.8.2}{Muons}{chapter.8}% 41
+\BOOKMARK [1][-]{section.8.3}{Jets}{chapter.8}% 42
+\BOOKMARK [2][-]{subsection.8.3.1}{Small-R jets}{section.8.3}% 43
+\BOOKMARK [2][-]{subsection.8.3.2}{Large-R jets}{section.8.3}% 44
+\BOOKMARK [2][-]{subsection.8.3.3}{Variable Radius jets}{section.8.3}% 45
+\BOOKMARK [2][-]{subsection.8.3.4}{Jet Flavor Tagging}{section.8.3}% 46
+\BOOKMARK [1][-]{section.8.4}{MET/Neutrinos}{chapter.8}% 47
+\BOOKMARK [1][-]{section.8.5}{Overlap Removal}{chapter.8}% 48
+\BOOKMARK [0][-]{chapter.9}{Event Selection and Categorization}{part.4}% 49
+\BOOKMARK [1][-]{section.9.1}{Pre-selection}{chapter.9}% 50
+\BOOKMARK [1][-]{section.9.2}{Trigger}{chapter.9}% 51
+\BOOKMARK [1][-]{section.9.3}{non-VBF/VBF RNN}{chapter.9}% 52
+\BOOKMARK [1][-]{section.9.4}{Signal Region Definitions}{chapter.9}% 53
+\BOOKMARK [1][-]{section.9.5}{Selection Acceptance times efficiency for Signal Events}{chapter.9}% 54
+\BOOKMARK [1][-]{section.9.6}{Background Estimate}{chapter.9}% 55
+\BOOKMARK [2][-]{subsection.9.6.1}{Control Regions}{section.9.6}% 56
+\BOOKMARK [2][-]{subsection.9.6.2}{Fake Lepton Backgrounds}{section.9.6}% 57
+\BOOKMARK [0][-]{chapter.10}{Systematic Uncertainties}{part.4}% 58
+\BOOKMARK [1][-]{section.10.1}{Experimental Systematics}{chapter.10}% 59
+\BOOKMARK [1][-]{section.10.2}{Theory Systematics}{chapter.10}% 60
+\BOOKMARK [0][-]{chapter.11}{Statistical Analysis}{part.4}% 61
+\BOOKMARK [1][-]{section.11.1}{Likelihood Function Definition}{chapter.11}% 62
+\BOOKMARK [1][-]{section.11.2}{Fit Configuration}{chapter.11}% 63
+\BOOKMARK [1][-]{section.11.3}{Best Fit }{chapter.11}% 64
+\BOOKMARK [1][-]{section.11.4}{Discovery Test}{chapter.11}% 65
+\BOOKMARK [1][-]{section.11.5}{Exclusion Limits}{chapter.11}% 66
+\BOOKMARK [-1][-]{part.5}{V Results}{}% 67
+\BOOKMARK [0][-]{chapter.12}{Statistical Interpretation}{part.5}% 68
+\BOOKMARK [1][-]{section.12.1}{Discovery Tests}{chapter.12}% 69
+\BOOKMARK [1][-]{section.12.2}{Systematic Profiling and Correlations}{chapter.12}% 70
+\BOOKMARK [1][-]{section.12.3}{Expected and Measured Yields}{chapter.12}% 71
+\BOOKMARK [1][-]{section.12.4}{Limits}{chapter.12}% 72
+\BOOKMARK [-1][-]{part.6}{VI Quark and Gluon Tagging}{}% 73
+\BOOKMARK [0][-]{chapter.13}{Prospects}{part.6}% 74
+\BOOKMARK [0][-]{chapter.14}{ntrk Calibration}{part.6}% 75
+\BOOKMARK [0][-]{chapter.15}{Application}{part.6}% 76
+\BOOKMARK [-1][-]{part.7}{VII Conclusion}{}% 77
+\BOOKMARK [0][-]{chapter.16}{Conclusions}{part.7}% 78
+\BOOKMARK [0][-]{chapter*.115}{Bibliography}{part.7}% 79

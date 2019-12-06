@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  6 DEC 2019 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  6 DEC 2019 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,7 +992,7 @@ Chapter 4.
 <figures/Theory/RS_cartoon.pdf, id=1267, 324.55362pt x 216.72685pt>
 File: figures/Theory/RS_cartoon.pdf Graphic file (type pdf)
 <use figures/Theory/RS_cartoon.pdf>
-Package pdftex.def Info: figures/Theory/RS_cartoon.pdf  used on input line 356.
+Package pdftex.def Info: figures/Theory/RS_cartoon.pdf  used on input line 355.
 
 (pdftex.def)             Requested size: 415.5525pt x 277.5086pt.
  [29 <./figures/Theory/RS_cartoon.pdf>] [30]) [31] [32
@@ -2658,7 +2658,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
 Here is how much of TeX's memory you used:
  10931 strings out of 492616
  185907 string characters out of 6129482
- 328622 words of memory out of 5000000
+ 329623 words of memory out of 5000000
  13946 multiletter control sequences out of 15000+600000
  105531 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2717,7 +2717,7 @@ local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (194 pages, 36122911 bytes).
+Output written on dissertation.pdf (194 pages, 36122804 bytes).
 PDF statistics:
  8901 PDF objects out of 8907 (max. 8388607)
  5910 compressed objects within 60 object streams

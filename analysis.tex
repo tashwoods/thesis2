@@ -176,6 +176,16 @@ The overlap selections used in this analysis are:
 
 \end{itemize}
 
+\section{Reconstructed Resonance Mass ($m_{WV}$)}
+The $WV$ system mass, $m_{WV}$ is reconstructed from the lepton, neutrino, and hadronically-decaying boson candidate. The momentum of the neutrino along the $z$-direction is obtained by constraining the $W$ boson mass of the lepton neutrino system to be  80.3 GeV$/c^{2}$. For complex solutions to this constraint, $p_{Z}$ is taken as the real component of the solution. For real solutions, the one with the smaller absolute value is used. For the resolved analysis, $m_{WV}$ is reconstructed by constraining the $W(Z)$ dijet system in the SRs, which improves the mass resolution:
+\begin{equation}
+p^{corr}_{T,jj} = p_{T,jj} \times \frac{m_{W/Z}}{m_{jj}}
+\end{equation}
+\begin{equation}
+m^{corr}_{jj}=m_{W/Z}
+\end{equation}
+
+where $m_{jj}$ and $m_{W/Z}$ are the reconstructed invariant mass of the hadronically-decaying W/Z boson and the PDG values of the $W/Z$ boson masses, respectively. The reconstructed resonance mass is the final discriminating variable in this analysis. The distribution of this variable in the CR and SRs are used in the final likelihood fit to search for evidence of an excess of events due to BSM resonances. The distribution of $m_{WV}$ are shown in Figures \ref{fig:hvtww_cr_postfit}-\ref{fig:hvtwzvbf_tag_sr_postfit}. 
 \chapter{Event Selection and Categorization}
 
 \section{Pre-selection}
@@ -281,22 +291,10 @@ For the merged analysis, in addition to the $W \rightarrow \ell \nu$ and $W/Z \r
 
 For the HVT $W'$ resonance search tagged and untagged regions are used to increase signal acceptance. For events to be classified as tagged the large-R jet must contain exactly two b-tagged jets. Untagged events must have no more than one b-tagged jet matched to the large-R jet. These selections are shown in Table \ref{tab:SRdefinitions_1lep_merged}. 
 
-Events failing the merged selection are then re-analyzed in the resolved category. To enhance resolved signals, the event should contain two high-$p_{T}$ boson candidates that are back-to-back in the $\phi$ as shown by the cuts in Table \ref{tab:SRdefinitions_1lep_resolved}. Again, to suppress the $t\bar{t}$ backgrounds, events are required to have no additional $b$-jets. 
+Events failing the merged selection are then re-analyzed in the resolved category. To enhance resolved signals, the event should contain two high-$p_{T}$ boson candidates that are back-to-back in the $\phi$ as shown by the cuts in Table \ref{tab:SRdefinitions_1lep_resolved}. Again, to suppress the $t\bar{t}$ backgrounds, events are required to have no additional $b$-jets. A summary of the resolved selections is shown in Table \ref{tab:SRdefinitions_1lep_resolved}.
 
-The $WV$ system mass, $m_{WV}$ is reconstructed from the lepton, neutrino, and hadronically-decaying boson candidate. The momentum of the neutrino along the $z$-direction is obtained by constraining the $W$ boson mass of the lepton neutrino system to be  80.3 GeV$/c^{2}$. For complex solutions to this constraint, $p_{Z}$ is taken as either the real component of the solution or the one with the smaller absolute value of the two real solutions. For the resolved analysis, $m_{WV}$ is reconstructed by constraining the $W(Z)$ dijet system:
-\begin{equation}
-p^{corr}_{T,jj} = p_{T,jj} \times \frac{m_{W/Z}}{m_{jj}}
-\end{equation}
-\begin{equation}
-m^{corr}_{jj}=m_{W/Z}
-\end{equation}
-
-where $m_{jj}$ and $m_{W/Z}$ are the reconstructed invariant mass of the hadronically-decaying W/Z boson and the PDG values of the $W/Z$ boson masses, respectively. A summary of the resolved selections is shown in Table \ref{tab:SRdefinitions_1lep_resolved}.
-
- 
-
-The analysis cutflow is shows in Figure \ref{fig:cutflow}. Events classified as VBF events are classified as Merged High purity, low purity or resolved signal region selections sequentially. If the event does not pass any of these selections but passes a VBF control region selection it is classified as a VBF CR event. 
-If the event fails the VBF selection it is then checked if it passes the Merged High purity, Low purity or resolved signal region selections (NB: for the WZ decay modes all the regions have tagged and untagged categories). If the event fails all the GGF signal region selections, it is then kept for GGF control region selections, if it passes those selections. 
+The analysis cutflow in Figure \ref{fig:cutflow} which shows how the different categories are prioritized. Events classified as VBF events are classified as Merged high purity, low purity or resolved signal region selections sequentially. If the event does not pass any of these selections but passes a VBF control region selection it is classified as a VBF CR event. 
+If the event fails all VBF categories, it is then checked if it passes the Merged high purity, low purity or resolved signal region selections (NB: for the WZ decay modes all the regions have tagged and untagged categories). If the event fails all the non-VBF signal region selections, it is then kept for non-VBF control region selections, if it passes those selections. 
 
 
 \begin{table}[t]
@@ -478,6 +476,7 @@ The distributions of $A\cdot \epsilon$ as a function of the resonance mass for t
 \end{figure} 
 \FloatBarrier
 \section{Background Estimate}
+
 \subsection{Control Regions}
 The distributions for the variables used in merged analysis for top control regions are shown in Figure \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}.
 

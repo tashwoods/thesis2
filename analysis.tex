@@ -22,6 +22,7 @@ This analysis uses $pp$ collision data collected from 2015 to 2018 at $\sqrt{s}=
 
 
 \section{Simulated Samples}
+\label{Simulated Samples}
 Samples are simulated in order to model backgrounds, evaluate signal acceptance, optimize event selection and estimate systematic and statistical uncertainties. The dominant backgrounds for this analysis are $W/Z$ + jets, diboson ($WZ$/$WW$), $t\bar{t}$, single top and multijet production. 
 
 $W/Z$+jet events are simulated using Sherpa 2.2.1 at NLO [cite [29]] and merged with the Sherpa parton shower using the ME+PS@NLO prescription \cite{me_ps}. These events are then normalized to NNLO cross sections. The $t\bar{t}$ and single-top backgrounds are generated with Powheg-Box with NNPDF3.0NLO PDF sets in the matrix element calculation [cite[35]]. For all processes, the parton shower, fragmentation, and underlying event are simulated using Pythia 8.320 with the A14 tune set[cite[ATL-PHYS-PUB-2014-02]]. Diboson processes are generated using Sherpa 2.2.1. 
@@ -391,10 +392,7 @@ Top veto &  Number of additional $b$-tagged jets & \multicolumn{2}{c|}{0} & $\ge
 \end{figure} 
 \FloatBarrier
 
-
-
-
-\section{Selection Acceptance times efficiency for Signal Events}
+\section{Selection Acceptance and Efficiency}
 The acceptance times efficiency for the signal region selection is defined as:
 
 \begin{equation}
@@ -425,9 +423,9 @@ The distributions of $A\cdot \epsilon$ as a function of the resonance mass for t
 \end{figure} 
 \FloatBarrier
 \section{Background Estimate}
-Backgrounds in this analysis containing real leptons (e.g. $W/Z$+jets, diboson, $t\bar{t}$, single-$t$) are well-modeled with simulated samples. The dominant backgrounds are from $W$+jet and $t\bar{t}$ processes. To more accurately model the distribution of $m_{WV}$ from these backgrounds in the SRs, control regions are constructed for each as described in \ref{crs}. The $t\bar{t}$ and $W$+jets control regions are called TCR and WCR, respectively. There are separate control regions for VBF and non-VBF regions as well as for each region (merged HP, merged LP, resolved). For the HVT $W'$ search there are also tagged and untagged control regions (where tagged means two $b$-jets were reconstructed inside the large-R jet). 
+Backgrounds from $VV$, $t\bar{t}$, single-top, $W$+jets, $Z$+jets are simulated as described in \ref{Simulated Samples}. The dominant backgrounds for this search are from $W$+jet and $t\bar{t}$ processes. To more accurately model the distribution of $m_{WV}$ from these backgrounds in the SRs, control regions are constructed for each as described in \ref{crs}. The $t\bar{t}$ and $W$+jets control regions are called TCR and WCR, respectively. There are separate control regions for VBF and non-VBF regions as well as for each region (merged HP, merged LP, resolved). For the HVT $W'$ search there are also tagged and untagged control regions (where tagged refers to events with two $b$-jets inside the large-R jet). 
 
-Backgrounds with fake leptons (also referred to as the multijet background) is not well-modeled with simulation. For this reason, the multijet background is extracted from data as described in \ref{fakelep}.
+The aforementioned backgrounds containing real leptons and are well-modeled with simulated samples. Backgrounds with fake leptons (also referred to as the multijet background) are not well-modeled with simulation. For this reason, the multijet background is extracted from data as described in \ref{fakelep}.
 
 \subsection{Control Regions}
 \label{crs}
@@ -492,12 +490,18 @@ To more accurately model the two dominant backgrounds in this analysis, $W$+jets
 \FloatBarrier
 \subsection{Fake Lepton Backgrounds}
 \label{fakelep}
-Backgrounds in this analysis containing real leptons (e.g. $W/Z$+jets, diboson, $t\bar{t}$, single-$t$) are well-modeled with simulated samples and constrained with data from CRs. However, the fake lepton background (also referred to as the multijet background) is not well-modeled with simulation. For this reason, the multijet background is extracted from data. Heavy flavor decay products, jets, and converted photons can be mistakenly reconstructed as electrons. Fake electrons often arise from jet fakes while non-prompt muons usually arise from heavy flavor decay.  For this analysis, these fake electrons generally fail the electron ID criteria and fake muons fail the muon isolation requirement. Therefore, to derive the multijet template shape the SR and CR selections and inverted lepton requirements are used as seen in Table \ref{tab:TempMJCR}. NB: by inverting the lepton isolation/identification criteria the SRs and CRs are orthogonal.
+The fake lepton backgrounds for this search are not well-modeled with simulation. For this reason, this background is extracted from data. Fake electrons often arise from fake jets and converted photons while non-prompt muons usually arise from heavy flavor decay products.
 
-The template shape of the MJ background is determined by using a multijet validation region (MJVR) that requires the inverted lepton isolation/identification requirement and the two signal jets to satisfy the $m_{jj}$ requirement used in the $W$+jets CRs. The $E_{T}^{miss}$ distribution in MJCR is shown in Figure \ref{fig:multijet_met} for 2017 data. The template is then extracted by subtracting the data in the MJVR from the electroweak background processes. The resulting template and electroweak backgrounds are then fit to data. In this fit, the $E_{T}^{miss}$ distribution compared to data to extract electroweak background, multijet electron and muon background normalizations.  The fitted scale factors from this MJVR template are then applied in the MJCR template. The electron and muon background normalizations in the MJCR template are parameters in the final simultaneous fit. Technically, there should be a separate template for every CR and SR, but some MJ regions have insufficient statistics to do this. Additionally, the shapes for the MJ templates for VBF and ggF regions are found to be compatible within statistical uncertainty. Therefore, the sample MJ template used for VBF and ggF CR/SRs, but with different pre-MJ-fit scale factors. 
+Fake electrons generally fail the electron ID criteria and fake muons fail the muon isolation requirement. Therefore, separate multijet samples are derived for the fake electron and muon samples. For each sample the $m_{WV}$ template shape is derived for the SR and WCR selections using the same SR and WCR cuts but with inverted lepton requirements as seen in Table \ref{tab:TempMJCR}. NB: By inverting the lepton isolation/identification criteria the SRs and CRs are orthogonal.
 
-This template method was validated using WCR and full Run 2 data. The results of the fit are shown in Table \ref{tab:template_validation_CR}. The multijet contribution in the muon channel for $p_{T}^{W} > 150$ GeV is consistent with zero, and therefore neglected in the final fit. Applying the extracted normalization factor to MJVR in WCRs for various kinematic variables such as $E_{T}^{miss}$, $W$ transverse mass, lepton $p_{T}$, and the invariant mass as show in Figures \ref{fig:multijet_met_elec_ww} -\ref{fig:multijet_met_muon_wz_vbf}. These figures show good agreement between the data and background estimate.
+To derive the multijet template in a given SR, first the multijet template in the WCR is derived, called the MJCR template. This template is calculated using events that pass the WCR selection but with the inverted lepton criteria. The $E_{T}^{miss}$ distribution for the MJCR is given by the difference between data and the simulated samples in the MJCR. The $E_{T}^{miss}$ distribution of those events is then added to the simulated backgrounds in the WCR. The floating background and multijet normalizations of the MJCR in this region are then fit to the data. The fitted MJCR is then used as the multijet sample in the WCR. 
 
+The fitted normalizations from the MJCR template are then used to construct the multijet template in the SR (MJSR). The MJSR is constructed from events that pass the SR selections but with the inverted lepton criteria. Again, the difference between the data and simulated backgrounds in this region gives MJSR template shape in $m_{WV}$. This shape is then scaled by the fitted normalizations from the MJCR. These fitted electron and muon muon multijet templates are then used as the multijet samples in the SRs. The normalizations of the electron and muon multijet samples are parameters in the final likelihood fit. 
+
+This template method was validated using WCR and full Run 2 data. The results of the fit are shown in Table \ref{tab:template_validation_CR}. The multijet contribution in the muon channel for $p_{T}^{W} > 150$ GeV is consistent with zero, and therefore neglected in the final fit. Applying the extracted normalization factor to MJCR in WCRs for various kinematic variables such as $E_{T}^{miss}$, $W$ transverse mass, lepton $p_{T}$, and the invariant mass as show in Figures \ref{fig:multijet_met_elec_ww} -\ref{fig:multijet_met_muon_wz_vbf}. These figures show good agreement between the data and background estimate.
+
+%The template shape of the MJ background is determined by using a multijet validation region (MJVR) that requires the inverted lepton isolation/identification requirement and the two signal jets to satisfy the $m_{jj}$ requirement used in the $W$+jets CRs. 
+%The $E_{T}^{miss}$ distribution in MJCR is shown in Figure \ref{fig:multijet_met} for 2017 data. The template is then extracted by subtracting the data in the MJVR from the electroweak background processes. The resulting template and electroweak backgrounds are then fit to data. In this fit, %the $E_{T}^{miss}$ distribution compared to data to extract electroweak background, multijet electron and muon background normalizations.  The fitted scale factors from this MJVR template are then applied in the MJCR template. The electron and muon background normalizations in the M%JCR template are parameters in the final simultaneous fit. Technically, there should be a separate template for every CR and SR, but some MJ regions have insufficient statistics to do this. Additionally, the shapes for the MJ templates for VBF and ggF regions are found to be compatible within %statistical uncertainty. Therefore, the sample MJ template used for VBF and ggF CR/SRs, but with different pre-MJ-fit scale factors. 
 \begin{center}
   \begin{table}[ht]
   \centering
@@ -683,7 +687,6 @@ R.U. stands for relative uncertainty.
 
 
 \chapter{Systematic Uncertainties}
-
 This section describes the sources of systematic uncertainties considered in this analysis. These uncertainties are divided into three categories: experimental uncertainties, background modeling uncertainties, and theoretical uncertainties on signal processes. In the statistical analysis each systematic uncertainty is treated as a nuisance parameter estimated on the $m_{VV}$ distribution.
 
 \section{Experimental Systematics}

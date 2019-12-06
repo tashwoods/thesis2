@@ -52,7 +52,7 @@
 \contentsline {section}{\numberline {9.2}Trigger}{75}{section.9.2}% 
 \contentsline {section}{\numberline {9.3}non-VBF/VBF RNN}{77}{section.9.3}% 
 \contentsline {section}{\numberline {9.4}Signal Region Definitions}{84}{section.9.4}% 
-\contentsline {section}{\numberline {9.5}Selection Acceptance times efficiency for Signal Events}{86}{section.9.5}% 
+\contentsline {section}{\numberline {9.5}Selection Acceptance and Efficiency}{86}{section.9.5}% 
 \contentsline {section}{\numberline {9.6}Background Estimate}{88}{section.9.6}% 
 \contentsline {subsection}{\numberline {9.6.1}Control Regions}{88}{subsection.9.6.1}% 
 \contentsline {subsection}{\numberline {9.6.2}Fake Lepton Backgrounds}{96}{subsection.9.6.2}% 
@@ -66,14 +66,14 @@
 \contentsline {section}{\numberline {11.4}Discovery Test}{124}{section.11.4}% 
 \contentsline {section}{\numberline {11.5}Exclusion Limits}{125}{section.11.5}% 
 \contentsline {chapter}{\numberline {12}Results}{127}{chapter.12}% 
-\contentsline {section}{\numberline {12.1}Discovery Tests}{127}{section.12.1}% 
-\contentsline {section}{\numberline {12.2}Systematic Profiling and Correlations}{133}{section.12.2}% 
-\contentsline {section}{\numberline {12.3}Expected and Measured Yields}{134}{section.12.3}% 
-\contentsline {section}{\numberline {12.4}Limits}{148}{section.12.4}% 
-\contentsline {part}{V\hspace {1em}Quark and Gluon Tagging}{150}{part.5}% 
-\contentsline {chapter}{\numberline {13}Prospects}{151}{chapter.13}% 
-\contentsline {chapter}{\numberline {14}$n_{trk}$ Calibration}{158}{chapter.14}% 
-\contentsline {chapter}{\numberline {15}Application}{164}{chapter.15}% 
-\contentsline {part}{VI\hspace {1em}Conclusion}{169}{part.6}% 
-\contentsline {chapter}{\numberline {16}Conclusions}{170}{chapter.16}% 
-\contentsline {chapter}{Bibliography}{171}{chapter*.115}% 
+\contentsline {section}{\numberline {12.1}Expected and Measured Yields}{127}{section.12.1}% 
+\contentsline {section}{\numberline {12.2}Systematic Profiling and Correlations}{141}{section.12.2}% 
+\contentsline {section}{\numberline {12.3}Discovery Tests}{143}{section.12.3}% 
+\contentsline {section}{\numberline {12.4}Limits}{149}{section.12.4}% 
+\contentsline {part}{V\hspace {1em}Quark and Gluon Tagging}{151}{part.5}% 
+\contentsline {chapter}{\numberline {13}Prospects}{152}{chapter.13}% 
+\contentsline {chapter}{\numberline {14}$n_{trk}$ Calibration}{159}{chapter.14}% 
+\contentsline {chapter}{\numberline {15}Application}{165}{chapter.15}% 
+\contentsline {part}{VI\hspace {1em}Conclusion}{170}{part.6}% 
+\contentsline {chapter}{\numberline {16}Conclusions}{171}{chapter.16}% 
+\contentsline {chapter}{Bibliography}{172}{chapter*.115}% 

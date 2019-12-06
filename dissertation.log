@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  5 DEC 2019 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  5 DEC 2019 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,24 +849,24 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@lof=\write6
 \openout6 = `dissertation.lof'.
 
- [14] [15] (./dissertation.lot [16
+ [14] (./dissertation.lot [15
 
 ])
 \tf@lot=\write7
 \openout7 = `dissertation.lot'.
 
- [17] (./abstract.tex)
-[18] [19] [20]
+ [16] (./abstract.tex) [17]
+[18] [19]
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 51.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-[1
+) [1
 
 ]
 \openout2 = `Introduction.aux'.
 
- (./Introduction.tex
+
+(./Introduction.tex
 Chapter 1.
 [2
 
@@ -913,7 +913,7 @@ Overfull \hbox (1.52286pt too wide) in paragraph at lines 121--122
  []
 
 [11] [12]
-<figures/theory/particles.png, id=994, 803.0pt x 602.25pt>
+<figures/theory/particles.png, id=990, 803.0pt x 602.25pt>
 File: figures/theory/particles.png Graphic file (type png)
 <use figures/theory/particles.png>
 Package pdftex.def Info: figures/theory/particles.png  used on input line 167.
@@ -923,7 +923,7 @@ Package pdftex.def Info: figures/theory/particles.png  used on input line 167.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13]
-<figures/theory/particle_interactions.pdf, id=1001, 206.81535pt x 148.05905pt>
+<figures/theory/particle_interactions.pdf, id=997, 206.81535pt x 148.05905pt>
 File: figures/theory/particle_interactions.pdf Graphic file (type pdf)
 <use figures/theory/particle_interactions.pdf>
 Package pdftex.def Info: figures/theory/particle_interactions.pdf  used on inpu
@@ -937,7 +937,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ns.pdf>] [16
 
 ] [17] [18] [19]
-<figures/Theory/QCD_vertices.png, id=1118, 1007.765pt x 218.8175pt>
+<figures/Theory/QCD_vertices.png, id=1114, 1007.765pt x 218.8175pt>
 File: figures/Theory/QCD_vertices.png Graphic file (type png)
 <use figures/Theory/QCD_vertices.png>
 Package pdftex.def Info: figures/Theory/QCD_vertices.png  used on input line 28
@@ -948,7 +948,7 @@ Package pdftex.def Info: figures/Theory/QCD_vertices.png  used on input line 28
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20]
-<figures/Theory/runningcouplings.png, id=1128, 562.1pt x 421.575pt>
+<figures/Theory/runningcouplings.png, id=1124, 562.1pt x 421.575pt>
 File: figures/Theory/runningcouplings.png Graphic file (type png)
 <use figures/Theory/runningcouplings.png>
 Package pdftex.def Info: figures/Theory/runningcouplings.png  used on input lin
@@ -964,7 +964,7 @@ Chapter 3.
 [24
 
 ]
-<figures/Theory/SM_xs.pdf, id=1156, 819.83891pt x 614.97957pt>
+<figures/Theory/SM_xs.pdf, id=1152, 819.83891pt x 614.97957pt>
 File: figures/Theory/SM_xs.pdf Graphic file (type pdf)
 <use figures/Theory/SM_xs.pdf>
 Package pdftex.def Info: figures/Theory/SM_xs.pdf  used on input line 325.
@@ -978,7 +978,7 @@ Chapter 4.
 [27
 
 ]
-<figures/Theory/RS_cartoon.pdf, id=1254, 324.55362pt x 216.72685pt>
+<figures/Theory/RS_cartoon.pdf, id=1250, 324.55362pt x 216.72685pt>
 File: figures/Theory/RS_cartoon.pdf Graphic file (type pdf)
 <use figures/Theory/RS_cartoon.pdf>
 Package pdftex.def Info: figures/Theory/RS_cartoon.pdf  used on input line 349.
@@ -992,7 +992,7 @@ Package pdftex.def Info: figures/Theory/RS_cartoon.pdf  used on input line 349.
 
  (./detector.tex
 Chapter 5.
-<figures/Detector/xs_scaling.pdf, id=1403, 393.37393pt x 530.674pt>
+<figures/Detector/xs_scaling.pdf, id=1399, 393.37393pt x 530.674pt>
 File: figures/Detector/xs_scaling.pdf Graphic file (type pdf)
 <use figures/Detector/xs_scaling.pdf>
 Package pdftex.def Info: figures/Detector/xs_scaling.pdf  used on input line 10
@@ -1005,7 +1005,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ] [33 <./figures/Detector/xs_scaling.pdf>]
-<figures/Detector/lhc.jpg, id=1465, 375.3222pt x 391.7034pt>
+<figures/Detector/lhc.jpg, id=1461, 375.3222pt x 391.7034pt>
 File: figures/Detector/lhc.jpg Graphic file (type jpg)
 <use figures/Detector/lhc.jpg>
 Package pdftex.def Info: figures/Detector/lhc.jpg  used on input line 24.
@@ -1017,7 +1017,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [34
 
 ] [35 <./figures/Detector/lhc.jpg>]
-<figures/Detector/lhc_accel.pdf, id=1476, 259.0734pt x 388.16116pt>
+<figures/Detector/lhc_accel.pdf, id=1471, 259.0734pt x 388.16116pt>
 File: figures/Detector/lhc_accel.pdf Graphic file (type pdf)
 <use figures/Detector/lhc_accel.pdf>
 Package pdftex.def Info: figures/Detector/lhc_accel.pdf  used on input line 36.
@@ -1034,7 +1034,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ]
 Chapter 6.
-<figures/Detector/atlas.jpg, id=1530, 3161.8125pt x 2032.59375pt>
+<figures/Detector/atlas.jpg, id=1526, 3161.8125pt x 2032.59375pt>
 File: figures/Detector/atlas.jpg Graphic file (type jpg)
 <use figures/Detector/atlas.jpg>
 Package pdftex.def Info: figures/Detector/atlas.jpg  used on input line 55.
@@ -1054,7 +1054,7 @@ Package pdftex.def Info: figures/Detector/atlas.jpg  used on input line 63.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [40 <./figures/Detector/atlas.jpg>]
-<figures/Detector/particle_detection_atlas.png, id=1539, 702.625pt x 602.25pt>
+<figures/Detector/particle_detection_atlas.png, id=1535, 702.625pt x 602.25pt>
 File: figures/Detector/particle_detection_atlas.png Graphic file (type png)
 <use figures/Detector/particle_detection_atlas.png>
 Package pdftex.def Info: figures/Detector/particle_detection_atlas.png  used on
@@ -1063,7 +1063,7 @@ Package pdftex.def Info: figures/Detector/particle_detection_atlas.png  used on
  [41
 
  <./figures/Detector/particle_detection_atlas.png>]
-<figures/Detector/tracker_layout.jpg, id=1548, 810.52812pt x 540.51938pt>
+<figures/Detector/tracker_layout.jpg, id=1543, 810.52812pt x 540.51938pt>
 File: figures/Detector/tracker_layout.jpg Graphic file (type jpg)
 <use figures/Detector/tracker_layout.jpg>
 Package pdftex.def Info: figures/Detector/tracker_layout.jpg  used on input lin
@@ -1074,7 +1074,7 @@ e 85.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [42]
-<figures/Detector/tracker_barrel.png, id=1554, 250.34328pt x 218.2554pt>
+<figures/Detector/tracker_barrel.png, id=1550, 250.34328pt x 218.2554pt>
 File: figures/Detector/tracker_barrel.png Graphic file (type png)
 <use figures/Detector/tracker_barrel.png>
 Package pdftex.def Info: figures/Detector/tracker_barrel.png  used on input lin
@@ -1088,13 +1088,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 rrel.png (PNG copy)>] [45
 
 ] [46] [47]
-<figures/Detector/calo_overview.pdf, id=1581, 375.9422pt x 240.81026pt>
+<figures/Detector/calo_overview.pdf, id=1576, 375.9422pt x 240.81026pt>
 File: figures/Detector/calo_overview.pdf Graphic file (type pdf)
 <use figures/Detector/calo_overview.pdf>
 Package pdftex.def Info: figures/Detector/calo_overview.pdf  used on input line
  120.
 (pdftex.def)             Requested size: 415.5525pt x 266.18182pt.
-<figures/Detector/ecal.pdf, id=1582, 207.8967pt x 188.1429pt>
+<figures/Detector/ecal.pdf, id=1577, 207.8967pt x 188.1429pt>
 File: figures/Detector/ecal.pdf Graphic file (type pdf)
 <use figures/Detector/ecal.pdf>
 Package pdftex.def Info: figures/Detector/ecal.pdf  used on input line 129.
@@ -1104,7 +1104,7 @@ Package pdftex.def Info: figures/Detector/ecal.pdf  used on input line 129.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [48 <./figures/Detector/calo_overview.pdf>]
-<figures/Detector/hcal.png, id=1602, 424.58624pt x 496.85625pt>
+<figures/Detector/hcal.png, id=1598, 424.58624pt x 496.85625pt>
 File: figures/Detector/hcal.png Graphic file (type png)
 <use figures/Detector/hcal.png>
 Package pdftex.def Info: figures/Detector/hcal.png  used on input line 140.
@@ -1120,7 +1120,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/Detector/muonsys.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Detector/muonsys.pdf, id=1627, 770.88pt x 578.16pt>
+<figures/Detector/muonsys.pdf, id=1623, 770.88pt x 578.16pt>
 File: figures/Detector/muonsys.pdf Graphic file (type pdf)
 <use figures/Detector/muonsys.pdf>
 Package pdftex.def Info: figures/Detector/muonsys.pdf  used on input line 171.
@@ -1130,7 +1130,7 @@ Package pdftex.def Info: figures/Detector/muonsys.pdf  used on input line 171.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/Detector/muon_mdt.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figures/Detector/muon_mdt.pdf, id=1628, 974.89218pt x 630.10406pt>
+<figures/Detector/muon_mdt.pdf, id=1624, 974.89218pt x 630.10406pt>
 File: figures/Detector/muon_mdt.pdf Graphic file (type pdf)
 <use figures/Detector/muon_mdt.pdf>
 Package pdftex.def Info: figures/Detector/muon_mdt.pdf  used on input line 180.
@@ -1140,7 +1140,7 @@ Package pdftex.def Info: figures/Detector/muon_mdt.pdf  used on input line 180.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [53 <./figures/Detector/muonsys.pdf>]
-<figures/Detector/muon_rpc.pdf, id=1638, 318.67445pt x 199.09512pt>
+<figures/Detector/muon_rpc.pdf, id=1633, 318.67445pt x 199.09512pt>
 File: figures/Detector/muon_rpc.pdf Graphic file (type pdf)
 <use figures/Detector/muon_rpc.pdf>
 Package pdftex.def Info: figures/Detector/muon_rpc.pdf  used on input line 189.
@@ -1155,7 +1155,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/Detector/muon_tgc.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figures/Detector/muon_tgc.pdf, id=1684, 592.46344pt x 461.47406pt>
+<figures/Detector/muon_tgc.pdf, id=1680, 592.46344pt x 461.47406pt>
 File: figures/Detector/muon_tgc.pdf Graphic file (type pdf)
 <use figures/Detector/muon_tgc.pdf>
 Package pdftex.def Info: figures/Detector/muon_tgc.pdf  used on input line 199.
@@ -1164,7 +1164,7 @@ Package pdftex.def Info: figures/Detector/muon_tgc.pdf  used on input line 199.
 [55
 
  <./figures/Detector/muon_tgc.pdf>]
-<figures/Detector/atlas_magnets.png, id=1694, 1027.84pt x 411.5375pt>
+<figures/Detector/atlas_magnets.png, id=1690, 1027.84pt x 411.5375pt>
 File: figures/Detector/atlas_magnets.png Graphic file (type png)
 <use figures/Detector/atlas_magnets.png>
 Package pdftex.def Info: figures/Detector/atlas_magnets.png  used on input line
@@ -1175,7 +1175,7 @@ Package pdftex.def Info: figures/Detector/atlas_magnets.png  used on input line
 
 ] (./analysis.tex
 Chapter 7.
-<figures/Analysis/lumi.png, id=1711, 798.985pt x 574.145pt>
+<figures/Analysis/lumi.png, id=1707, 798.985pt x 574.145pt>
 File: figures/Analysis/lumi.png Graphic file (type png)
 <use figures/Analysis/lumi.png>
 Package pdftex.def Info: figures/Analysis/lumi.png  used on input line 9.
@@ -1186,7 +1186,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [59
 
 ]
-<figures/Analysis/mu_profile.png, id=1717, 798.985pt x 574.145pt>
+<figures/Analysis/mu_profile.png, id=1712, 798.985pt x 574.145pt>
 File: figures/Analysis/mu_profile.png Graphic file (type png)
 <use figures/Analysis/mu_profile.png>
 Package pdftex.def Info: figures/Analysis/mu_profile.png  used on input line 17
@@ -1204,14 +1204,14 @@ Chapter 8.
 [63
 
 ] [64]
-<figures/Analysis/muon_syst.png, id=1741, 569.0058pt x 408.3255pt>
+<figures/Analysis/muon_syst.png, id=1737, 569.0058pt x 408.3255pt>
 File: figures/Analysis/muon_syst.png Graphic file (type png)
 <use figures/Analysis/muon_syst.png>
 Package pdftex.def Info: figures/Analysis/muon_syst.png  used on input line 46.
 
 (pdftex.def)             Requested size: 415.5525pt x 298.20596pt.
  [65 <./figures/Analysis/muon_syst.png>] [66]
-<figures/Analysis/jetcalib.pdf, id=1755, 1027.84pt x 361.35pt>
+<figures/Analysis/jetcalib.pdf, id=1751, 1027.84pt x 361.35pt>
 File: figures/Analysis/jetcalib.pdf Graphic file (type pdf)
 <use figures/Analysis/jetcalib.pdf>
 Package pdftex.def Info: figures/Analysis/jetcalib.pdf  used on input line 86.
@@ -1228,7 +1228,7 @@ Package epstopdf Info: Source file: <figures/Analysis/D2_W_Fit.eps>
 eps-converted-to.pdf figures/Analysis/D2_W_Fit.eps>
 (epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Analysis/D2_W_Fit-eps-converted-to.pdf, id=1872, 569.12625pt x 450.683
+<figures/Analysis/D2_W_Fit-eps-converted-to.pdf, id=1868, 569.12625pt x 450.683
 75pt>
 File: figures/Analysis/D2_W_Fit-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Analysis/D2_W_Fit-eps-converted-to.pdf>
@@ -1246,7 +1246,7 @@ to.pdf>
 t-eps-converted-to.pdf figures/Analysis/Mass_W_Fit.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Analysis/Mass_W_Fit-eps-converted-to.pdf, id=1873, 569.12625pt x 450.6
+<figures/Analysis/Mass_W_Fit-eps-converted-to.pdf, id=1869, 569.12625pt x 450.6
 8375pt>
 File: figures/Analysis/Mass_W_Fit-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Analysis/Mass_W_Fit-eps-converted-to.pdf>
@@ -1264,7 +1264,7 @@ Package epstopdf Info: Source file: <figures/Analysis/D2_Z_Fit.eps>
 eps-converted-to.pdf figures/Analysis/D2_Z_Fit.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Analysis/D2_Z_Fit-eps-converted-to.pdf, id=1874, 569.12625pt x 450.683
+<figures/Analysis/D2_Z_Fit-eps-converted-to.pdf, id=1870, 569.12625pt x 450.683
 75pt>
 File: figures/Analysis/D2_Z_Fit-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Analysis/D2_Z_Fit-eps-converted-to.pdf>
@@ -1282,19 +1282,19 @@ to.pdf>
 t-eps-converted-to.pdf figures/Analysis/Mass_Z_Fit.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Analysis/Mass_Z_Fit-eps-converted-to.pdf, id=1875, 569.12625pt x 450.6
+<figures/Analysis/Mass_Z_Fit-eps-converted-to.pdf, id=1871, 569.12625pt x 450.6
 8375pt>
 File: figures/Analysis/Mass_Z_Fit-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Analysis/Mass_Z_Fit-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Analysis/Mass_Z_Fit-eps-converted-to.pdf  used
  on input line 134.
 (pdftex.def)             Requested size: 199.46342pt x 157.95485pt.
-<figures/Analysis/sigeffW.pdf, id=1876, 569.12625pt x 450.68375pt>
+<figures/Analysis/sigeffW.pdf, id=1872, 569.12625pt x 450.68375pt>
 File: figures/Analysis/sigeffW.pdf Graphic file (type pdf)
 <use figures/Analysis/sigeffW.pdf>
 Package pdftex.def Info: figures/Analysis/sigeffW.pdf  used on input line 143.
 (pdftex.def)             Requested size: 199.46342pt x 157.95485pt.
-<figures/Analysis/sigeffZ.pdf, id=1877, 569.12625pt x 450.68375pt>
+<figures/Analysis/sigeffZ.pdf, id=1873, 569.12625pt x 450.68375pt>
 File: figures/Analysis/sigeffZ.pdf Graphic file (type pdf)
 <use figures/Analysis/sigeffZ.pdf>
 Package pdftex.def Info: figures/Analysis/sigeffZ.pdf  used on input line 144.
@@ -1345,7 +1345,7 @@ LaTeX Warning: Reference `fig:lstm_struct' on page 77 undefined on input line 2
 
 
 ]
-<figures/Analysis/rnn_architecture.png, id=2064, 567.11874pt x 521.95pt>
+<figures/Analysis/rnn_architecture.png, id=2059, 567.11874pt x 521.95pt>
 File: figures/Analysis/rnn_architecture.png Graphic file (type png)
 <use figures/Analysis/rnn_architecture.png>
 Package pdftex.def Info: figures/Analysis/rnn_architecture.png  used on input l
@@ -1356,7 +1356,7 @@ ine 243.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [78]
-<figures/Analysis/LSTM_structure.jpeg, id=2072, 432.04892pt x 362.13554pt>
+<figures/Analysis/LSTM_structure.jpeg, id=2068, 432.04892pt x 362.13554pt>
 File: figures/Analysis/LSTM_structure.jpeg Graphic file (type jpg)
 <use figures/Analysis/LSTM_structure.jpeg>
 Package pdftex.def Info: figures/Analysis/LSTM_structure.jpeg  used on input li
@@ -1368,12 +1368,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [79 <./figures/Analysis/rnn_architecture.png>] [80 <./figures/Analysis/LSTM_str
 ucture.jpeg>]
-<figures/Analysis/rnn.pdf, id=2084, 381.37231pt x 253.17447pt>
+<figures/Analysis/rnn.pdf, id=2080, 381.37231pt x 253.17447pt>
 File: figures/Analysis/rnn.pdf Graphic file (type pdf)
 <use figures/Analysis/rnn.pdf>
 Package pdftex.def Info: figures/Analysis/rnn.pdf  used on input line 260.
 (pdftex.def)             Requested size: 415.5525pt x 275.88129pt.
-<figures/Analysis/kFold_ROC.png, id=2085, 462.528pt x 346.896pt>
+<figures/Analysis/kFold_ROC.png, id=2081, 462.528pt x 346.896pt>
 File: figures/Analysis/kFold_ROC.png Graphic file (type png)
 <use figures/Analysis/kFold_ROC.png>
 Package pdftex.def Info: figures/Analysis/kFold_ROC.png  used on input line 270
@@ -1386,7 +1386,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [81
 
  <./figures/Analysis/rnn.pdf>]
-<figures/Analysis/rnn_limits.pdf, id=2132, 381.21701pt x 283.56146pt>
+<figures/Analysis/rnn_limits.pdf, id=2128, 381.21701pt x 283.56146pt>
 File: figures/Analysis/rnn_limits.pdf Graphic file (type pdf)
 <use figures/Analysis/rnn_limits.pdf>
 Package pdftex.def Info: figures/Analysis/rnn_limits.pdf  used on input line 28
@@ -1403,319 +1403,314 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/Analysis/cutflow.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Analysis/cutflow.pdf, id=2220, 722.7pt x 406.51875pt>
+<figures/Analysis/cutflow.pdf, id=2216, 722.7pt x 406.51875pt>
 File: figures/Analysis/cutflow.pdf Graphic file (type pdf)
 <use figures/Analysis/cutflow.pdf>
-Package pdftex.def Info: figures/Analysis/cutflow.pdf  used on input line 389.
+Package pdftex.def Info: figures/Analysis/cutflow.pdf  used on input line 387.
 (pdftex.def)             Requested size: 415.5525pt x 233.74646pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [85]
-<figures/Analysis/datamc/merged_hp_ww_tcr.pdf, id=2225, 345.185pt x 542.9303pt>
-
-File: figures/Analysis/datamc/merged_hp_ww_tcr.pdf Graphic file (type pdf)
-<use figures/Analysis/datamc/merged_hp_ww_tcr.pdf>
-Package pdftex.def Info: figures/Analysis/datamc/merged_hp_ww_tcr.pdf  used on 
-input line 399.
-(pdftex.def)             Requested size: 390.59174pt x 614.3491pt.
-
-
-LaTeX Warning: Float too large for page by 68.0541pt on input line 402.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[86 <./figures/Analysis/cutflow.pdf>] [87 <./figures/Analysis/datamc/merged_hp_
-ww_tcr.pdf>]
-<figures/Analysis/datamc/merged_lp_ww_tcr.pdf, id=2423, 351.743pt x 551.66312pt
->
-File: figures/Analysis/datamc/merged_lp_ww_tcr.pdf Graphic file (type pdf)
-<use figures/Analysis/datamc/merged_lp_ww_tcr.pdf>
-Package pdftex.def Info: figures/Analysis/datamc/merged_lp_ww_tcr.pdf  used on 
-input line 408.
-(pdftex.def)             Requested size: 391.70062pt x 614.33145pt.
-
-
-LaTeX Warning: Float too large for page by 68.03644pt on input line 411.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[88 <./figures/Analysis/datamc/merged_lp_ww_tcr.pdf>]
-<figures/Analysis/datamc/merged_hp_wz_tcr.pdf, id=2595, 405.90034pt x 455.50296
-pt>
-File: figures/Analysis/datamc/merged_hp_wz_tcr.pdf Graphic file (type pdf)
-<use figures/Analysis/datamc/merged_hp_wz_tcr.pdf>
-Package pdftex.def Info: figures/Analysis/datamc/merged_hp_wz_tcr.pdf  used on 
-input line 417.
-(pdftex.def)             Requested size: 415.57364pt x 466.35835pt.
-<figures/Analysis/datamc/merged_lp_wz_tcr.pdf, id=2596, 399.18364pt x 454.29906
-pt>
-File: figures/Analysis/datamc/merged_lp_wz_tcr.pdf Graphic file (type pdf)
-<use figures/Analysis/datamc/merged_lp_wz_tcr.pdf>
-Package pdftex.def Info: figures/Analysis/datamc/merged_lp_wz_tcr.pdf  used on 
-input line 426.
-(pdftex.def)             Requested size: 415.57974pt x 472.95898pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[89
-
-
- <./figures/Analysis/datamc/merged_hp_wz_tcr.pdf>]
-<figures/Analysis/datamc/resolved_ww_tcr.pdf, id=2845, 332.4374pt x 545.57678pt
->
-File: figures/Analysis/datamc/resolved_ww_tcr.pdf Graphic file (type pdf)
-<use figures/Analysis/datamc/resolved_ww_tcr.pdf>
-Package pdftex.def Info: figures/Analysis/datamc/resolved_ww_tcr.pdf  used on i
-nput line 435.
-(pdftex.def)             Requested size: 374.31578pt x 614.30515pt.
-
-
-LaTeX Warning: Float too large for page by 68.01013pt on input line 438.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[90 <./figures/Analysis/datamc/merged_lp_wz_tcr.pdf>] [91 <./figures/Analysis/d
-atamc/resolved_ww_tcr.pdf>]
-<figures/Analysis/datamc/resolved_wz_tcr.pdf, id=3278, 403.31519pt x 451.18011p
-t>
-File: figures/Analysis/datamc/resolved_wz_tcr.pdf Graphic file (type pdf)
-<use figures/Analysis/datamc/resolved_wz_tcr.pdf>
-Package pdftex.def Info: figures/Analysis/datamc/resolved_wz_tcr.pdf  used on i
-nput line 444.
-(pdftex.def)             Requested size: 415.54851pt x 464.86526pt.
-
-Overfull \hbox (2.17752pt too wide) in paragraph at lines 450--450
+Overfull \hbox (2.17752pt too wide) in paragraph at lines 397--397
 []\T1/lmr/bx/n/17.28 Selection Ac-cep-tance times ef-fi-ciency for Sig-
  []
 
-[92
+[86 <./figures/Analysis/cutflow.pdf>]
 
- <./figures/Analysis/datamc/resolved_wz_tcr.pdf>]
+LaTeX Warning: Reference `fig:accept_rsg' on page 87 undefined on input line 40
+5.
 
-LaTeX Warning: Reference `fig:accept_rsg' on page 93 undefined on input line 45
-8.
-
-<figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf, id=3537, 569.12
+<figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf, id=2245, 569.12
 625pt x 385.44pt>
 File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf Graphic fil
 e (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepDY
-HVT.pdf  used on input line 462.
+HVT.pdf  used on input line 409.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
-<figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf, id=3538, 569.1
+<figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf, id=2246, 569.1
 2625pt x 385.44pt>
 File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf Graphic fi
 le (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVB
-FHVT.pdf  used on input line 463.
+FHVT.pdf  used on input line 410.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
-<figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf, id=3539, 569.1
+<figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf, id=2247, 569.1
 2625pt x 385.44pt>
 File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf Graphic fi
 le (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepgg
-FRSG.pdf  used on input line 473.
+FRSG.pdf  used on input line 420.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
-<figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf, id=3540, 569.1
+<figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf, id=2248, 569.1
 2625pt x 385.44pt>
 File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf Graphic fi
 le (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVB
-FRSG.pdf  used on input line 474.
+FRSG.pdf  used on input line 421.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
+[87 <./figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf, page is r
+otated 90 degrees> <./figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHV
+T.pdf, page is rotated 90 degrees> <./figures/Analysis/signal_acceptance/Acc_ti
+mes_Eff1lepggFRSG.pdf, page is rotated 90 degrees> <./figures/Analysis/signal_a
+cceptance/Acc_times_Eff1lepVBFRSG.pdf, page is rotated 90 degrees>] [88]
+<figures/Analysis/datamc/merged_hp_ww_tcr.pdf, id=2437, 345.185pt x 542.9303pt>
+
+File: figures/Analysis/datamc/merged_hp_ww_tcr.pdf Graphic file (type pdf)
+<use figures/Analysis/datamc/merged_hp_ww_tcr.pdf>
+Package pdftex.def Info: figures/Analysis/datamc/merged_hp_ww_tcr.pdf  used on 
+input line 443.
+(pdftex.def)             Requested size: 390.59174pt x 614.3491pt.
+
+
+LaTeX Warning: Float too large for page by 68.0541pt on input line 446.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[93 <./figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf, page is r
-otated 90 degrees> <./figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHV
-T.pdf, page is rotated 90 degrees>] [94 <./figures/Analysis/signal_acceptance/A
-cc_times_Eff1lepggFRSG.pdf, page is rotated 90 degrees> <./figures/Analysis/sig
-nal_acceptance/Acc_times_Eff1lepVBFRSG.pdf, page is rotated 90 degrees>]
-[95]
-Overfull \hbox (24.35898pt too wide) in paragraph at lines 500--511
+[89] [90 <./figures/Analysis/datamc/merged_hp_ww_tcr.pdf>]
+<figures/Analysis/datamc/merged_lp_ww_tcr.pdf, id=2616, 351.743pt x 551.66312pt
+>
+File: figures/Analysis/datamc/merged_lp_ww_tcr.pdf Graphic file (type pdf)
+<use figures/Analysis/datamc/merged_lp_ww_tcr.pdf>
+Package pdftex.def Info: figures/Analysis/datamc/merged_lp_ww_tcr.pdf  used on 
+input line 452.
+(pdftex.def)             Requested size: 391.70062pt x 614.33145pt.
+
+
+LaTeX Warning: Float too large for page by 68.03644pt on input line 455.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[91 <./figures/Analysis/datamc/merged_lp_ww_tcr.pdf>]
+<figures/Analysis/datamc/merged_hp_wz_tcr.pdf, id=2789, 405.90034pt x 455.50296
+pt>
+File: figures/Analysis/datamc/merged_hp_wz_tcr.pdf Graphic file (type pdf)
+<use figures/Analysis/datamc/merged_hp_wz_tcr.pdf>
+Package pdftex.def Info: figures/Analysis/datamc/merged_hp_wz_tcr.pdf  used on 
+input line 461.
+(pdftex.def)             Requested size: 415.57364pt x 466.35835pt.
+<figures/Analysis/datamc/merged_lp_wz_tcr.pdf, id=2790, 399.18364pt x 454.29906
+pt>
+File: figures/Analysis/datamc/merged_lp_wz_tcr.pdf Graphic file (type pdf)
+<use figures/Analysis/datamc/merged_lp_wz_tcr.pdf>
+Package pdftex.def Info: figures/Analysis/datamc/merged_lp_wz_tcr.pdf  used on 
+input line 470.
+(pdftex.def)             Requested size: 415.57974pt x 472.95898pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[92
+
+
+ <./figures/Analysis/datamc/merged_hp_wz_tcr.pdf>]
+<figures/Analysis/datamc/resolved_ww_tcr.pdf, id=3038, 332.4374pt x 545.57678pt
+>
+File: figures/Analysis/datamc/resolved_ww_tcr.pdf Graphic file (type pdf)
+<use figures/Analysis/datamc/resolved_ww_tcr.pdf>
+Package pdftex.def Info: figures/Analysis/datamc/resolved_ww_tcr.pdf  used on i
+nput line 479.
+(pdftex.def)             Requested size: 374.31578pt x 614.30515pt.
+
+
+LaTeX Warning: Float too large for page by 68.01013pt on input line 482.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[93 <./figures/Analysis/datamc/merged_lp_wz_tcr.pdf>] [94 <./figures/Analysis/d
+atamc/resolved_ww_tcr.pdf>]
+<figures/Analysis/datamc/resolved_wz_tcr.pdf, id=3471, 403.31519pt x 451.18011p
+t>
+File: figures/Analysis/datamc/resolved_wz_tcr.pdf Graphic file (type pdf)
+<use figures/Analysis/datamc/resolved_wz_tcr.pdf>
+Package pdftex.def Info: figures/Analysis/datamc/resolved_wz_tcr.pdf  used on i
+nput line 488.
+(pdftex.def)             Requested size: 415.54851pt x 464.86526pt.
+ [95
+
+ <./figures/Analysis/datamc/resolved_wz_tcr.pdf>] [96]
+Overfull \hbox (24.35898pt too wide) in paragraph at lines 506--517
  [][] 
  []
 
-<figures/Analysis/multijet/multijet_met.pdf, id=3737, 407.45496pt x 151.18663pt
+<figures/Analysis/multijet/multijet_met.pdf, id=3739, 407.45496pt x 151.18663pt
 >
 File: figures/Analysis/multijet/multijet_met.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/multijet_met.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/multijet_met.pdf  used on in
-put line 518.
+put line 524.
 (pdftex.def)             Requested size: 415.5525pt x 154.19678pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[96]
-<figures/Analysis/multijet/mj_elec_ww.pdf, id=3742, 284.00926pt x 468.1781pt>
+[97]
+<figures/Analysis/multijet/mj_elec_ww.pdf, id=3744, 284.00926pt x 468.1781pt>
 File: figures/Analysis/multijet/mj_elec_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_ww.pdf  used on inpu
-t line 528.
+t line 534.
 (pdftex.def)             Requested size: 372.68756pt x 614.36081pt.
 
 
-LaTeX Warning: Float too large for page by 53.5658pt on input line 531.
+LaTeX Warning: Float too large for page by 53.5658pt on input line 537.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[97 <./figures/Analysis/multijet/multijet_met.pdf>] [98 <./figures/Analysis/mul
+[98 <./figures/Analysis/multijet/multijet_met.pdf>] [99 <./figures/Analysis/mul
 tijet/mj_elec_ww.pdf>]
-<figures/Analysis/multijet/mj_muon_ww.pdf, id=4008, 317.41667pt x 513.51097pt>
+<figures/Analysis/multijet/mj_muon_ww.pdf, id=4010, 317.41667pt x 513.51097pt>
 File: figures/Analysis/multijet/mj_muon_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_ww.pdf  used on inpu
-t line 537.
+t line 543.
 (pdftex.def)             Requested size: 379.72113pt x 614.30603pt.
 
 
-LaTeX Warning: Float too large for page by 53.51102pt on input line 540.
+LaTeX Warning: Float too large for page by 53.51102pt on input line 546.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[99 <./figures/Analysis/multijet/mj_muon_ww.pdf>]
-<figures/Analysis/multijet/mj_elec_wz_untag.pdf, id=4168, 273.22618pt x 466.815
+[100 <./figures/Analysis/multijet/mj_muon_ww.pdf>]
+<figures/Analysis/multijet/mj_elec_wz_untag.pdf, id=4170, 273.22618pt x 466.815
 03pt>
 File: figures/Analysis/multijet/mj_elec_wz_untag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_wz_untag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_wz_untag.pdf  used o
-n input line 547.
+n input line 553.
 (pdftex.def)             Requested size: 359.54652pt x 614.2959pt.
 
 
-LaTeX Warning: Float too large for page by 53.50089pt on input line 550.
+LaTeX Warning: Float too large for page by 53.50089pt on input line 556.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[100 <./figures/Analysis/multijet/mj_elec_wz_untag.pdf>]
-<figures/Analysis/multijet/mj_muon_wz_untag.pdf, id=4324, 281.7433pt x 463.2284
+[101 <./figures/Analysis/multijet/mj_elec_wz_untag.pdf>]
+<figures/Analysis/multijet/mj_muon_wz_untag.pdf, id=4326, 281.7433pt x 463.2284
 2pt>
 File: figures/Analysis/multijet/mj_muon_wz_untag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_wz_untag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_wz_untag.pdf  used o
-n input line 556.
+n input line 562.
 (pdftex.def)             Requested size: 373.6563pt x 614.34727pt.
 
 
-LaTeX Warning: Float too large for page by 53.55226pt on input line 559.
+LaTeX Warning: Float too large for page by 53.55226pt on input line 565.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[101 <./figures/Analysis/multijet/mj_muon_wz_untag.pdf>]
-<figures/Analysis/multijet/mj_elec_wz_tag.pdf, id=4481, 269.91922pt x 469.58588
+[102 <./figures/Analysis/multijet/mj_muon_wz_untag.pdf>]
+<figures/Analysis/multijet/mj_elec_wz_tag.pdf, id=4483, 269.91922pt x 469.58588
 pt>
 File: figures/Analysis/multijet/mj_elec_wz_tag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_wz_tag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_wz_tag.pdf  used on 
-input line 565.
+input line 571.
 (pdftex.def)             Requested size: 353.11487pt x 614.32365pt.
 
 
-LaTeX Warning: Float too large for page by 53.52864pt on input line 568.
+LaTeX Warning: Float too large for page by 53.52864pt on input line 574.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[102 <./figures/Analysis/multijet/mj_elec_wz_tag.pdf>]
-<figures/Analysis/multijet/mj_muon_wz_tag.pdf, id=4637, 309.0734pt x 517.46082p
+[103 <./figures/Analysis/multijet/mj_elec_wz_tag.pdf>]
+<figures/Analysis/multijet/mj_muon_wz_tag.pdf, id=4639, 309.0734pt x 517.46082p
 t>
 File: figures/Analysis/multijet/mj_muon_wz_tag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_wz_tag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_wz_tag.pdf  used on 
-input line 574.
+input line 580.
 (pdftex.def)             Requested size: 366.9247pt x 614.3174pt.
 
 
-LaTeX Warning: Float too large for page by 53.52238pt on input line 577.
+LaTeX Warning: Float too large for page by 53.52238pt on input line 583.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[103 <./figures/Analysis/multijet/mj_muon_wz_tag.pdf>]
-<figures/Analysis/multijet/mj_elec_vbf_ww.pdf, id=4797, 276.33228pt x 466.37727
+[104 <./figures/Analysis/multijet/mj_muon_wz_tag.pdf>]
+<figures/Analysis/multijet/mj_elec_vbf_ww.pdf, id=4799, 276.33228pt x 466.37727
 pt>
 File: figures/Analysis/multijet/mj_elec_vbf_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_vbf_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_vbf_ww.pdf  used on 
-input line 584.
+input line 590.
 (pdftex.def)             Requested size: 363.97545pt x 614.29626pt.
 
 
-LaTeX Warning: Float too large for page by 53.50125pt on input line 587.
+LaTeX Warning: Float too large for page by 53.50125pt on input line 593.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[104 <./figures/Analysis/multijet/mj_elec_vbf_ww.pdf>]
-<figures/Analysis/multijet/mj_muon_vbf_ww.pdf, id=4954, 308.60295pt x 520.93301
+[105 <./figures/Analysis/multijet/mj_elec_vbf_ww.pdf>]
+<figures/Analysis/multijet/mj_muon_vbf_ww.pdf, id=4956, 308.60295pt x 520.93301
 pt>
 File: figures/Analysis/multijet/mj_muon_vbf_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_vbf_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_vbf_ww.pdf  used on 
-input line 593.
+input line 599.
 (pdftex.def)             Requested size: 363.95055pt x 614.36177pt.
 
 
-LaTeX Warning: Float too large for page by 53.56676pt on input line 596.
+LaTeX Warning: Float too large for page by 53.56676pt on input line 602.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[105 <./figures/Analysis/multijet/mj_muon_vbf_ww.pdf>]
-<figures/Analysis/multijet/mj_elec_vbf_wz.pdf, id=5114, 274.71774pt x 461.03302
+[106 <./figures/Analysis/multijet/mj_muon_vbf_ww.pdf>]
+<figures/Analysis/multijet/mj_elec_vbf_wz.pdf, id=5116, 274.71774pt x 461.03302
 pt>
 File: figures/Analysis/multijet/mj_elec_vbf_wz.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_vbf_wz.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_vbf_wz.pdf  used on 
-input line 602.
+input line 608.
 (pdftex.def)             Requested size: 366.06586pt x 614.33397pt.
 
 
-LaTeX Warning: Float too large for page by 53.53896pt on input line 605.
+LaTeX Warning: Float too large for page by 53.53896pt on input line 611.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[106 <./figures/Analysis/multijet/mj_elec_vbf_wz.pdf>]
-<figures/Analysis/multijet/mj_muon_vbf_wz.pdf, id=5270, 317.30394pt x 520.01767
+[107 <./figures/Analysis/multijet/mj_elec_vbf_wz.pdf>]
+<figures/Analysis/multijet/mj_muon_vbf_wz.pdf, id=5272, 317.30394pt x 520.01767
 pt>
 File: figures/Analysis/multijet/mj_muon_vbf_wz.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_vbf_wz.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_vbf_wz.pdf  used on 
-input line 611.
+input line 617.
 (pdftex.def)             Requested size: 374.84146pt x 614.31378pt.
 
 
-LaTeX Warning: Float too large for page by 53.51877pt on input line 614.
+LaTeX Warning: Float too large for page by 53.51877pt on input line 620.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[107 <./figures/Analysis/multijet/mj_muon_vbf_wz.pdf>]
+[108 <./figures/Analysis/multijet/mj_muon_vbf_wz.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 622.
+(Font)              <14.4> on input line 628.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 622.
+(Font)              <7> on input line 628.
 
 
-LaTeX Warning: Float too large for page by 75.0899pt on input line 675.
+LaTeX Warning: Float too large for page by 75.0899pt on input line 681.
 
-[108]
+[109]
 Chapter 10.
-[109
+[110
 
 
 
@@ -1727,156 +1722,156 @@ Chapter 10.
 
 
 
-] [110] [111]
-<figures/Analysis/modelingsysts/w_syst.pdf, id=5451, 409.53331pt x 337.774pt>
+] [111] [112]
+<figures/Analysis/modelingsysts/w_syst.pdf, id=5453, 409.53331pt x 337.774pt>
 File: figures/Analysis/modelingsysts/w_syst.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/w_syst.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/w_syst.pdf  used on inp
-ut line 717.
+ut line 723.
 (pdftex.def)             Requested size: 415.5525pt x 342.73648pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[112]
-<figures/Analysis/modelingsysts/w_gen.pdf, id=5456, 403.47519pt x 330.80136pt>
+[113]
+<figures/Analysis/modelingsysts/w_gen.pdf, id=5458, 403.47519pt x 330.80136pt>
 File: figures/Analysis/modelingsysts/w_gen.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/w_gen.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/w_gen.pdf  used on inpu
-t line 726.
+t line 732.
 (pdftex.def)             Requested size: 415.5525pt x 340.70395pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[113 <./figures/Analysis/modelingsysts/w_syst.pdf>] [114 <./figures/Analysis/mo
+[114 <./figures/Analysis/modelingsysts/w_syst.pdf>] [115 <./figures/Analysis/mo
 delingsysts/w_gen.pdf>]
-<figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf, id=5603, 340.25098pt x 
+<figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf, id=5605, 340.25098pt x 
 162.68579pt>
 File: figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf Graphic file (type 
 pdf)
 <use figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf 
- used on input line 736.
+ used on input line 742.
 (pdftex.def)             Requested size: 415.5525pt x 198.68983pt.
-<figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf, id=5604, 343.92601pt x 1
+<figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf, id=5606, 343.92601pt x 1
 91.03691pt>
 File: figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf Graphic file (type p
 df)
 <use figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf  
-used on input line 745.
+used on input line 751.
 (pdftex.def)             Requested size: 415.5525pt x 230.8347pt.
-<figures/Analysis/modelingsysts/ttbar_isr_merg.pdf, id=5605, 336.89073pt x 361.
+<figures/Analysis/modelingsysts/ttbar_isr_merg.pdf, id=5607, 336.89073pt x 361.
 00684pt>
 File: figures/Analysis/modelingsysts/ttbar_isr_merg.pdf Graphic file (type pdf)
 
 <use figures/Analysis/modelingsysts/ttbar_isr_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_isr_merg.pdf  use
-d on input line 754.
+d on input line 760.
 (pdftex.def)             Requested size: 415.5525pt x 445.31926pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[115
+[116
 
  <./figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf> <./figures/Analysis/
 modelingsysts/ttbar_gen_had_res.pdf>]
-<figures/Analysis/modelingsysts/ttbar_isr_res.pdf, id=5721, 333.4075pt x 192.78
+<figures/Analysis/modelingsysts/ttbar_isr_res.pdf, id=5723, 333.4075pt x 192.78
 796pt>
 File: figures/Analysis/modelingsysts/ttbar_isr_res.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/ttbar_isr_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_isr_res.pdf  used
- on input line 763.
+ on input line 769.
 (pdftex.def)             Requested size: 415.5525pt x 240.28716pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[116 <./figures/Analysis/modelingsysts/ttbar_isr_merg.pdf>] [117 <./figures/Ana
+[117 <./figures/Analysis/modelingsysts/ttbar_isr_merg.pdf>] [118 <./figures/Ana
 lysis/modelingsysts/ttbar_isr_res.pdf>]
-<figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf, id=5841, 336.94792pt x 156.
+<figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf, id=5843, 336.94792pt x 156.
 40573pt>
 File: figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf Graphic file (type pdf)
 
 <use figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf  use
-d on input line 772.
+d on input line 778.
 (pdftex.def)             Requested size: 415.5525pt x 192.89815pt.
-<figures/Analysis/modelingsysts/ttbar_fsr_res.pdf, id=5842, 339.08943pt x 178.7
+<figures/Analysis/modelingsysts/ttbar_fsr_res.pdf, id=5844, 339.08943pt x 178.7
 5975pt>
 File: figures/Analysis/modelingsysts/ttbar_fsr_res.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/ttbar_fsr_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_fsr_res.pdf  used
- on input line 781.
+ on input line 787.
 (pdftex.def)             Requested size: 415.5525pt x 219.08487pt.
- [118
+ [119
 
  <./figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf> <./figures/Analysis/mode
 lingsysts/ttbar_fsr_res.pdf>]
 Chapter 11.
-[119
+[120
 
-] [120]
-<figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf, id=5972, 
+] [121]
+<figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf, id=5974, 
 569.12625pt x 386.44376pt>
 File: figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf Graph
 ic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_resolve
-d_1lephvt.pdf  used on input line 812.
+d_1lephvt.pdf  used on input line 818.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 <figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf, id=597
-3, 569.12625pt x 386.44376pt>
+5, 569.12625pt x 386.44376pt>
 File: figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf Gr
 aphic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_resolve
-d_1lephvtvbf.pdf  used on input line 813.
+d_1lephvtvbf.pdf  used on input line 819.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[121]
-<figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf, id=5978, 56
+[122]
+<figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf, id=5980, 56
 9.12625pt x 386.44376pt>
 File: figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf Graphic
  file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_merged_
-1lephvt.pdf  used on input line 821.
+1lephvt.pdf  used on input line 827.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
-<figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf, id=5979,
+<figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf, id=5981,
  569.12625pt x 386.44376pt>
 File: figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf Grap
 hic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_merged_
-1lephvtvbf.pdf  used on input line 822.
+1lephvtvbf.pdf  used on input line 828.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 828.
+(hyperref)                removing `math shift' on input line 834.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 828.
+(hyperref)                removing `\mu' on input line 834.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 828.
+(hyperref)                removing `math shift' on input line 834.
 
-[122 <./figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf, pa
+[123 <./figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf, pa
 ge is rotated 90 degrees> <./figures/Analysis/signal_mass_resolution/sigres_res
 olved_1lephvtvbf.pdf, page is rotated 90 degrees> <./figures/Analysis/signal_ma
 ss_resolution/sigres_merged_1lephvt.pdf, page is rotated 90 degrees> <./figures
 /Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf, page is rotated 
-90 degrees>] [123] [124]) (./results.tex [125]
+90 degrees>] [124] [125]) (./results.tex [126]
 Chapter 12.
-<figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf, id=6183, 569.12625pt x
+<figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf, id=6185, 569.12625pt x
  408.52625pt>
 File: figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf Graphic file (type
  pdf)
@@ -1887,10 +1882,10 @@ Package pdftex.def Info: figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[126
+[127
 
 ]
-<figures/results/pvalues/fixed_pvalues/hvtwwvbf_pvalue.pdf, id=6188, 569.12625p
+<figures/results/pvalues/fixed_pvalues/hvtwwvbf_pvalue.pdf, id=6190, 569.12625p
 t x 408.52625pt>
 File: figures/results/pvalues/fixed_pvalues/hvtwwvbf_pvalue.pdf Graphic file (t
 ype pdf)
@@ -1902,10 +1897,10 @@ pdf  used on input line 14.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[127 <./figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf, page is rotated
- 90 degrees>] [128 <./figures/results/pvalues/fixed_pvalues/hvtwwvbf_pvalue.pdf
+[128 <./figures/results/pvalues/fixed_pvalues/hvtww_pvalue.pdf, page is rotated
+ 90 degrees>] [129 <./figures/results/pvalues/fixed_pvalues/hvtwwvbf_pvalue.pdf
 , page is rotated 90 degrees>]
-<figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf, id=6284, 569.12625pt x
+<figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf, id=6286, 569.12625pt x
  408.52625pt>
 File: figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf Graphic file (type
  pdf)
@@ -1913,7 +1908,7 @@ File: figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf Graphic file (type
 Package pdftex.def Info: figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf
   used on input line 23.
 (pdftex.def)             Requested size: 415.5525pt x 298.30272pt.
-<figures/results/pvalues/fixed_pvalues/hvtwzvbf_pvalue.pdf, id=6285, 569.12625p
+<figures/results/pvalues/fixed_pvalues/hvtwzvbf_pvalue.pdf, id=6287, 569.12625p
 t x 408.52625pt>
 File: figures/results/pvalues/fixed_pvalues/hvtwzvbf_pvalue.pdf Graphic file (t
 ype pdf)
@@ -1925,11 +1920,11 @@ pdf  used on input line 31.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[129
+[130
 
  <./figures/results/pvalues/fixed_pvalues/hvtwz_pvalue.pdf, page is rotated 90 
 degrees>]
-<figures/results/pvalues/fixed_pvalues/rsg_pvalue.pdf, id=6333, 569.12625pt x 4
+<figures/results/pvalues/fixed_pvalues/rsg_pvalue.pdf, id=6335, 569.12625pt x 4
 08.52625pt>
 File: figures/results/pvalues/fixed_pvalues/rsg_pvalue.pdf Graphic file (type p
 df)
@@ -1941,14 +1936,14 @@ used on input line 40.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[130 <./figures/results/pvalues/fixed_pvalues/hvtwzvbf_pvalue.pdf, page is rota
-ted 90 degrees>] [131 <./figures/results/pvalues/fixed_pvalues/rsg_pvalue.pdf, 
+[131 <./figures/results/pvalues/fixed_pvalues/hvtwzvbf_pvalue.pdf, page is rota
+ted 90 degrees>] [132 <./figures/results/pvalues/fixed_pvalues/rsg_pvalue.pdf, 
 page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `fig:hvtww_cor' on page 132 undefined on input line 48
+LaTeX Warning: Reference `fig:hvtww_cor' on page 133 undefined on input line 48
 .
 
-<figures/results/HVTWW/ranking_data/nov7_hvtww_2000gev/ranking.pdf, id=6432, 56
+<figures/results/HVTWW/ranking_data/nov7_hvtww_2000gev/ranking.pdf, id=6434, 56
 9.12625pt x 558.085pt>
 File: figures/results/HVTWW/ranking_data/nov7_hvtww_2000gev/ranking.pdf Graphic
  file (type pdf)
@@ -1957,14 +1952,14 @@ Package pdftex.def Info: figures/results/HVTWW/ranking_data/nov7_hvtww_2000gev/
 ranking.pdf  used on input line 51.
 (pdftex.def)             Requested size: 199.46342pt x 195.59666pt.
 <figures/results/HVTWWVBF/ranking_data/nov7_hvtwwvbf_1000gev/ranking.pdf, id=64
-33, 569.12625pt x 558.085pt>
+35, 569.12625pt x 558.085pt>
 File: figures/results/HVTWWVBF/ranking_data/nov7_hvtwwvbf_1000gev/ranking.pdf G
 raphic file (type pdf)
 <use figures/results/HVTWWVBF/ranking_data/nov7_hvtwwvbf_1000gev/ranking.pdf>
 Package pdftex.def Info: figures/results/HVTWWVBF/ranking_data/nov7_hvtwwvbf_10
 00gev/ranking.pdf  used on input line 52.
 (pdftex.def)             Requested size: 199.46342pt x 195.59666pt.
-<figures/results/HVTWZ/ranking_data/nov7_hvtwz_1000gev/ranking.pdf, id=6434, 56
+<figures/results/HVTWZ/ranking_data/nov7_hvtwz_1000gev/ranking.pdf, id=6436, 56
 9.12625pt x 558.085pt>
 File: figures/results/HVTWZ/ranking_data/nov7_hvtwz_1000gev/ranking.pdf Graphic
  file (type pdf)
@@ -1973,7 +1968,7 @@ Package pdftex.def Info: figures/results/HVTWZ/ranking_data/nov7_hvtwz_1000gev/
 ranking.pdf  used on input line 60.
 (pdftex.def)             Requested size: 199.46342pt x 195.59666pt.
 <figures/results/HVTWZVBF/ranking_data/nov7_hvtwzvbf_1000gev/ranking.pdf, id=64
-35, 569.12625pt x 558.085pt>
+37, 569.12625pt x 558.085pt>
 File: figures/results/HVTWZVBF/ranking_data/nov7_hvtwzvbf_1000gev/ranking.pdf G
 raphic file (type pdf)
 <use figures/results/HVTWZVBF/ranking_data/nov7_hvtwzvbf_1000gev/ranking.pdf>
@@ -1983,14 +1978,14 @@ Package pdftex.def Info: figures/results/HVTWZVBF/ranking_data/nov7_hvtwzvbf_10
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[132
+[133
 
  <./figures/results/HVTWW/ranking_data/nov7_hvtww_2000gev/ranking.pdf, page is 
 rotated 90 degrees> <./figures/results/HVTWWVBF/ranking_data/nov7_hvtwwvbf_1000
 gev/ranking.pdf, page is rotated 90 degrees>]
 <figures/Results/HVTWW/HVTWW_combined_1nov8_maybeFloatRelevantUncorrXSSingleBin
 PrunSyst/Plots/CorrMatrix/corr_doAsimov0_doCondtional1_mu0_HighCorr.png, id=652
-6, 798.985pt x 574.145pt>
+8, 798.985pt x 574.145pt>
 File: figures/Results/HVTWW/HVTWW_combined_1nov8_maybeFloatRelevantUncorrXSSing
 leBinPrunSyst/Plots/CorrMatrix/corr_doAsimov0_doCondtional1_mu0_HighCorr.png Gr
 aphic file (type png)
@@ -2002,7 +1997,7 @@ mu0_HighCorr.png  used on input line 69.
 (pdftex.def)             Requested size: 199.46342pt x 143.3344pt.
 <figures/Results/HVTWWVBF/HVTWWVBF_combined_1nov8_maybeFloatRelevantUncorrXSSin
 gleBinPrunSyst/Plots/CorrMatrix/corr_doAsimov0_doCondtional1_mu0_HighCorr.pdf, 
-id=6527, 569.12625pt x 408.52625pt>
+id=6529, 569.12625pt x 408.52625pt>
 File: figures/Results/HVTWWVBF/HVTWWVBF_combined_1nov8_maybeFloatRelevantUncorr
 XSSingleBinPrunSyst/Plots/CorrMatrix/corr_doAsimov0_doCondtional1_mu0_HighCorr.
 pdf Graphic file (type pdf)
@@ -2015,23 +2010,23 @@ onal1_mu0_HighCorr.pdf  used on input line 70.
 (pdftex.def)             Requested size: 199.46342pt x 143.17957pt.
 
 
-LaTeX Warning: Reference `tbl:hvtww_yields' on page 133 undefined on input line
+LaTeX Warning: Reference `tbl:hvtww_yields' on page 134 undefined on input line
  76.
 
 
-LaTeX Warning: Reference `tbl:hvwzvbf_yields' on page 133 undefined on input li
+LaTeX Warning: Reference `tbl:hvwzvbf_yields' on page 134 undefined on input li
 ne 76.
 
 
-LaTeX Warning: Reference `tbl:hvtww_xs_fit' on page 133 undefined on input line
+LaTeX Warning: Reference `tbl:hvtww_xs_fit' on page 134 undefined on input line
  76.
 
 
-LaTeX Warning: Reference `tbl:hvtwzvbf_xs_fit' on page 133 undefined on input l
+LaTeX Warning: Reference `tbl:hvtwzvbf_xs_fit' on page 134 undefined on input l
 ine 76.
 
 
-LaTeX Warning: Reference `fig:hvtwzvbf_sr_postfit' on page 133 undefined on inp
+LaTeX Warning: Reference `fig:hvtwzvbf_sr_postfit' on page 134 undefined on inp
 ut line 76.
 
 
@@ -2077,7 +2072,7 @@ Overfull \hbox (32.91731pt too wide) in paragraph at lines 204--218
 [][] 
  []
 
-<figures/results/HVTWW/PlotyieldTable_postfit.pdf, id=6531, 502.87875pt x 739.7
+<figures/results/HVTWW/PlotyieldTable_postfit.pdf, id=6533, 502.87875pt x 739.7
 6375pt>
 File: figures/results/HVTWW/PlotyieldTable_postfit.pdf Graphic file (type pdf)
 <use figures/results/HVTWW/PlotyieldTable_postfit.pdf>
@@ -2090,16 +2085,16 @@ LaTeX Warning: Float too large for page by 35.99965pt on input line 419.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[133 <./figures/results/HVTWZ/ranking_data/nov7_hvtwz_1000gev/ranking.pdf, page
+[134 <./figures/results/HVTWZ/ranking_data/nov7_hvtwz_1000gev/ranking.pdf, page
  is rotated 90 degrees> <./figures/results/HVTWZVBF/ranking_data/nov7_hvtwzvbf_
 1000gev/ranking.pdf, page is rotated 90 degrees> <./figures/Results/HVTWW/HVTWW
 _combined_1nov8_maybeFloatRelevantUncorrXSSingleBinPrunSyst/Plots/CorrMatrix/co
 rr_doAsimov0_doCondtional1_mu0_HighCorr.png> <./figures/Results/HVTWWVBF/HVTWWV
 BF_combined_1nov8_maybeFloatRelevantUncorrXSSingleBinPrunSyst/Plots/CorrMatrix/
 corr_doAsimov0_doCondtional1_mu0_HighCorr.pdf, page is rotated 90 degrees>]
-[134] [135] [136] [137] [138] [139] [140] [141 <./figures/results/HVTWW/Plotyie
+[135] [136] [137] [138] [139] [140] [141] [142 <./figures/results/HVTWW/Plotyie
 ldTable_postfit.pdf>]
-<figures/results/HVTWZ/PlotyieldTable_postfit.pdf, id=6742, 502.87875pt x 739.7
+<figures/results/HVTWZ/PlotyieldTable_postfit.pdf, id=6744, 502.87875pt x 739.7
 6375pt>
 File: figures/results/HVTWZ/PlotyieldTable_postfit.pdf Graphic file (type pdf)
 <use figures/results/HVTWZ/PlotyieldTable_postfit.pdf>
@@ -2113,8 +2108,8 @@ LaTeX Warning: Float too large for page by 35.99965pt on input line 427.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[142 <./figures/results/HVTWZ/PlotyieldTable_postfit.pdf>]
-<figures/results/HVTWWVBF/PlotyieldTable_postfit.pdf, id=6790, 502.87875pt x 73
+[143 <./figures/results/HVTWZ/PlotyieldTable_postfit.pdf>]
+<figures/results/HVTWWVBF/PlotyieldTable_postfit.pdf, id=6792, 502.87875pt x 73
 9.76375pt>
 File: figures/results/HVTWWVBF/PlotyieldTable_postfit.pdf Graphic file (type pd
 f)
@@ -2129,8 +2124,8 @@ LaTeX Warning: Float too large for page by 35.99965pt on input line 435.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[143 <./figures/results/HVTWWVBF/PlotyieldTable_postfit.pdf>]
-<figures/results/HVTWZVBF/PlotyieldTable_postfit.pdf, id=6840, 502.87875pt x 73
+[144 <./figures/results/HVTWWVBF/PlotyieldTable_postfit.pdf>]
+<figures/results/HVTWZVBF/PlotyieldTable_postfit.pdf, id=6842, 502.87875pt x 73
 9.76375pt>
 File: figures/results/HVTWZVBF/PlotyieldTable_postfit.pdf Graphic file (type pd
 f)
@@ -2145,28 +2140,28 @@ LaTeX Warning: Float too large for page by 35.99965pt on input line 443.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[144 <./figures/results/HVTWZVBF/PlotyieldTable_postfit.pdf>]
-<figures/results/HVTWW/L1_MergHP_GGF_WW_SR.pdf, id=6888, 569.12625pt x 694.595p
+[145 <./figures/results/HVTWZVBF/PlotyieldTable_postfit.pdf>]
+<figures/results/HVTWW/L1_MergHP_GGF_WW_SR.pdf, id=6890, 569.12625pt x 694.595p
 t>
 File: figures/results/HVTWW/L1_MergHP_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWW/L1_MergHP_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/results/HVTWW/L1_MergHP_GGF_WW_SR.pdf  used on
  input line 449.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWW/L1_MergLP_GGF_WW_SR.pdf, id=6889, 569.12625pt x 694.595p
+<figures/results/HVTWW/L1_MergLP_GGF_WW_SR.pdf, id=6891, 569.12625pt x 694.595p
 t>
 File: figures/results/HVTWW/L1_MergLP_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWW/L1_MergLP_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/results/HVTWW/L1_MergLP_GGF_WW_SR.pdf  used on
  input line 450.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWW/L1_Res_GGF_WW_SR.pdf, id=6890, 569.12625pt x 694.595pt>
+<figures/results/HVTWW/L1_Res_GGF_WW_SR.pdf, id=6892, 569.12625pt x 694.595pt>
 File: figures/results/HVTWW/L1_Res_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWW/L1_Res_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/results/HVTWW/L1_Res_GGF_WW_SR.pdf  used on in
 put line 451.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWZ/L1_MergHP_GGF_WZ_Untag_SR.pdf, id=6891, 569.12625pt x 69
+<figures/results/HVTWZ/L1_MergHP_GGF_WZ_Untag_SR.pdf, id=6893, 569.12625pt x 69
 4.595pt>
 File: figures/results/HVTWZ/L1_MergHP_GGF_WZ_Untag_SR.pdf Graphic file (type pd
 f)
@@ -2174,7 +2169,7 @@ f)
 Package pdftex.def Info: figures/results/HVTWZ/L1_MergHP_GGF_WZ_Untag_SR.pdf  u
 sed on input line 459.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWZ/L1_MergLP_GGF_WZ_Untag_SR.pdf, id=6892, 569.12625pt x 69
+<figures/results/HVTWZ/L1_MergLP_GGF_WZ_Untag_SR.pdf, id=6894, 569.12625pt x 69
 4.595pt>
 File: figures/results/HVTWZ/L1_MergLP_GGF_WZ_Untag_SR.pdf Graphic file (type pd
 f)
@@ -2182,14 +2177,14 @@ f)
 Package pdftex.def Info: figures/results/HVTWZ/L1_MergLP_GGF_WZ_Untag_SR.pdf  u
 sed on input line 460.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWZ/L1_Res_GGF_WZ_Untag_SR.pdf, id=6893, 569.12625pt x 694.5
+<figures/results/HVTWZ/L1_Res_GGF_WZ_Untag_SR.pdf, id=6895, 569.12625pt x 694.5
 95pt>
 File: figures/results/HVTWZ/L1_Res_GGF_WZ_Untag_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWZ/L1_Res_GGF_WZ_Untag_SR.pdf>
 Package pdftex.def Info: figures/results/HVTWZ/L1_Res_GGF_WZ_Untag_SR.pdf  used
  on input line 461.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWZ/L1_MergHP_GGF_WZ_Tag_SR.pdf, id=6894, 569.12625pt x 694.
+<figures/results/HVTWZ/L1_MergHP_GGF_WZ_Tag_SR.pdf, id=6896, 569.12625pt x 694.
 595pt>
 File: figures/results/HVTWZ/L1_MergHP_GGF_WZ_Tag_SR.pdf Graphic file (type pdf)
 
@@ -2197,7 +2192,7 @@ File: figures/results/HVTWZ/L1_MergHP_GGF_WZ_Tag_SR.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/results/HVTWZ/L1_MergHP_GGF_WZ_Tag_SR.pdf  use
 d on input line 469.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWZ/L1_MergLP_GGF_WZ_Tag_SR.pdf, id=6895, 569.12625pt x 694.
+<figures/results/HVTWZ/L1_MergLP_GGF_WZ_Tag_SR.pdf, id=6897, 569.12625pt x 694.
 595pt>
 File: figures/results/HVTWZ/L1_MergLP_GGF_WZ_Tag_SR.pdf Graphic file (type pdf)
 
@@ -2205,7 +2200,7 @@ File: figures/results/HVTWZ/L1_MergLP_GGF_WZ_Tag_SR.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/results/HVTWZ/L1_MergLP_GGF_WZ_Tag_SR.pdf  use
 d on input line 470.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWZ/L1_Res_GGF_WZ_Tag_SR.pdf, id=6896, 569.12625pt x 694.595
+<figures/results/HVTWZ/L1_Res_GGF_WZ_Tag_SR.pdf, id=6898, 569.12625pt x 694.595
 pt>
 File: figures/results/HVTWZ/L1_Res_GGF_WZ_Tag_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWZ/L1_Res_GGF_WZ_Tag_SR.pdf>
@@ -2216,7 +2211,7 @@ n input line 471.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[145
+[146
 
 
 
@@ -2225,42 +2220,42 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 MergLP_GGF_WW_SR.pdf> <./figures/results/HVTWW/L1_Res_GGF_WW_SR.pdf> <./figures
 /results/HVTWZ/L1_MergHP_GGF_WZ_Untag_SR.pdf> <./figures/results/HVTWZ/L1_MergL
 P_GGF_WZ_Untag_SR.pdf> <./figures/results/HVTWZ/L1_Res_GGF_WZ_Untag_SR.pdf>]
-<figures/results/HVTWWVBF/L1_MergHP_VBF_WW_SR.pdf, id=7160, 569.12625pt x 694.5
+<figures/results/HVTWWVBF/L1_MergHP_VBF_WW_SR.pdf, id=7162, 569.12625pt x 694.5
 95pt>
 File: figures/results/HVTWWVBF/L1_MergHP_VBF_WW_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWWVBF/L1_MergHP_VBF_WW_SR.pdf>
 Package pdftex.def Info: figures/results/HVTWWVBF/L1_MergHP_VBF_WW_SR.pdf  used
  on input line 479.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWWVBF/L1_MergLP_VBF_WW_SR.pdf, id=7161, 569.12625pt x 694.5
+<figures/results/HVTWWVBF/L1_MergLP_VBF_WW_SR.pdf, id=7163, 569.12625pt x 694.5
 95pt>
 File: figures/results/HVTWWVBF/L1_MergLP_VBF_WW_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWWVBF/L1_MergLP_VBF_WW_SR.pdf>
 Package pdftex.def Info: figures/results/HVTWWVBF/L1_MergLP_VBF_WW_SR.pdf  used
  on input line 480.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWWVBF/L1_Res_VBF_WW_SR.pdf, id=7162, 569.12625pt x 694.595p
+<figures/results/HVTWWVBF/L1_Res_VBF_WW_SR.pdf, id=7164, 569.12625pt x 694.595p
 t>
 File: figures/results/HVTWWVBF/L1_Res_VBF_WW_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWWVBF/L1_Res_VBF_WW_SR.pdf>
 Package pdftex.def Info: figures/results/HVTWWVBF/L1_Res_VBF_WW_SR.pdf  used on
  input line 481.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWZVBF/L1_MergHP_VBF_WZ_SR.pdf, id=7163, 569.12625pt x 694.5
+<figures/results/HVTWZVBF/L1_MergHP_VBF_WZ_SR.pdf, id=7165, 569.12625pt x 694.5
 95pt>
 File: figures/results/HVTWZVBF/L1_MergHP_VBF_WZ_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWZVBF/L1_MergHP_VBF_WZ_SR.pdf>
 Package pdftex.def Info: figures/results/HVTWZVBF/L1_MergHP_VBF_WZ_SR.pdf  used
  on input line 489.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWZVBF/L1_MergLP_VBF_WZ_SR.pdf, id=7164, 569.12625pt x 694.5
+<figures/results/HVTWZVBF/L1_MergLP_VBF_WZ_SR.pdf, id=7166, 569.12625pt x 694.5
 95pt>
 File: figures/results/HVTWZVBF/L1_MergLP_VBF_WZ_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWZVBF/L1_MergLP_VBF_WZ_SR.pdf>
 Package pdftex.def Info: figures/results/HVTWZVBF/L1_MergLP_VBF_WZ_SR.pdf  used
  on input line 490.
 (pdftex.def)             Requested size: 124.667pt x 152.14365pt.
-<figures/results/HVTWZVBF/L1_Res_VBF_WZ_SR.pdf, id=7165, 569.12625pt x 694.595p
+<figures/results/HVTWZVBF/L1_Res_VBF_WZ_SR.pdf, id=7167, 569.12625pt x 694.595p
 t>
 File: figures/results/HVTWZVBF/L1_Res_VBF_WZ_SR.pdf Graphic file (type pdf)
 <use figures/results/HVTWZVBF/L1_Res_VBF_WZ_SR.pdf>
@@ -2271,31 +2266,31 @@ Package pdftex.def Info: figures/results/HVTWZVBF/L1_Res_VBF_WZ_SR.pdf  used on
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[146 <./figures/results/HVTWZ/L1_MergHP_GGF_WZ_Tag_SR.pdf> <./figures/results/H
+[147 <./figures/results/HVTWZ/L1_MergHP_GGF_WZ_Tag_SR.pdf> <./figures/results/H
 VTWZ/L1_MergLP_GGF_WZ_Tag_SR.pdf> <./figures/results/HVTWZ/L1_Res_GGF_WZ_Tag_SR
 .pdf> <./figures/results/HVTWWVBF/L1_MergHP_VBF_WW_SR.pdf> <./figures/results/H
 VTWWVBF/L1_MergLP_VBF_WW_SR.pdf> <./figures/results/HVTWWVBF/L1_Res_VBF_WW_SR.p
 df>]
-<figures/results/limits/limits_hvtww.pdf, id=7431, 569.12625pt x 408.52625pt>
+<figures/results/limits/limits_hvtww.pdf, id=7433, 569.12625pt x 408.52625pt>
 File: figures/results/limits/limits_hvtww.pdf Graphic file (type pdf)
 <use figures/results/limits/limits_hvtww.pdf>
 Package pdftex.def Info: figures/results/limits/limits_hvtww.pdf  used on input
  line 504.
 (pdftex.def)             Requested size: 199.46342pt x 143.17957pt.
-<figures/results/limits/limits_hvtwwvbf.pdf, id=7432, 569.12625pt x 408.52625pt
+<figures/results/limits/limits_hvtwwvbf.pdf, id=7434, 569.12625pt x 408.52625pt
 >
 File: figures/results/limits/limits_hvtwwvbf.pdf Graphic file (type pdf)
 <use figures/results/limits/limits_hvtwwvbf.pdf>
 Package pdftex.def Info: figures/results/limits/limits_hvtwwvbf.pdf  used on in
 put line 505.
 (pdftex.def)             Requested size: 199.46342pt x 143.17957pt.
-<figures/results/limits/limits_hvtwz.pdf, id=7433, 569.12625pt x 408.52625pt>
+<figures/results/limits/limits_hvtwz.pdf, id=7435, 569.12625pt x 408.52625pt>
 File: figures/results/limits/limits_hvtwz.pdf Graphic file (type pdf)
 <use figures/results/limits/limits_hvtwz.pdf>
 Package pdftex.def Info: figures/results/limits/limits_hvtwz.pdf  used on input
  line 515.
 (pdftex.def)             Requested size: 199.46342pt x 143.17957pt.
-<figures/results/limits/limits_hvtwzvbf.pdf, id=7434, 569.12625pt x 408.52625pt
+<figures/results/limits/limits_hvtwzvbf.pdf, id=7436, 569.12625pt x 408.52625pt
 >
 File: figures/results/limits/limits_hvtwzvbf.pdf Graphic file (type pdf)
 <use figures/results/limits/limits_hvtwzvbf.pdf>
@@ -2306,56 +2301,56 @@ put line 516.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[147 <./figures/results/HVTWZVBF/L1_MergHP_VBF_WZ_SR.pdf> <./figures/results/HV
+[148 <./figures/results/HVTWZVBF/L1_MergHP_VBF_WZ_SR.pdf> <./figures/results/HV
 TWZVBF/L1_MergLP_VBF_WZ_SR.pdf> <./figures/results/HVTWZVBF/L1_Res_VBF_WZ_SR.pd
 f> <./figures/results/limits/limits_hvtww.pdf, page is rotated 90 degrees> <./f
 igures/results/limits/limits_hvtwwvbf.pdf, page is rotated 90 degrees>]
-<figures/results/limits/limits_rsg.pdf, id=7655, 569.12625pt x 408.52625pt>
+<figures/results/limits/limits_rsg.pdf, id=7657, 569.12625pt x 408.52625pt>
 File: figures/results/limits/limits_rsg.pdf Graphic file (type pdf)
 <use figures/results/limits/limits_rsg.pdf>
 Package pdftex.def Info: figures/results/limits/limits_rsg.pdf  used on input l
 ine 525.
 (pdftex.def)             Requested size: 415.5525pt x 298.30272pt.
 )
-[148 <./figures/results/limits/limits_hvtwz.pdf, page is rotated 90 degrees> <.
+[149 <./figures/results/limits/limits_hvtwz.pdf, page is rotated 90 degrees> <.
 /figures/results/limits/limits_hvtwzvbf.pdf, page is rotated 90 degrees> <./fig
-ures/results/limits/limits_rsg.pdf, page is rotated 90 degrees>] [149
+ures/results/limits/limits_rsg.pdf, page is rotated 90 degrees>] [150
 
 ]
 (./quarkgluontagging.tex
 Chapter 13.
-[150
+[151
 
-] [151]
-<figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf, id=7809, 569.12625pt x 384.43
+] [152]
+<figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf, id=7811, 569.12625pt x 384.43
 625pt>
 File: figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf  used 
 on input line 12.
 (pdftex.def)             Requested size: 186.99734pt x 126.31294pt.
-<figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf, id=7810, 569.12625pt x 384.43
+<figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf, id=7812, 569.12625pt x 384.43
 625pt>
 File: figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf  used 
 on input line 13.
 (pdftex.def)             Requested size: 186.99734pt x 126.31294pt.
-<figures/QGT/sigWJ1_nTrk_Pass_Res_GGF_WW_SR.pdf, id=7811, 569.12625pt x 384.436
+<figures/QGT/sigWJ1_nTrk_Pass_Res_GGF_WW_SR.pdf, id=7813, 569.12625pt x 384.436
 25pt>
 File: figures/QGT/sigWJ1_nTrk_Pass_Res_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/QGT/sigWJ1_nTrk_Pass_Res_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrk_Pass_Res_GGF_WW_SR.pdf  used o
 n input line 23.
 (pdftex.def)             Requested size: 186.99734pt x 126.31294pt.
-<figures/QGT/sigWJ2_nTrk_Pass_Res_GGF_WW_SR.pdf, id=7812, 569.12625pt x 384.436
+<figures/QGT/sigWJ2_nTrk_Pass_Res_GGF_WW_SR.pdf, id=7814, 569.12625pt x 384.436
 25pt>
 File: figures/QGT/sigWJ2_nTrk_Pass_Res_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/QGT/sigWJ2_nTrk_Pass_Res_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/QGT/sigWJ2_nTrk_Pass_Res_GGF_WW_SR.pdf  used o
 n input line 24.
 (pdftex.def)             Requested size: 186.99734pt x 126.31294pt.
-<figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, id=7813, 569.12625p
+<figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, id=7815, 569.12625p
 t x 369.38pt>
 File: figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf Graphic file (t
 ype pdf)
@@ -2363,7 +2358,7 @@ ype pdf)
 Package pdftex.def Info: figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.
 pdf  used on input line 33.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
-<figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=7814, 569.12625p
+<figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=7816, 569.12625p
 t x 369.38pt>
 File: figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf Graphic file (t
 ype pdf)
@@ -2375,12 +2370,12 @@ pdf  used on input line 34.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[152 <./figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf, page is rotated 90 deg
+[153 <./figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf, page is rotated 90 deg
 rees> <./figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf, page is rotated 90 de
 grees> <./figures/QGT/sigWJ1_nTrk_Pass_Res_GGF_WW_SR.pdf, page is rotated 90 de
 grees> <./figures/QGT/sigWJ2_nTrk_Pass_Res_GGF_WW_SR.pdf, page is rotated 90 de
 grees>]
-<figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, id=7992, 569.12
+<figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, id=7994, 569.12
 625pt x 369.38pt>
 File: figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf Graphic fil
 e (type pdf)
@@ -2388,7 +2383,7 @@ e (type pdf)
 Package pdftex.def Info: figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ1_n
 Trk.pdf  used on input line 43.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
-<figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=7993, 569.12
+<figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=7995, 569.12
 625pt x 369.38pt>
 File: figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf Graphic fil
 e (type pdf)
@@ -2396,7 +2391,7 @@ e (type pdf)
 Package pdftex.def Info: figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ2_n
 Trk.pdf  used on input line 44.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
-<figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, id=7994, 569.12
+<figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, id=7996, 569.12
 625pt x 369.38pt>
 File: figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf Graphic fil
 e (type pdf)
@@ -2404,7 +2399,7 @@ e (type pdf)
 Package pdftex.def Info: figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ1_n
 Trk.pdf  used on input line 53.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
-<figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=7995, 569.12
+<figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=7997, 569.12
 625pt x 369.38pt>
 File: figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf Graphic fil
 e (type pdf)
@@ -2416,12 +2411,12 @@ Trk.pdf  used on input line 54.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[153 <./figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, page is rota
+[154 <./figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, page is rota
 ted 90 degrees> <./figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, p
 age is rotated 90 degrees> <./figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sig
 WJ1_nTrk.pdf, page is rotated 90 degrees> <./figures/QGT/HVTWW_300_1lep_Pass_Re
 s_GGF_WW_SR_sigWJ2_nTrk.pdf, page is rotated 90 degrees>]
-<figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, id=8172, 569.12
+<figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, id=8174, 569.12
 625pt x 369.38pt>
 File: figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf Graphic fil
 e (type pdf)
@@ -2429,7 +2424,7 @@ e (type pdf)
 Package pdftex.def Info: figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ1_n
 Trk.pdf  used on input line 63.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
-<figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=8173, 569.12
+<figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=8175, 569.12
 625pt x 369.38pt>
 File: figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf Graphic fil
 e (type pdf)
@@ -2438,7 +2433,7 @@ Package pdftex.def Info: figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ2_n
 Trk.pdf  used on input line 64.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
 <figures/QGT/gluonheatmaps/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrkgluon.pdf, 
-id=8174, 569.12625pt x 369.38pt>
+id=8176, 569.12625pt x 369.38pt>
 File: figures/QGT/gluonheatmaps/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrkgluon.
 pdf Graphic file (type pdf)
 <use figures/QGT/gluonheatmaps/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrkgluon.p
@@ -2447,7 +2442,7 @@ Package pdftex.def Info: figures/QGT/gluonheatmaps/allbkg-ade_Pass_Res_GGF_WW_S
 R_sigWJ1_nTrkgluon.pdf  used on input line 73.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
 <figures/QGT/quarkheatmaps/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrkquark.pdf, 
-id=8175, 569.12625pt x 369.38pt>
+id=8177, 569.12625pt x 369.38pt>
 File: figures/QGT/quarkheatmaps/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrkquark.
 pdf Graphic file (type pdf)
 <use figures/QGT/quarkheatmaps/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrkquark.p
@@ -2459,17 +2454,17 @@ R_sigWJ1_nTrkquark.pdf  used on input line 74.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[154 <./figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, page is 
+[155 <./figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, page is 
 rotated 90 degrees> <./figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTr
 k.pdf, page is rotated 90 degrees> <./figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_W
 W_SR_sigWJ1_nTrk.pdf, page is rotated 90 degrees> <./figures/QGT/HVTWW_700_1lep
 _Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, page is rotated 90 degrees>]
-<figures/QGT/finalroc.pdf, id=8353, 578.16pt x 433.62pt>
+<figures/QGT/finalroc.pdf, id=8355, 578.16pt x 433.62pt>
 File: figures/QGT/finalroc.pdf Graphic file (type pdf)
 <use figures/QGT/finalroc.pdf>
 Package pdftex.def Info: figures/QGT/finalroc.pdf  used on input line 84.
 (pdftex.def)             Requested size: 415.5525pt x 311.6636pt.
-<figures/QGT/s_root_b_recotag.pdf, id=8354, 569.12625pt x 384.43625pt>
+<figures/QGT/s_root_b_recotag.pdf, id=8356, 569.12625pt x 384.43625pt>
 File: figures/QGT/s_root_b_recotag.pdf Graphic file (type pdf)
 <use figures/QGT/s_root_b_recotag.pdf>
 Package pdftex.def Info: figures/QGT/s_root_b_recotag.pdf  used on input line 9
@@ -2479,10 +2474,10 @@ Package pdftex.def Info: figures/QGT/s_root_b_recotag.pdf  used on input line 9
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[155 <./figures/QGT/gluonheatmaps/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrkgluo
+[156 <./figures/QGT/gluonheatmaps/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrkgluo
 n.pdf, page is rotated 90 degrees> <./figures/QGT/quarkheatmaps/allbkg-ade_Pass
 _Res_GGF_WW_SR_sigWJ1_nTrkquark.pdf, page is rotated 90 degrees> <./figures/QGT
-/finalroc.pdf>] [156 <./figures/QGT/s_root_b_recotag.pdf, page is rotated 90 de
+/finalroc.pdf>] [157 <./figures/QGT/s_root_b_recotag.pdf, page is rotated 90 de
 grees>]
 Chapter 14.
 
@@ -2501,20 +2496,20 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <24.88> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 103.
-[157
+[158
 
-] [158]
+] [159]
 
-LaTeX Warning: Reference `QG_extraction' on page 159 undefined on input line 12
+LaTeX Warning: Reference `QG_extraction' on page 160 undefined on input line 12
 6.
 
-[159]
+[160]
 
-LaTeX Warning: Reference `QG_uncer' on page 160 undefined on input line 136.
+LaTeX Warning: Reference `QG_uncer' on page 161 undefined on input line 136.
 
-[160] [161] [162]
+[161] [162] [163]
 Chapter 15.
-<figures/QGT/s_root_b_truthtag.pdf, id=8569, 569.12625pt x 384.43625pt>
+<figures/QGT/s_root_b_truthtag.pdf, id=8571, 569.12625pt x 384.43625pt>
 File: figures/QGT/s_root_b_truthtag.pdf Graphic file (type pdf)
 <use figures/QGT/s_root_b_truthtag.pdf>
 Package pdftex.def Info: figures/QGT/s_root_b_truthtag.pdf  used on input line 
@@ -2523,10 +2518,10 @@ Package pdftex.def Info: figures/QGT/s_root_b_truthtag.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[163
+[164
 
 ]
-<figures/QGT/extracted_qg.png, id=8574, 1986.42125pt x 1889.0575pt>
+<figures/QGT/extracted_qg.png, id=8576, 1986.42125pt x 1889.0575pt>
 File: figures/QGT/extracted_qg.png Graphic file (type png)
 <use figures/QGT/extracted_qg.png>
 Package pdftex.def Info: figures/QGT/extracted_qg.png  used on input line 177.
@@ -2535,9 +2530,9 @@ Package pdftex.def Info: figures/QGT/extracted_qg.png  used on input line 177.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[164 <./figures/QGT/s_root_b_truthtag.pdf, page is rotated 90 degrees>]
-[165 <./figures/QGT/extracted_qg.png>]
-<figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_lvjj_m_Log.png, id=8627, 698.61pt 
+[165 <./figures/QGT/s_root_b_truthtag.pdf, page is rotated 90 degrees>]
+[166 <./figures/QGT/extracted_qg.png>]
+<figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_lvjj_m_Log.png, id=8629, 698.61pt 
 x 674.52pt>
 File: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_lvjj_m_Log.png Graphic file (
 type png)
@@ -2545,7 +2540,7 @@ type png)
 Package pdftex.def Info: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_lvjj_m_Log
 .png  used on input line 187.
 (pdftex.def)             Requested size: 186.99734pt x 180.54811pt.
-<figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_sigJ1_nTrk_Log.png, id=8628, 698.6
+<figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_sigJ1_nTrk_Log.png, id=8630, 698.6
 1pt x 674.52pt>
 File: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_sigJ1_nTrk_Log.png Graphic fi
 le (type png)
@@ -2553,7 +2548,7 @@ le (type png)
 Package pdftex.def Info: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_sigJ1_nTrk
 _Log.png  used on input line 188.
 (pdftex.def)             Requested size: 186.99734pt x 180.54811pt.
-<figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_lvjj_m_Log.png, id=8629, 698.61pt 
+<figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_lvjj_m_Log.png, id=8631, 698.61pt 
 x 674.52pt>
 File: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_lvjj_m_Log.png Graphic file (
 type png)
@@ -2561,7 +2556,7 @@ type png)
 Package pdftex.def Info: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_lvjj_m_Log
 .png  used on input line 189.
 (pdftex.def)             Requested size: 186.99734pt x 180.54811pt.
-<figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_sigJ1_nTrk_Log.png, id=8630, 698.6
+<figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_sigJ1_nTrk_Log.png, id=8632, 698.6
 1pt x 674.52pt>
 File: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_sigJ1_nTrk_Log.png Graphic fi
 le (type png)
@@ -2569,31 +2564,31 @@ le (type png)
 Package pdftex.def Info: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_sigJ1_nTrk
 _Log.png  used on input line 190.
 (pdftex.def)             Requested size: 186.99734pt x 180.54811pt.
-<figures/QGT/sigWJ1_nTrkQG_trackeff.png, id=8631, 999.735pt x 674.52pt>
+<figures/QGT/sigWJ1_nTrkQG_trackeff.png, id=8633, 999.735pt x 674.52pt>
 File: figures/QGT/sigWJ1_nTrkQG_trackeff.png Graphic file (type png)
 <use figures/QGT/sigWJ1_nTrkQG_trackeff.png>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrkQG_trackeff.png  used on input 
 line 201.
 (pdftex.def)             Requested size: 186.99734pt x 126.16342pt.
-<figures/QGT/sigWJ1_nTrkQG_fake.png, id=8632, 999.735pt x 674.52pt>
+<figures/QGT/sigWJ1_nTrkQG_fake.png, id=8634, 999.735pt x 674.52pt>
 File: figures/QGT/sigWJ1_nTrkQG_fake.png Graphic file (type png)
 <use figures/QGT/sigWJ1_nTrkQG_fake.png>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrkQG_fake.png  used on input line
  202.
 (pdftex.def)             Requested size: 186.99734pt x 126.16342pt.
-<figures/QGT/sigWJ1_nTrkQG_pdf_up.png, id=8633, 999.735pt x 674.52pt>
+<figures/QGT/sigWJ1_nTrkQG_pdf_up.png, id=8635, 999.735pt x 674.52pt>
 File: figures/QGT/sigWJ1_nTrkQG_pdf_up.png Graphic file (type png)
 <use figures/QGT/sigWJ1_nTrkQG_pdf_up.png>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrkQG_pdf_up.png  used on input li
 ne 203.
 (pdftex.def)             Requested size: 186.99734pt x 126.16342pt.
-<figures/QGT/sigWJ1_nTrkQG_me_up.png, id=8634, 999.735pt x 674.52pt>
+<figures/QGT/sigWJ1_nTrkQG_me_up.png, id=8636, 999.735pt x 674.52pt>
 File: figures/QGT/sigWJ1_nTrkQG_me_up.png Graphic file (type png)
 <use figures/QGT/sigWJ1_nTrkQG_me_up.png>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrkQG_me_up.png  used on input lin
 e 204.
 (pdftex.def)             Requested size: 186.99734pt x 126.16342pt.
-<figures/QGT/sigWJ1_nTrkQG_exp_up.png, id=8635, 999.735pt x 674.52pt>
+<figures/QGT/sigWJ1_nTrkQG_exp_up.png, id=8637, 999.735pt x 674.52pt>
 File: figures/QGT/sigWJ1_nTrkQG_exp_up.png Graphic file (type png)
 <use figures/QGT/sigWJ1_nTrkQG_exp_up.png>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrkQG_exp_up.png  used on input li
@@ -2603,19 +2598,19 @@ ne 205.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[166
+[167
 
  <./figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_lvjj_m_Log.png> <./figures/QGT/
 C_0ptag2pjet_0ptv_ResolvedWWWCR_sigJ1_nTrk_Log.png> <./figures/QGT/C_0ptag2pjet
 _0ptv_ResolvedWWTCR_lvjj_m_Log.png> <./figures/QGT/C_0ptag2pjet_0ptv_ResolvedWW
-TCR_sigJ1_nTrk_Log.png>]) [167 <./figures/QGT/sigWJ1_nTrkQG_trackeff.png> <./fi
+TCR_sigJ1_nTrk_Log.png>]) [168 <./figures/QGT/sigWJ1_nTrkQG_trackeff.png> <./fi
 gures/QGT/sigWJ1_nTrkQG_fake.png> <./figures/QGT/sigWJ1_nTrkQG_pdf_up.png> <./f
 igures/QGT/sigWJ1_nTrkQG_me_up.png> <./figures/QGT/sigWJ1_nTrkQG_exp_up.png>] [
-168
+169
 
 ] (./conclusion.tex
 Chapter 16.
-) (./dissertation.bbl [169
+) (./dissertation.bbl [170
 
 ]
 Underfull \hbox (badness 1275) in paragraph at lines 35--39
@@ -2623,7 +2618,7 @@ Underfull \hbox (badness 1275) in paragraph at lines 35--39
  de-tec-tor.
  []
 
-[170
+[171
 
 ])
 
@@ -2631,7 +2626,7 @@ Package caption Warning: Unused \captionsetup[subfigure] on input line 27.
 See the caption package documentation for explanation.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
-[171]
+[172]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
  (./dissertation.aux (./Introduction.aux) (./theory.aux) (./detector.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
@@ -2651,10 +2646,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
 ### simple group (level 1) entered at line 146 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10917 strings out of 492616
- 185618 string characters out of 6129482
- 330690 words of memory out of 5000000
- 13937 multiletter control sequences out of 15000+600000
+ 10919 strings out of 492616
+ 185633 string characters out of 6129482
+ 330797 words of memory out of 5000000
+ 13939 multiletter control sequences out of 15000+600000
  105531 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,17n,44p,1607b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2712,10 +2707,10 @@ local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (191 pages, 35992032 bytes).
+Output written on dissertation.pdf (191 pages, 35993296 bytes).
 PDF statistics:
- 8877 PDF objects out of 8907 (max. 8388607)
- 5893 compressed objects within 59 object streams
+ 8879 PDF objects out of 8907 (max. 8388607)
+ 5895 compressed objects within 59 object streams
  470 named destinations out of 1000 (max. 500000)
  1293 words of extra memory for PDF output out of 10000 (max. 10000000)
 

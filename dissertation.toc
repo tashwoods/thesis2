@@ -1,8 +1,8 @@
 \contentsline {chapter}{List of Figures}{vi}{chapter*.2}% 
-\contentsline {chapter}{List of Tables}{xvi}{chapter*.3}% 
-\contentsline {chapter}{Abstract}{xviii}{chapter*.3}% 
-\contentsline {chapter}{Dedication}{xix}{chapter*.3}% 
-\contentsline {chapter}{Acknowledgments}{xx}{chapter*.3}% 
+\contentsline {chapter}{List of Tables}{xv}{chapter*.3}% 
+\contentsline {chapter}{Abstract}{xvii}{chapter*.3}% 
+\contentsline {chapter}{Dedication}{xviii}{chapter*.3}% 
+\contentsline {chapter}{Acknowledgments}{xix}{chapter*.3}% 
 \contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}% 
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}% 
 \contentsline {part}{II\hspace {1em}Theoretical Motivation}{6}{part.2}% 
@@ -52,28 +52,28 @@
 \contentsline {section}{\numberline {9.2}Trigger}{75}{section.9.2}% 
 \contentsline {section}{\numberline {9.3}non-VBF/VBF RNN}{77}{section.9.3}% 
 \contentsline {section}{\numberline {9.4}Signal Region Definitions}{84}{section.9.4}% 
-\contentsline {section}{\numberline {9.5}Selection Acceptance times efficiency for Signal Events}{93}{section.9.5}% 
-\contentsline {section}{\numberline {9.6}Background Estimate}{94}{section.9.6}% 
-\contentsline {subsection}{\numberline {9.6.1}Control Regions}{94}{subsection.9.6.1}% 
-\contentsline {subsection}{\numberline {9.6.2}Fake Lepton Backgrounds}{95}{subsection.9.6.2}% 
-\contentsline {chapter}{\numberline {10}Systematic Uncertainties}{109}{chapter.10}% 
-\contentsline {section}{\numberline {10.1}Experimental Systematics}{109}{section.10.1}% 
-\contentsline {section}{\numberline {10.2}Theory Systematics}{111}{section.10.2}% 
-\contentsline {chapter}{\numberline {11}Statistical Analysis}{119}{chapter.11}% 
-\contentsline {section}{\numberline {11.1}Likelihood Function Definition}{119}{section.11.1}% 
-\contentsline {section}{\numberline {11.2}Fit Configuration}{120}{section.11.2}% 
-\contentsline {section}{\numberline {11.3}Best Fit $\mu $}{122}{section.11.3}% 
-\contentsline {section}{\numberline {11.4}Discovery Test}{123}{section.11.4}% 
-\contentsline {section}{\numberline {11.5}Exclusion Limits}{124}{section.11.5}% 
-\contentsline {chapter}{\numberline {12}Results}{126}{chapter.12}% 
-\contentsline {section}{\numberline {12.1}Discovery Tests}{126}{section.12.1}% 
-\contentsline {section}{\numberline {12.2}Systematic Profiling and Correlations}{132}{section.12.2}% 
-\contentsline {section}{\numberline {12.3}Expected and Measured Yields}{133}{section.12.3}% 
-\contentsline {section}{\numberline {12.4}Limits}{147}{section.12.4}% 
-\contentsline {part}{V\hspace {1em}Quark and Gluon Tagging}{149}{part.5}% 
-\contentsline {chapter}{\numberline {13}Prospects}{150}{chapter.13}% 
-\contentsline {chapter}{\numberline {14}$n_{trk}$ Calibration}{157}{chapter.14}% 
-\contentsline {chapter}{\numberline {15}Application}{163}{chapter.15}% 
-\contentsline {part}{VI\hspace {1em}Conclusion}{168}{part.6}% 
-\contentsline {chapter}{\numberline {16}Conclusions}{169}{chapter.16}% 
-\contentsline {chapter}{Bibliography}{170}{chapter*.115}% 
+\contentsline {section}{\numberline {9.5}Selection Acceptance times efficiency for Signal Events}{86}{section.9.5}% 
+\contentsline {section}{\numberline {9.6}Background Estimate}{88}{section.9.6}% 
+\contentsline {subsection}{\numberline {9.6.1}Control Regions}{88}{subsection.9.6.1}% 
+\contentsline {subsection}{\numberline {9.6.2}Fake Lepton Backgrounds}{96}{subsection.9.6.2}% 
+\contentsline {chapter}{\numberline {10}Systematic Uncertainties}{110}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}Experimental Systematics}{110}{section.10.1}% 
+\contentsline {section}{\numberline {10.2}Theory Systematics}{112}{section.10.2}% 
+\contentsline {chapter}{\numberline {11}Statistical Analysis}{120}{chapter.11}% 
+\contentsline {section}{\numberline {11.1}Likelihood Function Definition}{120}{section.11.1}% 
+\contentsline {section}{\numberline {11.2}Fit Configuration}{121}{section.11.2}% 
+\contentsline {section}{\numberline {11.3}Best Fit $\mu $}{123}{section.11.3}% 
+\contentsline {section}{\numberline {11.4}Discovery Test}{124}{section.11.4}% 
+\contentsline {section}{\numberline {11.5}Exclusion Limits}{125}{section.11.5}% 
+\contentsline {chapter}{\numberline {12}Results}{127}{chapter.12}% 
+\contentsline {section}{\numberline {12.1}Discovery Tests}{127}{section.12.1}% 
+\contentsline {section}{\numberline {12.2}Systematic Profiling and Correlations}{133}{section.12.2}% 
+\contentsline {section}{\numberline {12.3}Expected and Measured Yields}{134}{section.12.3}% 
+\contentsline {section}{\numberline {12.4}Limits}{148}{section.12.4}% 
+\contentsline {part}{V\hspace {1em}Quark and Gluon Tagging}{150}{part.5}% 
+\contentsline {chapter}{\numberline {13}Prospects}{151}{chapter.13}% 
+\contentsline {chapter}{\numberline {14}$n_{trk}$ Calibration}{158}{chapter.14}% 
+\contentsline {chapter}{\numberline {15}Application}{164}{chapter.15}% 
+\contentsline {part}{VI\hspace {1em}Conclusion}{169}{part.6}% 
+\contentsline {chapter}{\numberline {16}Conclusions}{170}{chapter.16}% 
+\contentsline {chapter}{Bibliography}{171}{chapter*.115}% 

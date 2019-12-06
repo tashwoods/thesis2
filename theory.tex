@@ -186,7 +186,7 @@ Now we can understand the SM Lagrangian density as a Yang-Mills theory with the 
 \mathcal{L} _{SM} &= \underbrace{-\frac{1}{4}B_{\mu\nu}B^{\mu\nu}-\frac{1}{4}W^{a}_{\mu\nu}W^{a\mu\nu}-\frac{1}{4}G^{\alpha}_{\mu\nu}G^{\alpha\mu\nu}}_\text{Kinetic Energies and Self-Interactions of Gauge Bosons}&&\\\nonumber
 &+\underbrace{\bar{L_{i}}\gamma^{\mu}(i\partial_{\mu}-\frac{1}{2}g_{1}Y_{iL}B_{\mu}-\frac{1}{2}g_{2}\sigma^{a}W_{\mu}^{a})L_{i}}_\text{Kinetic Energies and EW Interactions of Left-handed Fermions}&&\\\nonumber
 &+\underbrace{\bar{R_{i}}\gamma^{\mu}(i\partial_{\mu}-\frac{1}{2}g_{1}Y_{iR}B_{\mu})R_{i}}_\text{Kinetic Energies and EW Interactions of Right-Handed Fermions}&&\\\nonumber
-&+\underbrace{\frac{ig_{3}}{2}\bar{Q{j}}\gamma^{\mu}\lambda^{\alpha}G^{\alpha}_{\mu}Q_{j}}_\text{Strong Interactions between Quarks and Gluons}&&\\\nonumber
+&+\underbrace{\frac{ig_{3}}{2}\bar{Q_{j}}\gamma^{\mu}\lambda^{\alpha}G^{\alpha}_{\mu}Q_{j}}_\text{Strong Interactions between Quarks and Gluons}&&\\\nonumber
 &+\underbrace{\frac{1}{2}|(i\partial_{\mu}-\frac{1}{2}g_{1}B_{\mu}-\frac{1}{2}g_{2}\sigma^{a}W_{\mu}^{a})\Phi|^{2} - V(\Phi)}_\text{Electroweak Boson Masses and Higgs Couplings}&&\\\nonumber
 &-(\underbrace{y^{d}_{kl}\bar{L_{k}}\Phi R_{l}+y^{u}_{kl}\bar{R_{k}}\widetilde{\Phi}L_{l}+h.c.)}_\text{Fermion Mass terms and Higgs Couplings}&&\\\nonumber
 \end{flalign}
@@ -247,7 +247,7 @@ Here $\theta_{W}$ is the Weinberg angle given by:
 \cos\theta_{W}=\frac{g_{2}}{\sqrt{g_{1}^{2}+g_{2}^{2}}} = \frac{m_{W}}{m_{Z}}
 \end{equation}
 \section{Quantum ChromoDynamics}
-As mentioned earlier the Strong Force, which binds the proton together, is mediated by gluons. Quantum Chromodynamics is the QFT which describes the interactions of quarks and gluons via $SU(3)_C$ symmetry. QCD contains features not present in Electroweak Interactions due to $SU(3)_C$ generators not commuting (a.k.a. $SU(3)_C$ is a non-abelian group). For example, in QCD there is color confinement and asymptotic freedom due to the structure constants being non-zero. Requiring $SU(3)_C$ local gauge invariance implies:
+As mentioned earlier the Strong Force, which binds the proton together, is mediated by gluons. Quantum Chromodynamics is the QFT which describes the interactions of quarks and gluons via $SU(3)_C$ symmetry. QCD contains features not present in Electroweak Interactions due to $SU(3)_C$ generators not commuting (a.k.a. $SU(3)_C$ is a non-abelian group) and the number of quark flavors ($n_{f}$). For example, in QCD there is color confinement and asymptotic freedom due to the structure constants being non-zero. Requiring $SU(3)_C$ local gauge invariance implies:
 
 \begin{equation}
 \psi(x) \rightarrow \psi(x)^{'} = exp[ig_{S}\alpha(x)\cdot\hat{T}]\psi(x)
@@ -298,14 +298,13 @@ As the distance from a quark increases it's effective color charge increases due
 
 Commonly the change in a particle's effective charge under a given force is quantified with  $\beta(r) \equiv \frac{-de(r)}{d\ln r}$, where e(r) is the effective charge of a given particle under a force. In QED this function is positive but in QCD this function is negative leading to confinement and asymptotic freedom. Moreover, one can calculate how the coupling ($\alpha$) of a force varies with energies. (More deeply this amounts to incorporating renormalization and vacuum polarization in the boson propagators). For QCD this is:
 
+%\alpha_{S}(Q^{2}) = \frac{\alpha_{S}(\mu^{2})}{1+\beta_{0}\alpha_{S}(\mu^{2}ln(Q^{2}/\mu^{2})}
 \begin{equation}
-\alpha_{S}(x) = \frac{\alpha_{S}(\mu^{2})}{1+\beta_{0}\alpha_{S}(\mu^{2}ln(Q^{2}/\mu^{2})}
-\end{equation}
-\begin{equation}
-\beta_{0} = \frac{11N_{c}-2n_{f}}{12\pi}
+\alpha_{S}(Q^{2}) = \frac{ \alpha_{s}(\mu^{2}) } { 1+ \frac{ \alpha_{s}( \mu^{2} ) } { 12\pi } ( 33-2n_{f} ) ln( Q^{2}/\mu^{2})}  
 \end{equation}
 
-where $Q$ is the momentum of the the force is probed at, $\mu^{2}$ is the renormalization scale.
+
+where $Q$ is the momentum of the the force is probed at, $\mu^{2}$ is the renormalization scale, $n_{f}$ is the number of quark flavors. There are six quark flavors in SM QCD, making $33-2n_{f} > 0$. This factor being positive and the $ln(Q^{2}/\mu^{2})$  being in the denominator means that as $Q^{2}$ increases $\alpha_{s}$ decreases. So for large $Q^{2}$, $\alpha_{s}$ is small and SM QCD is asymptotically free, while for small $Q^{2}$, $\alpha_{s}$ is large and SM QCD is confined, as mentioned earlier. 
 
 As stated previously, quarks and gluons have not been observed in isolation. Instead they form bound colorless states. Hadronization is the process by which quarks and gluons form hadrons. The process of hadronization is still an active area of research. One qualitative description is show in Figure [Natasha add figure]. In this figure, as two quarks separate the color field between them is restricted to a tube with energy density of ~1GeV/fm. As they separate further, the energy in the color field increases, until there is enough energy to produce $q\bar{q}$ pairs, which breaks the color field. This process repeats until quarks and antiquarks have low enough energy to form colorless hadrons. The resulting spray of hadrons is called a jet.
 

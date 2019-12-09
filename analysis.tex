@@ -407,7 +407,7 @@ Top veto &  Number of additional $b$-tagged jets & \multicolumn{2}{c|}{0} & $\ge
 \FloatBarrier
 
 \section{Selection Acceptance and Efficiency}
-The acceptance times efficiency for the signal region selection is defined as:
+The signal acceptance is the ratio of the number of signal events selected to the number of signal events generated at truth level, which does not account for detector effects. The signal efficiency is the ratio of the number of reconstructed events selected and the number of truth events selected, which accounts for detector effects. The expected number of signal events is given by the product of these two quantities:
 
 \begin{equation}
 A \cdot \epsilon = \frac{N^{\mathrm{truth}}_{\mathrm{events\, selected}}}{N^{\mathrm{truth}}_{\mathrm{events\, generated}}} \cdot \frac{N^{\mathrm{reco}}_{\mathrm{events\, selected}}}{N^{\mathrm{truth}}_{\mathrm{events\, selected}}}
@@ -421,7 +421,7 @@ The distributions of $A\cdot \epsilon$ as a function of the resonance mass for t
 \includegraphics[width=0.48\hsize]{figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf}
     \includegraphics[width=0.48\hsize]{figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf}
 
-      \caption{Selection acceptance times efficiency for the $W'\to WZ\to \ell \nu qq$ events from MC simulations as a function of the $W'$ mass for (a) Drell-Yan and (b) VBF production, combining the merged HP and LP signal regions of the $WV\to \ell\nu J$ selection and the resolved regions of the $WV\to \ell\nu jj$ selection.} 
+      \caption{Selection acceptance times efficiency for the $W'\to WZ\to \ell \nu qq$ events from MC simulations as a function of the $W'$ mass for Drell-Yan (left) and VBF production (right), combining the merged HP and LP signal regions of the $WV\to \ell\nu J$ selection and the resolved regions of the $WV\to \ell\nu jj$ selection. Note: the VBF selection acceptance for the DY $W'$ is approximately zero in the left plot.} 
   \label{fig:accept_hvtww}
 \end{figure} 
 \FloatBarrier
@@ -432,20 +432,20 @@ The distributions of $A\cdot \epsilon$ as a function of the resonance mass for t
 \includegraphics[width=0.48\hsize]{figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf}
     \includegraphics[width=0.48\hsize]{figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf}
 
-      \caption{Selection acceptance times efficiency for the $G\to WW\to \ell \nu qq$ events from MC simulations as a function of the $G$ mass for (a) Drell-Yan and (b) VBF production, combining the merged HP and LP signal regions of the $WV\to \ell\nu J$ selection and the resolved regions of the $WV\to \ell\nu jj$ selection.} 
-  \label{fig:accept_hvtww}
+      \caption{Selection acceptance times efficiency for the $G\to WW\to \ell \nu qq$ events from MC simulations as a function of the $G$ mass for (a) Drell-Yan and (b) VBF production, combining the merged HP and LP signal regions of the $WV\to \ell\nu J$ selection and the resolved regions of the $WV\to \ell\nu jj$ selection. Note: the VBF selection acceptance for the ggF $G_{KK}'$ is approximately zero in the left plot.} 
+  \label{fig:accept_rsg}
 \end{figure} 
 \FloatBarrier
-\section{Background Estimate}
-Backgrounds from $VV$, $t\bar{t}$, single-top, $W$+jets, $Z$+jets are simulated as described in \ref{Simulated Samples}. The dominant backgrounds for this search are from $W$+jet and $t\bar{t}$ processes. To more accurately model the distribution of $m_{WV}$ from these backgrounds in the SRs, control regions are constructed for each as described in \ref{crs}. The $t\bar{t}$ and $W$+jets control regions are called TCR and WCR, respectively. There are separate control regions for VBF and non-VBF regions as well as for each region (merged HP, merged LP, resolved). For the HVT $W'$ search there are also tagged and untagged control regions (where tagged refers to events with two $b$-jets inside the large-R jet). 
+\chapter{Background Estimate}
+Backgrounds from $VV$, $t\bar{t}$, single-top, $W$+jets, $Z$+jets are simulated as described in \ref{Simulated Samples}. The dominant backgrounds for this search are from $W$+jet and $t\bar{t}$ processes. To more accurately model the $m_{WV}$ distribution from these backgrounds in the SRs, control regions are constructed for each as described in \ref{crs}. The $t\bar{t}$ and $W$+jets control regions are called TCR and WCR, respectively. There are separate control regions for VBF and non-VBF regions as well as for each region (merged HP, merged LP, resolved). For the HVT $W'$ search there are also tagged and untagged control regions (where tagged refers to events with two $b$-jets inside the large-R jet). 
 
 The aforementioned backgrounds containing real leptons and are well-modeled with simulated samples. Backgrounds with fake leptons (also referred to as the multijet background) are not well-modeled with simulation. For this reason, the multijet background is extracted from data as described in \ref{fakelep}.
 
-\subsection{Control Regions}
+\section{Control Regions}
 \label{crs}
-The distributions for the variables used in merged analysis for top control regions are shown in Figure \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}.
+The TCRs have the same selections as the SRs, but at least one $b$-jet in the event (that is not within the catchement area of the large-R jet for the merged analysis). The WCR shares the SR selections, but has different jet mass requirements. For the merged analyses, the large-R jet must fail the $W/Z$ tagger jet mass cut. In the resolved analyses, $m_{jj}$ must be $50 < m_{jj} < 68$ GeV or $105 < m_{jj} < 150$ GeV. 
 
-The distributions for the variables used in the resolved analysis in the TCR are shown in Figure \ref{fig:resolved_ww_TCR_datamc}, \ref{fig:resolved_wz_TCR_datamc}.
+The distributions for some the variables used in merged analysis (e.g. resonance mass, $p_{T}(\nu)$, $p_{T}(J)$) for top control regions (non-VBF and VBF HP and LP regions) are shown in Figure \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}. The distributions for the variables used in the resolved analysis (e.g. resonance mass, $p_{T}(\nu)$, $p_{T}(j_{1}/j_{2})$) in the TCR are shown in Figure \ref{fig:resolved_ww_TCR_datamc}, \ref{fig:resolved_wz_TCR_datamc}. In general, in these plots the simulated distributions match the data well, which is necessary to have confidence in the prediction yields in the signal regions.
 
 To more accurately model the two dominant backgrounds in this analysis, $W$+jets and $t\bar{t}$, control regions are constructed for each. These control regions are dominated by these processes and used to extract normalization factors in the final likelihood fit that are then used in the signal region estimates. For the $t\bar{t}$ control region the event must contain at least one such b jet. The WCR is constructed using the $m_{jj/J}$ mass window sidebands. All other backgrounds are estimated using simulation, except fake lepton backgrounds, which are derived using a data-driven method.
 
@@ -502,9 +502,9 @@ To more accurately model the two dominant backgrounds in this analysis, $W$+jets
   \label{fig:resolved_wz_TCR_datamc}
 \end{figure} 
 \FloatBarrier
-\subsection{Fake Lepton Backgrounds}
+\section{Fake Lepton Backgrounds}
 \label{fakelep}
-The fake lepton backgrounds for this search are not well-modeled with simulation. For this reason, this background is extracted from data. Fake electrons often arise from fake jets and converted photons while non-prompt muons usually arise from heavy flavor decay products.
+The fake lepton backgrounds for this search are not well-modeled with simulation. For this reason, this background is extracted from data. Fake electrons often arise from fake jets and converted photons while non-prompt muons usually arise from heavy flavor decay products. This predominately occurs at lower lepton momentums, and therefore is only considered in the resolved analysis.
 
 Fake electrons generally fail the electron ID criteria and fake muons fail the muon isolation requirement. Therefore, separate multijet samples are derived for the fake electron and muon samples. For each sample the $m_{WV}$ template shape is derived for the SR and WCR selections using the same SR and WCR cuts but with inverted lepton requirements as seen in Table \ref{tab:TempMJCR}. NB: By inverting the lepton isolation/identification criteria the SRs and CRs are orthogonal.
 
@@ -519,7 +519,7 @@ This template method was validated using WCR and full Run 2 data. The results of
 \begin{center}
   \begin{table}[ht]
   \centering
-    \caption{Definitions of ``inverted'' leptons used in multijet control region}
+    \caption{Definitions of ``inverted'' leptons used in multijet control region. For the inverted muon selection, $ptvarcone30$ is given by sum of the $p_{T}$ of tracks in a cone around the muon candidate divided by the muon $p_{T}$. The size of the cone, $\delta R$ used is 10GeV/$p_{T}^{\mu}$ or 0.3, whichever is smaller. So, as the $p_{T}$ of the muon increases, the cone size used decreases. This is useful as more boosted muons are more likely to be produced in dense environments and using a smaller cone size more accurately determines the quality of the muon.}
   \small
   \begin{tabular}{|l|l|l|l|}
          \hline
@@ -540,7 +540,7 @@ This template method was validated using WCR and full Run 2 data. The results of
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/multijet/multijet_met.pdf}
-      \caption{The $E_{T}^{miss}$ distribution in MJCR for 2017 data in the electron channel(left), muon channel with W-boson pT < 150 GeV (center) and > 150 GeV (right). Multi-jet templates are calculated as remaining data components after excluding known MC} 
+      \caption{The $E_{T}^{miss}$ distribution in MJCR for 2017 data in the electron channel(left), muon channel with W-boson pT < 150 GeV (center) and > 150 GeV (right). Multi-jet templates are given by the difference between the data and simulated distributions.} 
   \label{fig:multijet_met}
 \end{figure} 
 \FloatBarrier
@@ -701,20 +701,20 @@ R.U. stands for relative uncertainty.
 
 
 \chapter{Systematic Uncertainties}
-This section describes the sources of systematic uncertainties of the $m_{WV}$ distribution. These uncertainties are divided into experimental and modeling uncertainties. Each systematic uncertainty is used as a nuisance parameter in the final likelihood fit.
+This section describes the sources of systematic uncertainties of the $m_{WV}$ distribution. These uncertainties are divided into experimental and modeling uncertainties. Each systematic uncertainty is treated as a nuisance parameter in the final likelihood fit. The dominant systematics in this analysis arise from jet reconstruction and the generator choice for the $V$+jets backgrounds.
 
 \section{Experimental Systematics}
 The uncertainty on the integrated luminosity of the dataset used is 1.7\% and a systematic in the final fit. This uncertainty was calculated using $x-y$ beam separation scans [natasha ref P55]. 
 
-An additional source of systematic uncertainty is assigned to the pileup modeling in MC samples. This ensures simulated detector response and particle reconstruction conditions are as similar as possible. The distribution of the average number of interactions per bunch crossing applied to simulation is called the $\mu$ profile. The pileup modeling uncertainty is accounted for by re-weighting simulated events so the average number of interactions per bunch crossing varies within its uncertainty due to systematics from vertex reconstruction [ref ATL-COM-SOFT-2015-119]. The associated re-weighting factors are propagated through the entire analysis chain to construct a systematic uncertainty on $m_{VV}$.
+Another source of systematic uncertainty is assigned to the pileup modeling in MC samples. This ensures simulated detector response and particle reconstruction conditions are as similar as possible. The distribution of the average number of interactions per bunch crossing applied to simulation is called the $\mu$ profile. The pileup modeling uncertainty is accounted for by re-weighting simulated events so the average number of interactions per bunch crossing varies within its uncertainty due to systematics from vertex reconstruction [cite ATL-COM-SOFT-2015-119]. The associated re-weighting factors are propagated through the entire analysis chain to construct a systematic uncertainty on $m_{VV}$.
 
 The single-lepton and $E_{T}^{miss}$ triggers used are not fully efficient, so scale factors are applied to simulation to more accurately model the data. These scale factors are given by the ratio of the distribution of offline objects before trigger selection and after trigger selection. The associated uncertainty on these scale factors are used in the final fit.
 
-Uncertainties on small-R jet energy scale and resolution are measured in-situ by calculating the response between data and simulation. This analysis uses a reduced set of JES and JER uncertainties (totaling 30 and 8 systematics, respectively). These reduced sets of systematics are calculated using a principal component analysis, yield largely uncorrelated independent systematics. These uncertainties on JES and JER account for the dependence on $p_{T}$, $\eta$, $\mu$, flavor response and global sequential corrections. Systematic uncertainties associated with $b$-tagging are also considered. These systematics are evaluated as uncertainties on the scale factor which account for the difference in $b$-tagging efficiencies in data and MC, and the flavor dependence (between b, c, and light jets). 
+Uncertainties on small-R jet energy scale and resolution are measured in-situ by calculating the response between data and simulation. This analysis uses a reduced set of JES and JER uncertainties (totaling 30 and 8 systematics, respectively). This reduced set of systematics is calculated using a principal component analysis, yielding largely uncorrelated independent systematics. These uncertainties on jet energy scale and resolution (JES and JER, respectively) account for the dependence on $p_{T}$, $\eta$, $\mu$, flavor response and global sequential corrections. Systematic uncertainties associated with $b$-tagging are also considered. These systematics are evaluated as uncertainties on a scale factor which accounts for the difference in $b$-tagging efficiencies in data and MC, and the flavor dependence (between b, c, and light jets). 
 
 The uncertainty on the $p_{T}$ scale of the large-R jets is determined by comparing the jet's $p_{T}^{calo}$ to $p_{T}^{track}$ in di-jet simulation and data. In addition to this uncertainties from tracking, modeling (Pythia vs Herwig), and statistical constraints are also calculated. The large-R jet $p_{T}$ resolution is given by smearing the jet $p_{T}$ with a Gaussian with a 2\% width.
 
-The $W/Z$ tagging efficiency SF is estimated by comparing the tagging efficiency in simulation with that in data for four regions of the $W/Z$ tagger ($D_{2}$ fail, $m_{J}$ fail; $D_{2}$ pass, $m_{J}$ fail; $D_{2}$ fail, $m_{J}$ pass; $D_{2}$ pass, $m_{J}$ pass). (Additionally, separate scale factors are determined for events with large-R jets from $W$ bosons and top backgrounds.) A simultaneous template fit is used to fit the signal jets (jets initiated by $W/Z$ bosons or top quarks) and background jets (all other jets from the simulated backgrounds) to the data in the four regions. using the $m_{J}$ distributions. The SF for a given region is then given by:
+The $W/Z$ tagging efficiency scale factor is estimated by comparing the tagging efficiency in simulation with that in data for four regions of the $W/Z$ tagger ($D_{2}$ fail, $m_{J}$ fail; $D_{2}$ pass, $m_{J}$ fail; $D_{2}$ fail, $m_{J}$ pass; $D_{2}$ pass, $m_{J}$ pass). (Additionally, separate scale factors are determined for events with large-R jets from $W$ bosons and top backgrounds.) A simultaneous template fit is used to fit the signal jets (jets initiated by $W/Z$ bosons or top quarks) and background jets (all other jets from the simulated backgrounds) to the data in the four regions using the $m_{J}$ distributions. The scale factor for a given region is then given by:
 
 \begin{equation}
 SF = \frac{ \epsilon_{data} = \frac{ N^{region}_{fitted-signal }}{N^{all-regions}_{fitted-signal}}}    {  \epsilon_{MC} = \frac{N^{region}_{signal}}{N^{all-regions}_{signal}}}  
@@ -728,9 +728,9 @@ As $E_{T}^{miss}$ is calculated using all the physics objects in the event, all 
 
 
 \section{Theory Systematics}
-Theoretical uncertainties for signal and background processes arise from uncertainties in the parameters used in Monte Carlo simulation. In particular for the $t\bar{t}$, $W/Z$+jets, diboson backgrounds and signal samples, the QCD scale, PDF, generator and hadronization uncertainties were evaluated. To assess the QCD scale uncertainty the renormalization and factorization scales were scaled up and down by a factor of two at the event generation stage of sample production. Uncertainties due to the choice of the parton distribution functions were evaluated by re-weighting samples from the nominal PDF to a set of error PDFs which account for the uncertainty of the fits used to produce the PDF set. In addition to this, samples are re-weighted to different PDF sets to account for the arbitrariness of the PDF choice. The difference between the $m_{WV}$ distributions using different event generators is assessed by comparing samples generated with different generators. Similarly, the uncertainty in hadronization models is accounted for by comparing samples created using different hadronization models (e.g. $t\bar{t}$ Powheg is compared to AMC@NLO, $W+jets$ compares Sherpa and MadGraph+Pythia samples). Figures \ref{fig:w_gen} - \ref{fig:ttbar_fsr_res} show the impact of these uncertainties on the $t\bar{t}$ and $W/Z$ + jets backgrounds. Additionally, contributions to the diboson background for the VBF analysis were found to be small and were accounted for by including a 5(10)\% systematic in the diboson normalization in the final fit.
+Theoretical uncertainties for signal and background processes arise from uncertainties in the parameters used in Monte Carlo simulation. In particular for the $t\bar{t}$, $W/Z$+jets, diboson backgrounds and signal samples, the QCD scale, PDF, generator and hadronization uncertainties were evaluated. To assess the QCD scale uncertainty the renormalization and factorization scales were scaled up and down by a factor of two at the event generation stage of sample production. Uncertainties due to the choice of the parton distribution functions were evaluated by re-weighting samples from the nominal PDF to a set of error PDFs which account for the uncertainty of the fits used to produce the PDF set. In addition to this, samples are re-weighted to different PDF sets to account for the arbitrariness of the PDF choice. The difference between the $m_{WV}$ distributions using different event generators is assessed by comparing samples generated with different generators. Similarly, the uncertainty in hadronization models is accounted for by comparing samples created using different hadronization models (e.g. $t\bar{t}$ Powheg is compared to AMC@NLO, $W+jets$ compares Sherpa and MadGraph+Pythia samples). Figures \ref{fig:w_systs} - \ref{fig:ttbar_fsr_res} show the impact of these uncertainties on the $t\bar{t}$ and $W/Z$ + jets backgrounds. Additionally, contributions to the diboson background for the VBF analysis were found to be small and were accounted for by including a 5(10)\% systematic in the diboson normalization in the final fit.
 
-The normalization of the $t\bar{t}$ and $W$+jets processes impact the multijet template shape. The impact of these normalizations was assessed by including a shape systematic on the multijet background from varying the $t\bar{t}$ and $W$+jets normalization factors. 
+The normalization of the $t\bar{t}$ and $W$+jets processes impact the multijet template shape. The impact of these normalizations was assessed by including a shape systematic on the multijet background from varying the $t\bar{t}$ and $W$+jets normalization factors. The overall normalization of the template is systematic in the final likelihood fit (account for other systematic effects on the template).
 
 %fig:w_gen} - \ref{ttbar_fsr}
 
@@ -808,16 +808,16 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the multijet t
 \FloatBarrier
 
 \chapter{Statistical Analysis}
-To determine the compatibility of the data collected with the proposed resonances a statistical procedure based on a likelihood function is used. A discovery test is used to measure the compatibility of the observed data with the background only hypothesis. If the observed data is sufficiently incompatible with the background only hypothesis, this could indicate a discovery. In the absence of discovery, upper limits on the signal strength parameter, $\mu$, are assessed using the CLs method.
+To determine the compatibility of the data collected with the proposed resonances a statistical procedure based on a likelihood function is used. This test compares the distribution of $m_{WV}$ for the background only hypothesis with the background and signal hypothesis (see Figures \ref{fig:hvtww_sr_postfit} - \ref{{fig:hvtwzvbf_tag_sr_postfit} for $m_{WV}$ SR distributions). A discovery test is used to measure the compatibility of the observed data with the background only hypothesis. If the observed data are sufficiently incompatible with the background only hypothesis, this could indicate a discovery. In the absence of discovery, upper limits on the signal strength parameter, $\mu$, are assessed using the CLs method. For signal masses below 500GeV only the resolved analysis is used, as the merged analysis is not applicable for such small resonance masses. Similarly, it is unlikely that the two jets from the hadronically decaying boson will be well separated for signal masses exceeding 1TeV. Therefore, only the merged analysis is used above 1TeV. For signal masses between 500-1000GeV the merged and resolved analyses are combined for the signal production mode considered.
 
 \section{Likelihood Function Definition}
-The likelihood function is product of Poisson probabilities for all analysis bins and systematic constraints:
+The likelihood function is product of Poisson probabilities over all $m_{WV}$ bins and systematic constraints:
 
 \begin{equation}
 \mathcal{L}(\mu,\bm{\theta})= \prod_{c} \prod_{i} \frac{(\mu s_{ci}(\bm{\theta}) + b_{ci}(\bm{\theta}))^{n_{ci}}}{n_{ci}!} e^{-(\mu s_{ci}(\bm{\theta})+b_{ci}(\bm{\theta}))}\prod_{k}(\theta^{'}_{k}|\theta_{k})
 \end{equation}
 
-Here $c$ are the analysis channels considered and $i$ runs over all the $m_{\ell\nu qq}$ bins used in the fit. The signal strength parameter, $\mu$, multiplies the expected signal yield in each analysis bin, $s_{ci}$. The background content for channel $c$ and bin $i$ is given by $b_{ci}$ . The dependence of signal and background predictions on systematic uncertainties is described by the aforementioned set of nuisance parameters $\bm{\theta}$, which are parameterized by Gaussian or log-normal priors denoted here as $\theta_{k}$. Statistical uncertainties of the simulated bin contents are also included as systematic uncertainties. Most systematics are correlated among all the analysis regions and considered to be independent from each other. The validity of this assumption is checked by evaluating the covariance of nuisance parameters.  
+Here $c$ are the analysis channels (e.g. merged SRs and CRs and resolved SRs and CRs) considered and $i$ runs over all the $m_{\ell\nu qq}$ bins used in the fit. The signal strength parameter, $\mu$, multiplies the expected signal yield in each analysis bin, $s_{ci}$. The background content for channel $c$ and bin $i$ is given by $b_{ci}$ . The dependence of signal and background predictions on systematic uncertainties is described by the aforementioned set of nuisance parameters $\bm{\theta}$, which are parameterized by Gaussian or log-normal priors denoted here as $\theta_{k}$. Statistical uncertainties of the simulated bin contents are also included as systematic uncertainties. Most systematics are correlated among all the analysis regions and considered to be independent from each other. The validity of this assumption is checked by evaluating the covariance of nuisance parameters.  
 
 \section{Fit Configuration}
 The binning of $m_{\ell \nu qq}$ in signal regions for likelihood fit is determined by the statistical uncertainty of signal mass width. For each signal mass point, the signal mass resolution is given by the fitted Gaussian width of the $m_{\ell \nu qq}$. The fitted signal widths are then fit to a line to give a parameterized signal mass width, as shown in Figures \ref{fig:resolved_sigwidth} and \ref{fig:merged_sigwidth}. Bin widths are set first to this parameterized signal mass resolution. Then if the statistical uncertainty of the data or simulated background is more than 50\%, bins are merged until the statistical uncertainty is less than 50\%. All control regions contain only a single bin.

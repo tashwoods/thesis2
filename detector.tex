@@ -8,7 +8,7 @@ The LHC consists of a 26.7 km (17 miles) ring, approximately 100 m underground, 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Detector/xs_scaling.pdf}
-  \caption{Scaling of cross sections with $\sqrt{s}$. Natasha: write more here}. 
+  \caption{Scaling of various SM cross sections with $\sqrt{s}$.}. 
   \label{fig:xs_scaling}
 \end{figure}
 \FloatBarrier
@@ -22,7 +22,7 @@ The layout of the LHC is shown in Figure ~\ref{fig:lhc_layout}. The red and blue
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Detector/lhc.jpg}
-  \caption{LHC Layout. Natasha write more}. 
+  \caption{The layout of the LHC and the four detectors along the beam line (ATLAS, LHCb, ALICE, CMS).}. 
   \label{fig:lhc_layout}
 \end{figure}
 \FloatBarrier
@@ -31,10 +31,10 @@ The layout of the LHC is shown in Figure ~\ref{fig:lhc_layout}. The red and blue
 Four sequential particle accelerators are used to accelerate protons from rest as shown in Figure \ref{fig:lhc_accel}. First, Hydrogen gas is ionized to produce protons which are then accelerated to 50 MeV using Linac 2, a linear accelerator. The resulting proton beam is then passed to three circular particle accelerators: Proton Synchrotron Booster, Proton Synchrotron, and Super Proton Synchrotron (SPS), accelerating protons to 1.4, 25, and 450 GeV, respectively. Once the protons exit the SPS, they are injected into the LHC at octant 2 and 8. Each proton bunch contains $\sim 10^{11}$ protons. The spacing between bunches is 25 ns, which means each beam contains 3564 bunches. However, some bunches are left empty due to injection and safety requirements, yielding 2808 bunches per beam. Once the proton beams are injected they are accelerated to 13 TeV. 
 
 
-\begin{figure}[h!]
+\begin{figure}[htbp]
   \centering
-  \includegraphics[width=\hsize]{figures/Detector/lhc_accel.pdf}
-  \caption{LHC Accelerator. Natasha write more}. 
+  \includegraphics{figures/Detector/lhc_accel.pdf}
+  \caption{An overview schematic of the LHC accelerator subsystems.} 
   \label{fig:lhc_accel}
 \end{figure}
 \FloatBarrier
@@ -53,18 +53,11 @@ The ATLAS detector measures the position, momentum and energy of particles produ
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Detector/atlas.jpg}
-  \caption{Big picture layout of ATLAS detector. Natasha: write more} 
+  \caption{Overview schematic of the ATLAS detector.} 
   \label{fig:atlas_detectors}
 \end{figure}
 \FloatBarrier
 
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\hsize]{figures/Detector/atlas.jpg}
-  \caption{Big picture layout of ATLAS detector. Natasha: write more} 
-  \label{fig:atlas_detectors}
-\end{figure}
-\FloatBarrier
 
 \begin{figure}[h!]
   \centering
@@ -75,7 +68,7 @@ The ATLAS detector measures the position, momentum and energy of particles produ
 \FloatBarrier
 
 \section{Coordinate System}
-The trajectory of particles within ATLAS is measured relative to the nominal interaction point. The z-axis points along the beam line, such that when the LHC is viewed from above, the counter-clockwise circulating beam points along the positive-$z$ direction. The $x-y$ plane is transverse to the beam line, with the positive x-axis pointing towards the center of the LHC ring. The positive $y$-axis points vertically upward. The azimuthal angle, $\phi$, is the angular distance about the $z$-axis, with $\phi=0$ along the $x$-axis. The polar angle from the $z$-axis is denoted as $\theta$.  However, this quantity is not Lorentz invariant, like rapidity, $y=\frac{1}{2}\ln\frac{E+p_{z}}{E-p_{z}}$, where $E$ is the energy of the particle considered, and $p_{z}$, is it's momentum along the $z$-axis. Pseudo-rapidity is preferred as $\Delta \eta$ is invariant under boosts along $z$ and particle production is approximately invariant under $\eta$. For massless particles, rapidity and a related quantity, pseudorapidity, are the identical. The pseudorapidity is defined as: $\eta = -ln tan(\frac{\theta}{2})$.  This quantity is preferred as it is purely a geometric quantity, independent of particle energy. Angular separation between particles in ATLAS are given by $\Delta R = \sqrt{\Delta \eta^{2}+\Delta \phi^{2}}$. The distance from the beamline is given by $r=\sqrt{x^{2}+y^{2}}$
+The trajectory of particles within ATLAS is measured relative to the nominal interaction point. The $z$-axis points along the beam line, such that when the LHC is viewed from above, the counter-clockwise circulating beam points along the positive-$z$ direction. The $x-y$ plane is transverse to the beam line, with the positive x-axis pointing towards the center of the LHC ring. The positive $y$-axis points vertically upward. The azimuthal angle, $\phi$, is the angular distance about the $z$-axis, with $\phi=0$ along the $x$-axis. The polar angle from the $z$-axis is denoted as $\theta$.  However, this quantity is not Lorentz invariant, like rapidity, $y=\frac{1}{2}\ln\frac{E+p_{z}}{E-p_{z}}$, where $E$ is the energy of the particle considered, and $p_{z}$, is it's momentum along the $z$-axis. Pseudorapidity is preferred as $\Delta \eta$ is invariant under boosts along $z$ and particle production is approximately invariant under $\eta$. For massless particles, rapidity and a related quantity, pseudorapidity, are the identical. The pseudorapidity is defined as: $\eta = -\ln \tan(\frac{\theta}{2})$.  This quantity is preferred as it is purely a geometric quantity, independent of particle energy. Angular separation between particles in ATLAS are given by $\Delta R = \sqrt{\Delta \eta^{2}+\Delta \phi^{2}}$. The distance from the beamline is given by $r=\sqrt{x^{2}+y^{2}}$
  
 \section{Inner Detector}
 The Inner Detector (ID) was designed to identify and reconstruct vertices, distinguish pions from electrons, and measure the momentum of charged particles. The ID uses three different technologies for particle reconstruction: the Pixel Detector, Semiconductor Tracker (SCT), and the Transition Radiation Tracker (TRT), shown in Figure \ref{fig:ID} and \ref{fig:barrelID}. The entire ID is immersed in a 2T solenoidal magnetic field parallel to the $+z$-axis, causing charged particles to bend in the transverse-plane, allowing particle momentum measurements. 
@@ -146,25 +139,23 @@ The hadronic calorimeter located outside the EMC and is used to contain and meas
 
 The energy resolution of the calorimeter subsystems are:
 
-$\frac{\sigma_{E}}{E}=\frac{10\%}{\sqrt{E}}\bigoplus 0.7\%$ EMC
+$\frac{\sigma_{E}}{E}=\frac{10\%}{\sqrt{E}}\bigoplus \frac{0.3\%}{E}\bigoplus 0.4\%$ Electromagnetic Calorimeter
 
-$\frac{\sigma_{E}}{E}=\frac{50\%}{\sqrt{E}}\bigoplus 3\%$ hadronic barrel 
-
-$\frac{\sigma_{E}}{E}=\frac{100\%}{\sqrt{E}}\bigoplus 10\%$ hadronic end-cap
+$\frac{\sigma_{E}}{E}=\frac{50\%}{\sqrt{E}}\bigoplus \frac{1.8\%}{E}\bigoplus 3\%$ Hadronic Calorimeter
 
 
 \section{Muon Spectrometer}
-The muon spectrometer (MS) is the outermost detector system in ATLAS. Muons with a $p_{T}>4$ GeV are energetic enough to reach the MS. To measure the momentum of these muons barrel and end-cap toroid magnets are used covering $|\eta| < 1.4$ and $1.6<|\eta|<2.7$. For $1.4 < |\eta| < 1.6$, a combination of the barrel and end-cap toroidal magnetic fields bend muon trajectories. The detector in the barrel region form three concentric rings at $R=5, 7.5, 10$m and are segmented in $\phi$ to accommodate the magnets. The end-cap region consists of three circular planes perpendicular to $z$ and located at $|z|=7.4, 14, 21.5$m from the interaction region. An additional detector at $|z|=10.8$m covers the transition region between the barrel and end-cap.
+The muon spectrometer (MS) is the outermost detector system in ATLAS. Muons with a $p_{T}>4$ GeV are energetic enough to reach the MS. To measure the momentum of these muons barrel and end-cap toroid magnets are used covering $|\eta| < 1.4$ and $1.6<|\eta|<2.7$. For $1.4 < |\eta| < 1.6$, a combination of the barrel and end-cap toroidal magnetic fields bend muon trajectories. The detector in the barrel region form three concentric rings at $R=5, 7.5, 10$ m and are segmented in $\phi$ to accommodate the magnets. The end-cap region consists of three circular planes perpendicular to $z$ and located at $|z|=7.4, 14, 21.5$ m from the interaction region. An additional detector at $|z|=10.8$ m covers the transition region between the barrel and end-cap.
 
 The MS readout consists of four subsystems: Monitored Drift Tubes (MDT), Cathode Strip Chambers (CSC), Resistive Plate Chambers (RPC), and Thin Gap Chambers (TGC). The first two subsystems are used primarily for measuring muon track parameters, while the RPC and TGC subsystems are used for muon triggering. A schematic of this system is shown in Figure ~\ref{fig:muonsys}. 
 
-The MDT subsystem consists of precision tracking chambers for $|\eta|<2.7$, except for the inner most end-cap layer ($2.0 < |\eta| < 2.7$), where CSCs are used. The basic unit of MDT chambers are thin walled Aluminum tubes with a diameter of 3 cm and length of 0.9-6.2 m. These tubes are filled with a mixture of Ar-C$O_{2}$ gas with a  50$\mu$m W-Rn wire running down the center of the tube, which is kept at 3080 V. Since the maximum drift time of these chambers is $\sim$ 700 ns, they are not used for triggering. MDT chambers consist of 3-4 layers of tubes mounted on a rectangular support system, as seen in Figure ~\ref{fig:muon_mdt}, orientated along $\phi$ to measure the coordinate in the bending plane of the magnetic field with a resolution of 35 $\mu$m.
+The MDT subsystem consists of precision tracking chambers for $|\eta|<2.7$, except for the inner most end-cap layer ($2.0 < |\eta| < 2.7$), where CSCs are used. The basic unit of MDT chambers are thin walled Aluminum tubes with a diameter of 3 cm and length of 0.9-6.2 m. These tubes are filled with a mixture of Ar-CO$_{2}$ gas with a  50$\mu$m W-Rn wire running down the center of the tube, which is kept at 3080 V. Since the maximum drift time of these chambers is $\sim$ 700 ns, they are not used for triggering. MDT chambers consist of 3-4 layers of tubes mounted on a rectangular support system, as seen in Figure ~\ref{fig:muon_mdt}, orientated along $\phi$ to measure the coordinate in the bending plane of the magnetic field with a resolution of 35 $\mu$m.
 
-The MDT subsystem can only handle hit rates below 150Hz/c$m^{2}$. For this reason, CSCs are used in the innermost end-cap layer where hit rates are larger. CSCs can handle hit rates up to 1000Hz/c$m^{2}$. CSC are multiwire proportional chambers. These chambers are filled with a Ar-C$O_{2}$ gas mixture and evenly spaced wires kept at 1900 V. These wires are orientated in the radial direction but not read out. Instead on one side of the cathode are copper strips parallel to the wires, measuring $\eta$, while on the other side of the cathode are strips parallel to the wires measuring $\phi$. The width between strips is approximately 1.5 mm providing a resolution of 60 $\mu$m in the bending-plane and 5 mm in the non-bending plane. 
+The MDT subsystem can only handle hit rates below 150 Hz/cm$^{2}$. For this reason, CSCs are used in the innermost end-cap layer where hit rates are larger. CSCs can handle hit rates up to 1000Hz/cm$^{2}$. CSC are multiwire proportional chambers. These chambers are filled with a Ar-C$O_{2}$ gas mixture and evenly spaced wires kept at 1900 V. These wires are orientated in the radial direction but not read out. Instead on one side of the cathode are copper strips parallel to the wires, measuring $\eta$, while on the other side of the cathode are strips parallel to the wires measuring $\phi$. The width between strips is approximately 1.5 mm providing a resolution of 60 $\mu$m in the bending-plane and 5 mm in the non-bending plane. 
 
-Since the CSC and MDT systems do not have prompt timing signals, the RPC and TGC systems are used for triggering. The RPC system is used in the barrel region ($|\eta| < 1.05$). RPC consist of two parallel resistive plates separated by a 2 mm insulated spacer with 100 mm spacing kept at 9.8 kV, as shown in Figure\ref{fig:muon_rpc}. A gaseous mixture of $C_{2}H_{2}F_{4}$, $C_{4}H_{10}$, and $SF_{6}$ fills the space between the two plates. Metallic strips on the outer faces of the plates are used to read out signals produced by the gas ionizing. The middle barrel layer consists of two layers of RPCs on either side of the MDT layer and one layer on the outermost MDT layer. Each layer contains two orthogonal sets of metallic strips providing $\eta$ and $\phi$ measurements. The timing resolution of RPCs is 1.5 ns, and therefore may be used to identify bunch crossings. 
+Since the CSC and MDT systems do not have prompt timing signals, the RPC and TGC systems are used for triggering. The RPC system is used in the barrel region ($|\eta| < 1.05$). RPC consist of two parallel resistive plates separated by a 2 mm insulated spacer with 100 mm spacing kept at 9.8 kV, as shown in Figure \ref{fig:muon_rpc}. A gaseous mixture of C$_{2}$H$_{2}$F$_{4}$, C$_{4}$H$_{10}$, and SF$_{6}$ fills the space between the two plates. Metallic strips on the outer faces of the plates are used to read out signals produced by the gas ionizing. The middle barrel layer consists of two layers of RPCs on either side of the MDT layer and one layer on the outermost MDT layer. Each layer contains two orthogonal sets of metallic strips providing $\eta$ and $\phi$ measurements. The timing resolution of RPCs is 1.5 ns, and therefore may be used to identify bunch crossings. 
 
-Finally, the TGCs are used in the end-cap regions and are primarily used to provide L1 trigger decisions and $\phi$ measurements. TGCs are multi-wire proportional chambers consisting of arrays of gold-coated tungsten wires placed between two cathode planes. These wires are separated by 1.8 mm and cathodes are 1.4 mm from the wires. Orthogonal to the wires, on the opposite side of the cathode plane are copper strips held at 2900 V. The chambers are filled with a mixture of $CO_{2}$ and n-pentane gas, the latter acts as a quenching gas to prevent avalanches initiated by secondary $\gamma$-rays from the primary avalanche. Figure ~\ref{fig:muon_tgc} is a schematic of a TGC. The timing resolution of TGCs is less than 25 ns and therefore they are used for bunch crossing measurements. 
+Finally, the TGCs are used in the end-cap regions and are primarily used to provide L1 trigger decisions and $\phi$ measurements. TGCs are multi-wire proportional chambers consisting of arrays of gold-coated tungsten wires placed between two cathode planes. These wires are separated by 1.8 mm and cathodes are 1.4 mm from the wires. Orthogonal to the wires, on the opposite side of the cathode plane are copper strips held at 2900 V. The chambers are filled with a mixture of CO$_{2}$ and n-pentane gas, the latter acts as a quenching gas to prevent avalanches initiated by secondary $\gamma$-rays from the primary avalanche. Figure ~\ref{fig:muon_tgc} is a schematic of a TGC. The timing resolution of TGCs is less than 25 ns and therefore they are used for bunch crossing measurements. 
 
 \begin{figure}[h!]
   \centering
@@ -205,7 +196,7 @@ Finally, the TGCs are used in the end-cap regions and are primarily used to prov
 \section{Magnet System}
 A particles with charge, q, and velocity v, moving in magnetic field, B, experiences a force, $F= qv\times B$. This force can cause charged particles to have a curved trajectory in magnetic fields, which the ID and MS use to determine the particles $p_{T}$. The central solenoid provides the magnetic field for the ID and the toroidal magnets provide the magnetic field for the MS.
 
-The layout of the magnet system is shown in Figure \ref{fig:atlas_magnets}. The central solenoid consists of a single-layer Al-stabilized NbTi conductor coil wound inside an Al support cylinder. The solenoid is 5.8 m long, 50 cm thick and has an inner radius of 1.23 m. It is cooled to 4.5 K to reach superconducting temperatures and shares the liquid argon calorimeter vacuum vessel to minimize material in the detector. A current of 7.730kA produces a 1.998 T solenoidal magnetic field, pointing in the +$z$ direction. 
+The layout of the magnet system is shown in Figure \ref{fig:atlas_magnets}. The central solenoid consists of a single-layer Al-stabilized NbTi conductor coil wound inside an Al support cylinder. The solenoid is 5.8 m long, 50 cm thick and has an inner radius of 1.23 m. It is cooled to 4.5 K to reach superconducting temperatures and shares the liquid argon calorimeter vacuum vessel to minimize material in the detector. A current of 7.730 kA produces a 1.998 T solenoidal magnetic field, pointing in the +$z$ direction. 
 
 The toroidal magnet system consists of a barrel and two end-cap toroidal magnets used to create a magnetic field outside the calorimeters that is orientated along $\phi$. Each barrel toroid is 25.3 m long with an inner and outer diameter of 9.4 and 20.1 m and weighs 830 tonnes. Endcap toroids are 5 m long with an inner and outer radius of 1.65 and 10.7 m. Both toroid systems use Al-stabilized Nb/Ti/Cu conductors. The magnetic field strength in the barrel and endcap regions are 0.5 and 1 T, respectively.
 

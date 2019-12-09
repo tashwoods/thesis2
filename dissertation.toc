@@ -1,8 +1,8 @@
 \contentsline {chapter}{List of Figures}{vi}{chapter*.2}% 
 \contentsline {chapter}{List of Tables}{xvi}{chapter*.3}% 
-\contentsline {chapter}{Abstract}{xviii}{chapter*.3}% 
-\contentsline {chapter}{Dedication}{xix}{chapter*.3}% 
-\contentsline {chapter}{Acknowledgments}{xx}{chapter*.3}% 
+\contentsline {chapter}{Abstract}{xix}{chapter*.3}% 
+\contentsline {chapter}{Dedication}{xx}{chapter*.3}% 
+\contentsline {chapter}{Acknowledgments}{xxi}{chapter*.3}% 
 \contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}% 
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}% 
 \contentsline {part}{II\hspace {1em}Theoretical Motivation}{6}{part.2}% 
@@ -60,20 +60,20 @@
 \contentsline {section}{\numberline {11.1}Experimental Systematics}{114}{section.11.1}% 
 \contentsline {section}{\numberline {11.2}Theory Systematics}{116}{section.11.2}% 
 \contentsline {chapter}{\numberline {12}Statistical Analysis}{124}{chapter.12}% 
-\contentsline {section}{\numberline {12.1}Likelihood Function Definition}{124}{section.12.1}% 
+\contentsline {section}{\numberline {12.1}Likelihood Function Definition}{125}{section.12.1}% 
 \contentsline {section}{\numberline {12.2}Fit Configuration}{125}{section.12.2}% 
-\contentsline {section}{\numberline {12.3}Best Fit $\mu $}{127}{section.12.3}% 
+\contentsline {section}{\numberline {12.3}Best Fit $\mu $}{128}{section.12.3}% 
 \contentsline {section}{\numberline {12.4}Discovery Test}{128}{section.12.4}% 
-\contentsline {section}{\numberline {12.5}Exclusion Limits}{129}{section.12.5}% 
-\contentsline {chapter}{\numberline {13}Results}{131}{chapter.13}% 
-\contentsline {section}{\numberline {13.1}Expected and Measured Yields}{131}{section.13.1}% 
-\contentsline {section}{\numberline {13.2}Systematic Profiling and Correlations}{145}{section.13.2}% 
-\contentsline {section}{\numberline {13.3}Discovery Tests}{147}{section.13.3}% 
-\contentsline {section}{\numberline {13.4}Limits}{153}{section.13.4}% 
-\contentsline {part}{V\hspace {1em}Quark and Gluon Tagging}{155}{part.5}% 
-\contentsline {chapter}{\numberline {14}Prospects}{156}{chapter.14}% 
-\contentsline {chapter}{\numberline {15}$n_{trk}$ Calibration}{163}{chapter.15}% 
-\contentsline {chapter}{\numberline {16}Application}{169}{chapter.16}% 
-\contentsline {part}{VI\hspace {1em}Conclusion}{174}{part.6}% 
-\contentsline {chapter}{\numberline {17}Conclusions}{175}{chapter.17}% 
-\contentsline {chapter}{Bibliography}{176}{chapter*.115}% 
+\contentsline {section}{\numberline {12.5}Exclusion Limits}{130}{section.12.5}% 
+\contentsline {chapter}{\numberline {13}Results}{132}{chapter.13}% 
+\contentsline {section}{\numberline {13.1}Expected and Measured Yields}{132}{section.13.1}% 
+\contentsline {section}{\numberline {13.2}Systematic Profiling and Correlations}{146}{section.13.2}% 
+\contentsline {section}{\numberline {13.3}Discovery Tests}{148}{section.13.3}% 
+\contentsline {section}{\numberline {13.4}Limits}{154}{section.13.4}% 
+\contentsline {part}{V\hspace {1em}Quark and Gluon Tagging}{156}{part.5}% 
+\contentsline {chapter}{\numberline {14}Prospects}{157}{chapter.14}% 
+\contentsline {chapter}{\numberline {15}$n_{trk}$ Calibration}{164}{chapter.15}% 
+\contentsline {chapter}{\numberline {16}Application}{170}{chapter.16}% 
+\contentsline {part}{VI\hspace {1em}Conclusion}{175}{part.6}% 
+\contentsline {chapter}{\numberline {17}Conclusions}{176}{chapter.17}% 
+\contentsline {chapter}{Bibliography}{177}{chapter*.116}% 

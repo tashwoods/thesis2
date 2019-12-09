@@ -1,17 +1,17 @@
 \label{ch:qg}
 \chapter{Prospects}
-For the resolved analysis, signal jets are quark enriched and background jets are gluon dominated. By classifying jets in the event as quark or gluon initiated, less background would contaminate the signal region. Figure~\ref{fig:diag_pdgid} shows the PDGID for the truth parton matched to the jet (meaning the highest energy parton in the jet catchment area) in events passing the resolved signal region selections. PDGID = -1 corresponds to pileup jets, 0 < PDGID < 6 correspond to quarks and PDGID = 21 corresponds to gluons. From this Figure, it is evident that a notable fraction of the background that contaminates the signal region contains gluon jets, especially for the sub-leading jet. 
+For the resolved analysis, signal jets are quark enriched and background jets are gluon dominated. By classifying jets in the event as quark or gluon initiated, less background would contaminate the signal region. Figure~\ref{fig:diag_pdgid} shows the PDGID for the truth parton matched to the jet (meaning the highest energy parton in the jet catchment area) in events passing the resolved signal region selections. PDGID = -1 corresponds to pileup jets, 0 < PDGID < 6 correspond to quarks and PDGID = 21 corresponds to gluons. From this Figure, it is evident that a notable fraction of the background (all background events that passed the resolved SR are used) that contaminates the signal region contains gluon jets, especially for the sub-leading jet. 
 
-As gluons jets have more constituents and therefore more tracks ($n_{trk}$), the background jets have more tracks than the signal jets. This is shown in Figure~\ref{fig:diag_ntrk}. Therefore, by cutting on the number of tracks in a jet, quark and gluon jets may be distinguished (i.e. jets with less than a given number of tracks are classified as a quark, otherwise the jet is classified as a gluon.) Moreover, as the momentum of the jet increases the number of tracks also increases logarithmically [Cite nachman thesis Natasha]. Therefore by applying a cut on the number of tracks that scales with the $ln(p_{T})$ is more powerful than a threshold cut on the number of tracks. Figure~\ref{fig:bkg_heatmap}-Figure~\ref{fig:sig700_heatmap} show normalized heat maps of $ln(p_{T})$ vs the number of reconstructed tracks for the background and a 300 GeV Z' signal. In these plots it is evident that the number of tracks in the background jets grows more quickly with $ln(p_{T})$ than for the signal jets. This is expected given that the signal is quark dominated and the background is gluon dominated. 
+As gluons jets have more constituents and therefore more tracks ($n_{trk}$), the background jets have more tracks than the signal jets. This is shown in Figure~\ref{fig:diag_ntrk}. Therefore, by cutting on the number of tracks in a jet, quark and gluon jets may be distinguished (i.e. jets with less than a given number of tracks are classified as a quark, otherwise the jet is classified as a gluon.) Moreover, as the momentum of the jet increases the number of tracks also increases logarithmically [Cite nachman thesis Natasha]. Therefore by applying a cut on the number of tracks that scales with the $ln(p_{T})$ is more powerful than a threshold cut on the number of tracks. Figures \ref{fig:bkg_heatmap}-\ref{fig:sig700_heatmap} show normalized heat maps of $ln(p_{T})$ vs the number of reconstructed tracks for the background and HVT $Z'$ signals. In these plots it is evident that the number of tracks in the background jets grows more quickly with $ln(p_{T})$ than for the signal jets. This is expected given that the signal is quark dominated and the background is gluon dominated. 
 
-In Figure~\ref{fig:quark_gluon_roc} is the ROC Curve for quark gluon tagging with cut on the number of tracks in a jet that depends on $ln(p_{T})$. The sum of the backgrounds in the signal region were used for this curve. Here the quark tagging efficiency is the ratio of quarks tagged as quarks to the total number of quarks in the signal region. The gluon rejection is calculated as the reciprocal of the gluon tagging efficiency. Choosing a 90\% efficient working point with a rejection of 1.4 corresponds to a slope of 4 and intercept of -5. Tagging both jets in this analysis would yield an efficiency of $90\%^{njets}$. Focusing on the background in Figure~\ref{fig:qg_s_root_b}, this cut helps minimize gluon contamination in the signal region. Also, from these heat maps it is obvious that the number of tracks in gluon jets grows more quickly than those in quark jets.
+In Figure~\ref{fig:quark_gluon_roc} is the ROC Curve for quark gluon tagging with cut on the number of tracks in a jet that depends on $ln(p_{T})$. The sum of the backgrounds in the signal region were used for this curve. Here the quark tagging efficiency is the ratio of quarks tagged as quarks to the total number of quarks in the signal region. The gluon rejection is calculated as the reciprocal of the gluon tagging efficiency. For example, choosing a 90\% efficient working point with a rejection of 1.4 corresponds to a slope of 4 and intercept of -5. Tagging both jets in this analysis would yield an efficiency of $90\%^{njets}$. Focusing on the background in Figure~\ref{fig:qg_s_root_b}, this cut helps minimize gluon contamination in the signal region. Also, from these heat maps it is obvious that the number of tracks in gluon jets grows more quickly than those in quark jets.
 \pagebreak
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.45\hsize]{figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf}
  \includegraphics[width=0.45\hsize]{figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf}
-  \caption{PDGID of the truth-level parton matched to the small-R jets passing the Resolved GGF WW Signal Region selections for the (a) Leading (b) Sub-Leading jets . These distributions are shown for 300, 500, and 700GeV Z' signals and the background.}
+  \caption{PDGID of the truth-level parton matched to the small-R jets passing the Resolved GGF WW Signal Region selections for the (a) Leading (b) Sub-Leading jets . These distributions are shown for 300, 500, and 700GeV Z' signals and the background (all simulated backgrounds that pass SR selections.}
   \label{fig:diag_pdgid}
 \end{figure}
 \FloatBarrier
@@ -66,18 +66,6 @@ In Figure~\ref{fig:quark_gluon_roc} is the ROC Curve for quark gluon tagging wit
   \label{fig:sig700_heatmap}
 \end{figure}
 \FloatBarrier
-
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.45\hsize]{figures/QGT/gluonheatmaps/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrkgluon.pdf}
- \includegraphics[width=0.45\hsize]{figures/QGT/quarkheatmaps/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrkquark.pdf}
-  \caption{The number of tracks in leading small-R jets in background events passing the Resolved GGF WW Signal region selection vs. $ln(p_{T})$ for (a)Gluons (b) Quarks jets. The best fit line for the distribution is also shown, as well as the percentage of jets that pass a cut of number of tracks $< 4\times ln(p_{T}) -5$.Note the number of total entries in these plots has been normalized to one.}
-  \label{fig:quark_gluon_heatmap}
-\end{figure}
-\FloatBarrier
-
-
 
 \begin{figure}[h!]
   \centering

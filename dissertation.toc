@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {6.4}Muon Spectrometer}{51}{section.6.4}% 
 \contentsline {section}{\numberline {6.5}Magnet System}{55}{section.6.5}% 
 \contentsline {section}{\numberline {6.6}Trigger System}{56}{section.6.6}% 
-\contentsline {part}{IV\hspace {1em}Method}{58}{part.4}% 
+\contentsline {part}{IV\hspace {1em}The Search for $WW$ and $WZ$ Resonances in $\ell \nu qq$ final states}{58}{part.4}% 
 \contentsline {chapter}{\numberline {7}Dataset and Simulated Samples}{59}{chapter.7}% 
 \contentsline {section}{\numberline {7.1}Dataset}{59}{section.7.1}% 
 \contentsline {section}{\numberline {7.2}Simulated Samples}{62}{section.7.2}% 
@@ -42,11 +42,11 @@
 \contentsline {section}{\numberline {8.3}Jets}{65}{section.8.3}% 
 \contentsline {subsection}{\numberline {8.3.1}Small-R jets}{68}{subsection.8.3.1}% 
 \contentsline {subsection}{\numberline {8.3.2}Large-R jets}{68}{subsection.8.3.2}% 
-\contentsline {subsection}{\numberline {8.3.3}Variable Radius jets}{71}{subsection.8.3.3}% 
+\contentsline {subsection}{\numberline {8.3.3}Variable Radius jets}{72}{subsection.8.3.3}% 
 \contentsline {subsection}{\numberline {8.3.4}Jet Flavor Tagging}{72}{subsection.8.3.4}% 
-\contentsline {section}{\numberline {8.4}MET/Neutrinos}{72}{section.8.4}% 
-\contentsline {section}{\numberline {8.5}Overlap Removal}{72}{section.8.5}% 
-\contentsline {section}{\numberline {8.6}Reconstructed Resonance Mass ($m_{WV}$)}{73}{section.8.6}% 
+\contentsline {section}{\numberline {8.4}MET/Neutrinos}{73}{section.8.4}% 
+\contentsline {section}{\numberline {8.5}Overlap Removal}{73}{section.8.5}% 
+\contentsline {section}{\numberline {8.6}Reconstructed Resonance Mass ($m_{WV}$)}{74}{section.8.6}% 
 \contentsline {chapter}{\numberline {9}Event Selection and Categorization}{75}{chapter.9}% 
 \contentsline {section}{\numberline {9.1}Pre-selection}{76}{section.9.1}% 
 \contentsline {section}{\numberline {9.2}Trigger}{77}{section.9.2}% 

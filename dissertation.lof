@@ -32,7 +32,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces {This figure shows the breakdown of the muon reconstruction efficiency scale factor measured in $Z \rightarrow \mu \mu $ as a function of $p_{T}$ \cite {muon_calib}. }\relax }}{65}{figure.caption.29}% 
 \contentsline {figure}{\numberline {8.2}{\ignorespaces \cite {jetcalib} This diagram shows the calibration stages for EM jets.\relax }}{67}{figure.caption.30}% 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces The upper cut on $D_2$ (a) and jet mass window cut i.e. the upper and lower boundary of the mass (b) of the $W$-tagger as a function of jet $p_{T}$. Corresponding values for $Z$-tagger are shown in (c) and (d). The optimal cut values for maximum significance are shown as solid markers and the fitted function as solid lines. Working points from $VV\to JJ$[ATLAS-HDBS-2018-31-002] is also shown as dashed lines as a reference. Natasha reword?\relax }}{70}{figure.caption.31}% 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces The upper cut on $D_2$ (a) and jet mass window cut i.e. the upper and lower boundary of the mass (b) of the $W$-tagger as a function of jet $p_{T}$. Corresponding values for $Z$-tagger are shown in (c) and (d). The optimal cut values for maximum significance are shown as solid markers and the fitted function as solid lines. Working points from $VV\to JJ$[ATLAS-HDBS-2018-31-002] is also shown as dashed lines as a reference. Natasha reword?\relax }}{71}{figure.caption.31}% 
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Natasha write caption\relax }}{71}{figure.caption.32}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {9.1}{\ignorespaces RNN architecture. Natasha add caption\relax }}{81}{figure.caption.34}% 

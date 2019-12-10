@@ -13,6 +13,11 @@ G.~Altarelli and G.~Parisi.
 \newblock Asymptotic freedom in parton language.
 \newblock {\em Nuclear Physics B}, 126(2):298 -- 318, 1977.
 
+\bibitem{fastjet}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock Fastjet user manual.
+\newblock {\em The European Physical Journal C}, 72(3), Mar 2012.
+
 \bibitem{colorstring}
 M.~N. Chernodub.
 \newblock Background magnetic field stabilizes qcd string against breaking,
@@ -29,6 +34,13 @@ ATLAS Collaboration.
 \bibitem{jvt}
 ATLAS Collaboration.
 \newblock Tagging and suppression of pileup jets with the atlas detector.
+\newblock {\em ATLAS-CONF- 2014-018}, 2014.
+
+\bibitem{jet_energy_calib}
+ATLAS Collaboration.
+\newblock Jet energy scale measurements and their systematic uncertainties in
+  proton-proton collisions at $\sqrt{s}=13$ tev with the atlas detector.
+\newblock {\em Physical Review D}, 96(7), Oct 2017.
 
 \bibitem{jetcalib}
 ATLAS Collaboration.

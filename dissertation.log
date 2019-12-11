@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  10 DEC 2019 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  10 DEC 2019 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -842,7 +842,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [5] (./dissertation.lof [6
 
 ] [7] [8] [9] [10]
-[11] [12] [13])
+[11]
+Overfull \hbox (2.17085pt too wide) in paragraph at lines 86--86
+ [][] [][]\T1/lmr/m/n/12 Ranked sys-tem-at-ics and their fit-ted val-ues for $\
+OML/lmm/m/it/12 WW$ \T1/lmr/m/n/12 non-VBF (right) 
+ []
+
+[12] [13])
 \tf@lof=\write6
 \openout6 = `dissertation.lof'.
 
@@ -852,8 +858,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@lot=\write7
 \openout7 = `dissertation.lot'.
 
- [16] [17] (./abstract.tex)
-[18] [19] [20] [1
+ [16] [17] (./abstract.tex) [18]
+[19] [20] [1
 
 ]
 \openout2 = `Introduction.aux'.
@@ -1356,16 +1362,16 @@ Chapter 9.
 [76
 
 ]
-Overfull \hbox (5.61938pt too wide) in paragraph at lines 202--203
+Overfull \hbox (5.61938pt too wide) in paragraph at lines 201--202
 \T1/lmr/m/n/12 trig-ger and event re-quire-ments to re-duce back-ground con-tam
 -i-na-tion and the dataset
  []
 
 [77] [78]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 212.
+(Font)              <10.95> on input line 211.
 
-Overfull \hbox (75.31192pt too wide) in paragraph at lines 212--234
+Overfull \hbox (75.31192pt too wide) in paragraph at lines 211--233
  [] 
  []
 
@@ -1377,7 +1383,7 @@ Overfull \hbox (75.31192pt too wide) in paragraph at lines 212--234
 File: figures/Analysis/rnn_architecture.png Graphic file (type png)
 <use figures/Analysis/rnn_architecture.png>
 Package pdftex.def Info: figures/Analysis/rnn_architecture.png  used on input l
-ine 254.
+ine 253.
 (pdftex.def)             Requested size: 415.5525pt x 382.46983pt.
 
 
@@ -1388,7 +1394,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Analysis/LSTM_structure.jpeg Graphic file (type jpg)
 <use figures/Analysis/LSTM_structure.jpeg>
 Package pdftex.def Info: figures/Analysis/LSTM_structure.jpeg  used on input li
-ne 262.
+ne 261.
 (pdftex.def)             Requested size: 415.5525pt x 348.3203pt.
 
 
@@ -1399,12 +1405,12 @@ ucture.jpeg>]
 <figures/Analysis/rnn.pdf, id=2127, 381.37231pt x 253.17447pt>
 File: figures/Analysis/rnn.pdf Graphic file (type pdf)
 <use figures/Analysis/rnn.pdf>
-Package pdftex.def Info: figures/Analysis/rnn.pdf  used on input line 271.
+Package pdftex.def Info: figures/Analysis/rnn.pdf  used on input line 270.
 (pdftex.def)             Requested size: 415.5525pt x 275.88129pt.
 <figures/Analysis/kFold_ROC.png, id=2128, 462.528pt x 346.896pt>
 File: figures/Analysis/kFold_ROC.png Graphic file (type png)
 <use figures/Analysis/kFold_ROC.png>
-Package pdftex.def Info: figures/Analysis/kFold_ROC.png  used on input line 281
+Package pdftex.def Info: figures/Analysis/kFold_ROC.png  used on input line 280
 .
 (pdftex.def)             Requested size: 415.5525pt x 311.67947pt.
 
@@ -1418,7 +1424,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Analysis/rnn_limits.pdf Graphic file (type pdf)
 <use figures/Analysis/rnn_limits.pdf>
 Package pdftex.def Info: figures/Analysis/rnn_limits.pdf  used on input line 29
-1.
+0.
 (pdftex.def)             Requested size: 415.5525pt x 309.12344pt.
 
 
@@ -1434,7 +1440,7 @@ df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/Analysis/cutflow.pdf, id=2263, 722.7pt x 406.51875pt>
 File: figures/Analysis/cutflow.pdf Graphic file (type pdf)
 <use figures/Analysis/cutflow.pdf>
-Package pdftex.def Info: figures/Analysis/cutflow.pdf  used on input line 402.
+Package pdftex.def Info: figures/Analysis/cutflow.pdf  used on input line 401.
 (pdftex.def)             Requested size: 415.5525pt x 233.74646pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1446,7 +1452,7 @@ File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf Graphic fil
 e (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepDY
-HVT.pdf  used on input line 421.
+HVT.pdf  used on input line 420.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
 <figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf, id=2296, 569.1
 2625pt x 385.44pt>
@@ -1454,7 +1460,7 @@ File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf Graphic fi
 le (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVB
-FHVT.pdf  used on input line 422.
+FHVT.pdf  used on input line 421.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
 <figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf, id=2297, 569.1
 2625pt x 385.44pt>
@@ -1462,7 +1468,7 @@ File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf Graphic fi
 le (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepgg
-FRSG.pdf  used on input line 432.
+FRSG.pdf  used on input line 431.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
 <figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf, id=2298, 569.1
 2625pt x 385.44pt>
@@ -1470,7 +1476,7 @@ File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf Graphic fi
 le (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVB
-FRSG.pdf  used on input line 433.
+FRSG.pdf  used on input line 432.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
 
 
@@ -1490,7 +1496,7 @@ Chapter 10.
 File: figures/Analysis/datamc/merged_hp_ww_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/merged_hp_ww_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/merged_hp_ww_tcr.pdf  used on 
-input line 455.
+input line 454.
 (pdftex.def)             Requested size: 345.18414pt x 542.92897pt.
  [93] [94 <./figures/Analysis/datamc/merged_hp_ww_tcr.pdf>]
 <figures/Analysis/datamc/merged_lp_ww_tcr.pdf, id=2670, 346.45607pt x 543.68733
@@ -1498,7 +1504,7 @@ pt>
 File: figures/Analysis/datamc/merged_lp_ww_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/merged_lp_ww_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/merged_lp_ww_tcr.pdf  used on 
-input line 464.
+input line 463.
 (pdftex.def)             Requested size: 346.45522pt x 543.686pt.
  [95 <./figures/Analysis/datamc/merged_lp_ww_tcr.pdf>]
 <figures/Analysis/datamc/merged_hp_wz_tcr.pdf, id=2843, 405.90034pt x 455.50296
@@ -1506,7 +1512,7 @@ pt>
 File: figures/Analysis/datamc/merged_hp_wz_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/merged_hp_wz_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/merged_hp_wz_tcr.pdf  used on 
-input line 473.
+input line 472.
 (pdftex.def)             Requested size: 405.89935pt x 455.50183pt.
  [96 <./figures/Analysis/datamc/merged_hp_wz_tcr.pdf>]
 <figures/Analysis/datamc/merged_lp_wz_tcr.pdf, id=3091, 399.18364pt x 454.29906
@@ -1514,7 +1520,7 @@ pt>
 File: figures/Analysis/datamc/merged_lp_wz_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/merged_lp_wz_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/merged_lp_wz_tcr.pdf  used on 
-input line 482.
+input line 481.
 (pdftex.def)             Requested size: 399.18266pt x 454.29794pt.
  [97 <./figures/Analysis/datamc/merged_lp_wz_tcr.pdf>]
 <figures/Analysis/datamc/resolved_ww_tcr.pdf, id=3339, 332.4374pt x 545.57678pt
@@ -1522,7 +1528,7 @@ input line 482.
 File: figures/Analysis/datamc/resolved_ww_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/resolved_ww_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/resolved_ww_tcr.pdf  used on i
-nput line 491.
+nput line 490.
 (pdftex.def)             Requested size: 332.43657pt x 545.57544pt.
  [98 <./figures/Analysis/datamc/resolved_ww_tcr.pdf>]
 <figures/Analysis/datamc/resolved_wz_tcr.pdf, id=3525, 403.31519pt x 451.18011p
@@ -1530,7 +1536,7 @@ t>
 File: figures/Analysis/datamc/resolved_wz_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/resolved_wz_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/resolved_wz_tcr.pdf  used on i
-nput line 500.
+nput line 499.
 (pdftex.def)             Requested size: 403.3142pt x 451.179pt.
  [99 <./figures/Analysis/datamc/resolved_wz_tcr.pdf>] [100
 
@@ -1539,7 +1545,7 @@ nput line 500.
 
 
 ]
-Overfull \hbox (24.35898pt too wide) in paragraph at lines 524--535
+Overfull \hbox (24.35898pt too wide) in paragraph at lines 523--534
  [][] 
  []
 
@@ -1548,7 +1554,7 @@ Overfull \hbox (24.35898pt too wide) in paragraph at lines 524--535
 File: figures/Analysis/multijet/multijet_met.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/multijet_met.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/multijet_met.pdf  used on in
-put line 542.
+put line 541.
 (pdftex.def)             Requested size: 415.5525pt x 154.19678pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1558,11 +1564,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Analysis/multijet/mj_elec_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_ww.pdf  used on inpu
-t line 552.
+t line 551.
 (pdftex.def)             Requested size: 372.68756pt x 614.36081pt.
 
 
-LaTeX Warning: Float too large for page by 53.5658pt on input line 555.
+LaTeX Warning: Float too large for page by 53.5658pt on input line 554.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1573,11 +1579,11 @@ ultijet/mj_elec_ww.pdf>]
 File: figures/Analysis/multijet/mj_muon_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_ww.pdf  used on inpu
-t line 561.
+t line 560.
 (pdftex.def)             Requested size: 379.72113pt x 614.30603pt.
 
 
-LaTeX Warning: Float too large for page by 53.51102pt on input line 564.
+LaTeX Warning: Float too large for page by 53.51102pt on input line 563.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1588,11 +1594,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Analysis/multijet/mj_elec_wz_untag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_wz_untag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_wz_untag.pdf  used o
-n input line 571.
+n input line 570.
 (pdftex.def)             Requested size: 359.54652pt x 614.2959pt.
 
 
-LaTeX Warning: Float too large for page by 53.50089pt on input line 574.
+LaTeX Warning: Float too large for page by 53.50089pt on input line 573.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1603,11 +1609,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Analysis/multijet/mj_muon_wz_untag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_wz_untag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_wz_untag.pdf  used o
-n input line 580.
+n input line 579.
 (pdftex.def)             Requested size: 373.6563pt x 614.34727pt.
 
 
-LaTeX Warning: Float too large for page by 53.55226pt on input line 583.
+LaTeX Warning: Float too large for page by 53.55226pt on input line 582.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1618,11 +1624,11 @@ pt>
 File: figures/Analysis/multijet/mj_elec_wz_tag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_wz_tag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_wz_tag.pdf  used on 
-input line 589.
+input line 588.
 (pdftex.def)             Requested size: 353.11487pt x 614.32365pt.
 
 
-LaTeX Warning: Float too large for page by 53.52864pt on input line 592.
+LaTeX Warning: Float too large for page by 53.52864pt on input line 591.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1633,11 +1639,11 @@ t>
 File: figures/Analysis/multijet/mj_muon_wz_tag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_wz_tag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_wz_tag.pdf  used on 
-input line 598.
+input line 597.
 (pdftex.def)             Requested size: 366.9247pt x 614.3174pt.
 
 
-LaTeX Warning: Float too large for page by 53.52238pt on input line 601.
+LaTeX Warning: Float too large for page by 53.52238pt on input line 600.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1648,11 +1654,11 @@ pt>
 File: figures/Analysis/multijet/mj_elec_vbf_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_vbf_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_vbf_ww.pdf  used on 
-input line 608.
+input line 607.
 (pdftex.def)             Requested size: 363.97545pt x 614.29626pt.
 
 
-LaTeX Warning: Float too large for page by 53.50125pt on input line 611.
+LaTeX Warning: Float too large for page by 53.50125pt on input line 610.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1663,11 +1669,11 @@ pt>
 File: figures/Analysis/multijet/mj_muon_vbf_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_vbf_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_vbf_ww.pdf  used on 
-input line 617.
+input line 616.
 (pdftex.def)             Requested size: 363.95055pt x 614.36177pt.
 
 
-LaTeX Warning: Float too large for page by 53.56676pt on input line 620.
+LaTeX Warning: Float too large for page by 53.56676pt on input line 619.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1678,11 +1684,11 @@ pt>
 File: figures/Analysis/multijet/mj_elec_vbf_wz.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_vbf_wz.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_vbf_wz.pdf  used on 
-input line 626.
+input line 625.
 (pdftex.def)             Requested size: 366.06586pt x 614.33397pt.
 
 
-LaTeX Warning: Float too large for page by 53.53896pt on input line 629.
+LaTeX Warning: Float too large for page by 53.53896pt on input line 628.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1693,18 +1699,18 @@ pt>
 File: figures/Analysis/multijet/mj_muon_vbf_wz.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_vbf_wz.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_vbf_wz.pdf  used on 
-input line 635.
+input line 634.
 (pdftex.def)             Requested size: 374.84146pt x 614.31378pt.
 
 
-LaTeX Warning: Float too large for page by 53.51877pt on input line 638.
+LaTeX Warning: Float too large for page by 53.51877pt on input line 637.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [112 <./figures/Analysis/multijet/mj_muon_vbf_wz.pdf>]
 
-LaTeX Warning: Float too large for page by 66.68994pt on input line 699.
+LaTeX Warning: Float too large for page by 75.0899pt on input line 698.
 
 [113]
 Chapter 11.
@@ -1725,7 +1731,7 @@ Chapter 11.
 File: figures/Analysis/modelingsysts/w_syst.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/w_syst.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/w_syst.pdf  used on inp
-ut line 740.
+ut line 739.
 (pdftex.def)             Requested size: 415.5525pt x 342.73648pt.
 
 
@@ -1736,7 +1742,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Analysis/modelingsysts/w_gen.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/w_gen.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/w_gen.pdf  used on inpu
-t line 749.
+t line 748.
 (pdftex.def)             Requested size: 415.5525pt x 340.70395pt.
 
 
@@ -1750,7 +1756,7 @@ File: figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf Graphic file (type
 pdf)
 <use figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf 
- used on input line 759.
+ used on input line 758.
 (pdftex.def)             Requested size: 415.5525pt x 198.68983pt.
 <figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf, id=5660, 343.92601pt x 1
 91.03691pt>
@@ -1758,7 +1764,7 @@ File: figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf Graphic file (type p
 df)
 <use figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf  
-used on input line 768.
+used on input line 767.
 (pdftex.def)             Requested size: 415.5525pt x 230.8347pt.
 <figures/Analysis/modelingsysts/ttbar_isr_merg.pdf, id=5661, 336.89073pt x 361.
 00684pt>
@@ -1766,7 +1772,7 @@ File: figures/Analysis/modelingsysts/ttbar_isr_merg.pdf Graphic file (type pdf)
 
 <use figures/Analysis/modelingsysts/ttbar_isr_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_isr_merg.pdf  use
-d on input line 777.
+d on input line 776.
 (pdftex.def)             Requested size: 415.5525pt x 445.31926pt.
 
 
@@ -1781,7 +1787,7 @@ modelingsysts/ttbar_gen_had_res.pdf>]
 File: figures/Analysis/modelingsysts/ttbar_isr_res.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/ttbar_isr_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_isr_res.pdf  used
- on input line 786.
+ on input line 785.
 (pdftex.def)             Requested size: 415.5525pt x 240.28716pt.
 
 
@@ -1795,14 +1801,14 @@ File: figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf Graphic file (type pdf)
 
 <use figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf  use
-d on input line 795.
+d on input line 794.
 (pdftex.def)             Requested size: 415.5525pt x 192.89815pt.
 <figures/Analysis/modelingsysts/ttbar_fsr_res.pdf, id=5898, 339.08943pt x 178.7
 5975pt>
 File: figures/Analysis/modelingsysts/ttbar_fsr_res.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/ttbar_fsr_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_fsr_res.pdf  used
- on input line 804.
+ on input line 803.
 (pdftex.def)             Requested size: 415.5525pt x 219.08487pt.
  [123
 
@@ -1818,7 +1824,7 @@ File: figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf Graph
 ic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_resolve
-d_1lephvt.pdf  used on input line 837.
+d_1lephvt.pdf  used on input line 836.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 <figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf, id=603
 5, 569.12625pt x 386.44376pt>
@@ -1826,7 +1832,7 @@ File: figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf Gr
 aphic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_resolve
-d_1lephvtvbf.pdf  used on input line 838.
+d_1lephvtvbf.pdf  used on input line 837.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 <figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf, id=6036, 56
 9.12625pt x 386.44376pt>
@@ -1834,7 +1840,7 @@ File: figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf Graphic
  file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_merged_
-1lephvt.pdf  used on input line 846.
+1lephvt.pdf  used on input line 845.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 <figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf, id=6037,
  569.12625pt x 386.44376pt>
@@ -1842,20 +1848,20 @@ File: figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf Grap
 hic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_merged_
-1lephvtvbf.pdf  used on input line 847.
+1lephvtvbf.pdf  used on input line 846.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 853.
+(hyperref)                removing `math shift' on input line 852.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 853.
+(hyperref)                removing `\mu' on input line 852.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 853.
+(hyperref)                removing `math shift' on input line 852.
 
 [127 <./figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf, pa
 ge is rotated 90 degrees> <./figures/Analysis/signal_mass_resolution/sigres_res
@@ -2580,7 +2586,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
 Here is how much of TeX's memory you used:
  10897 strings out of 492616
  184463 string characters out of 6129482
- 330827 words of memory out of 5000000
+ 331897 words of memory out of 5000000
  13914 multiletter control sequences out of 15000+600000
  102760 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2638,7 +2644,7 @@ ic/newtx/txsys.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic
 usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (198 pages, 36074996 bytes).
+Output written on dissertation.pdf (198 pages, 36075066 bytes).
 PDF statistics:
  8857 PDF objects out of 8907 (max. 8388607)
  5915 compressed objects within 60 object streams

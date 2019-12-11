@@ -51,7 +51,7 @@ Muons are calibrated using well-studied resonances $J/ \Psi \rightarrow \mu \mu$
 \FloatBarrier
 
 \section{Jets}
-Three types of jets are used in this analysis: variable radius, small-R and large-R jets. Variable radius jets are used to reconstruct $Z$ bosons decaying to two $b$-jets in the jet catchment area of large-R jet in the Merged regime. Small-R jets are used to to reconstruct the hadronically decaying $W/Z$ candidates in the resolved analysis and the forward jets from resonances produced through vector boson fusion. Large-R jets are used to reconstruct the hadronically decaying boson in the merged regime.
+Three types of jets are used in this analysis: variable radius, small-R and large-R jets. Variable radius jets are used to reconstruct $Z$ bosons decaying to two $b$-jets in the jet catchment area of large-R jet in the merged regime. Small-R jets are used to to reconstruct the hadronically decaying $W/Z$ candidates in the resolved analysis and the forward jets from resonances produced through vector boson fusion. Large-R jets are used to reconstruct the hadronically decaying boson in the merged regime.
 
 For these jet collections, the jet energy is calibrated sequentially as shown in Figure \ref{fig:jetcalib}. After the jet direction is corrected to point to the PV, the energy of the jet is corrected. First, the jet energy is corrected to account for pileup contributions based on the $p_{T}$ and area of the jet (these corrections are extracted from a $pp \rightarrow jj$ sample). Following this, another pileup correction is applied that scales with $\mu$ and $N_{PV}$. 
 
@@ -182,19 +182,18 @@ The overlap selections used in this analysis are:
 
 \section{Reconstructed Resonance Mass ($m_{WV}$)}
 \label{mwv}
-The $WV$ system mass, $m_{WV}$ is reconstructed from the lepton, neutrino, and hadronically-decaying boson candidate. The momentum of the neutrino along the $z$-direction is obtained by constraining the $W$ boson mass of the lepton neutrino system to be  80.3 GeV$/c^{2}$. For complex solutions to this constraint, $p_{Z}$ is taken as the real component of the solution. For real solutions, the one with the smaller absolute value is used. For the resolved analysis, $m_{WV}$ is reconstructed by constraining the $W(Z)$ dijet system in the SRs, which improves the mass resolution:
+The $WV$ system mass, $m_{WV}$ is reconstructed from the lepton, neutrino, and hadronically-decaying boson candidate. The momentum of the neutrino along the $z$-direction is obtained by constraining the $W$ boson mass of the lepton neutrino system to be  80.3 GeV$/c^{2}$. For complex solutions to this constraint, $p_{Z}$ is taken as the real component of the solution. For real solutions, the one with the smaller absolute value is used. For the resolved analysis, $m_{WV}$ is reconstructed by constraining the $W(Z)$ dijet system in the SRs and TCRs (not the WCRs), which improves the $m_{WV}$ resolution:
 \begin{equation}
 p^{corr}_{T,jj} = p_{T,jj} \times \frac{m_{W/Z}}{m_{jj}}
 \end{equation}
 \begin{equation}
 m^{corr}_{jj}=m_{W/Z}
 \end{equation}
-
 where $m_{jj}$ and $m_{W/Z}$ are the reconstructed invariant mass of the hadronically-decaying W/Z boson and the PDG values of the $W/Z$ boson masses, respectively. The reconstructed resonance mass is the final discriminating variable in this analysis. The distribution of this variable in the CR and SRs are used in the final likelihood fit to search for evidence of an excess of events due to BSM resonances. The distribution of $m_{WV}$ are shown in Figures \ref{fig:hvtww_cr_postfit}-\ref{fig:hvtwzvbf_tag_sr_postfit}. 
 \chapter{Event Selection and Categorization}
 To search for these new resonances, the simulated background and signal samples are analyzed to determine a series of optimized cuts are used create signal regions (SR) to identify the leptonic and hadronic decay products of the resonance. In these regions, the resonance mass is calculated as the combined system mass of the leptonic and hadronic systems as described in \ref{mwv}. The expected resonance mass distribution from the backgrounds and signal samples are compared to data to search for the existence of these BSM signals (also known as a "bump hunt"). Control regions enriched in the dominant backgrounds, $t\bar{t}$ and $W$+jets (TCR and WCR, respectively) are constructed to be orthogonal to SRs and used to determine the normalization of the $t\bar{t}$ and $W$+jets backgrounds in SRs.
 
-Events are classified as produced via non-VBF or VBF modes using a Recurisve Neural Network described in \ref{rnn}. VBF $W'$ and $Z'$ and DY $W'$ and $Z'$ resonances studied have unique SR and CR selections to maximize analysis sensitivity. RS Graviton signals are probed using the same selections as the DY $Z'$ signal. Additionally, more massive resonances are more likely to have boosted $W/Z$ bosons. As the boost of the hadronically decaying boson increases the separation of its hadronic decay products decreases. When the hadronically decaying boson has sufficient boost, the two quarks will overlap and not be identified separately. For this reason, a set of "resolved" selections are used when the hadronic decay products are reconstructed separately, and "merged" selections when the decay products overlap and identified as a single object in the event. A $W/Z$ tagger identifies merged jets as originating from a $W/Z$ bosons based on jet substructure and mass cuts. However, the more boosted the jet is the less likely it is to pass the jet substructure cut, due to track merging. Consequently, the merged selection uses a high purity region (HP), which requires that the jet pass both cuts, and low purity (LP) region where the jet can fail the jet substructure cut. These selections are summarized in \ref{Signal Region Definitions}.
+Events are classified as produced via non-VBF or VBF modes using a Recurisve Neural Network described in \ref{rnn}. VBF $W'$ and $Z'$ and ggF $W'$ and $Z'$ resonances studied have unique SR and CR selections to maximize analysis sensitivity. RS Graviton signals are probed using the same selections as the ggF $Z'$ signal. Additionally, more massive resonances are more likely to have boosted $W/Z$ bosons. As the boost of the hadronically decaying boson increases the separation of its hadronic decay products decreases. When the hadronically decaying boson has sufficient boost, the two quarks will overlap and not be identified separately. For this reason, a set of "resolved" selections are used when the hadronic decay products are reconstructed separately, and "merged" selections when the decay products overlap and identified as a single object in the event. A $W/Z$ tagger identifies merged jets as originating from a $W/Z$ bosons based on jet substructure and mass cuts. However, the more boosted the jet is the less likely it is to pass the jet substructure cut, due to track merging. Consequently, the merged selection uses a high purity region (HP), which requires that the jet pass both cuts, and low purity (LP) region where the jet can fail the jet substructure cut. These selections are summarized in \ref{Signal Region Definitions}.
 
 The aforementioned SR definitions veto events with $b$-jets to minimize $t\bar{t}$ contamination. However, $b$-jets are anticipated from $W'$ resonances from the hadronically decaying $Z$ boson. To increase the signal acceptance of these resonances, a $Z\rightarrow bb$ tagger is used to construct additional SR and CRs called the "tagged" regions (and "untagged" if the event fails the $Z\rightarrow bb$ tagger). 
 
@@ -269,7 +268,7 @@ The weights and other parameters of the network are learned by training the netw
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/rnn.pdf}
-  \caption{RNN Score distribution for non-VBF and VBF signals and backgrounds.} 
+  \caption{RNN Score distribution for ggF and VBF signals and backgrounds.} 
   \label{fig:rnn_score}
 \end{figure}
 \FloatBarrier
@@ -289,7 +288,7 @@ The weights and other parameters of the network are learned by training the netw
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/rnn_limits.pdf}
-  \caption{Comparison of Z' limits for different RNN score selections. The bottom panel shows the ratio of the upper limits set for different RNN cuts to the cut-based analysis. In this panel smaller numbers, indicate that the expected upper limit is smaller than the cut-based analysis, which is desired.} 
+  \caption{Comparison of ggF Z' limits for different RNN score selections. The bottom panel shows the ratio of the upper limits set for different RNN cuts to the cut-based analysis. In this panel smaller numbers, indicate that the expected upper limit is smaller than the cut-based analysis, which is desired.} 
   \label{fig:rnn_limits}
 \end{figure}
 \FloatBarrier
@@ -443,9 +442,9 @@ The aforementioned backgrounds containing real leptons and are well-modeled with
 
 \section{Control Regions}
 \label{crs}
-The TCRs have the same selections as the SRs, but at least one $b$-jet in the event (that is not within the catchement area of the large-R jet for the merged analysis). The WCR shares the SR selections, but has different jet mass requirements. For the merged analyses, the large-R jet must fail the $W/Z$ tagger jet mass cut. In the resolved analyses, $m_{jj}$ must be $50 < m_{jj} < 68$ GeV or $105 < m_{jj} < 150$ GeV. 
+The TCRs use the same selections as the SRs, but must also contain at least one $b$-jet in the event (that is not within the catchement area of the large-R jet for the merged analysis). The WCR shares the SR selections as well, but uses different jet mass requirements. For the merged analyses, the large-R jet must fail the $W/Z$ tagger jet mass cut. In the resolved analyses, $m_{jj}$ must be $50 < m_{jj} < 68$ GeV or $105 < m_{jj} < 150$ GeV. 
 
-The distributions for some the variables used in merged analysis (e.g. resonance mass, $p_{T}(\nu)$, $p_{T}(J)$) for top control regions (non-VBF and VBF HP and LP regions) are shown in Figure \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}. The distributions for the variables used in the resolved analysis (e.g. resonance mass, $p_{T}(\nu)$, $p_{T}(j_{1}/j_{2})$) in the TCR are shown in Figure \ref{fig:resolved_ww_TCR_datamc}, \ref{fig:resolved_wz_TCR_datamc}. In general, in these plots the simulated distributions match the data well, which is necessary to have confidence in the prediction yields in the signal regions.
+The distributions for some the variables used in merged analysis (e.g. $m_{WV}$, $p_{T}(\nu)$, $p_{T}(J)$) for top control regions (non-VBF and VBF: HP and LP regions) are shown in Figures \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}. The distributions for the variables used in the resolved analysis (e.g. $m_{WV}$, $p_{T}(\nu)$, $p_{T}(j_{1}), p_{T}(j_{2})$) in the TCR are shown in Figures \ref{fig:resolved_ww_TCR_datamc} and \ref{fig:resolved_wz_TCR_datamc}. In general, in these plots the simulated distributions match the data well, which is necessary to have confidence in the prediction yields in the signal regions.
 
 These CRs are constructed to accurately model $W$+jets and $t\bar{t}$, the two dominant backgrounds in this search. These control regions are dominated by these processes and constrain the normalization of these backgrounds in the final likelihood fit. For the $t\bar{t}$ control region the event must contain at least one such b jet. The WCR is constructed using the $m_{jj/J}$ mass window sidebands. All other backgrounds are estimated using simulation, except fake lepton backgrounds, which are derived using a data-driven method.
 
@@ -515,7 +514,7 @@ The fitted normalizations from the MJCR template are then used to construct the 
 This template method was validated using WCR and full Run 2 data. The results of the fit are shown in Table \ref{tab:template_validation_CR}. The multijet contribution in the muon channel for $p_{T}^{W} > 150$ GeV is consistent with zero, and therefore neglected in the final fit. Applying the extracted normalization factor to MJCR in WCRs for various kinematic variables such as $E_{T}^{miss}$, $W$ transverse mass, lepton $p_{T}$, and the invariant mass as show in Figures \ref{fig:multijet_met_elec_ww} -\ref{fig:multijet_met_muon_wz_vbf}. These figures show good agreement between the data and background estimate.
 
 %The template shape of the MJ background is determined by using a multijet validation region (MJVR) that requires the inverted lepton isolation/identification requirement and the two signal jets to satisfy the $m_{jj}$ requirement used in the $W$+jets CRs. 
-%The $E_{T}^{miss}$ distribution in MJCR is shown in Figure \ref{fig:multijet_met} for 2017 data. The template is then extracted by subtracting the data in the MJVR from the electroweak background processes. The resulting template and electroweak backgrounds are then fit to data. In this fit, %the $E_{T}^{miss}$ distribution compared to data to extract electroweak background, multijet electron and muon background normalizations.  The fitted scale factors from this MJVR template are then applied in the MJCR template. The electron and muon background normalizations in the M%JCR template are parameters in the final simultaneous fit. Technically, there should be a separate template for every CR and SR, but some MJ regions have insufficient statistics to do this. Additionally, the shapes for the MJ templates for VBF and non-VBF regions are found to be compatible within %statistical uncertainty. Therefore, the sample MJ template used for VBF and non-VBF CR/SRs, but with different pre-MJ-fit scale factors. 
+%The $E_{T}^{miss}$ distribution in MJCR is shown in Figure \ref{fig:multijet_met} for 2017 data. The template is then extracted by subtracting the data in the MJVR from the electroweak background processes. The resulting template and electroweak backgrounds are then fit to data. In this fit, %the $E_{T}^{miss}$ distribution compared to data to extract electroweak background, multijet electron and muon background normalizations.  The fitted scale factors from this MJVR template are then applied in the MJCR template. The electron and muon background normalizations in the M%JCR template are parameters in the final simultaneous fit. Technically, there should be a separate template for every CR and SR, but some MJ regions have insufficient statistics to do this. Additionally, the shapes for the MJ templates for VBF and ggF regions are found to be compatible within %statistical uncertainty. Therefore, the sample MJ template used for VBF and ggF CR/SRs, but with different pre-MJ-fit scale factors. 
 \begin{center}
   \begin{table}[ht]
   \centering
@@ -642,7 +641,7 @@ This template method was validated using WCR and full Run 2 data. The results of
 \begin{table}[ht]
     \centering
      \Large{Full Run 2}\\
-     \large{non-VBF Res WWWCR \\ }
+     \large{ggF Res WWWCR \\ }
      \begin{tabular}{|c|c|c|c|c|}
       \hline
      Sample    & Yield   & R.U.    & SF    \\ \hline
@@ -652,7 +651,7 @@ This template method was validated using WCR and full Run 2 data. The results of
      MJ\_mu    & $35528.5\pm 923.94$  & 2.60\%  &9.019   \\ \hline
      \end{tabular}\hfill%
      \\
-     \large{non-VBF Res WZ01bWCR\\ }
+     \large{ggF Res WZ01bWCR\\ }
      \begin{tabular}{|c|c|c|c|c|}
       \hline
      Sample    & Yield   & R.U.    & SF    \\ \hline
@@ -662,7 +661,7 @@ This template method was validated using WCR and full Run 2 data. The results of
      MJ\_mu    & $35528.5\pm 921.27$  & 2.58\%  &8.746   \\ \hline
      \end{tabular}\hfill%
      \\
-     \large{non-VBF Res WZ2bWCR\\ }
+     \large{ggF Res WZ2bWCR\\ }
      \begin{tabular}{|c|c|c|c|c|}
       \hline
      Sample    & Yield   & R.U.    & SF    \\ \hline
@@ -693,7 +692,7 @@ This template method was validated using WCR and full Run 2 data. The results of
      \end{tabular}\hfill%
      \\
 \caption{\label{tab:template_validation_CR} Fit validation result in WCRs for 2015+16 data. 
-The fit is done in various WCRs, in order to obtain the corresponding scale factors for MJ templates: non-VBF resolved WCR for the $WW\to lvqq$ selection, non-VBF resolved untagged WCR for the $WZ\to lvqq$ selection,  non-VBF resolved tagged WCR for the $WZ\to lvqq$ selection,  VBF resolved WCR for the $WW\to lvqq$ selection,and VBF resolved WCR for the $WZ\to lvqq$ selection. Post-fit event yields for electroweak processes and MJ contributions are shown. The SF column shows the corresponding normalization scale factors for electroweak processes from the fit.
+The fit is done in various WCRs, in order to obtain the corresponding scale factors for MJ templates: ggF resolved WCR for the $WW\to lvqq$ selection, ggF resolved untagged WCR for the $WZ\to lvqq$ selection,  ggF resolved tagged WCR for the $WZ\to lvqq$ selection,  VBF resolved WCR for the $WW\to lvqq$ selection,and VBF resolved WCR for the $WZ\to lvqq$ selection. Post-fit event yields for electroweak processes and MJ contributions are shown. The SF column shows the corresponding normalization scale factors for electroweak processes from the fit.
 R.U. stands for relative uncertainty.
 }
 \end{table}
@@ -738,7 +737,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/w_syst.pdf}
-      \caption{The W/Z+jet systematics for the a) Merged non-VBF, b) Resolved non-VBF, c) Merged VBF, and d) Resolved VBF regions. The top subplot shows the nominal and variation distributions/bands, the middle shows the ratio of the two, and the final shows just the shape of the envelope (the final uncertainty).} 
+      \caption{The W/Z+jet systematics for the a) merged ggF, b) resolved ggF, c) merged VBF, and d) resolved VBF regions. The top subplot shows the nominal and variation distributions/bands, the middle shows the ratio of the two, and the final shows just the shape of the envelope (the final uncertainty).} 
   \label{fig:w_systs}
 \end{figure} 
 \FloatBarrier
@@ -747,7 +746,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/w_gen.pdf}
-            \caption{The two-point generator comparison between Sherpa and MadGraph for the W/Z+jet samples in the a) Merged non-VBF, b) Resolved non-VBF, c) Merged VBF, and d) Resolved VBF regions. The normalization of the Madgraph sample is set to the Sherpa value to consider only shape effects. The bottom inlet shows the ratio of the two.} 
+            \caption{The two-point generator comparison between Sherpa and MadGraph for the W/Z+jet samples in the a) merged ggF, b) resolved ggF, c) merged VBF, and d) resolved VBF regions. The normalization of the Madgraph sample is set to the Sherpa value to consider only shape effects. The bottom inlet shows the ratio of the two.} 
   \label{fig:w_gen}
 \end{figure} 
 \FloatBarrier
@@ -757,7 +756,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf}
-            \caption{Ratio between the variations of generator (red) and hadronization (blue) variations for the Merged regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of generator (red) and hadronization (blue) variations for the merged regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_gen_merg}
 \end{figure} 
 \FloatBarrier
@@ -766,7 +765,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf}
-            \caption{Ratio between the variations of generator (red) and hadronization (blue) variations for the Resolved regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of generator (red) and hadronization (blue) variations for the resolved regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_gen_res}
 \end{figure} 
 \FloatBarrier
@@ -775,7 +774,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_isr_merg.pdf}
-            \caption{Ratio between the variations of ISR up (red) and down (blue) variations for the Merged regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of ISR up (red) and down (blue) variations for the merged regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_isr_merg}
 \end{figure} 
 \FloatBarrier
@@ -784,7 +783,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_isr_res.pdf}
-            \caption{Ratio between the variations of ISR up (red) and down (blue) variations for the Resolved regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of ISR up (red) and down (blue) variations for the resolved regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_isr_res}
 \end{figure} 
 \FloatBarrier
@@ -793,7 +792,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf}
-            \caption{Ratio between the variations of FSR up (red) and down (blue) variations for the Merged regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of FSR up (red) and down (blue) variations for the merged regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_fsr_merg}
 \end{figure} 
 \FloatBarrier
@@ -802,7 +801,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_fsr_res.pdf}
-            \caption{Ratio between the variations of FSR up (red) and down (blue) variations for the Resolved regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of FSR up (red) and down (blue) variations for the resolved regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_fsr_res}
 \end{figure} 
 \FloatBarrier
@@ -836,7 +835,7 @@ Finally, systematics that have a negligible effect on the $m_{WV}$ distribution 
   \centering
   \includegraphics[width=0.48\hsize]{figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf}
     \includegraphics[width=0.48\hsize]{figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf}
- \caption{The HVT signal mass resolution as a function of mass fit with a straight line in the Resolved non-VBF region (left) and VBF (right) region. } 
+ \caption{The HVT signal mass resolution as a function of mass fit with a straight line in the resolved ggF region (left) and VBF (right) region. } 
   \label{fig:resolved_sigwidth}
 \end{figure} 
 \FloatBarrier
@@ -845,7 +844,7 @@ Finally, systematics that have a negligible effect on the $m_{WV}$ distribution 
   \centering
   \includegraphics[width=0.48\hsize]{figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf}
     \includegraphics[width=0.48\hsize]{figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf}
- \caption{The HVT signal mass resolution as a function of mass fit with a straight line in the Merged non-VBF region (left) and VBF (right) region. } 
+ \caption{The HVT signal mass resolution as a function of mass fit with a straight line in the merged ggF region (left) and VBF (right) region. } 
   \label{fig:merged_sigwidth}
 \end{figure} 
 \FloatBarrier

@@ -128,11 +128,8 @@ Tania Robens and Tim Stefaniak.
 \bibitem{rnn}
 Alex Sherstinsky.
 \newblock {Fundamentals of Recurrent Neural Network {(RNN)} and Long Short-Term
-  Memory {(LSTM)} Network}, journal = {CoRR}, volume = {abs/1808.03314}, year =
-  {2018}, url = {http://arxiv.org/abs/1808.03314}, archiveprefix = {arXiv},
-  eprint = {1808.03314}, timestamp = {Sun, 02 Sep 2018 15:01:55 +0200}, biburl
-  = {https://dblp.org/rec/bib/journals/corr/abs-1808-03314}, bibsource = {dblp
-  computer science bibliography, https://dblp.org}.
+  Memory {(LSTM)} Network}.
+\newblock {\em CoRR}, abs/1808.03314, 2018.
 
 \bibitem{lstmstruct}
 Muhammed~Ali Sit and Ibrahim Demir.

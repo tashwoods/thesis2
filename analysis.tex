@@ -51,7 +51,7 @@ Muons are calibrated using well-studied resonances $J/ \Psi \rightarrow \mu \mu$
 \FloatBarrier
 
 \section{Jets}
-Three types of jets are used in this analysis: variable radius, small-R and large-R jets. Variable radius jets are used to reconstruct $Z$ bosons decaying to two $b$-jets in the jet catchment area of large-R jet in the merged regime. Small-R jets are used to to reconstruct the hadronically decaying $W/Z$ candidates in the resolved analysis and the forward jets from resonances produced through vector boson fusion. Large-R jets are used to reconstruct the hadronically decaying boson in the merged regime.
+Three types of jets are used in this analysis: variable radius, small-R and large-R jets. Variable radius jets are used to reconstruct $Z$ bosons decaying to two $b$-jets in the jet catchment area of large-R jet in the Merged regime. Small-R jets are used to to reconstruct the hadronically decaying $W/Z$ candidates in the resolved analysis and the forward jets from resonances produced through vector boson fusion. Large-R jets are used to reconstruct the hadronically decaying boson in the merged regime.
 
 For these jet collections, the jet energy is calibrated sequentially as shown in Figure \ref{fig:jetcalib}. After the jet direction is corrected to point to the PV, the energy of the jet is corrected. First, the jet energy is corrected to account for pileup contributions based on the $p_{T}$ and area of the jet (these corrections are extracted from a $pp \rightarrow jj$ sample). Following this, another pileup correction is applied that scales with $\mu$ and $N_{PV}$. 
 
@@ -312,7 +312,7 @@ If the event fails all VBF categories, it is then checked if it passes the merge
 Overall, for the Drell-Yan HVT $Z'$ and gluon-gluon fusion $G_{KK}$ signals there are 3 signal regions. For the Drell-Yan HVT $W'$ signal there are 6 signal regions. For VBF HVT $W'$ and $Z'$ signals there are 3 signal regions.
 
 \begin{table}[t]
-  \caption{Summary of selection criteria used to define the signal region (SR), $W$+jets control region ($W$ CR) and $t\bar{t}$ control region ($t\bar{t}$ CR) for merged 1-lepton channel.} \label{tab:SRdefinitions_1lep_merged}
+  \caption{Summary of selection criteria used to define the signal region (SR), WCR, and TCR for merged 1-lepton channel.} \label{tab:SRdefinitions_1lep_merged}
 \begin{center}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|l|l|c|c|c|c|c|c|}
@@ -350,7 +350,7 @@ Top-quark veto & Num of $b$-tagged jets outside of large-R jet & \multicolumn{4}
 
 
 \begin{table}[t]
-  \caption{The list of selection cuts in the resolved analysis for the $WW$ and $WZ$ signal regions (SR), $W$+jets control region (WR) and $ t\bar{t}$ control region (TR).} \label{tab:SRdefinitions_1lep_resolved}
+  \caption{The list of selection cuts in the resolved analysis for the $WW$ and $WZ$ signal regions (SR), WCR, and TCRs.} \label{tab:SRdefinitions_1lep_resolved}
 \begin{center} 
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|l|l|c|c|c|}
@@ -444,9 +444,9 @@ The aforementioned backgrounds containing real leptons and are well-modeled with
 \label{crs}
 The TCRs use the same selections as the SRs, but must also contain at least one $b$-jet in the event (that is not within the catchement area of the large-R jet for the merged analysis). The WCR shares the SR selections as well, but uses different jet mass requirements. For the merged analyses, the large-R jet must fail the $W/Z$ tagger jet mass cut. In the resolved analyses, $m_{jj}$ must be $50 < m_{jj} < 68$ GeV or $105 < m_{jj} < 150$ GeV. 
 
-The distributions for some the variables used in merged analysis (e.g. $m_{WV}$, $p_{T}(\nu)$, $p_{T}(J)$) for top control regions (non-VBF and VBF: HP and LP regions) are shown in Figures \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}. The distributions for the variables used in the resolved analysis (e.g. $m_{WV}$, $p_{T}(\nu)$, $p_{T}(j_{1}), p_{T}(j_{2})$) in the TCR are shown in Figures \ref{fig:resolved_ww_TCR_datamc} and \ref{fig:resolved_wz_TCR_datamc}. In general, in these plots the simulated distributions match the data well, which is necessary to have confidence in the prediction yields in the signal regions.
+The distributions for some the variables used in merged analysis (e.g. $m_{WV}$, $p_{T}(\nu)$, $p_{T}(J)$) for TCRs (non-VBF and VBF: HP and LP regions) are shown in Figures \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}. The distributions for the variables used in the resolved analysis (e.g. $m_{WV}$, $p_{T}(\nu)$, $p_{T}(j_{1}), p_{T}(j_{2})$) in the TCR are shown in Figures \ref{fig:resolved_ww_TCR_datamc} and \ref{fig:resolved_wz_TCR_datamc}. In general, in these plots the simulated distributions match the data well, which is necessary to have confidence in the prediction yields in the signal regions.
 
-These CRs are constructed to accurately model $W$+jets and $t\bar{t}$, the two dominant backgrounds in this search. These control regions are dominated by these processes and constrain the normalization of these backgrounds in the final likelihood fit. For the $t\bar{t}$ control region the event must contain at least one such b jet. The WCR is constructed using the $m_{jj/J}$ mass window sidebands. All other backgrounds are estimated using simulation, except fake lepton backgrounds, which are derived using a data-driven method.
+These CRs are constructed to accurately model $W$+jets and $t\bar{t}$, the two dominant backgrounds in this search. These control regions are dominated by these processes and constrain the normalization of these backgrounds in the final likelihood fit. For the TCR the event must contain at least one such b jet. The WCR is constructed using the $m_{jj/J}$ mass window sidebands. All other backgrounds are estimated using simulation, except fake lepton backgrounds, which are derived using a data-driven method.
 
 
 \begin{figure}[htbp]
@@ -737,7 +737,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/w_syst.pdf}
-      \caption{The W/Z+jet systematics for the a) merged ggF, b) resolved ggF, c) merged VBF, and d) resolved VBF regions. The top subplot shows the nominal and variation distributions/bands, the middle shows the ratio of the two, and the final shows just the shape of the envelope (the final uncertainty).} 
+      \caption{The W/Z+jet systematics for the a) Merged ggF, b) Resolved ggF, c) Merged VBF, and d) Resolved VBF regions. The top subplot shows the nominal and variation distributions/bands, the middle shows the ratio of the two, and the final shows just the shape of the envelope (the final uncertainty).} 
   \label{fig:w_systs}
 \end{figure} 
 \FloatBarrier
@@ -746,7 +746,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/w_gen.pdf}
-            \caption{The two-point generator comparison between Sherpa and MadGraph for the W/Z+jet samples in the a) merged ggF, b) resolved ggF, c) merged VBF, and d) resolved VBF regions. The normalization of the Madgraph sample is set to the Sherpa value to consider only shape effects. The bottom inlet shows the ratio of the two.} 
+            \caption{The two-point generator comparison between Sherpa and MadGraph for the W/Z+jet samples in the a) Merged ggF, b) Resolved ggF, c) Merged VBF, and d) Resolved VBF regions. The normalization of the Madgraph sample is set to the Sherpa value to consider only shape effects. The bottom inlet shows the ratio of the two.} 
   \label{fig:w_gen}
 \end{figure} 
 \FloatBarrier
@@ -756,7 +756,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf}
-            \caption{Ratio between the variations of generator (red) and hadronization (blue) variations for the merged regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of generator (red) and hadronization (blue) variations for the Merged regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_gen_merg}
 \end{figure} 
 \FloatBarrier
@@ -765,7 +765,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf}
-            \caption{Ratio between the variations of generator (red) and hadronization (blue) variations for the resolved regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of generator (red) and hadronization (blue) variations for the Resolved regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_gen_res}
 \end{figure} 
 \FloatBarrier
@@ -774,7 +774,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_isr_merg.pdf}
-            \caption{Ratio between the variations of ISR up (red) and down (blue) variations for the merged regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of ISR up (red) and down (blue) variations for the Merged regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_isr_merg}
 \end{figure} 
 \FloatBarrier
@@ -783,7 +783,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_isr_res.pdf}
-            \caption{Ratio between the variations of ISR up (red) and down (blue) variations for the resolved regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of ISR up (red) and down (blue) variations for the Resolved regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_isr_res}
 \end{figure} 
 \FloatBarrier
@@ -792,7 +792,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf}
-            \caption{Ratio between the variations of FSR up (red) and down (blue) variations for the merged regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of FSR up (red) and down (blue) variations for the Merged regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_fsr_merg}
 \end{figure} 
 \FloatBarrier
@@ -801,7 +801,7 @@ The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepto
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/modelingsysts/ttbar_fsr_res.pdf}
-            \caption{Ratio between the variations of FSR up (red) and down (blue) variations for the resolved regime for $t\bar{t}$ sample.} 
+            \caption{Ratio between the variations of FSR up (red) and down (blue) variations for the Resolved regime for $t\bar{t}$ sample.} 
   \label{fig:ttbar_fsr_res}
 \end{figure} 
 \FloatBarrier
@@ -835,7 +835,7 @@ Finally, systematics that have a negligible effect on the $m_{WV}$ distribution 
   \centering
   \includegraphics[width=0.48\hsize]{figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf}
     \includegraphics[width=0.48\hsize]{figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf}
- \caption{The HVT signal mass resolution as a function of mass fit with a straight line in the resolved ggF region (left) and VBF (right) region. } 
+ \caption{The HVT signal mass resolution as a function of mass fit with a straight line in the Resolved ggF region (left) and VBF (right) region. } 
   \label{fig:resolved_sigwidth}
 \end{figure} 
 \FloatBarrier
@@ -844,7 +844,7 @@ Finally, systematics that have a negligible effect on the $m_{WV}$ distribution 
   \centering
   \includegraphics[width=0.48\hsize]{figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf}
     \includegraphics[width=0.48\hsize]{figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf}
- \caption{The HVT signal mass resolution as a function of mass fit with a straight line in the merged ggF region (left) and VBF (right) region. } 
+ \caption{The HVT signal mass resolution as a function of mass fit with a straight line in the Merged ggF region (left) and VBF (right) region. } 
   \label{fig:merged_sigwidth}
 \end{figure} 
 \FloatBarrier

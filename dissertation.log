@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  10 DEC 2019 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  10 DEC 2019 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1883,22 +1883,22 @@ LaTeX Warning: Reference `fig:hvtwzvbf_sr_postfit' on page 132 undefined on inp
 ut line 3.
 
 
-Overfull \hbox (61.70197pt too wide) in paragraph at lines 59--73
+Overfull \hbox (57.6243pt too wide) in paragraph at lines 59--73
 [][] 
  []
 
 
-Overfull \hbox (25.48567pt too wide) in paragraph at lines 76--90
+Overfull \hbox (21.408pt too wide) in paragraph at lines 76--90
 [][] 
  []
 
 
-Overfull \hbox (51.92308pt too wide) in paragraph at lines 92--106
+Overfull \hbox (47.84541pt too wide) in paragraph at lines 92--106
 [][] 
  []
 
 
-Overfull \hbox (15.70679pt too wide) in paragraph at lines 108--122
+Overfull \hbox (11.62912pt too wide) in paragraph at lines 108--122
 [][] 
  []
 
@@ -1906,7 +1906,7 @@ Overfull \hbox (15.70679pt too wide) in paragraph at lines 108--122
 LaTeX Warning: Float too large for page by 25.30411pt on input line 126.
 
 
-Overfull \hbox (20.59117pt too wide) in paragraph at lines 130--144
+Overfull \hbox (16.5135pt too wide) in paragraph at lines 130--144
 [][] 
  []
 
@@ -2586,7 +2586,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
 Here is how much of TeX's memory you used:
  10897 strings out of 492616
  184463 string characters out of 6129482
- 331897 words of memory out of 5000000
+ 330897 words of memory out of 5000000
  13914 multiletter control sequences out of 15000+600000
  102760 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2644,7 +2644,7 @@ ic/newtx/txsys.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic
 usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (198 pages, 36075066 bytes).
+Output written on dissertation.pdf (198 pages, 36075135 bytes).
 PDF statistics:
  8857 PDF objects out of 8907 (max. 8388607)
  5915 compressed objects within 60 object streams

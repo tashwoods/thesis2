@@ -114,7 +114,7 @@ In the IB technique, the prior distribution and number of iterations are the inp
  
 This process is prone to three main sources of bias: response matrix, correction factor, and unfolding procedure uncertainties. The response matrix is sensitive to experimental uncertainties impacting jet track reconstruction and calorimeter jet $p_{T}$. Correction factors are also sensitive to experimental uncertainties (e.g. JES) as such uncertainties modify detector level acceptance. Sensitivity to particle level acceptance is calculated by comparing Pythia and Herwig. Finally, the bias from the IB prior choice is determined by reweighting the particle-level spectrum, so the simulated detector level spectrum more closely matches the uncorrected data. Unfolding this modified detector-level simulation and comparing it to the re-weighted particle-level spectrum indicates bias from the prior distribution choice.
 
-A summary of all the systematic uncertainties associated with this unfolding may be found in [ref paper]. Total uncertainties are < 7\% for the number of charged particles in jets. The unfolded distribution of the $n_{c}$ in jets from data are further analyzed to extract the quark and gluon $n_{c}$ distributions. In dijet events, the jet with a larger $\eta$ is more energetic and therefore more likely to be a quark. This is due to the quarks in protons generally having a larger fraction of the total momentum of the proton constituents. The more central jet is more likely to be a gluon-initiated jet. This correlation between jet $\eta$ and flavor may then be used to extract nCharged in $p_{T}$ bins using:
+A summary of all the systematic uncertainties associated with this unfolding may be found in [cite natasha paper]. Total uncertainties are < 7\% for the number of charged particles in jets. The unfolded distribution of the $n_{c}$ in jets from data are further analyzed to extract the quark and gluon $n_{c}$ distributions. In dijet events, the jet with a larger $\eta$ is more energetic and therefore more likely to be a quark. This is due to the quarks in protons generally having a larger fraction of the total momentum of the proton constituents. The more central jet is more likely to be a gluon-initiated jet. This correlation between jet $\eta$ and flavor may then be used to extract $n_{c}$ in $p_{T}$ bins using:
 
 \begin{equation}
 <n_{c}^{f}> = f_{q}^{f}<n_{c}^{q}> + f^{f}_{g}<n_{c}^{g}>
@@ -124,7 +124,7 @@ A summary of all the systematic uncertainties associated with this unfolding may
 \end{equation}
 
 
-In this equation the f and c subscripts denote the more forward and central jets, respectively. The q and g subscripts denote quark and gluon. The fraction of more forward jets that are say gluons is denoted by $f_{g}^{f}$. The other relevant jet fractions are denoted with the same naming scheme. Finally, $<n_{c}>$ is the average number of charged particles in a jet in a given $p_{T}$ bin. To show that Eq. ~\eqref{QG_extraction} may be used to extract quark and gluon $n_{c}$ distributions the extracted distributions are compared to $n_{c}$ distributions determined using the jet flavor in simulation. Figure [add figure natasha] shows that the extracted and true distributions differ by < 1\% over the $p_{T}$ range probed for this study. Moreover, this implies that $n_{c}$ depends only on the flavor of the initiating parton and jet $p_{T}$. 
+In this equation the f and c subscripts denote the more forward and central jets, respectively. The q and g subscripts denote quark and gluon. The fraction of more forward jets that are say gluons is denoted by $f_{g}^{f}$. The other relevant jet fractions are denoted with the same naming scheme. Finally, $<n_{c}>$ is the average number of charged particles in a jet in a given $p_{T}$ bin. To show these equations may be used to extract quark and gluon $n_{c}$ distributions the extracted distributions are compared to $n_{c}$ distributions determined using the jet flavor in simulation. Figure \ref{fig:closure_qg} shows that the extracted and true distributions differ by < 1\% over the $p_{T}$ range probed for this study. Moreover, this implies that $n_{c}$ depends only on the flavor of the initiating parton and jet $p_{T}$. 
 
 These extracted distributions are prone to PDF and ME biases. The bias from the choice of the CT10 PDF for the Pythia sample is accounted for by comparing quark/gluon fractions for the nominal CT10 sample with its eigenvector variations. Comparing the quark/gluon fractions from Pythia 8 and Herwig++ quantify the uncertainty from the ME calculation. These uncertainties are added in quadrature with the unfolding uncertainty to give the total modeling uncertainty on the extracted $n_{c}$ distribution. This is shown in Figure~\ref{fig:extracted_qg}.
 
@@ -154,7 +154,7 @@ w_{i}(n_{c}) = \frac{P(n_{trk}|<n_{trk}> \pm \sigma^{i}_{n_{trk}})} {P(n_{trk}|<
 \end{equation}
 
 
-Adding the modeling and detector level uncertainties in quadrature gives the overall $n_{trk}$ uncertainty. The effects of the individual uncertainties on the $n_{trk}$ distributions can be seen in Fig ~\ref{fig:qg_calib}. Fig ~\ref{fig:qg_calib_ntrk_indiv} shows the $m_{lvqq}$ and $n_{trk}$ distributions for the WCR and TCR before the final likelihood fit. In these plots the $n_{trk}$ uncertainties improve agreement between data and MC. The remaining differences are likely covered by likelihood fitting and improving the analysis itself.  
+Adding the modeling and detector level uncertainties in quadrature gives the overall $n_{trk}$ uncertainty. The effects of the individual uncertainties on the $n_{trk}$ distributions can be seen in Fig ~\ref{fig:qg_calib}. Fig ~\ref{fig:qg_calib_ntrk_indiv} shows the $m_{lvqq}$ and $n_{trk}$ distributions for the WCR and TCR before the final likelihood fit. In these plots the $n_{trk}$ uncertainties improve agreement between data and MC. The remaining differences are likely covered by the likelihood fit and improving the analysis itself.  
 
 \begin{figure}[h!]
   \centering
@@ -189,14 +189,30 @@ Adding the modeling and detector level uncertainties in quadrature gives the ove
 \end{figure}
 \FloatBarrier
 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\hsize]{figures/QGT/closure_qg.pdf}
+  \caption{An illustration of the closure test from the central-forward method. Filled squares and circles in the upper panel are the value of $<n_{charged}^{c,f}>$. The open blue points show $<n_{charged}^{q,g}>$ extracted. Open red and black points show $<n_{charged}^{q,g}>$ for the more forward and more central jets extracted from labels directly in simulation. The middle panel shows the ratio of $<n_{charged}^{q,g}>$ for the forward versus central jets and the lower panel shows the ratio for the values extracted and the ones taken directly from simulation for the more forward jets. The extraction method used is possible because the filled red squares and circles are slightly displaced from each other. Closure is given by the fact that the open stars, circles, and up triangles overlap and the open crosses, squares, and down triangles also overlap \cite{Unfolding}. }
+  \label{fig:closure_qg}
+\end{figure}
+\FloatBarrier
 \chapter{Impact of Quark Gluon tagging in diboson resonance search}
 Using the 90\% WP of the $n_{trk}$ tagger improves $S/\sqrt{B}$ is $\sim 3$\% as shown in Figure \ref{fig:qg_s_root_b}. Although, $n_{trk}$ is the single most powerful discriminating variable for quark and gluon jets, the addition of other jet variables would improve the classification efficiency. Figure \ref{fig:quark_gluon_roc_truth} shows the possible improvement of 10\%  in jet classification using the truth label of the jets to classify jets.  This type of improvement is possible by using variables such as jet width, and energy correlatators. Figure \ref{fig:qgbdt} shows for a 90\% quark tagging efficiency for a 200 GeV jet, using a boosted decision tree improve the gluon rejection by $\sim 0.4$. Once this tagger is calibrated it would improve the analysis sensitivity of this channel.
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/QGT/s_root_b_truthtag.pdf}
-  \caption{The top panel shows the distribution of $m_{lvqq}$ with and without requiring jets to be true quarks. The middle panel shows the ratio of the signals and backgrounds with and without requiring jets to be true quarks. The bottom panel shows the change in $S/\sqrt{B}$ when requiring jets to be true quarks..}
+  \caption{The top panel shows the distribution of $m_{lvqq}$ with and without requiring jets to be true quarks. The middle panel shows the ratio of the signals and backgrounds with and without requiring jets to be true quarks. The bottom panel shows the change in $S/\sqrt{B}$ when requiring jets to be true quarks.}
   \label{fig:quark_gluon_roc_truth}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\hsize]{figures/QGT/bdt.pdf}
+  \caption{ROC curves for quark gluon tagging BDT (trained using jet substructure variables) and convolutional neural networks (trained using jet images) on (left) 200 GeV and (right) 1000 GeV Pythia jets using jet substructure variables \cite{qgbdt}. }
+  \label{fig:qgbdt}
 \end{figure}
 \FloatBarrier
 

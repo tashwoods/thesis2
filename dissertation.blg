@@ -18,45 +18,45 @@ Warning--empty journal in FakeTracks
 Warning--empty journal in JetFrag
 Warning--empty journal in antikt
 Warning--empty journal in lstmstruct
-You've used 29 entries,
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            644 strings with 7949 characters,
-and the built_in function-call counts, 7348 in all, are:
-= -- 675
-> -- 360
+            648 strings with 8097 characters,
+and the built_in function-call counts, 7630 in all, are:
+= -- 701
+> -- 378
 < -- 1
-+ -- 145
-- -- 116
-* -- 458
-:= -- 1305
-add.period$ -- 78
-call.type$ -- 29
-change.case$ -- 145
++ -- 152
+- -- 122
+* -- 481
+:= -- 1357
+add.period$ -- 81
+call.type$ -- 30
+change.case$ -- 151
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 277
-empty$ -- 581
-format.name$ -- 116
-if$ -- 1482
+cite$ -- 42
+duplicate$ -- 287
+empty$ -- 599
+format.name$ -- 122
+if$ -- 1537
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 21
-newline$ -- 139
-num.names$ -- 56
-pop$ -- 170
+int.to.str$ -- 30
+missing$ -- 22
+newline$ -- 144
+num.names$ -- 58
+pop$ -- 174
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 121
 quote$ -- 0
-skip$ -- 222
+skip$ -- 230
 stack$ -- 0
-substring$ -- 259
-swap$ -- 26
+substring$ -- 264
+swap$ -- 27
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
+type$ -- 120
 warning$ -- 12
-while$ -- 62
-width$ -- 31
-write$ -- 278
+while$ -- 64
+width$ -- 32
+write$ -- 289
 (There were 12 warnings)

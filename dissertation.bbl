@@ -97,6 +97,12 @@ Stefan Höche, Frank Krauss, Marek Schönherr, and Frank Siegert.
 Diederik~P. Kingma and Jimmy Ba.
 \newblock {Adam: A Method for Stochastic Optimization}, 2014.
 
+\bibitem{qgbdt}
+Patrick~T. Komiske, Eric~M. Metodiev, and Matthew~D. Schwartz.
+\newblock {Deep learning in color: towards automated quark/gluon jet
+  discrimination}.
+\newblock {\em Journal of High Energy Physics}, 2017(1), Jan 2017.
+
 \bibitem{vrjets}
 David Krohn, Jesse Thaler, and Lian-Tao Wang.
 \newblock {Jets with variable R}.

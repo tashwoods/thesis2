@@ -312,7 +312,7 @@ If the event fails all VBF categories, it is then checked if it passes the merge
 Overall, for the Drell-Yan HVT $Z'$ and gluon-gluon fusion $G_{KK}$ signals there are 3 signal regions. For the Drell-Yan HVT $W'$ signal there are 6 signal regions. For VBF HVT $W'$ and $Z'$ signals there are 3 signal regions.
 
 \begin{table}[t]
-  \caption{Summary of selection criteria used to define the signal region (SR), WCR, and TCR for merged 1-lepton channel.} \label{tab:SRdefinitions_1lep_merged}
+  \caption{Summary of selection criteria used to define the signal region (SR), $W$+jets control region ($W$ CR) and $t\bar{t}$ control region ($t\bar{t}$ CR) for merged 1-lepton channel.} \label{tab:SRdefinitions_1lep_merged}
 \begin{center}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|l|l|c|c|c|c|c|c|}
@@ -350,7 +350,7 @@ Top-quark veto & Num of $b$-tagged jets outside of large-R jet & \multicolumn{4}
 
 
 \begin{table}[t]
-  \caption{The list of selection cuts in the resolved analysis for the $WW$ and $WZ$ signal regions (SR), WCR, and TCRs.} \label{tab:SRdefinitions_1lep_resolved}
+  \caption{The list of selection cuts in the resolved analysis for the $WW$ and $WZ$ signal regions (SR), $W$+jets control region (WR) and $ t\bar{t}$ control region (TR).} \label{tab:SRdefinitions_1lep_resolved}
 \begin{center} 
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|l|l|c|c|c|}
@@ -438,15 +438,15 @@ The distributions of $A\cdot \epsilon$ as a function of the resonance mass for t
 \chapter{Background Estimate}
 Backgrounds from $VV$, $t\bar{t}$, single-top, $W$+jets, $Z$+jets are simulated as described in \ref{Simulated Samples}. The dominant backgrounds for this search are from $W$+jet and $t\bar{t}$ processes. To more accurately model the $m_{WV}$ distribution from these backgrounds in the SRs, control regions are constructed for each as described in \ref{crs}. The $t\bar{t}$ and $W$+jets control regions are called TCR and WCR, respectively. There are separate control regions for VBF and non-VBF regions as well as for each region (merged HP, merged LP, resolved). For the HVT $W'$ search there are also tagged and untagged control regions (where tagged refers to events with two $b$-jets inside the large-R jet). 
 
-The aforementioned backgrounds containing real leptons and are well-modeled with simulated samples. Backgrounds with fake leptons (also referred to as the multijet background) are not well-modeled with simulation. For this reason, the multijet background is extracted from data as described in \ref{fakelep}.
+The shape of the aforementioned backgrounds containing real leptons are well-modeled with simulated samples. The normalization of the $W$+jets and $t\bar{t}$ backgrounds are constrained with data in the final likelihood fit. Backgrounds with fake leptons (also referred to as the multijet background) are not well-modeled with simulation. For this reason, the multijet background is extracted from data as described in \ref{fakelep}.
 
 \section{Control Regions}
 \label{crs}
 The TCRs use the same selections as the SRs, but must also contain at least one $b$-jet in the event (that is not within the catchement area of the large-R jet for the merged analysis). The WCR shares the SR selections as well, but uses different jet mass requirements. For the merged analyses, the large-R jet must fail the $W/Z$ tagger jet mass cut. In the resolved analyses, $m_{jj}$ must be $50 < m_{jj} < 68$ GeV or $105 < m_{jj} < 150$ GeV. 
 
-The distributions for some the variables used in merged analysis (e.g. $m_{WV}$, $p_{T}(\nu)$, $p_{T}(J)$) for TCRs (non-VBF and VBF: HP and LP regions) are shown in Figures \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}. The distributions for the variables used in the resolved analysis (e.g. $m_{WV}$, $p_{T}(\nu)$, $p_{T}(j_{1}), p_{T}(j_{2})$) in the TCR are shown in Figures \ref{fig:resolved_ww_TCR_datamc} and \ref{fig:resolved_wz_TCR_datamc}. In general, in these plots the simulated distributions match the data well, which is necessary to have confidence in the prediction yields in the signal regions.
+The distributions for some the variables used in merged analysis (e.g. $m_{WV}$, $p_{T}(\nu)$, $p_{T}(J)$) for top control regions (non-VBF and VBF: HP and LP regions) are shown in Figures \ref{fig:merged_hp_ww_TCR_datamc}-\ref{fig:merged_lp_wz_TCR_datamc}. The distributions for the variables used in the resolved analysis (e.g. $m_{WV}$, $p_{T}(\nu)$, $p_{T}(j_{1}), p_{T}(j_{2})$) in the TCR are shown in Figures \ref{fig:resolved_ww_TCR_datamc} and \ref{fig:resolved_wz_TCR_datamc}. In general, in these plots the simulated distributions match the data well, which is necessary to have confidence in the prediction yields in the signal regions.
 
-These CRs are constructed to accurately model $W$+jets and $t\bar{t}$, the two dominant backgrounds in this search. These control regions are dominated by these processes and constrain the normalization of these backgrounds in the final likelihood fit. For the TCR the event must contain at least one such b jet. The WCR is constructed using the $m_{jj/J}$ mass window sidebands. All other backgrounds are estimated using simulation, except fake lepton backgrounds, which are derived using a data-driven method.
+These CRs are constructed to accurately model $W$+jets and $t\bar{t}$, the two dominant backgrounds in this search. These control regions are dominated by these processes and constrain the normalization of these backgrounds in the final likelihood fit. For the $t\bar{t}$ control region the event must contain at least one such b jet. The WCR is constructed using the $m_{jj/J}$ mass window sidebands. All other backgrounds are estimated using simulation, except fake lepton backgrounds, which are derived using a data-driven method.
 
 
 \begin{figure}[htbp]
@@ -503,7 +503,7 @@ These CRs are constructed to accurately model $W$+jets and $t\bar{t}$, the two d
 \FloatBarrier
 \section{Fake Lepton Backgrounds}
 \label{fakelep}
-The fake lepton backgrounds for this search are not well-modeled with simulation. For this reason, this background is extracted from data. Fake electrons often arise from fake jets and converted photons while non-prompt muons usually arise from heavy flavor decay products. This predominately occurs at lower lepton momentums, and therefore is only considered in the resolved analysis.
+The fake lepton backgrounds for this search are not well-modeled with simulation. For this reason, this background is extracted from data. Fake electrons arise from fake jets and converted photons. Non-prompt muons often arise from heavy flavor decay products. This predominately occurs for lower lepton momentum, and therefore is only considered in the resolved analysis.
 
 Fake electrons generally fail the electron ID criteria and fake muons fail the muon isolation requirement. Therefore, separate multijet samples are derived for the fake electron and muon samples. For each sample the $m_{WV}$ template shape is derived for the SR and WCR selections using the same SR and WCR cuts but with inverted lepton requirements as seen in Table \ref{tab:TempMJCR}. NB: By inverting the lepton isolation/identification criteria the SRs and CRs are orthogonal.
 
@@ -640,59 +640,38 @@ This template method was validated using WCR and full Run 2 data. The results of
 
 \begin{table}[ht]
     \centering
-     \Large{Full Run 2}\\
-     \large{ggF Res WWWCR \\ }
-     \begin{tabular}{|c|c|c|c|c|}
+     \begin{tabular}{|c|c|c|c|c|c|}
       \hline
-     Sample    & Yield   & R.U.    & SF    \\ \hline
-     Top\&W    & $645040\pm 1971.68$  & 0.31\%  & 0.998  \\ \hline
-     Z\&VV     & $24075.9$ & \multicolumn{2}{c|}{fixed} \\ \hline
-     MJ\_el    & $24156.3\pm 1224.62$  & 5.06\%  &3.973   \\ \hline
-     MJ\_mu    & $35528.5\pm 923.94$  & 2.60\%  &9.019   \\ \hline
-     \end{tabular}\hfill%
-     \\
-     \large{ggF Res WZ01bWCR\\ }
-     \begin{tabular}{|c|c|c|c|c|}
+     Region &Sample    & Yield   & R.U.    & SF    \\ \hline
+     non-VBF WW WCR & Top\&W    & $645040\pm 1971.68$  & 0.31\%  & 0.998  \\ 
+     &Z\&VV     & $24075.9$ & \multicolumn{2}{c|}{fixed} \\ 
+     &MJ\_el    & $24156.3\pm 1224.62$  & 5.06\%  &3.973   \\ 
+     &MJ\_mu    & $35528.5\pm 923.94$  & 2.60\%  &9.019   \\     
       \hline
-     Sample    & Yield   & R.U.    & SF    \\ \hline
-     Top\&W    & $644690\pm 1981.4$  & 0.31\%  & 0.997  \\ \hline
-     Z\&VV     & $24075.9$ & \multicolumn{2}{c|}{fixed} \\ \hline
-     MJ\_el    & $24366.5\pm 1232.69$  & 5.05\%  &3.874   \\ \hline
-     MJ\_mu    & $35528.5\pm 921.27$  & 2.58\%  &8.746   \\ \hline
-     \end{tabular}\hfill%
-     \\
-     \large{ggF Res WZ2bWCR\\ }
-     \begin{tabular}{|c|c|c|c|c|}
+     non-VBF WZ untag & Top\&W    & $644690\pm 1981.4$  & 0.31\%  & 0.997  \\
+     &Z\&VV     & $24075.9$ & \multicolumn{2}{c|}{fixed} \\ 
+     &MJ\_el    & $24366.5\pm 1232.69$  & 5.05\%  &3.874   \\
+     &MJ\_mu    & $35528.5\pm 921.27$  & 2.58\%  &8.746   \\ 
       \hline
-     Sample    & Yield   & R.U.    & SF    \\ \hline
-     Top\&W    & $71236.5\pm 688.74$  & 0.97\%  & 1.031  \\ \hline
-     Z\&VV     & $518.5$ & \multicolumn{2}{c|}{fixed} \\ \hline
-     MJ\_el    & $595.63\pm 449.34$  & 75.44\%  &0.094   \\ \hline
-     MJ\_mu    & $1196.9\pm 222.13$  & 18.56\%  &0.294   \\ \hline
-     \end{tabular}\hfill%
-     \\
-     \large{VBF Res WWWCR\\ }
-     \begin{tabular}{|c|c|c|c|c|}
+     non-VBF WZ tag&Top\&W    & $71236.5\pm 688.74$  & 0.97\%  & 1.031  \\ 
+     &Z\&VV     & $518.5$ & \multicolumn{2}{c|}{fixed} \\ 
+     &MJ\_el    & $595.63\pm 449.34$  & 75.44\%  &0.094   \\
+     &MJ\_mu    & $1196.9\pm 222.13$  & 18.56\%  &0.294   \\   
       \hline
-     Sample    & Yield   & R.U.    & SF    \\ \hline
-     Top\&W    & $19032.3\pm 364.43$  & 1.91\%  & 0.928  \\ \hline
-     Z\&VV     & $1091.63$ & \multicolumn{2}{c|}{fixed} \\ \hline
-     MJ\_el    & $1425.73\pm 214.42$  & 15.03\%  &0.235   \\ \hline
-     MJ\_mu    & $1281.36\pm 157.21$  & 11.83\%  &0.314   \\ \hline
-     \end{tabular}\hfill%
-     \\
-     \large{VBF Res WZWCR\\ }
-     \begin{tabular}{|c|c|c|c|c|}
+     VBF WW WCR & Top\&W    & $19032.3\pm 364.43$  & 1.91\%  & 0.928  \\ 
+     &Z\&VV     & $1091.63$ & \multicolumn{2}{c|}{fixed} \\ 
+     &MJ\_el    & $1425.73\pm 214.42$  & 15.03\%  &0.235   \\ 
+     &MJ\_mu    & $1281.36\pm 157.21$  & 11.83\%  &0.314   \\ 
       \hline
-     Sample    & Yield   & R.U.    & SF    \\ \hline
-     Top\&W    & $21341.8\pm 392.21$  & 1.84\%  & 0.942  \\ \hline
-     Z\&VV     & $1111.75$ & \multicolumn{2}{c|}{fixed} \\ \hline
-     MJ\_el    & $1413.76\pm 230.36$  & 16.29\%  &0.225   \\ \hline
-     MJ\_mu    & $1281.36\pm 157.21$  & 12.27\%  &0.314   \\ \hline
+     VBF WZ WCR & Top\&W    & $21341.8\pm 392.21$  & 1.84\%  & 0.942  \\
+     &Z\&VV     & $1111.75$ & \multicolumn{2}{c|}{fixed} \\
+     &MJ\_el    & $1413.76\pm 230.36$  & 16.29\%  &0.225   \\ 
+     &MJ\_mu    & $1281.36\pm 157.21$  & 12.27\%  &0.314   \\ 
+     \hline
      \end{tabular}\hfill%
      \\
 \caption{\label{tab:template_validation_CR} Fit validation result in WCRs for 2015+16 data. 
-The fit is done in various WCRs, in order to obtain the corresponding scale factors for MJ templates: ggF resolved WCR for the $WW\to lvqq$ selection, ggF resolved untagged WCR for the $WZ\to lvqq$ selection,  ggF resolved tagged WCR for the $WZ\to lvqq$ selection,  VBF resolved WCR for the $WW\to lvqq$ selection,and VBF resolved WCR for the $WZ\to lvqq$ selection. Post-fit event yields for electroweak processes and MJ contributions are shown. The SF column shows the corresponding normalization scale factors for electroweak processes from the fit.
+The fit is done in various WCRs, in order to obtain the corresponding scale factors for MJ templates: non-VBF resolved WCR for the $WW\to lvqq$ selection, non-VBF resolved untagged WCR for the $WZ\to lvqq$ selection,  non-VBF resolved tagged WCR for the $WZ\to lvqq$ selection,  VBF resolved WCR for the $WW\to lvqq$ selection,and VBF resolved WCR for the $WZ\to lvqq$ selection. Post-fit event yields for electroweak processes and MJ contributions are shown. The SF column shows the corresponding normalization scale factors for electroweak processes from the fit.
 R.U. stands for relative uncertainty.
 }
 \end{table}

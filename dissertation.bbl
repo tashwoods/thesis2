@@ -3,6 +3,13 @@
 \bibitem{colorfactor}
 {Lecture Notes Particle Physics II}.
 
+\bibitem{elec_syst}
+M.~Aaboud, G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, B.~Abeloos, O.~S.
+  AbouZeid, N.~L. Abraham, H.~Abramowicz, and et~al.
+\newblock {Electron efficiency measurements with the ATLAS detector using 2012
+  LHC proton–proton collision data}.
+\newblock {\em The European Physical Journal C}, 77(3), Mar 2017.
+
 \bibitem{rs2}
 Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
 \newblock {Warped Gravitons at the LHC and Beyond}.
@@ -76,6 +83,10 @@ CMS Collaboration.
 Alex Dias and V.~Pleitez.
 \newblock {Grand Unification and Proton Stability Near the Peccei-Quinn Scale}.
 \newblock {\em Physical Review D}, 70, 07 2004.
+
+\bibitem{muon_syst}
+E.~Diehl.
+\newblock {Calibration and Performance of the ATLAS Muon Spectrometer}, 2011.
 
 \bibitem{me_ps}
 Stefan Höche, Frank Krauss, Marek Schönherr, and Frank Siegert.

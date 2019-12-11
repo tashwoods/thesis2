@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  10 DEC 2019 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  10 DEC 2019 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1704,7 +1704,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [112 <./figures/Analysis/multijet/mj_muon_vbf_wz.pdf>]
 
-LaTeX Warning: Float too large for page by 75.0899pt on input line 699.
+LaTeX Warning: Float too large for page by 66.68994pt on input line 699.
 
 [113]
 Chapter 11.
@@ -2638,7 +2638,7 @@ ic/newtx/txsys.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic
 usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (198 pages, 36074839 bytes).
+Output written on dissertation.pdf (198 pages, 36074996 bytes).
 PDF statistics:
  8857 PDF objects out of 8907 (max. 8388607)
  5915 compressed objects within 60 object streams

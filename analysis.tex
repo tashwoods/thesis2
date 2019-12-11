@@ -25,9 +25,9 @@ This analysis uses $pp$ collision data collected from 2015 to 2018 at $\sqrt{s}=
 \label{Simulated Samples}
 Samples are simulated in order to model backgrounds, evaluate signal acceptance, optimize event selection and estimate systematic and statistical uncertainties. The dominant backgrounds for this analysis are $W/Z$ + jets, diboson ($WZ$/$WW$), $t\bar{t}$, single top and multijet production. 
 
-$W/Z$+jet events are simulated using Sherpa 2.2.1 at NLO [cite [29]] and merged with the Sherpa parton shower using the ME+PS@NLO prescription \cite{me_ps}. These events are then normalized to NNLO cross sections. The $t\bar{t}$ and single-top backgrounds are generated with Powheg-Box with NNPDF3.0NLO PDF sets in the matrix element calculation [cite[35]]. For all processes, the parton shower, fragmentation, and underlying event are simulated using Pythia 8.320 with the A14 tune set[cite[ATL-PHYS-PUB-2014-02]]. Diboson processes are generated using Sherpa 2.2.1. 
+$W/Z$+jet events are simulated using Sherpa 2.2.1 at NLO \cite{sherpa} and merged with the Sherpa parton shower using the ME+PS@NLO prescription \cite{me_ps}. These events are then normalized to NNLO cross sections. The $t\bar{t}$ and single-top backgrounds are generated with Powheg-Box with NNPDF3.0NLO PDF sets in the matrix element calculation \cite{pdfsets}. For all processes, the parton shower, fragmentation, and underlying event are simulated using Pythia 8.320 with the A14 tune set \cite{pdfsets}. Diboson processes are generated using Sherpa 2.2.1. 
 
-Signal samples are simulated using MadGraph 5-2.2.2 [cite 42] and Pythia 8.186 with NNPDF230LO. RS Graviton samples are generated with $k/M_{PL}$=1. HVT Model A (B) samples are simulated with $g_{V}=1(3)$, as the difference in the width of the samples is smaller than detector resolution. To model VBF production of HVT signals, $g_{H}=1$ and $g_{f}=0$. Signals are generated for masses between 300 GeV and 5 TeV.
+Signal samples are simulated using MadGraph 5-2.2.2 \cite{nnlo} and Pythia 8.186 with NNPDF230LO. RS Graviton samples are generated with $k/M_{PL}$=1. HVT Model A (B) samples are simulated with $g_{V}=1(3)$, as the difference in the width of the samples is smaller than detector resolution. To model VBF production of HVT signals, $g_{H}=1$ and $g_{f}=0$. Signals are generated for masses between 300 GeV and 5 TeV.
 
 \chapter{Objects}
 \section{Electrons}
@@ -57,7 +57,7 @@ For these jet collections, the jet energy is calibrated sequentially as shown in
 
 MC-based corrections are then applied that are meant to transform the jet energy and $\eta$ back to particle level as detailed in \cite{jet_energy_calib}. Therefore, these corrections account for the non-compensating nature of the ATLAS calorimeters and inhomogeneity of the detector. Following this, the Global Sequential Calibration is applied that reduces flavor dependence of jet calibrations and accounts for energy leakage of jets outside the calorimeters. Finally, in-situ corrections are applied that account for differences in jet response between data and simulation ($\gamma /Z+$jet and fake lepton samples are used). These differences can arise from mismodeling the hard scattering process, pile-up, and jet formation. 
 
-To further reject jets no arising from the hadronically decaying boson, jets must pass quality requirements based on the following variables ([cite P42]):
+To further reject jets no arising from the hadronically decaying boson, jets must pass quality requirements based on the following variables \cite{jet_selection}:
 
 \begin{itemize}
 \item[-] $f_{Q}^{LAr}$: fraction of energy of jet's LAr cells with poor signal shape

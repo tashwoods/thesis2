@@ -3,6 +3,15 @@
 \bibitem{colorfactor}
 {Lecture Notes Particle Physics II}.
 
+\bibitem{pythia_tune}
+{ATLAS Run 1 Pythia8 tunes}.
+\newblock Technical Report ATL-PHYS-PUB-2014-021, CERN, Geneva, Nov 2014.
+
+\bibitem{jet_selection}
+{Selection of jets produced in 13TeV proton-proton collisions with the ATLAS
+  detector}.
+\newblock Technical Report ATLAS-CONF-2015-029, CERN, Geneva, Jul 2015.
+
 \bibitem{elec_syst}
 M.~Aaboud, G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, B.~Abeloos, O.~S.
   AbouZeid, N.~L. Abraham, H.~Abramowicz, and et~al.
@@ -19,6 +28,20 @@ Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
 G.~Altarelli and G.~Parisi.
 \newblock {Asymptotic freedom in parton language}.
 \newblock {\em Nuclear Physics B}, 126(2):298 -- 318, 1977.
+
+\bibitem{nnlo}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.-S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro.
+\newblock The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower simulations.
+\newblock {\em Journal of High Energy Physics}, 2014(7), Jul 2014.
+
+\bibitem{pdfsets}
+Richard~D. Ball, Valerio Bertone, Stefano Carrazza, Christopher~S. Deans, Luigi
+  Del~Debbio, Stefano Forte, Alberto Guffanti, Nathan~P. Hartland, José~I.
+  Latorre, and et~al.
+\newblock Parton distributions for the lhc run ii.
+\newblock {\em Journal of High Energy Physics}, 2015(4), Apr 2015.
 
 \bibitem{fastjet}
 Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
@@ -87,6 +110,12 @@ Alex Dias and V.~Pleitez.
 \bibitem{muon_syst}
 E.~Diehl.
 \newblock {Calibration and Performance of the ATLAS Muon Spectrometer}, 2011.
+
+\bibitem{sherpa}
+T~Gleisberg, S~Höche, F~Krauss, M~Schönherr, S~Schumann, F~Siegert, and
+  J~Winter.
+\newblock {Event generation with SHERPA 1.1}.
+\newblock {\em Journal of High Energy Physics}, 2009(02):007–007, Feb 2009.
 
 \bibitem{me_ps}
 Stefan Höche, Frank Krauss, Marek Schönherr, and Frank Siegert.

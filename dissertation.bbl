@@ -7,10 +7,19 @@
 {ATLAS Run 1 Pythia8 tunes}.
 \newblock Technical Report ATL-PHYS-PUB-2014-021, CERN, Geneva, Nov 2014.
 
+\bibitem{met_preformance}
+{Expected performance of missing transverse momentum reconstruction for the
+  ATLAS detector at $\sqrt{s}= 13~\text{TeV}$}.
+\newblock Technical Report ATL-PHYS-PUB-2015-023, CERN, Geneva, Jul 2015.
+
 \bibitem{jet_selection}
 {Selection of jets produced in 13TeV proton-proton collisions with the ATLAS
   detector}.
 \newblock Technical Report ATLAS-CONF-2015-029, CERN, Geneva, Jul 2015.
+
+\bibitem{atlas_btag}
+Performance ofb-jet identification in the atlas experiment.
+\newblock {\em Journal of Instrumentation}, 11(04):P04008–P04008, Apr 2016.
 
 \bibitem{elec_syst}
 M.~Aaboud, G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, B.~Abeloos, O.~S.
@@ -71,6 +80,16 @@ ATLAS Collaboration.
 \newblock {Jet energy scale measurements and their systematic uncertainties in
   proton-proton collisions at $\sqrt{s}=13$ TeV with the ATLAS Detector}.
 \newblock {\em Physical Review D}, 96(7), Oct 2017.
+
+\bibitem{VH}
+ATLAS Collaboration.
+\newblock {{Search for diboson resonances in hadronic final states in 139
+  fb$^{-1}$ of $pp$ collisions at $\sqrt{s} = 13$ TeV with the ATLAS
+  detector}}.
+\newblock {\em JHEP}, 1909(arXiv:1906.08589):091. 41 p, Jun 2019.
+\newblock 41 pages in total, author list starting page 25, 9 figures, 3 tables,
+  published in JHEP. All figures including auxiliary figures are available at
+  http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/HDBS-2018-31.
 
 \bibitem{jetcalib}
 ATLAS Collaboration.
@@ -136,6 +155,21 @@ Patrick~T. Komiske, Eric~M. Metodiev, and Matthew~D. Schwartz.
 David Krohn, Jesse Thaler, and Lian-Tao Wang.
 \newblock {Jets with variable R}.
 \newblock {\em Journal of High Energy Physics}, 2009(06):059–059, Jun 2009.
+
+\bibitem{jet_trimming}
+David Krohn, Jesse Thaler, and Lian-Tao Wang.
+\newblock Jet trimming.
+\newblock {\em Journal of High Energy Physics}, 2010(2), Feb 2010.
+
+\bibitem{jet_observables}
+Andrew~J. Larkoski, Ian Moult, and Duff Neill.
+\newblock Power counting to better jet observables.
+\newblock {\em Journal of High Energy Physics}, 2014(12), Dec 2014.
+
+\bibitem{boosted_boson}
+Andrew~J. Larkoski, Ian Moult, and Duff Neill.
+\newblock Analytic boosted boson discrimination.
+\newblock {\em Journal of High Energy Physics}, 2016(5), May 2016.
 
 \bibitem{antikt}
 Gregory~Soyez Matteo~Cacciari, Gavin P.~Salam.

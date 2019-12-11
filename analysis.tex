@@ -85,7 +85,7 @@ Jets selected for the resolved analysis must pass one of the following criteria,
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\hsize]{figures/Analysis/jetcalib.pdf}
-  \caption{\cite{jetcalib} This diagram shows the calibration stages for EM jets.} 
+  \caption{This diagram shows the calibration stages for EM jets \cite{jetcalib} .} 
   \label{fig:jetcalib}
 \end{figure} 
 \FloatBarrier
@@ -100,9 +100,9 @@ Large-R ($R = 1.0$) jets are used to reconstruct the hadronically decaying $W/Z$
 
 The angular resolution of the calorimeter degrades sharply with jet $p_{T}$, but the jet energy resolution improves. The tracker has excellent angular resolution which improves with $p_{T}$. Therefore, by matching tracks to jets, TCCs have more precise energy and angular resolution than jets constructed from calorimeter information only. These jets are required to have $p_{T}>200$ GeV, $|\eta| < 2.0$ and $m_{J} > 50$ GeV. 
 
-TCC jets are trimmed as detailed in [cite ANA 45], which suppresses pileup and soft radiation in the jet, the jet mass is calculated as the four-vector sum of the jet's constituents (assuming massless constituents). The jet mass peaks around the $W/Z$ boson mass for $W/Z \rightarrow qq$ jets, and more broadly for single-quark and single-gluon induced jets. 
+TCC jets are trimmed as detailed in \cite{jet_trimming}, which suppresses pileup and soft radiation in the jet, the jet mass is calculated as the four-vector sum of the jet's constituents (assuming massless constituents). The jet mass peaks around the $W/Z$ boson mass for $W/Z \rightarrow qq$ jets, and more broadly for single-quark and single-gluon induced jets. 
 
-These jets are then tagged as $W$ jet if it passes optimized jet mass and substructure ($D_{2}$) cuts for $W$ bosons, and a $Z$ jet if it passes the cuts for the $Z$ boson. The jet substructure variable $D_{2}$ is given by the ratio of energy correlation functions. These functions are derived from the energies and pair-wise angles of a jet's constituents [cite ANA 46, 47]:
+These jets are then tagged as $W$ jet if it passes optimized jet mass and substructure ($D_{2}$) cuts for $W$ bosons, and a $Z$ jet if it passes the cuts for the $Z$ boson. The jet substructure variable $D_{2}$ is given by the ratio of energy correlation functions. These functions are derived from the energies and pair-wise angles of a jet's constituents (\cite{jet_observables}, \cite{boosted_boson}):
 
 \begin{equation}
 D_{2}^{\beta=1} = E_{CF3}\left(\frac{E_{CF1}}{E_{CF2}}\right)^{3}
@@ -136,7 +136,7 @@ A two-dimensional optimization of the jet mass and $D_{2}$ thresholds was perfor
 %\subfloat[][\label{fig:Mass_Z}]{
     \includegraphics[width=0.48\hsize]{figures/Analysis/Mass_Z_Fit.eps}
 %}
-\caption{The upper cut on $D_2$ (a) and jet mass window cut i.e. the upper and lower boundary of the mass (b) of the $W$-tagger as a function of jet $p_{T}$. Corresponding values for $Z$-tagger are shown in (c) and (d). The optimal cut values for maximum significance are shown as solid markers and the fitted function as solid lines. Working points from $VV\to JJ$[ cite ATLAS-HDBS-2018-31-002] is also shown as dashed lines as a reference.}
+\caption{The upper cut on $D_2$ (a) and jet mass window cut i.e. the upper and lower boundary of the mass (b) of the $W$-tagger as a function of jet $p_{T}$. Corresponding values for $Z$-tagger are shown in (c) and (d). The optimal cut values for maximum significance are shown as solid markers and the fitted function as solid lines. Working points from $VV\to JJ$ \cite{VH} is also shown as dashed lines as a reference.}
 \label{fig:wztag_eff}
 \end{figure}
 \FloatBarrier
@@ -160,10 +160,10 @@ For this search $\rho=30$ GeV and an lower and upper limit on cone size are set 
 
 \subsection{Jet Flavor Tagging}
 \label{Jet Flavor Tagging}
-To further classify events, the small-R and VR jets originating from a b-quark are classified using a multivariate $b$-tagging algorithm (BDT), MV2c10 [cite G 210 199]. This algorithm uses the impact parameters of the jet's ID tracks, secondary vertices (if they exist), and reconstructed flight paths of $b$ and $c$ hadrons in the jet to determine if the jet was induced by a $b$-quark. For this analysis the 85\% efficient working point of this algorithm is used giving $c$, $\tau$, and light-flavor jet rejection of 3, 8, and 34 respectively in simulated $t\bar{t}$ samples.
+To further classify events, the small-R and VR jets originating from a b-quark are classified using a multivariate $b$-tagging algorithm (BDT), MV2c10 \cite{atlas_btag}. This algorithm uses the impact parameters of the jet's ID tracks, secondary vertices (if they exist), and reconstructed flight paths of $b$ and $c$ hadrons in the jet to determine if the jet was induced by a $b$-quark. For this analysis the 85\% efficient working point of this algorithm is used giving $c$, $\tau$, and light-flavor jet rejection of 3, 8, and 34 respectively in simulated $t\bar{t}$ samples.
 
 \section{MET/Neutrinos}
-As neutrinos are uncharged and colorless they do not leave tracks or jets in the detector. For this reason, neutrinos are reconstructed as the missing energy in the event, $E_{T}^{miss}$. Mathematically, $E_{T}^{miss}$ is the negative vector sum of $p_{T}$ all the physics objects and an extra "soft" term. The "soft" term accounts for energy deposits not associated with any of the objects in the event. For this analysis the soft term is given by the sum $p_{T}$ of all ID tracks not associated with objects in the event. The selected tracks must be matched to the primary vertex, which decreases pile-up contamination [cite G 217 218]. 
+As neutrinos are uncharged and colorless they do not leave tracks or jets in the detector. For this reason, neutrinos are reconstructed as the missing energy in the event, $E_{T}^{miss}$. Mathematically, $E_{T}^{miss}$ is the negative vector sum of $p_{T}$ all the physics objects and an extra "soft" term. The "soft" term accounts for energy deposits not associated with any of the objects in the event. For this analysis the soft term is given by the sum $p_{T}$ of all ID tracks not associated with objects in the event. The selected tracks must be matched to the primary vertex, which decreases pile-up contamination \cite{met_preformance}. 
 
 \section{Overlap Removal}
 Reconstructed jets and leptons in this analysis can arise from the same energy deposits. For instance, a cluster of energy from an electron can also be a valid calorimeter seed for a jet. To mitigate this confusion of multiple objects originating from a single jet or lepton overlapping objects are removed via a procedure referred to a overlap removal. In this procedure the separation of the two objects, $\Delta (R) $, determines which object is removed from the event. 
@@ -235,7 +235,7 @@ Data-taking period & $e\nu qq$ channel & $\mu\nu qq$ ($p_{T}(\mu\nu)<150$ GeV) c
 \end{landscape}
 \section{non-VBF/VBF RNN}
 \label{rnn}
-To classify events as originating from non-VBF or VBF production a recursive neural network (RNN \cite{rnn}) is used. This approach is more powerful than a cut-based classification as it improves signal efficiency and analysis sensitivity by exploiting correlations between variables that the RNN learns. In particular, a RNN architecture is ideal as it can handle variable numbers of jets in the events.  
+To classify events as originating from non-VBF or VBF production a recursive neural network (RNN) is used \cite{rnn}. This approach is more powerful than a cut-based classification as it improves signal efficiency and analysis sensitivity by exploiting correlations between variables that the RNN learns. In particular, a RNN architecture is ideal as it can handle variable numbers of jets in the events.  
 
 The RNN uses the four-momentum of candidate VBF jets to classify events as VBF or non-VBF topologies. Sometimes jets are incorrectly reconstructed, so the number of jets in the event is expected to vary across the input samples. VBF candidate jets are identified by removing jets from the event that are likely from $W/Z \rightarrow qq$. For the resolved regime this means removing the two leading small-R jets from the VBF candidate jet list. For the merged regime this means removing small-R jets separated by less than 1.0 in $\Delta R$ from the large-R jet. VBF candidate jets are also required to be within $|\eta| < 4.5$. From the list of remaining VBF candidate jets, the two highest-$p_{T}$ jets are chosen. 
 
@@ -536,9 +536,9 @@ This template method was validated using WCR and full Run 2 data. The results of
   \end{table}
 \end{center}
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize]{figures/Analysis/multijet/multijet_met.pdf}
+  \includegraphics{figures/Analysis/multijet/multijet_met.pdf}
       \caption{The $E_{T}^{miss}$ distribution in MJCR for 2017 data in the electron channel(left), muon channel with W-boson pT < 150 GeV (center) and > 150 GeV (right). Multi-jet templates are given by the difference between the data and simulated distributions.} 
   \label{fig:multijet_met}
 \end{figure} 
@@ -546,18 +546,18 @@ This template method was validated using WCR and full Run 2 data. The results of
 
 
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize , height=\textheight , keepaspectratio]{figures/Analysis/multijet/mj_elec_ww.pdf}
+  \includegraphics{figures/Analysis/multijet/mj_elec_ww.pdf}
       \caption{Postfit Data/MC comparison of distributions of $E_{T}^{miss}$, $m_{T}^{W}$, lepton and neutrino $p_{T}$, $m_{\ell \nu jj}$, lepton-$\nu$ angular distance in the $WW$ electron channel. The MJ template is obtained from the pre-MJ-fit.} 
   \label{fig:multijet_met_elec_ww}
 \end{figure} 
 \FloatBarrier
 
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize , height=\textheight , keepaspectratio]{figures/Analysis/multijet/mj_muon_ww.pdf}
+  \includegraphics{figures/Analysis/multijet/mj_muon_ww.pdf}
       \caption{Postfit Data/MC comparison of distributions of $E_{T}^{miss}$, $m_{T}^{W}$, lepton and neutrino $p_{T}$, $m_{\ell \nu jj}$, lepton-$\nu$ angular distance in the $WW$ muon channel. The MJ template is obtained from the pre-MJ-fit.} 
   \label{fig:multijet_met_muon_ww}
 \end{figure} 
@@ -565,36 +565,36 @@ This template method was validated using WCR and full Run 2 data. The results of
 
 
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize , height=\textheight , keepaspectratio]{figures/Analysis/multijet/mj_elec_wz_untag.pdf}
+  \includegraphics{figures/Analysis/multijet/mj_elec_wz_untag.pdf}
       \caption{Postfit Data/MC comparison of distributions of $E_{T}^{miss}$, $m_{T}^{W}$, lepton and neutrino $p_{T}$, $m_{\ell \nu jj}$, lepton-$\nu$ angular distance in the $WZ$ untag electron channel. The MJ template is obtained from the pre-MJ-fit.} 
   \label{fig:multijet_met_elec_wz_untag}
 \end{figure} 
 \FloatBarrier
 
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize , height=\textheight , keepaspectratio]{figures/Analysis/multijet/mj_muon_wz_untag.pdf}
+  \includegraphics{figures/Analysis/multijet/mj_muon_wz_untag.pdf}
       \caption{Postfit Data/MC comparison of distributions of $E_{T}^{miss}$, $m_{T}^{W}$, lepton and neutrino $p_{T}$, $m_{\ell \nu jj}$, lepton-$\nu$ angular distance in the $WZ$ untag muon channel. The MJ template is obtained from the pre-MJ-fit.} 
   \label{fig:multijet_met_muon_wz_untag}
 \end{figure} 
 \FloatBarrier
 
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize , height=\textheight , keepaspectratio]{figures/Analysis/multijet/mj_elec_wz_tag.pdf}
+  \includegraphics{figures/Analysis/multijet/mj_elec_wz_tag.pdf}
       \caption{Postfit Data/MC comparison of distributions of $E_{T}^{miss}$, $m_{T}^{W}$, lepton and neutrino $p_{T}$, $m_{\ell \nu jj}$, lepton-$\nu$ angular distance in the $WZ$ untag electron channel. The MJ template is obtained from the pre-MJ-fit.} 
   \label{fig:multijet_met_elec_wz_untag}
 \end{figure} 
 \FloatBarrier
 
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize , height=\textheight , keepaspectratio]{figures/Analysis/multijet/mj_muon_wz_tag.pdf}
+  \includegraphics{figures/Analysis/multijet/mj_muon_wz_tag.pdf}
       \caption{Postfit Data/MC comparison of distributions of $E_{T}^{miss}$, $m_{T}^{W}$, lepton and neutrino $p_{T}$, $m_{\ell \nu jj}$, lepton-$\nu$ angular distance in the $WZ$ untag muon channel. The MJ template is obtained from the pre-MJ-fit.} 
   \label{fig:multijet_met_muon_wz_untag}
 \end{figure} 
@@ -602,36 +602,36 @@ This template method was validated using WCR and full Run 2 data. The results of
 
 
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize , height=\textheight , keepaspectratio]{figures/Analysis/multijet/mj_elec_vbf_ww.pdf}
+  \includegraphics{figures/Analysis/multijet/mj_elec_vbf_ww.pdf}
       \caption{Postfit Data/MC comparison of distributions of $E_{T}^{miss}$, $m_{T}^{W}$, lepton and neutrino $p_{T}$, $m_{\ell \nu jj}$, lepton-$\nu$ angular distance in the VBF $WW$ electron channel. The MJ template is obtained from the pre-MJ-fit.} 
   \label{fig:multijet_met_elec_ww_vbf}
 \end{figure} 
 \FloatBarrier
 
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize , height=\textheight , keepaspectratio]{figures/Analysis/multijet/mj_muon_vbf_ww.pdf}
+  \includegraphics{figures/Analysis/multijet/mj_muon_vbf_ww.pdf}
       \caption{Postfit Data/MC comparison of distributions of $E_{T}^{miss}$, $m_{T}^{W}$, lepton and neutrino $p_{T}$, $m_{\ell \nu jj}$, lepton-$\nu$ angular distance in the VBF $WW$ muon channel. The MJ template is obtained from the pre-MJ-fit.} 
   \label{fig:multijet_met_muon_ww_vbf}
 \end{figure} 
 \FloatBarrier
 
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize , height=\textheight , keepaspectratio]{figures/Analysis/multijet/mj_elec_vbf_wz.pdf}
+  \includegraphics{figures/Analysis/multijet/mj_elec_vbf_wz.pdf}
       \caption{Postfit Data/MC comparison of distributions of $E_{T}^{miss}$, $m_{T}^{W}$, lepton and neutrino $p_{T}$, $m_{\ell \nu jj}$, lepton-$\nu$ angular distance in the VBF $WZ$ electron channel. The MJ template is obtained from the pre-MJ-fit.} 
   \label{fig:multijet_met_elec_wz_vbf}
 \end{figure} 
 \FloatBarrier
 
 
-\begin{figure}[h!]
+\begin{figure}[htpb]
   \centering
-  \includegraphics[width=\hsize , height=\textheight , keepaspectratio]{figures/Analysis/multijet/mj_muon_vbf_wz.pdf}
+  \includegraphics{figures/Analysis/multijet/mj_muon_vbf_wz.pdf}
       \caption{Postfit Data/MC comparison of distributions of $E_{T}^{miss}$, $m_{T}^{W}$, lepton and neutrino $p_{T}$, $m_{\ell \nu jj}$, lepton-$\nu$ angular distance in the VBF $WZ$ muon channel. The MJ template is obtained from the pre-MJ-fit.} 
   \label{fig:multijet_met_muon_wz_vbf}
 \end{figure} 

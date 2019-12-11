@@ -18,8 +18,12 @@
 \newblock Technical Report ATLAS-CONF-2015-029, CERN, Geneva, Jul 2015.
 
 \bibitem{atlas_btag}
-Performance ofb-jet identification in the atlas experiment.
+{Performance ofb-jet identification in the ATLAS experiment}.
 \newblock {\em Journal of Instrumentation}, 11(04):P04008–P04008, Apr 2016.
+
+\bibitem{tcc}
+{{Improving jet substructure performance in ATLAS using Track-CaloClusters}}.
+\newblock Technical Report ATL-PHYS-PUB-2017-015, CERN, Geneva, Jul 2017.
 
 \bibitem{elec_syst}
 M.~Aaboud, G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, B.~Abeloos, O.~S.
@@ -52,6 +56,11 @@ Richard~D. Ball, Valerio Bertone, Stefano Carrazza, Christopher~S. Deans, Luigi
 \newblock Parton distributions for the lhc run ii.
 \newblock {\em Journal of High Energy Physics}, 2015(4), Apr 2015.
 
+\bibitem{ghost_association}
+Matteo Cacciari, Gavin~P Salam, and Gregory Soyez.
+\newblock {The catchment area of jets}.
+\newblock {\em Journal of High Energy Physics}, 2008(04):005–005, Apr 2008.
+
 \bibitem{fastjet}
 Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock {FastJet user manual}.
@@ -70,10 +79,27 @@ ATLAS Collaboration.
 ATLAS Collaboration.
 \newblock {Summary plots from the ATLAS Standard Model physics group}.
 
+\bibitem{atlas_detector}
+ATLAS Collaboration.
+\newblock {The {ATLAS} Experiment at the {CERN} Large Hadron Collider}.
+\newblock {\em Journal of Instrumentation}, 3(08):S08003--S08003, aug 2008.
+
 \bibitem{jvt}
 ATLAS Collaboration.
 \newblock {Tagging and suppression of pileup jets with the ATLAS detector}.
 \newblock {\em ATLAS-CONF- 2014-018}, 2014.
+
+\bibitem{lumi_measurement}
+ATLAS Collaboration.
+\newblock {{Luminosity determination in pp collisions at $\sqrt{s}$ = 8 TeV
+  using the ATLAS detector at the LHC. Luminosity determination in pp
+  collisions at $\sqrt{s}$ = 8 TeV using the ATLAS detector at the LHC}}.
+\newblock {\em Eur. Phys. J. C}, 76(CERN-EP-2016-117. CERN-EP-2016-117.
+  12):653. 71 p, Aug 2016.
+\newblock Comments: 53 pages plus author list + cover pages (71 pages total),
+  19 figures, 9 tables, submitted to EPJC, All figures including auxiliary
+  figures are available at
+  http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/DAPR-2013-01.
 
 \bibitem{jet_energy_calib}
 ATLAS Collaboration.
@@ -120,6 +146,10 @@ ATLAS Collaboration.
 CMS Collaboration.
 \newblock {Particle-flow reconstruction and global event description with the
   CMS detector}, 2017.
+
+\bibitem{ib_unfolding}
+G.~D'Agostini.
+\newblock Improved iterative bayesian unfolding, 2010.
 
 \bibitem{runningcouplings}
 Alex Dias and V.~Pleitez.
@@ -176,6 +206,11 @@ Gregory~Soyez Matteo~Cacciari, Gavin P.~Salam.
 \newblock {The anti-$k_{T}$ jet clustering algorithm}.
 \newblock arXiv:0802.1189 [hep-ph].
 
+\bibitem{nachman}
+Benjamin Nachman.
+\newblock Investigating the quantum properties of jets and the search for a
+  supersymmetric top quark partner with the atlas detector, 2016.
+
 \bibitem{hvt}
 Duccio Pappadopulo, Andrea Thamm, Riccardo Torre, and Andrea Wulzer.
 \newblock {Heavy vector triplets: bridging theory and data}.
@@ -199,11 +234,22 @@ Sebastian Raschka.
 \newblock {Model Evaluation, Model Selection, and Algorithm Selection in
   Machine Learning}, 2018.
 
+\bibitem{cls}
+Alexander~L. Read.
+\newblock {Presentation of search results: The CL(s) technique}.
+\newblock {\em J. Phys.}, G28:2693--2704, 2002.
+\newblock [,11(2002)].
+
 \bibitem{scalarsinglet}
 Tania Robens and Tim Stefaniak.
 \newblock {LHC benchmark scenarios for the real Higgs singlet extension of the
   standard model}.
 \newblock {\em The European Physical Journal C}, 76(5), May 2016.
+
+\bibitem{vertexing}
+Andreas Salzburger.
+\newblock {Optimisation of the ATLAS Track Reconstruction Software for Run-2}.
+\newblock Technical Report ATL-SOFT-PROC-2015-056. 7, CERN, Geneva, May 2015.
 
 \bibitem{rnn}
 Alex Sherstinsky.

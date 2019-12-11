@@ -41,7 +41,7 @@
 \contentsline {section}{\numberline {8.2}Muons}{64}{section.8.2}% 
 \contentsline {section}{\numberline {8.3}Jets}{65}{section.8.3}% 
 \contentsline {subsection}{\numberline {8.3.1}Small-R jets}{68}{subsection.8.3.1}% 
-\contentsline {subsection}{\numberline {8.3.2}Large-R jets}{68}{subsection.8.3.2}% 
+\contentsline {subsection}{\numberline {8.3.2}Large-R jets}{69}{subsection.8.3.2}% 
 \contentsline {subsection}{\numberline {8.3.3}Variable Radius jets}{73}{subsection.8.3.3}% 
 \contentsline {subsection}{\numberline {8.3.4}Jet Flavor Tagging}{73}{subsection.8.3.4}% 
 \contentsline {section}{\numberline {8.4}MET/Neutrinos}{74}{section.8.4}% 

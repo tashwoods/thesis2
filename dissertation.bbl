@@ -1,7 +1,7 @@
 \begin{thebibliography}{10}
 
 \bibitem{colorfactor}
-Lecture notes particle physics ii.
+{Lecture Notes Particle Physics II}.
 
 \bibitem{rs2}
 Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
@@ -10,89 +10,95 @@ Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
 
 \bibitem{altarelli}
 G.~Altarelli and G.~Parisi.
-\newblock Asymptotic freedom in parton language.
+\newblock {Asymptotic freedom in parton language}.
 \newblock {\em Nuclear Physics B}, 126(2):298 -- 318, 1977.
 
 \bibitem{fastjet}
 Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
-\newblock Fastjet user manual.
+\newblock {FastJet user manual}.
 \newblock {\em The European Physical Journal C}, 72(3), Mar 2012.
 
 \bibitem{colorstring}
 M.~N. Chernodub.
-\newblock Background magnetic field stabilizes qcd string against breaking,
+\newblock {Background magnetic field stabilizes QCD string against breaking},
   2010.
 
 \bibitem{muon_calib}
 ATLAS Collaboration.
-\newblock Atlas muon reconstruction performance in lhc run 2.
+\newblock {ATLAS Muon Reconstruction Performance in LHC Run 2}.
 
 \bibitem{SM_XS_Comparison}
 ATLAS Collaboration.
-\newblock Summary plots from the atlas standard model physics group.
+\newblock {Summary plots from the ATLAS Standard Model physics group}.
 
 \bibitem{jvt}
 ATLAS Collaboration.
-\newblock Tagging and suppression of pileup jets with the atlas detector.
+\newblock {Tagging and suppression of pileup jets with the ATLAS detector}.
 \newblock {\em ATLAS-CONF- 2014-018}, 2014.
 
 \bibitem{jet_energy_calib}
 ATLAS Collaboration.
-\newblock Jet energy scale measurements and their systematic uncertainties in
-  proton-proton collisions at $\sqrt{s}=13$ tev with the atlas detector.
+\newblock {Jet energy scale measurements and their systematic uncertainties in
+  proton-proton collisions at $\sqrt{s}=13$ TeV with the ATLAS Detector}.
 \newblock {\em Physical Review D}, 96(7), Oct 2017.
 
 \bibitem{jetcalib}
 ATLAS Collaboration.
-\newblock Jet energy scale measurements and their systematic uncer- tainties in
-  proton–proton collisions at $\sqrt{s}$ = 13 tev with the atlas detector.
+\newblock {Jet energy scale measurements and their systematic uncer- tainties
+  in proton–proton collisions at $\sqrt{s}$ = 13 TeV with the ATLAS
+  detector}.
 \newblock arXiv: 1703.09665 [hep-ex].
 
 \bibitem{Unfolding}
 ATLAS Collaboration.
-\newblock Measurement of the charged-particle multiplicity inside jets from
-  s=$\sqrt{8}$ tev pp collisions with the atlas detector.
+\newblock {Measurement of the charged-particle multiplicity inside jets from
+  s=$\sqrt{8}$ TeV pp collisions with the ATLAS detector}.
 \newblock arXiv:1602.00988 [hep-ex].
 
 \bibitem{FakeTracks}
 ATLAS Collaboration.
-\newblock Performance of the atlas track reconstruction algorithms in dense
-  environments in lhc run 2.
+\newblock {Performance of the ATLAS track reconstruction algorithms in dense
+  environments in LHC Run 2}.
 \newblock arXiv:1704.07983 [hep-ex].
 
 \bibitem{JetFrag}
 ATLAS Collaboration.
-\newblock Properties of jet fragmentation using charged particles measured with
-  the atlas detector in pp collisions at $\sqrt{s}=$13 tev.
+\newblock {Properties of jet fragmentation using charged particles measured
+  with the ATLAS detector in pp collisions at $\sqrt{s}=$13 TeV}.
 \newblock arXiv:1906.09254 [hep-ex].
+
+\bibitem{particleflow}
+CMS Collaboration.
+\newblock {Particle-flow reconstruction and global event description with the
+  CMS detector}, 2017.
 
 \bibitem{runningcouplings}
 Alex Dias and V.~Pleitez.
-\newblock Grand unification and proton stability near the peccei-quinn scale.
+\newblock {Grand Unification and Proton Stability Near the Peccei-Quinn Scale}.
 \newblock {\em Physical Review D}, 70, 07 2004.
 
 \bibitem{me_ps}
 Stefan Höche, Frank Krauss, Marek Schönherr, and Frank Siegert.
-\newblock Qcd matrix elements + parton showers. the nlo case.
+\newblock {QCD matrix elements + parton showers. The NLO case}.
 \newblock {\em Journal of High Energy Physics}, 2013(4), Apr 2013.
 
 \bibitem{adamopt}
 Diederik~P. Kingma and Jimmy Ba.
-\newblock Adam: A method for stochastic optimization, 2014.
+\newblock {Adam: A Method for Stochastic Optimization}, 2014.
 
 \bibitem{vrjets}
 David Krohn, Jesse Thaler, and Lian-Tao Wang.
-\newblock Jets with variable r.
+\newblock {Jets with variable R}.
 \newblock {\em Journal of High Energy Physics}, 2009(06):059–059, Jun 2009.
 
 \bibitem{antikt}
 Gregory~Soyez Matteo~Cacciari, Gavin P.~Salam.
-\newblock The anti-$k_{T}$ jet clustering algorithm.
+\newblock {The anti-$k_{T}$ jet clustering algorithm}.
 \newblock arXiv:0802.1189 [hep-ph].
 
 \bibitem{hvt}
 Duccio Pappadopulo, Andrea Thamm, Riccardo Torre, and Andrea Wulzer.
-\newblock Heavy vector triplets: bridging theory and data.
+\newblock {Heavy vector triplets: bridging theory and data}.
 \newblock {\em Journal of High Energy Physics}, 2014(9), Sep 2014.
 
 \bibitem{pich}
@@ -110,28 +116,31 @@ Lisa Randall and Raman Sundrum.
 
 \bibitem{kfold}
 Sebastian Raschka.
-\newblock Model evaluation, model selection, and algorithm selection in machine
-  learning, 2018.
+\newblock {Model Evaluation, Model Selection, and Algorithm Selection in
+  Machine Learning}, 2018.
 
 \bibitem{scalarsinglet}
 Tania Robens and Tim Stefaniak.
-\newblock Lhc benchmark scenarios for the real higgs singlet extension of the
-  standard model.
+\newblock {LHC benchmark scenarios for the real Higgs singlet extension of the
+  standard model}.
 \newblock {\em The European Physical Journal C}, 76(5), May 2016.
 
 \bibitem{rnn}
 Alex Sherstinsky.
-\newblock Fundamentals of recurrent neural network {(RNN)} and long short-term
-  memory {(LSTM)} network.
-\newblock {\em CoRR}, abs/1808.03314, 2018.
+\newblock {Fundamentals of Recurrent Neural Network {(RNN)} and Long Short-Term
+  Memory {(LSTM)} Network}, journal = {CoRR}, volume = {abs/1808.03314}, year =
+  {2018}, url = {http://arxiv.org/abs/1808.03314}, archiveprefix = {arXiv},
+  eprint = {1808.03314}, timestamp = {Sun, 02 Sep 2018 15:01:55 +0200}, biburl
+  = {https://dblp.org/rec/bib/journals/corr/abs-1808-03314}, bibsource = {dblp
+  computer science bibliography, https://dblp.org}.
 
 \bibitem{lstmstruct}
 Muhammed~Ali Sit and Ibrahim Demir.
-\newblock Decentralized flood forecasting using deep neural networks.
+\newblock {Decentralized Flood Forecasting Using Deep Neural Networks}.
 \newblock Jun 2019.
 
 \bibitem{rnndropout}
 Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals.
-\newblock Recurrent neural network regularization, 2014.
+\newblock {Recurrent Neural Network Regularization}, 2014.
 
 \end{thebibliography}

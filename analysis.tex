@@ -55,7 +55,7 @@ Three types of jets are used in this analysis: variable radius, small-R and larg
 
 For these jet collections, the jet energy is calibrated sequentially as shown in Figure \ref{fig:jetcalib}. After the jet direction is corrected to point to the PV, the energy of the jet is corrected. First, the jet energy is corrected to account for pileup contributions based on the $p_{T}$ and area of the jet (these corrections are extracted from a $pp \rightarrow jj$ sample). Following this, another pileup correction is applied that scales with $\mu$ and $N_{PV}$. 
 
-MC-based corrections are then applied that are meant to transform the jet energy and $\eta$ back to truth level as detailed in \cite{jet_energy_calib}. Therefore, these corrections account for the non-compensating nature of the ATLAS calorimeters and inhomogeneity of the detector. Following this, the Global Sequential Calibration is applied that reduces flavor dependence of jet calibrations and accounts for energy leakage of jets outside the calorimeters. Finally, in-situ corrections are applied that account for differences in jet response between data and simulation ($\gamma /Z+$jet and fake lepton samples are used). These differences can be due to mismodelling of the hard scattering process, pile-up, jet formation. 
+MC-based corrections are then applied that are meant to transform the jet energy and $\eta$ back to particle level as detailed in \cite{jet_energy_calib}. Therefore, these corrections account for the non-compensating nature of the ATLAS calorimeters and inhomogeneity of the detector. Following this, the Global Sequential Calibration is applied that reduces flavor dependence of jet calibrations and accounts for energy leakage of jets outside the calorimeters. Finally, in-situ corrections are applied that account for differences in jet response between data and simulation ($\gamma /Z+$jet and fake lepton samples are used). These differences can arise from mismodeling the hard scattering process, pile-up, and jet formation. 
 
 To further reject jets no arising from the hadronically decaying boson, jets must pass quality requirements based on the following variables ([cite P42]):
 
@@ -69,15 +69,15 @@ To further reject jets no arising from the hadronically decaying boson, jets mus
 \item[-] $f_{ch}$: ratio of the scalar sum of the $p_{T}$ of a jet's charged tracks to the jet's $p_{T}$
 \end{itemize}
 
-Jets selected for the resolved analysis must pass one of the following criteria:
+Jets selected for the resolved analysis must pass one of the following criteria, to maintain maximum jet efficiency:
 
 \begin{itemize}
-\item[-] $f_{HEC} > 0.5$ and $|f_{Q}^{HEC}| > 0.5$ and $\left\langle Q \right\rangle $ > 0.8
-\item[-] $|E_{neg}| > 60$ GeV
-\item[-] $f_{EM} > 0.95$ and $f_{Q}^{LAr} > 0.8$ and $\left\langle Q \right\rangle $ > 0.8 and $|\eta| < 2.8$
-\item[-] $f_{max} > 0.99$ and $|\eta| < 2$
-\item[-] $f_{EM} < 0.05$ and $f_{ch} < 0.05$ and $|\eta| < 2$
-\item[-] $f_{EM} < 0.05$ and  $|\eta| > 2$
+\item[-] $f_{HEC} > 0.5$ and $|f_{Q}^{HEC}| > 0.5$ and $\left\langle Q \right\rangle $ > 0.8, which minimizes jets formed from sporadic noise bursts in the HCAL endcap.
+\item[-] $|E_{neg}| > 60$ GeV, which minimizes jets formed from sporadic noise bursts in the HCAL endcap.
+\item[-] $f_{EM} > 0.95$ and $f_{Q}^{LAr} > 0.8$ and $\left\langle Q \right\rangle $ > 0.8 and $|\eta| < 2.8$, which minimizes jets formed from large coherent noise or isolated pathological ECAL cells.
+\item[-] $f_{max} > 0.99$ and $|\eta| < 2$, which minimizes jets mistakenly formed due to hardware issues, beam-induced backgrounds, and cosmic muon showers.
+\item[-] $f_{EM} < 0.05$ and $f_{ch} < 0.05$ and $|\eta| < 2$,which minimizes jets mistakenly formed due to hardware issues, beam-induced backgrounds, and cosmic muon showers.
+\item[-] $f_{EM} < 0.05$ and  $|\eta| > 2$, which minimizes jets mistakenly formed due to hardware issues, beam-induced backgrounds, and cosmic muon showers.
 \end{itemize}
 
 
@@ -96,7 +96,7 @@ Small-R jets are used to reconstruct the hadronically decaying $W/Z$ candidate w
 Jets used in this analysis must have $p_{T} > 30$ GeV and $|\eta| < 2.5$. To further reduce jets not from the hadronically decaying boson the jet-vertex-tagger (JVT) is used \cite{jvt}. The JVT uses two track-based variables, corrJVF and $R_{p_{T}}$ to calculate the likelihood that the jet originated from the PV. The corrJVF variable compares the scalar sum of the $p_{T}$ of tracks associated with the jet and PV to the scalar sum of the $p_{T}$ of tracks associated with the jet. This variable also includes a correction that reduces the dependency of corrJVF with the number of reconstructed vertices in the event. The other discriminant, $R_{p_{T}}$, is given by the ratio of the scalar sum of the $p_{T}$ of tracks associated with the jet and PV to the $p_{T}$ of the jet. Both of these variables peak around zero for pileup jets, as these jets are unlikely to have tracks associated with the PV. JVT cuts are applied to all jets with $p_{T} > 120$ GeV. Central jets ($|\eta| < 2.4$) are required to have a JVT > 0.59 and forward jets ($2.4<|\eta| < 2.5$) are required to have JVT > 0.11. 
 
 \subsection{Large-R jets}
-Large-R ($R = 1.0$) jets are used to reconstruct the hadronically decaying $W/Z$ candidate when the resulting jets are not well-separated in $\eta$-$\phi$ space, and overlap forming one large-R jet. Track-Calo Clusters (TCCs) are used to reconstruct these jets [cite ANA 50]. These jets are constructed using a pseudo particle flow method using ID tracks matched to calorimeter clusters. To remove contamination in the jet from pileup and the underlying event, jets are trimmed using a re-clustering algorithm. This algorithm removes subjets with $p_{T}^{subjet} < 0.1p_{T}^{jet}$. 
+Large-R ($R = 1.0$) jets are used to reconstruct the hadronically decaying $W/Z$ candidate when the resulting jets are not well-separated in $\eta$-$\phi$ space, and overlap forming one large-R jet. Track-Calo Clusters (TCCs) are used to reconstruct these jets [cite ANA 50]. These jets are constructed using a pseudo particle flow method using ID tracks matched to calorimeter clusters \cite{particleflow}. To remove contamination in the jet from pileup and the underlying event, jets are trimmed using a re-clustering algorithm. This algorithm removes subjets with $p_{T}^{subjet} < 0.1p_{T}^{jet}$. 
 
 The angular resolution of the calorimeter degrades sharply with jet $p_{T}$, but the jet energy resolution improves. The tracker has excellent angular resolution which improves with $p_{T}$. Therefore, by matching tracks to jets, TCCs have more precise energy and angular resolution than jets constructed from calorimeter information only. These jets are required to have $p_{T}>200$ GeV, $|\eta| < 2.0$ and $m_{J} > 50$ GeV. 
 

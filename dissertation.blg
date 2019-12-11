@@ -6,6 +6,11 @@ A level-1 auxiliary file: theory.aux
 A level-1 auxiliary file: detector.aux
 The style file: plain.bst
 Database file #1: dissertation.bib
+I was expecting a `,' or a `}'---line 277 of file dissertation.bib
+ : 
+ : @misc{adamopt,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in colorfactor
 Warning--empty author in colorfactor
 Warning--empty journal in colorfactor
@@ -17,46 +22,48 @@ Warning--empty journal in Unfolding
 Warning--empty journal in FakeTracks
 Warning--empty journal in JetFrag
 Warning--empty journal in antikt
+Warning--empty journal in rnn
+Warning--empty year in rnn
 Warning--empty journal in lstmstruct
-You've used 26 entries,
+You've used 27 entries,
             2118 wiz_defined-function locations,
-            633 strings with 7442 characters,
-and the built_in function-call counts, 6457 in all, are:
-= -- 601
-> -- 293
+            634 strings with 7910 characters,
+and the built_in function-call counts, 6643 in all, are:
+= -- 614
+> -- 300
 < -- 1
-+ -- 119
-- -- 92
-* -- 395
-:= -- 1147
-add.period$ -- 71
-call.type$ -- 26
-change.case$ -- 124
++ -- 121
+- -- 94
+* -- 403
+:= -- 1175
+add.period$ -- 72
+call.type$ -- 27
+change.case$ -- 128
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 253
-empty$ -- 519
-format.name$ -- 92
-if$ -- 1306
+cite$ -- 41
+duplicate$ -- 260
+empty$ -- 541
+format.name$ -- 94
+if$ -- 1345
 int.to.chr$ -- 0
-int.to.str$ -- 26
+int.to.str$ -- 27
 missing$ -- 20
-newline$ -- 126
-num.names$ -- 50
-pop$ -- 141
+newline$ -- 129
+num.names$ -- 52
+pop$ -- 156
 preamble$ -- 1
-purify$ -- 98
+purify$ -- 101
 quote$ -- 0
-skip$ -- 198
+skip$ -- 204
 stack$ -- 0
-substring$ -- 245
+substring$ -- 249
 swap$ -- 23
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 104
-warning$ -- 12
-while$ -- 56
-width$ -- 28
-write$ -- 251
-(There were 12 warnings)
+type$ -- 108
+warning$ -- 14
+while$ -- 58
+width$ -- 29
+write$ -- 255
+(There was 1 error message)

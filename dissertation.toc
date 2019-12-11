@@ -71,7 +71,7 @@
 \contentsline {section}{\numberline {13.3}Discovery Tests}{144}{section.13.3}% 
 \contentsline {section}{\numberline {13.4}Limits}{145}{section.13.4}% 
 \contentsline {part}{V\hspace {1em}Quark and Gluon Tagging}{148}{part.5}% 
-\contentsline {chapter}{\numberline {14}Prospects}{149}{chapter.14}% 
+\contentsline {chapter}{\numberline {14}Quark Gluon Tagging in $\ell \nu qq$ diboson resonance search}{149}{chapter.14}% 
 \contentsline {chapter}{\numberline {15}$n_{trk}$ Calibration}{156}{chapter.15}% 
 \contentsline {chapter}{\numberline {16}Application}{162}{chapter.16}% 
 \contentsline {part}{VI\hspace {1em}Conclusion}{167}{part.6}% 

@@ -1,6 +1,6 @@
 \chapter{Results}
 \section{Expected and Measured Yields}
-The yield tables for the four analysis regions are shown in Tables \ref{tbl:hvtww_yields} - \ref{tbl:hvwzvbf_yields}. The fitted background normalizations are shown in Tables \ref{tbl:hvtww_xs_fit}-\ref{tbl:hvtwzvbf_xs_fit}. The control region $m_{\ell\nu qq}$ distributions are shown in Figures \ref{fig:hvtww_cr_postfit} - \ref{fig:hvtwzvbf_cr_postfit}. The signal region $m_{\ell\nu qq}$ distributions are shown in Figures \ref{fig:hvtww_sr_postfit} - \ref{fig:hvtwzvbf_sr_postfit}.
+The yield tables for the four analysis regions are shown in Tables \ref{tbl:hvtww_yields} - \ref{tbl:hvwzvbf_yields}. The fitted background normalizations are shown in Tables \ref{tbl:hvtww_norm}-\ref{tbl:hvtwzvbf_norm}. The control region $m_{\ell\nu qq}$ distributions are shown in Figures \ref{fig:hvtww_cr_postfit} - \ref{fig:hvtwzvbf_cr_postfit}. The signal region $m_{\ell\nu qq}$ distributions are shown in Figures \ref{fig:hvtww_sr_postfit} - \ref{fig:hvtwzvbf_tag_sr_postfit}.
 % Postfit L1 GGF WCR  
 \begin{table}
 \begin{tabular}{|l|c|c|c|}
@@ -340,35 +340,22 @@ XS\_Wjets\_Res & $0.95^{+0.022}_{-0.022}$ \\\hline
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\hsize]{figures/results/HVTWW/PlotyieldTable_postfit.pdf}
- \caption{The distribution of $m_{\ell\nu qq}$ in the DY $WW$ control regions.} 
+  \includegraphics[width=0.48\hsize]{figures/results/HVTWW/PlotyieldTable_postfit.pdf}
+    \includegraphics[width=0.48\hsize]{figures/results/HVTWZ/PlotyieldTable_postfit.pdf}
+ \caption{The distribution of $m_{\ell\nu qq}$ in the DY $WW(WZ)$ control regions on the left(right).} 
   \label{fig:hvtww_cr_postfit}
 \end{figure} 
 \FloatBarrier
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\hsize]{figures/results/HVTWZ/PlotyieldTable_postfit.pdf}
- \caption{The distribution of $m_{\ell\nu qq}$ in the DY $WZ$ control regions.} 
-  \label{fig:hvtwz_cr_postfit}
-\end{figure} 
-\FloatBarrier
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\hsize]{figures/results/HVTWWVBF/PlotyieldTable_postfit.pdf}
- \caption{The distribution of $m_{\ell\nu qq}$ in the VBF $WW$ control regions.} 
+  \includegraphics[width=0.48\hsize]{figures/results/HVTWWVBF/PlotyieldTable_postfit.pdf}
+    \includegraphics[width=0.48\hsize]{figures/results/HVTWZVBF/PlotyieldTable_postfit.pdf}
+ \caption{The distribution of $m_{\ell\nu qq}$ in the VBF $WW(WZ)$ control regions.} 
   \label{fig:hvtwwvbf_cr_postfit}
 \end{figure} 
 \FloatBarrier
 
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\hsize]{figures/results/HVTWZVBF/PlotyieldTable_postfit.pdf}
- \caption{The distribution of $m_{\ell\nu qq}$ in the VBF $WZ$ control regions.} 
-  \label{fig:hvtwzvbf_cr_postfit}
-\end{figure} 
-\FloatBarrier
 
 
 \begin{figure}[h!]
@@ -406,7 +393,7 @@ XS\_Wjets\_Res & $0.95^{+0.022}_{-0.022}$ \\\hline
   \includegraphics[width=0.3\hsize]{figures/results/HVTWWVBF/L1_MergHP_VBF_WW_SR.pdf}
     \includegraphics[width=0.3\hsize]{figures/results/HVTWWVBF/L1_MergLP_VBF_WW_SR.pdf}
     \includegraphics[width=0.3\hsize]{figures/results/HVTWWVBF/L1_Res_VBF_WW_SR.pdf}
- \caption{The distribution of $m_{\ell\nu qq}$ in the VBF $WZ$ Tag signal regions.} 
+ \caption{The distribution of $m_{\ell\nu qq}$ in the VBF $WW$ Tag signal regions.} 
   \label{fig:hvtwwvbf_tag_sr_postfit}
 \end{figure} 
 \FloatBarrier
@@ -422,7 +409,7 @@ XS\_Wjets\_Res & $0.95^{+0.022}_{-0.022}$ \\\hline
 \FloatBarrier
 
 \section{Systematic Profiling and Correlations}
-The ranked systematics and their fitted values are shown for the different analysis regions in Figure \ref{fig:hvtww_ranking} - \ref{fig:hvtwz_ranking}. Note that background normalizations for $W$+jets and $t\bar{t}$ are left free to float in the fit. This means the nominal normalization values are at one and the uncertainties are not shown in the ranked plots. Overall, systematics are not pulled outside their uncertainties, especially nuisance parameters that affect the fitted $\mu$ value most significantly. 
+The ranked systematics, in terms of their impact on $\hat{\mu}$, and their fitted values are shown for the different analysis regions in Figure \ref{fig:hvtww_ranking} - \ref{fig:hvtwz_ranking}. Note that background normalizations for $W$+jets and $t\bar{t}$ are left free to float in the fit. This means the nominal normalization values are at one and the uncertainties are not shown in the ranked plots. Overall, systematics are not pulled outside their uncertainties, especially nuisance parameters that affect the fitted $\mu$ value most significantly. 
 
 The correlation between systematics are shown in Figure \ref{fig:hvtww_corr}. Correlations between background normalization are expected. The remaining systematic correlations are not very strong or unexpected.
 \begin{figure}[h!]

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 DEC 2019 04:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 DEC 2019 04:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2152,28 +2152,28 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 File: figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/QGT/sigWJ1_pdgid_Pass_Res_GGF_WW_SR.pdf  used 
-on input line 12.
+on input line 14.
 (pdftex.def)             Requested size: 186.99734pt x 126.31294pt.
 <figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf, id=7905, 569.12625pt x 384.43
 625pt>
 File: figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/QGT/sigWJ2_pdgid_Pass_Res_GGF_WW_SR.pdf  used 
-on input line 13.
+on input line 15.
 (pdftex.def)             Requested size: 186.99734pt x 126.31294pt.
 <figures/QGT/sigWJ1_nTrk_Pass_Res_GGF_WW_SR.pdf, id=7906, 569.12625pt x 384.436
 25pt>
 File: figures/QGT/sigWJ1_nTrk_Pass_Res_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/QGT/sigWJ1_nTrk_Pass_Res_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrk_Pass_Res_GGF_WW_SR.pdf  used o
-n input line 23.
+n input line 25.
 (pdftex.def)             Requested size: 186.99734pt x 126.31294pt.
 <figures/QGT/sigWJ2_nTrk_Pass_Res_GGF_WW_SR.pdf, id=7907, 569.12625pt x 384.436
 25pt>
 File: figures/QGT/sigWJ2_nTrk_Pass_Res_GGF_WW_SR.pdf Graphic file (type pdf)
 <use figures/QGT/sigWJ2_nTrk_Pass_Res_GGF_WW_SR.pdf>
 Package pdftex.def Info: figures/QGT/sigWJ2_nTrk_Pass_Res_GGF_WW_SR.pdf  used o
-n input line 24.
+n input line 26.
 (pdftex.def)             Requested size: 186.99734pt x 126.31294pt.
 <figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, id=7908, 569.12625p
 t x 369.38pt>
@@ -2181,7 +2181,7 @@ File: figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf Graphic file (t
 ype pdf)
 <use figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf>
 Package pdftex.def Info: figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.
-pdf  used on input line 33.
+pdf  used on input line 35.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
 <figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=7909, 569.12625p
 t x 369.38pt>
@@ -2189,7 +2189,7 @@ File: figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf Graphic file (t
 ype pdf)
 <use figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf>
 Package pdftex.def Info: figures/QGT/allbkg-ade_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.
-pdf  used on input line 34.
+pdf  used on input line 36.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
 
 
@@ -2206,7 +2206,7 @@ File: figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf Graphic fil
 e (type pdf)
 <use figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf>
 Package pdftex.def Info: figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ1_n
-Trk.pdf  used on input line 43.
+Trk.pdf  used on input line 45.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
 <figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=8088, 569.12
 625pt x 369.38pt>
@@ -2214,7 +2214,7 @@ File: figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf Graphic fil
 e (type pdf)
 <use figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf>
 Package pdftex.def Info: figures/QGT/HVTWW_300_1lep_Pass_Res_GGF_WW_SR_sigWJ2_n
-Trk.pdf  used on input line 44.
+Trk.pdf  used on input line 46.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
 <figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf, id=8089, 569.12
 625pt x 369.38pt>
@@ -2222,7 +2222,7 @@ File: figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf Graphic fil
 e (type pdf)
 <use figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf>
 Package pdftex.def Info: figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ1_n
-Trk.pdf  used on input line 53.
+Trk.pdf  used on input line 55.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
 <figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=8090, 569.12
 625pt x 369.38pt>
@@ -2230,7 +2230,7 @@ File: figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf Graphic fil
 e (type pdf)
 <use figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf>
 Package pdftex.def Info: figures/QGT/HVTWW_500_1lep_Pass_Res_GGF_WW_SR_sigWJ2_n
-Trk.pdf  used on input line 54.
+Trk.pdf  used on input line 56.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
 
 
@@ -2247,7 +2247,7 @@ File: figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf Graphic fil
 e (type pdf)
 <use figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ1_nTrk.pdf>
 Package pdftex.def Info: figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ1_n
-Trk.pdf  used on input line 63.
+Trk.pdf  used on input line 65.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
 <figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, id=8269, 569.12
 625pt x 369.38pt>
@@ -2255,12 +2255,12 @@ File: figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf Graphic fil
 e (type pdf)
 <use figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf>
 Package pdftex.def Info: figures/QGT/HVTWW_700_1lep_Pass_Res_GGF_WW_SR_sigWJ2_n
-Trk.pdf  used on input line 64.
+Trk.pdf  used on input line 66.
 (pdftex.def)             Requested size: 186.99734pt x 121.36595pt.
 <figures/QGT/finalroc.pdf, id=8270, 578.16pt x 433.62pt>
 File: figures/QGT/finalroc.pdf Graphic file (type pdf)
 <use figures/QGT/finalroc.pdf>
-Package pdftex.def Info: figures/QGT/finalroc.pdf  used on input line 85.
+Package pdftex.def Info: figures/QGT/finalroc.pdf  used on input line 87.
 (pdftex.def)             Requested size: 415.5525pt x 311.6636pt.
 
 
@@ -2275,7 +2275,7 @@ _Pass_Res_GGF_WW_SR_sigWJ2_nTrk.pdf, page is rotated 90 degrees>]
 File: figures/QGT/s_root_b_recotag.pdf Graphic file (type pdf)
 <use figures/QGT/s_root_b_recotag.pdf>
 Package pdftex.def Info: figures/QGT/s_root_b_recotag.pdf  used on input line 9
-4.
+6.
 (pdftex.def)             Requested size: 415.5525pt x 280.71237pt.
 
 
@@ -2291,7 +2291,7 @@ Chapter 15.
 <figures/QGT/extracted_qg.png, id=8576, 1986.42125pt x 1889.0575pt>
 File: figures/QGT/extracted_qg.png Graphic file (type png)
 <use figures/QGT/extracted_qg.png>
-Package pdftex.def Info: figures/QGT/extracted_qg.png  used on input line 161.
+Package pdftex.def Info: figures/QGT/extracted_qg.png  used on input line 163.
 (pdftex.def)             Requested size: 415.5525pt x 395.18608pt.
 
 
@@ -2304,7 +2304,7 @@ File: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_lvjj_m_Log.png Graphic file (
 type png)
 <use figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_lvjj_m_Log.png>
 Package pdftex.def Info: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_lvjj_m_Log
-.png  used on input line 169.
+.png  used on input line 171.
 (pdftex.def)             Requested size: 186.99734pt x 180.54811pt.
 <figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_sigJ1_nTrk_Log.png, id=8583, 698.6
 1pt x 674.52pt>
@@ -2312,7 +2312,7 @@ File: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_sigJ1_nTrk_Log.png Graphic fi
 le (type png)
 <use figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_sigJ1_nTrk_Log.png>
 Package pdftex.def Info: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_sigJ1_nTrk
-_Log.png  used on input line 170.
+_Log.png  used on input line 172.
 (pdftex.def)             Requested size: 186.99734pt x 180.54811pt.
 <figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_lvjj_m_Log.png, id=8584, 698.61pt 
 x 674.52pt>
@@ -2320,7 +2320,7 @@ File: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_lvjj_m_Log.png Graphic file (
 type png)
 <use figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_lvjj_m_Log.png>
 Package pdftex.def Info: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_lvjj_m_Log
-.png  used on input line 171.
+.png  used on input line 173.
 (pdftex.def)             Requested size: 186.99734pt x 180.54811pt.
 <figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_sigJ1_nTrk_Log.png, id=8585, 698.6
 1pt x 674.52pt>
@@ -2328,7 +2328,7 @@ File: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_sigJ1_nTrk_Log.png Graphic fi
 le (type png)
 <use figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_sigJ1_nTrk_Log.png>
 Package pdftex.def Info: figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWTCR_sigJ1_nTrk
-_Log.png  used on input line 172.
+_Log.png  used on input line 174.
 (pdftex.def)             Requested size: 186.99734pt x 180.54811pt.
 
 
@@ -2342,36 +2342,36 @@ solvedWWWCR_lvjj_m_Log.png> <./figures/QGT/C_0ptag2pjet_0ptv_ResolvedWWWCR_sigJ
 File: figures/QGT/sigWJ1_nTrkQG_trackeff.png Graphic file (type png)
 <use figures/QGT/sigWJ1_nTrkQG_trackeff.png>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrkQG_trackeff.png  used on input 
-line 181.
+line 183.
 (pdftex.def)             Requested size: 186.99734pt x 126.16342pt.
 <figures/QGT/sigWJ1_nTrkQG_fake.png, id=8597, 999.735pt x 674.52pt>
 File: figures/QGT/sigWJ1_nTrkQG_fake.png Graphic file (type png)
 <use figures/QGT/sigWJ1_nTrkQG_fake.png>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrkQG_fake.png  used on input line
- 182.
+ 184.
 (pdftex.def)             Requested size: 186.99734pt x 126.16342pt.
 <figures/QGT/sigWJ1_nTrkQG_pdf_up.png, id=8598, 999.735pt x 674.52pt>
 File: figures/QGT/sigWJ1_nTrkQG_pdf_up.png Graphic file (type png)
 <use figures/QGT/sigWJ1_nTrkQG_pdf_up.png>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrkQG_pdf_up.png  used on input li
-ne 183.
+ne 185.
 (pdftex.def)             Requested size: 186.99734pt x 126.16342pt.
 <figures/QGT/sigWJ1_nTrkQG_me_up.png, id=8599, 999.735pt x 674.52pt>
 File: figures/QGT/sigWJ1_nTrkQG_me_up.png Graphic file (type png)
 <use figures/QGT/sigWJ1_nTrkQG_me_up.png>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrkQG_me_up.png  used on input lin
-e 184.
+e 186.
 (pdftex.def)             Requested size: 186.99734pt x 126.16342pt.
 <figures/QGT/sigWJ1_nTrkQG_exp_up.png, id=8600, 999.735pt x 674.52pt>
 File: figures/QGT/sigWJ1_nTrkQG_exp_up.png Graphic file (type png)
 <use figures/QGT/sigWJ1_nTrkQG_exp_up.png>
 Package pdftex.def Info: figures/QGT/sigWJ1_nTrkQG_exp_up.png  used on input li
-ne 185.
+ne 187.
 (pdftex.def)             Requested size: 186.99734pt x 126.16342pt.
 <figures/QGT/closure_qg.pdf, id=8601, 462.73898pt x 478.5037pt>
 File: figures/QGT/closure_qg.pdf Graphic file (type pdf)
 <use figures/QGT/closure_qg.pdf>
-Package pdftex.def Info: figures/QGT/closure_qg.pdf  used on input line 195.
+Package pdftex.def Info: figures/QGT/closure_qg.pdf  used on input line 197.
 (pdftex.def)             Requested size: 415.5525pt x 429.72206pt.
 
 
@@ -2388,7 +2388,7 @@ Chapter 16.
 File: figures/QGT/s_root_b_truthtag.pdf Graphic file (type pdf)
 <use figures/QGT/s_root_b_truthtag.pdf>
 Package pdftex.def Info: figures/QGT/s_root_b_truthtag.pdf  used on input line 
-205.
+207.
 (pdftex.def)             Requested size: 415.5525pt x 280.71237pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2400,7 +2400,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/QGT/bdt.pdf, id=8665, 452.4359pt x 157.94688pt>
 File: figures/QGT/bdt.pdf Graphic file (type pdf)
 <use figures/QGT/bdt.pdf>
-Package pdftex.def Info: figures/QGT/bdt.pdf  used on input line 213.
+Package pdftex.def Info: figures/QGT/bdt.pdf  used on input line 215.
 (pdftex.def)             Requested size: 415.5525pt x 145.0791pt.
 ) [167 <./figures/QGT/s_root_b_truthtag.pdf, page is rotated 90 degrees> <./fig
 ures/QGT/bdt.pdf>] [168
@@ -2471,12 +2471,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 148 ({)
+### simple group (level 1) entered at line 150 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  10923 strings out of 492616
  184936 string characters out of 6129482
- 340071 words of memory out of 5000000
+ 341064 words of memory out of 5000000
  13930 multiletter control sequences out of 15000+600000
  91958 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2535,7 +2535,7 @@ a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (194 pages, 36467755 bytes).
+Output written on dissertation.pdf (194 pages, 36467744 bytes).
 PDF statistics:
  8989 PDF objects out of 10688 (max. 8388607)
  6028 compressed objects within 61 object streams

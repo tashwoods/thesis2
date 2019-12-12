@@ -10,12 +10,12 @@
 \newblock Technical Report ATL-PHYS-PUB-2015-023, CERN, Geneva, Jul 2015.
 
 \bibitem{jet_selection}
-{Selection of jets produced in 13TeV proton-proton collisions with the ATLAS
+{Selection of jets produced in 13 TeV proton-proton collisions with the ATLAS
   detector}.
 \newblock Technical Report ATLAS-CONF-2015-029, CERN, Geneva, Jul 2015.
 
 \bibitem{atlas_btag}
-{Performance ofb-jet identification in the ATLAS experiment}.
+{Performance of b-jet identification in the ATLAS experiment}.
 \newblock {\em Journal of Instrumentation}, 11(04):P04008–P04008, Apr 2016.
 
 \bibitem{tcc}
@@ -157,7 +157,7 @@ Alex Dias and V.~Pleitez.
 E.~Diehl.
 \newblock {Calibration and Performance of the ATLAS Muon Spectrometer}, 2011.
 
-\bibitem{Ellis:1991qj}
+\bibitem{colorfactor}
 R.~Keith Ellis, W.~James Stirling, and B.~R. Webber.
 \newblock {QCD and collider physics}.
 \newblock {\em Camb. Monogr. Part. Phys. Nucl. Phys. Cosmol.}, 8:1--435, 1996.

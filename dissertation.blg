@@ -6,7 +6,6 @@ A level-1 auxiliary file: theory.aux
 A level-1 auxiliary file: detector.aux
 The style file: plain.bst
 Database file #1: dissertation.bib
-Warning--I didn't find a database entry for "colorfactor"
 Warning--to sort, need author or key in jet_selection
 Warning--to sort, need author or key in tcc
 Warning--to sort, need author or key in atlas_btag
@@ -27,7 +26,7 @@ Warning--empty journal in antikt
 Warning--empty journal in lstmstruct
 You've used 49 entries,
             2118 wiz_defined-function locations,
-            744 strings with 11368 characters,
+            742 strings with 11346 characters,
 and the built_in function-call counts, 13394 in all, are:
 = -- 1251
 > -- 665
@@ -66,4 +65,4 @@ warning$ -- 18
 while$ -- 103
 width$ -- 51
 write$ -- 499
-(There were 19 warnings)
+(There were 18 warnings)

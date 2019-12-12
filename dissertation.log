@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 DEC 2019 03:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 DEC 2019 04:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1332,16 +1332,16 @@ Chapter 9.
 [76
 
 ]
-Overfull \hbox (5.61938pt too wide) in paragraph at lines 201--202
+Overfull \hbox (5.61938pt too wide) in paragraph at lines 207--208
 \T1/lmr/m/n/12 trig-ger and event re-quire-ments to re-duce back-ground con-tam
 -i-na-tion and the dataset
  []
 
 [77] [78]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 211.
+(Font)              <10.95> on input line 217.
 
-Overfull \hbox (75.31192pt too wide) in paragraph at lines 211--233
+Overfull \hbox (75.31192pt too wide) in paragraph at lines 217--239
  [] 
  []
 
@@ -1353,7 +1353,7 @@ Overfull \hbox (75.31192pt too wide) in paragraph at lines 211--233
 File: figures/Analysis/rnn_architecture.png Graphic file (type png)
 <use figures/Analysis/rnn_architecture.png>
 Package pdftex.def Info: figures/Analysis/rnn_architecture.png  used on input l
-ine 253.
+ine 259.
 (pdftex.def)             Requested size: 415.5525pt x 382.46983pt.
 
 
@@ -1364,7 +1364,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Analysis/LSTM_structure.jpeg Graphic file (type jpg)
 <use figures/Analysis/LSTM_structure.jpeg>
 Package pdftex.def Info: figures/Analysis/LSTM_structure.jpeg  used on input li
-ne 261.
+ne 267.
 (pdftex.def)             Requested size: 415.5525pt x 348.3203pt.
 
 
@@ -1375,12 +1375,12 @@ ucture.jpeg>]
 <figures/Analysis/rnn.pdf, id=2173, 381.37231pt x 253.17447pt>
 File: figures/Analysis/rnn.pdf Graphic file (type pdf)
 <use figures/Analysis/rnn.pdf>
-Package pdftex.def Info: figures/Analysis/rnn.pdf  used on input line 270.
+Package pdftex.def Info: figures/Analysis/rnn.pdf  used on input line 276.
 (pdftex.def)             Requested size: 415.5525pt x 275.88129pt.
 <figures/Analysis/kFold_ROC.png, id=2174, 462.528pt x 346.896pt>
 File: figures/Analysis/kFold_ROC.png Graphic file (type png)
 <use figures/Analysis/kFold_ROC.png>
-Package pdftex.def Info: figures/Analysis/kFold_ROC.png  used on input line 280
+Package pdftex.def Info: figures/Analysis/kFold_ROC.png  used on input line 286
 .
 (pdftex.def)             Requested size: 415.5525pt x 311.67947pt.
 
@@ -1394,7 +1394,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Analysis/rnn_limits.pdf Graphic file (type pdf)
 <use figures/Analysis/rnn_limits.pdf>
 Package pdftex.def Info: figures/Analysis/rnn_limits.pdf  used on input line 29
-0.
+6.
 (pdftex.def)             Requested size: 415.5525pt x 309.12344pt.
 
 
@@ -1410,7 +1410,7 @@ df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/Analysis/cutflow.pdf, id=2309, 722.7pt x 406.51875pt>
 File: figures/Analysis/cutflow.pdf Graphic file (type pdf)
 <use figures/Analysis/cutflow.pdf>
-Package pdftex.def Info: figures/Analysis/cutflow.pdf  used on input line 401.
+Package pdftex.def Info: figures/Analysis/cutflow.pdf  used on input line 407.
 (pdftex.def)             Requested size: 415.5525pt x 233.74646pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1422,7 +1422,7 @@ File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf Graphic fil
 e (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepDYHVT.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepDY
-HVT.pdf  used on input line 420.
+HVT.pdf  used on input line 426.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
 <figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf, id=2341, 569.1
 2625pt x 385.44pt>
@@ -1430,7 +1430,7 @@ File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf Graphic fi
 le (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFHVT.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVB
-FHVT.pdf  used on input line 421.
+FHVT.pdf  used on input line 427.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
 <figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf, id=2342, 569.1
 2625pt x 385.44pt>
@@ -1438,7 +1438,7 @@ File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf Graphic fi
 le (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepggFRSG.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepgg
-FRSG.pdf  used on input line 431.
+FRSG.pdf  used on input line 437.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
 <figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf, id=2343, 569.1
 2625pt x 385.44pt>
@@ -1446,7 +1446,7 @@ File: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf Graphic fi
 le (type pdf)
 <use figures/Analysis/signal_acceptance/Acc_times_Eff1lepVBFRSG.pdf>
 Package pdftex.def Info: figures/Analysis/signal_acceptance/Acc_times_Eff1lepVB
-FRSG.pdf  used on input line 432.
+FRSG.pdf  used on input line 438.
 (pdftex.def)             Requested size: 199.46342pt x 135.08833pt.
 
 
@@ -1466,7 +1466,7 @@ Chapter 10.
 File: figures/Analysis/datamc/merged_hp_ww_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/merged_hp_ww_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/merged_hp_ww_tcr.pdf  used on 
-input line 454.
+input line 460.
 (pdftex.def)             Requested size: 345.18414pt x 542.92897pt.
  [93] [94 <./figures/Analysis/datamc/merged_hp_ww_tcr.pdf>]
 <figures/Analysis/datamc/merged_lp_ww_tcr.pdf, id=2716, 346.45607pt x 543.68733
@@ -1474,7 +1474,7 @@ pt>
 File: figures/Analysis/datamc/merged_lp_ww_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/merged_lp_ww_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/merged_lp_ww_tcr.pdf  used on 
-input line 463.
+input line 469.
 (pdftex.def)             Requested size: 346.45522pt x 543.686pt.
  [95 <./figures/Analysis/datamc/merged_lp_ww_tcr.pdf>]
 <figures/Analysis/datamc/merged_hp_wz_tcr.pdf, id=2888, 405.90034pt x 455.50296
@@ -1482,7 +1482,7 @@ pt>
 File: figures/Analysis/datamc/merged_hp_wz_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/merged_hp_wz_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/merged_hp_wz_tcr.pdf  used on 
-input line 472.
+input line 478.
 (pdftex.def)             Requested size: 405.89935pt x 455.50183pt.
  [96 <./figures/Analysis/datamc/merged_hp_wz_tcr.pdf>]
 <figures/Analysis/datamc/merged_lp_wz_tcr.pdf, id=3136, 399.18364pt x 454.29906
@@ -1490,7 +1490,7 @@ pt>
 File: figures/Analysis/datamc/merged_lp_wz_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/merged_lp_wz_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/merged_lp_wz_tcr.pdf  used on 
-input line 481.
+input line 487.
 (pdftex.def)             Requested size: 399.18266pt x 454.29794pt.
  [97 <./figures/Analysis/datamc/merged_lp_wz_tcr.pdf>]
 <figures/Analysis/datamc/resolved_ww_tcr.pdf, id=3384, 332.4374pt x 545.57678pt
@@ -1498,7 +1498,7 @@ input line 481.
 File: figures/Analysis/datamc/resolved_ww_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/resolved_ww_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/resolved_ww_tcr.pdf  used on i
-nput line 490.
+nput line 496.
 (pdftex.def)             Requested size: 332.43657pt x 545.57544pt.
  [98 <./figures/Analysis/datamc/resolved_ww_tcr.pdf>]
 <figures/Analysis/datamc/resolved_wz_tcr.pdf, id=3570, 403.31519pt x 451.18011p
@@ -1506,7 +1506,7 @@ t>
 File: figures/Analysis/datamc/resolved_wz_tcr.pdf Graphic file (type pdf)
 <use figures/Analysis/datamc/resolved_wz_tcr.pdf>
 Package pdftex.def Info: figures/Analysis/datamc/resolved_wz_tcr.pdf  used on i
-nput line 499.
+nput line 505.
 (pdftex.def)             Requested size: 403.3142pt x 451.179pt.
  [99 <./figures/Analysis/datamc/resolved_wz_tcr.pdf>] [100
 
@@ -1515,7 +1515,7 @@ nput line 499.
 
 
 ]
-Overfull \hbox (24.35898pt too wide) in paragraph at lines 523--534
+Overfull \hbox (24.35898pt too wide) in paragraph at lines 529--540
  [][] 
  []
 
@@ -1524,14 +1524,14 @@ Overfull \hbox (24.35898pt too wide) in paragraph at lines 523--534
 File: figures/Analysis/multijet/multijet_met.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/multijet_met.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/multijet_met.pdf  used on in
-put line 541.
+put line 547.
 (pdftex.def)             Requested size: 407.45395pt x 151.18625pt.
 [101]
 <figures/Analysis/multijet/mj_elec_ww.pdf, id=3842, 284.00926pt x 468.1781pt>
 File: figures/Analysis/multijet/mj_elec_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_ww.pdf  used on inpu
-t line 551.
+t line 557.
 (pdftex.def)             Requested size: 284.00856pt x 468.17696pt.
  [102 <./figures/Analysis/multijet/multijet_met.pdf>] [103 <./figures/Analysis/
 multijet/mj_elec_ww.pdf>]
@@ -1539,7 +1539,7 @@ multijet/mj_elec_ww.pdf>]
 File: figures/Analysis/multijet/mj_muon_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_ww.pdf  used on inpu
-t line 560.
+t line 566.
 (pdftex.def)             Requested size: 317.41588pt x 513.5097pt.
  [104 <./figures/Analysis/multijet/mj_muon_ww.pdf>]
 <figures/Analysis/multijet/mj_elec_wz_untag.pdf, id=4269, 273.22618pt x 466.815
@@ -1547,7 +1547,7 @@ t line 560.
 File: figures/Analysis/multijet/mj_elec_wz_untag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_wz_untag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_wz_untag.pdf  used o
-n input line 570.
+n input line 576.
 (pdftex.def)             Requested size: 273.22551pt x 466.81389pt.
  [105 <./figures/Analysis/multijet/mj_elec_wz_untag.pdf>]
 <figures/Analysis/multijet/mj_muon_wz_untag.pdf, id=4425, 281.7433pt x 463.2284
@@ -1555,7 +1555,7 @@ n input line 570.
 File: figures/Analysis/multijet/mj_muon_wz_untag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_wz_untag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_wz_untag.pdf  used o
-n input line 579.
+n input line 585.
 (pdftex.def)             Requested size: 281.7426pt x 463.2273pt.
  [106 <./figures/Analysis/multijet/mj_muon_wz_untag.pdf>]
 <figures/Analysis/multijet/mj_elec_wz_tag.pdf, id=4582, 269.91922pt x 469.58588
@@ -1563,7 +1563,7 @@ pt>
 File: figures/Analysis/multijet/mj_elec_wz_tag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_wz_tag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_wz_tag.pdf  used on 
-input line 588.
+input line 594.
 (pdftex.def)             Requested size: 269.91855pt x 469.58472pt.
  [107 <./figures/Analysis/multijet/mj_elec_wz_tag.pdf>]
 <figures/Analysis/multijet/mj_muon_wz_tag.pdf, id=4738, 309.0734pt x 517.46082p
@@ -1571,7 +1571,7 @@ t>
 File: figures/Analysis/multijet/mj_muon_wz_tag.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_wz_tag.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_wz_tag.pdf  used on 
-input line 597.
+input line 603.
 (pdftex.def)             Requested size: 309.07263pt x 517.45955pt.
  [108 <./figures/Analysis/multijet/mj_muon_wz_tag.pdf>]
 <figures/Analysis/multijet/mj_elec_vbf_ww.pdf, id=4898, 276.33228pt x 466.37727
@@ -1579,7 +1579,7 @@ pt>
 File: figures/Analysis/multijet/mj_elec_vbf_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_vbf_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_vbf_ww.pdf  used on 
-input line 607.
+input line 613.
 (pdftex.def)             Requested size: 276.33159pt x 466.37613pt.
  [109 <./figures/Analysis/multijet/mj_elec_vbf_ww.pdf>]
 <figures/Analysis/multijet/mj_muon_vbf_ww.pdf, id=5054, 308.60295pt x 520.93301
@@ -1587,7 +1587,7 @@ pt>
 File: figures/Analysis/multijet/mj_muon_vbf_ww.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_vbf_ww.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_vbf_ww.pdf  used on 
-input line 616.
+input line 622.
 (pdftex.def)             Requested size: 308.60219pt x 520.93173pt.
  [110 <./figures/Analysis/multijet/mj_muon_vbf_ww.pdf>]
 <figures/Analysis/multijet/mj_elec_vbf_wz.pdf, id=5214, 274.71774pt x 461.03302
@@ -1595,7 +1595,7 @@ pt>
 File: figures/Analysis/multijet/mj_elec_vbf_wz.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_elec_vbf_wz.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_elec_vbf_wz.pdf  used on 
-input line 625.
+input line 631.
 (pdftex.def)             Requested size: 274.71707pt x 461.03188pt.
  [111 <./figures/Analysis/multijet/mj_elec_vbf_wz.pdf>]
 <figures/Analysis/multijet/mj_muon_vbf_wz.pdf, id=5371, 317.30394pt x 520.01767
@@ -1603,7 +1603,7 @@ pt>
 File: figures/Analysis/multijet/mj_muon_vbf_wz.pdf Graphic file (type pdf)
 <use figures/Analysis/multijet/mj_muon_vbf_wz.pdf>
 Package pdftex.def Info: figures/Analysis/multijet/mj_muon_vbf_wz.pdf  used on 
-input line 634.
+input line 640.
 (pdftex.def)             Requested size: 317.30316pt x 520.01639pt.
 
 [112 <./figures/Analysis/multijet/mj_muon_vbf_wz.pdf>] [113
@@ -1626,7 +1626,7 @@ Chapter 11.
 File: figures/Analysis/modelingsysts/w_syst.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/w_syst.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/w_syst.pdf  used on inp
-ut line 718.
+ut line 724.
 (pdftex.def)             Requested size: 415.5525pt x 342.73648pt.
 
 
@@ -1637,7 +1637,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/Analysis/modelingsysts/w_gen.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/w_gen.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/w_gen.pdf  used on inpu
-t line 727.
+t line 733.
 (pdftex.def)             Requested size: 415.5525pt x 340.70395pt.
 
 
@@ -1651,7 +1651,7 @@ File: figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf Graphic file (type
 pdf)
 <use figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_gen_had_merg.pdf 
- used on input line 737.
+ used on input line 743.
 (pdftex.def)             Requested size: 415.5525pt x 198.68983pt.
 <figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf, id=5712, 343.92601pt x 1
 91.03691pt>
@@ -1659,7 +1659,7 @@ File: figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf Graphic file (type p
 df)
 <use figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_gen_had_res.pdf  
-used on input line 746.
+used on input line 752.
 (pdftex.def)             Requested size: 415.5525pt x 230.8347pt.
 <figures/Analysis/modelingsysts/ttbar_isr_merg.pdf, id=5713, 336.89073pt x 361.
 00684pt>
@@ -1667,7 +1667,7 @@ File: figures/Analysis/modelingsysts/ttbar_isr_merg.pdf Graphic file (type pdf)
 
 <use figures/Analysis/modelingsysts/ttbar_isr_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_isr_merg.pdf  use
-d on input line 755.
+d on input line 761.
 (pdftex.def)             Requested size: 415.5525pt x 445.31926pt.
 
 
@@ -1682,7 +1682,7 @@ modelingsysts/ttbar_gen_had_res.pdf>]
 File: figures/Analysis/modelingsysts/ttbar_isr_res.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/ttbar_isr_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_isr_res.pdf  used
- on input line 764.
+ on input line 770.
 (pdftex.def)             Requested size: 415.5525pt x 240.28716pt.
 
 
@@ -1696,14 +1696,14 @@ File: figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf Graphic file (type pdf)
 
 <use figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_fsr_merg.pdf  use
-d on input line 773.
+d on input line 779.
 (pdftex.def)             Requested size: 415.5525pt x 192.89815pt.
 <figures/Analysis/modelingsysts/ttbar_fsr_res.pdf, id=5950, 339.08943pt x 178.7
 5975pt>
 File: figures/Analysis/modelingsysts/ttbar_fsr_res.pdf Graphic file (type pdf)
 <use figures/Analysis/modelingsysts/ttbar_fsr_res.pdf>
 Package pdftex.def Info: figures/Analysis/modelingsysts/ttbar_fsr_res.pdf  used
- on input line 782.
+ on input line 788.
 (pdftex.def)             Requested size: 415.5525pt x 219.08487pt.
  [123
 
@@ -1719,7 +1719,7 @@ File: figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf Graph
 ic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_resolve
-d_1lephvt.pdf  used on input line 807.
+d_1lephvt.pdf  used on input line 813.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 <figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf, id=608
 3, 569.12625pt x 386.44376pt>
@@ -1727,7 +1727,7 @@ File: figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf Gr
 aphic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvtvbf.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_resolve
-d_1lephvtvbf.pdf  used on input line 808.
+d_1lephvtvbf.pdf  used on input line 814.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 <figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf, id=6084, 56
 9.12625pt x 386.44376pt>
@@ -1735,7 +1735,7 @@ File: figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf Graphic
  file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_merged_1lephvt.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_merged_
-1lephvt.pdf  used on input line 816.
+1lephvt.pdf  used on input line 822.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
 <figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf, id=6085,
  569.12625pt x 386.44376pt>
@@ -1743,7 +1743,7 @@ File: figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf Grap
 hic file (type pdf)
 <use figures/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf>
 Package pdftex.def Info: figures/Analysis/signal_mass_resolution/sigres_merged_
-1lephvtvbf.pdf  used on input line 817.
+1lephvtvbf.pdf  used on input line 823.
 (pdftex.def)             Requested size: 199.46342pt x 135.44012pt.
  [126 <./figures/Analysis/signal_mass_resolution/sigres_resolved_1lephvt.pdf, p
 age is rotated 90 degrees> <./figures/Analysis/signal_mass_resolution/sigres_re
@@ -1753,15 +1753,15 @@ s/Analysis/signal_mass_resolution/sigres_merged_1lephvtvbf.pdf, page is rotated
  90 degrees>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 833.
+(hyperref)                removing `math shift' on input line 839.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 833.
+(hyperref)                removing `\mu' on input line 839.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 833.
+(hyperref)                removing `math shift' on input line 839.
 
 [127] [128] [129] [130]) (./results.tex [131]
 Chapter 13.
@@ -2476,11 +2476,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
 Here is how much of TeX's memory you used:
  10923 strings out of 492616
  184936 string characters out of 6129482
- 340058 words of memory out of 5000000
+ 340071 words of memory out of 5000000
  13930 multiletter control sequences out of 15000+600000
  91958 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,45p,1605b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,17n,45p,1541b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.en
 c}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
@@ -2535,7 +2535,7 @@ a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (194 pages, 36468834 bytes).
+Output written on dissertation.pdf (194 pages, 36467755 bytes).
 PDF statistics:
  8989 PDF objects out of 10688 (max. 8388607)
  6028 compressed objects within 61 object streams

@@ -14,7 +14,7 @@
 \BOOKMARK [1][-]{section.2.5}{Particles in the Standard Model}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.6}{Higgs Mechanism}{chapter.2}% 15
 \BOOKMARK [1][-]{section.2.7}{Electroweak Theory}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.8}{Quantum ChromoDynamics}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.8}{Quantum Chromodynamics}{chapter.2}% 17
 \BOOKMARK [0][-]{chapter.3}{Standard Model Successes and Limitations}{part.2}% 18
 \BOOKMARK [0][-]{chapter.4}{New Physics Models with Diboson Resonances}{part.2}% 19
 \BOOKMARK [1][-]{section.4.1}{Randall Sundrum Bulk Model}{chapter.4}% 20
@@ -58,9 +58,9 @@
 \BOOKMARK [1][-]{section.10.2}{Fake Lepton Backgrounds}{chapter.10}% 58
 \BOOKMARK [0][-]{chapter.11}{Systematic Uncertainties}{part.4}% 59
 \BOOKMARK [1][-]{section.11.1}{Experimental Systematics}{chapter.11}% 60
-\BOOKMARK [1][-]{section.11.2}{Theory Systematics}{chapter.11}% 61
+\BOOKMARK [1][-]{section.11.2}{Theoretical Systematics}{chapter.11}% 61
 \BOOKMARK [0][-]{chapter.12}{Statistical Analysis}{part.4}% 62
-\BOOKMARK [1][-]{section.12.1}{Likelihood Function Definition}{chapter.12}% 63
+\BOOKMARK [1][-]{section.12.1}{Likelihood Function}{chapter.12}% 63
 \BOOKMARK [1][-]{section.12.2}{Fit Configuration}{chapter.12}% 64
 \BOOKMARK [1][-]{section.12.3}{Best Fit }{chapter.12}% 65
 \BOOKMARK [1][-]{section.12.4}{Discovery Test}{chapter.12}% 66
@@ -71,9 +71,9 @@
 \BOOKMARK [1][-]{section.13.3}{Discovery Tests}{chapter.13}% 71
 \BOOKMARK [1][-]{section.13.4}{Limits}{chapter.13}% 72
 \BOOKMARK [-1][-]{part.5}{V Quark and Gluon Tagging}{}% 73
-\BOOKMARK [0][-]{chapter.14}{Quark Gluon Tagging in qq diboson resonance search}{part.5}% 74
-\BOOKMARK [0][-]{chapter.15}{ntrk Calibration}{part.5}% 75
-\BOOKMARK [0][-]{chapter.16}{Impact of Quark Gluon tagging in diboson resonance search}{part.5}% 76
+\BOOKMARK [0][-]{chapter.14}{Quark Gluon Tagging in qq Diboson Resonance Search}{part.5}% 74
+\BOOKMARK [0][-]{chapter.15}{Quark Gluon Tagger Calibration}{part.5}% 75
+\BOOKMARK [0][-]{chapter.16}{Quark Gluon Tagger Impact in Diboson Resonance Search}{part.5}% 76
 \BOOKMARK [-1][-]{part.6}{VI Conclusion}{}% 77
 \BOOKMARK [0][-]{chapter.17}{Conclusions}{part.6}% 78
 \BOOKMARK [0][-]{chapter*.113}{Bibliography}{part.6}% 79

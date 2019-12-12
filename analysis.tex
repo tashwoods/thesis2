@@ -705,7 +705,7 @@ Lepton identification, reconstruction, isolation systematic uncertainties are de
 As $E_{T}^{miss}$ is calculated using all the physics objects in the event, all those objects associated errors result in an uncertainty on $E_{T}^{miss}$. Additionally, the unassociated tracks used to construct $E_{T}^{miss}$ contribute to the uncertainty on $E_{T}^{miss}$. 
 
 
-\section{Theory Systematics}
+\section{Theoretical Systematics}
 Theoretical uncertainties for signal and background processes arise from uncertainties in the parameters used in Monte Carlo simulation. In particular for the $t\bar{t}$, $W/Z$+jets, diboson backgrounds and signal samples, the QCD scale, PDF, generator and hadronization uncertainties are considered. To assess the QCD scale uncertainty the renormalization and factorization scales are scaled up and down by a factor of two at the event generation stage of sample production. Uncertainties due to the choice of the parton distribution functions are evaluated by reweighting samples from the nominal PDF to a set of error PDFs which account for the uncertainty of the fits used to produce the PDF set. In addition to this, samples are re-weighted to different PDF sets to account for the arbitrariness of the PDF choice. The difference between the $m_{WV}$ distributions using different event generators is assessed by comparing samples generated with different generators. Similarly, the uncertainty in hadronization models is accounted for by comparing samples created using different hadronization models (e.g. $t\bar{t}$ Powheg is compared to aMC@NLO, $W$+jets compares Sherpa and MadGraph+Pythia samples). Figures \ref{fig:w_systs} - \ref{fig:ttbar_fsr_res} show the impact of these uncertainties on the $t\bar{t}$ and $W/Z$ + jets backgrounds. Additionally, contributions to the diboson background for the VBF analysis were found to be small and are accounted for by including a 5(10)\% systematic in the diboson normalization in the final fit.
 
 The normalization of the $t\bar{t}$ and $W$+jets processes impact the fake lepton template shape. The impact of these normalizations was assessed by including a shape systematic on the multijet background from varying the $t\bar{t}$ and $W$+jets normalization factors. The overall normalization of the template is systematic in the final likelihood fit (account for other systematic effects on the template).
@@ -790,7 +790,7 @@ A statistical procedure based on a likelihood function is used to determine the 
 
 For signal masses below 500GeV only the resolved analysis is used, as the merged analysis is not applicable for such small resonance masses. Similarly, it is unlikely that the two jets from the hadronically decaying boson will be well separated for signal masses exceeding 1 TeV. Therefore, only the merged analysis is used above 1TeV. For signal masses between 500 - 1000 GeV the merged and resolved analyses are combined for the signal production mode considered.
 
-\section{Likelihood Function Definition}
+\section{Likelihood Function}
 The likelihood function is product of Poisson probabilities over all $m_{WV}$ bins and the associated systematics:
 
 \begin{equation}

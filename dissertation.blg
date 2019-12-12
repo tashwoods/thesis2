@@ -6,15 +6,12 @@ A level-1 auxiliary file: theory.aux
 A level-1 auxiliary file: detector.aux
 The style file: plain.bst
 Database file #1: dissertation.bib
-Warning--to sort, need author or key in colorfactor
+Warning--I didn't find a database entry for "colorfactor"
 Warning--to sort, need author or key in jet_selection
+Warning--to sort, need author or key in tcc
 Warning--to sort, need author or key in atlas_btag
 Warning--to sort, need author or key in met_preformance
 Warning--to sort, need author or key in pythia_tune
-Warning--to sort, need author or key in tcc
-Warning--empty author in colorfactor
-Warning--empty journal in colorfactor
-Warning--empty year in colorfactor
 Warning--empty author in pythia_tune
 Warning--empty author in met_preformance
 Warning--empty author in jet_selection
@@ -30,43 +27,43 @@ Warning--empty journal in antikt
 Warning--empty journal in lstmstruct
 You've used 49 entries,
             2118 wiz_defined-function locations,
-            737 strings with 11242 characters,
-and the built_in function-call counts, 13222 in all, are:
-= -- 1232
-> -- 648
+            744 strings with 11368 characters,
+and the built_in function-call counts, 13394 in all, are:
+= -- 1251
+> -- 665
 < -- 6
-+ -- 264
-- -- 214
-* -- 954
-:= -- 2300
-add.period$ -- 134
++ -- 270
+- -- 220
+* -- 965
+:= -- 2339
+add.period$ -- 136
 call.type$ -- 49
-change.case$ -- 254
+change.case$ -- 257
 chr.to.int$ -- 0
-cite$ -- 71
-duplicate$ -- 473
-empty$ -- 1025
-format.name$ -- 214
-if$ -- 2662
+cite$ -- 67
+duplicate$ -- 474
+empty$ -- 1031
+format.name$ -- 220
+if$ -- 2697
 int.to.chr$ -- 0
 int.to.str$ -- 49
 missing$ -- 34
-newline$ -- 235
-num.names$ -- 86
-pop$ -- 255
+newline$ -- 237
+num.names$ -- 88
+pop$ -- 251
 preamble$ -- 1
-purify$ -- 205
+purify$ -- 208
 quote$ -- 0
-skip$ -- 360
+skip$ -- 361
 stack$ -- 0
-substring$ -- 583
-swap$ -- 46
+substring$ -- 598
+swap$ -- 47
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 196
-warning$ -- 22
-while$ -- 100
+warning$ -- 18
+while$ -- 103
 width$ -- 51
-write$ -- 493
-(There were 22 warnings)
+write$ -- 499
+(There were 19 warnings)

@@ -1,8 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{colorfactor}
-{Lecture Notes Particle Physics II}.
-
 \bibitem{pythia_tune}
 {ATLAS Run 1 Pythia8 tunes}.
 \newblock Technical Report ATL-PHYS-PUB-2014-021, CERN, Geneva, Nov 2014.
@@ -159,6 +156,11 @@ Alex Dias and V.~Pleitez.
 \bibitem{muon_syst}
 E.~Diehl.
 \newblock {Calibration and Performance of the ATLAS Muon Spectrometer}, 2011.
+
+\bibitem{Ellis:1991qj}
+R.~Keith Ellis, W.~James Stirling, and B.~R. Webber.
+\newblock {QCD and collider physics}.
+\newblock {\em Camb. Monogr. Part. Phys. Nucl. Phys. Cosmol.}, 8:1--435, 1996.
 
 \bibitem{sherpa}
 T~Gleisberg, S~Höche, F~Krauss, M~Schönherr, S~Schumann, F~Siegert, and

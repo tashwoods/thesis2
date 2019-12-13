@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 DEC 2019 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 DEC 2019 21:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1132,40 +1132,40 @@ Package pdftex.def Info: figures/Detector/atlas_magnets.png  used on input line
 ) [56 <./figures/Detector/atlas_magnets.png>] [57]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 87.
+(hyperref)                removing `math shift' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 87.
+(hyperref)                removing `math shift' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 87.
+(hyperref)                removing `math shift' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 87.
+(hyperref)                removing `math shift' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 87.
+(hyperref)                removing `math shift' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 87.
+(hyperref)                removing `\ell' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 87.
+(hyperref)                removing `\nu' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 87.
+(hyperref)                removing `math shift' on input line 64.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 87.
+(Font)              <24.88> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 87.
+(Font)              <20.74> on input line 64.
 [58
 
 
@@ -2409,18 +2409,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--116
 Package caption Warning: Unused \captionsetup[subfigure] on input line 27.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
 [170]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (./dissertation.aux (./Introduction.aux) (./theory.aux) (./detector.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 413C22C484D0F68A92BF167186141FF0;5170.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  )
 (\end occurred inside a group at level 1)
 
@@ -2429,7 +2429,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
 Here is how much of TeX's memory you used:
  10920 strings out of 492616
  184912 string characters out of 6129482
- 342088 words of memory out of 5000000
+ 343088 words of memory out of 5000000
  13930 multiletter control sequences out of 15000+600000
  91958 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2488,7 +2488,7 @@ a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (191 pages, 36464426 bytes).
+Output written on dissertation.pdf (191 pages, 36464139 bytes).
 PDF statistics:
  8975 PDF objects out of 10688 (max. 8388607)
  6017 compressed objects within 61 object streams

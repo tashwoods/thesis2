@@ -201,20 +201,19 @@ Events are classified as produced via non-VBF or VBF processes using a Recursive
 
 The more massive the resonance, the more likely $W/Z$ bosons are to be boosted in this search. As the boost of the hadronically decaying boson increases the separation of its hadronic decay products decreases. When the hadronically decaying boson has sufficient boost, the two quarks will overlap and not be identified separately. For this reason, a set of resolved selections are used when the hadronic decay products are reconstructed separately, and merged selections when the decay products overlap and identified as a single merged jet in the event. A $W/Z$ tagger identifies merged jets as originating from a $W/Z$ bosons based on jet substructure and mass cuts. However, the more boosted the jet is the less likely it is to pass the jet substructure cut, due to track merging. Consequently, the merged analysis uses a high purity region (HP), which requires that the jet pass both cuts, and low purity (LP) region where the jet can fail the jet substructure cut. These selections are summarized in \ref{Signal Region Definitions}.
 
-The aforementioned SR definitions veto events with $b$-jets to minimize $t\bar{t}$ contamination. However, $b$-jets are anticipated from $W'$ resonances from the hadronically decaying $Z$ boson. To increase the signal acceptance of these resonances, a $Z\rightarrow bb$ tagger is used to construct additional SR and CRs called the "tagged" regions (and "untagged" if the event fails the $Z\rightarrow bb$ tagger). 
+The aforementioned SR definitions veto events with $b$-jets to minimize $t\bar{t}$ contamination. However, $b$-jets are anticipated from $W'$ resonances from the hadronically decaying $Z$ boson. To increase the signal acceptance of these resonances, a $Z\rightarrow bb$ tagger is used to construct additional SR and CRs called the tagged regions (and untagged if the event fails the $Z\rightarrow bb$ tagger). 
 
-\section{Pre-selection}
+\section{Event Pre-Selection}
 Before applying topological cuts, preselection cuts are applied which include trigger and event requirements to reduce background contamination and the dataset size. Events must contain exactly one tight lepton (no additional loose leptons),  the $p_{T}^{\ell \nu} > 75$ GeV, and there must be at least two small-R jets or one large-R jet.
-\section{Trigger}
+\section{Trigger Requirements}
 The data were collected using the lowest unprescaled single-lepton or $E_{T}^{miss}$ triggers, as summarized in Table \ref{tbl:triggers}. Since the muon term is not considered in the trigger $E_{T}^{miss}$ calculation, the $E_{T}^{miss}$ trigger is fully efficient to events with high-$p_{T}$ muons. For this reason, the $E_{T}^{miss}$  trigger is used for events where $p_{T}^{\mu} > 150$ GeV, to compensate for the poor efficiency of the single muon trigger above $p_{T}^{\mu}>150$GeV. 
 
 
-\begin{landscape}
-\begin{table}[p]
-  \caption{The list of triggers used in the analysis.} \label{tbl:triggers}
-\begin{center} 
-\small
-\begin{tabular}{|l|c|c|c|}
+%\begin{landscape}
+\begin{table}[!htp]
+\centering 
+\resizebox{\textwidth}{!}
+{\begin{tabular}{|l|c|c|c|}
 \hline
 Data-taking period & $e\nu qq$ channel & $\mu\nu qq$ ($p_{T}(\mu\nu)<150$ GeV) channel & $\mu\nu qq$ ($p_{T}(\mu\nu) > 150$ GeV) channel  \\
 \hline
@@ -235,11 +234,11 @@ Data-taking period & $e\nu qq$ channel & $\mu\nu qq$ ($p_{T}(\mu\nu)<150$ GeV) c
 \hline
 {\centering {2018}} & same as above & same as above  &  HLT\_xe110\_pufit\_xe70\_L1XE50  \\
 \hline
-\end{tabular}
-\end{center}
+\end{tabular}}
+\caption{The list of triggers used in this analysis.} \label{tbl:triggers}
 \end{table}
-\end{landscape}
-\section{non-VBF/VBF RNN}
+%\end{landscape}
+\section{VBF/non-VBF RNN}
 \label{rnn}
 To classify events as originating from non-VBF or VBF processes a RNN is used \cite{rnn}. This approach is more powerful than a cut-based classification as it improves analysis sensitivity by exploiting correlations between variables that the RNN learns. In particular, a RNN architecture is ideal as it can handle variable numbers of jets in the events.  
 
@@ -318,10 +317,9 @@ If the event fails all VBF categories, it is then checked if it passes the merge
 Overall, for the DY HVT $Z'$ and ggF $G_{KK}$ signals there are 3 signal regions. For the DY HVT $W'$ signal there are 6 signal regions. For VBF HVT $W'$ and $Z'$ signals there are 3 signal regions.
 
 \begin{table}[t]
-  \caption{Summary of selection criteria used to define the signal region (SR), $W$+jets control region ($W$ CR) and $t\bar{t}$ control region ($t\bar{t}$ CR) for merged 1-lepton channel.} \label{tab:SRdefinitions_1lep_merged}
-\begin{center}
-\resizebox{\textwidth}{!}{
-\begin{tabular}{|l|l|c|c|c|c|c|c|}
+\centering
+\resizebox{\textwidth}{!}
+{\begin{tabular}{|l|l|c|c|c|c|c|c|}
 \hline
 \multicolumn{2}{|l|}{\multirow{2}{*}{Selection}} & \multicolumn{2}{c|}{SR}  &  \multicolumn{2}{c|}{$W$ CR (WR)}  & \multicolumn{2}{c|}{$t\bar{t}$ CR (TR1)} \\
 \cline{3-8}
@@ -349,9 +347,10 @@ Top-quark veto & Num of $b$-tagged jets outside of large-R jet & \multicolumn{4}
 \hline
 \multicolumn{2}{|c|}{Pass VBF selection} & \multicolumn{6}{c|}{ no (yes) for DY/ggF (VBF) category } \\
 \hline
-\end{tabular}
-}
-\end{center}
+\end{tabular}}
+
+\caption{Summary of selection criteria used to define the signal region (SR), $W$+jets control region ($W$ CR) and $t\bar{t}$ control region ($t\bar{t}$ CR) for merged 1-lepton channel.} 
+\label{tab:SRdefinitions_1lep_merged}
 \end{table}
 
 
